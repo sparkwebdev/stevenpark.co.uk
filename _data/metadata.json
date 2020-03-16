@@ -1,0 +1,16 @@
+{
+  "title": "Steven Park",
+  "url": "https://stevenpark.co.uk/",
+  "description": "Steven Park",
+  "feed": {
+  "subtitle": "Steven Park",
+  "filename": "feed.xml",
+  "path": "/feed/feed.xml",
+  "url": "https://stevenpark.co.uk/feed/feed.xml",
+  "id": "https://stevenpark.co.uk/"
+  },
+  "author": {
+  "name": "Steven Park",
+  "email": "info@stevenpark.co.uk>"
+  }
+}
