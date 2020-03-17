@@ -112,7 +112,7 @@
       {% include "../../assets/js/plugins.js" %}
     {% endset %}
     <script>
-      {{ js | safe }}
+      {{ js | jsmin | safe }}
     </script>
 
 
