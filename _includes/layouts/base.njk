@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Quicksand:400,700" rel="stylesheet">
+    <script src="/assets/js/modernizr.custom-min.js"></script>
+
+    <meta property="og:url" content="{{ metadata.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ metadata.title }}">
+    <meta property="og:description" content="{{ metadata.description }}">
+    <meta property="og:image" content="../../assets/img/me-profile.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ metadata.title }}">
+    <meta name="twitter:description" content="{{ metadata.description }}">
+    <meta name="twitter:image" content="../../assets/img/me-profile.jpg">
+
+    {%- set css -%}
+      {% include "../../assets/css/style.css" %}
+    {%- endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.stevenpark.co.uk/favicon.ico">
+
+  </head>
+
+  <body class="home" style="overflow: hidden;">
+
+    <div id="page" class="hfeed site">
+
+	    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	    <header id="masthead" class="site-header section" role="banner">
+        <div class="section-inner">
+
+          <div class="site-branding">
+            <p class="site-title"><a href="https://www.stevenpark.co.uk/" rel="home"><span class="screen-reader-text-">S<span>teven </span>P<span>ark</span></span></a></p>
+          </div><!-- .site-branding -->
+
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <div class="menu-main-menu-container">
+            </div>
+          </nav><!-- #site-navigation -->
+
+        </div>
+      </header><!-- #masthead -->
+
+      <div id="content" class="site-content">
+
+        <div id="primary" class="site-content">
+          <main role="main">
+
+            {{ content | safe }}
+
+          </main><!-- #main -->
+        </div><!-- #primary -->
+
+      </div><!-- #content -->
+    </div><!-- #page -->
+
+    <footer id="colophon" class="site-footer section" role="contentinfo"><!-- /footer -->
+
+      <div class="section-inner cols site-info">
+
+        <div class="col col-2-3">
+
+          <p class="site-info-contact"><strong>Steven Park Web Services Ltd.,<br />
+            Glasgow, UK<br />
+            Email: <a href="info@stevenpark.co.uk" title="Email me">info@stevenpark.co.uk</a><br />
+            Mobile: <a href="tel:+447799255012" title="Call me">07799 255 012</a></strong>
+          </p>
+
+          <ul class="social-links clear">
+            <li class="social-links-twitter"><a href="https://twitter.com/sparkwebdev/"><span class="icon-twitter"></span> Twitter</a></li>
+            <li class="social-links-instagram"><a href="https://www.instagram.com/sparkwebdev/"><span class="icon-instagram"></span> Instagram</a></li>
+            <li class="social-links-linkedin"><a href="https://www.linkedin.com/profile/view?id=12120227"><span class="icon-linkedin"></span> LinkedIn</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col col-1-3">
+          <div class="cols">
+            <div class="col">
+              <strong>Browse:</strong>
+              <div class="menu-main-menu-container">
+              </div>
+            </div>
+            <div class="col">
+              <strong>Client Support:</strong>
+              <div class="menu-client-services-container">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="site-info-copy">&copy; <a href="https://www.stevenpark.co.uk/" title="Steven Park" rel="home">Steven Park</a>, 2020.</p>
+
+      </div>
+
+    </footer><!-- #colophon -->
+
+    {% set js %}
+      {% include "../../assets/js/jquery.min.js" %}
+      {% include "../../assets/js/tools.js" %}
+      {% include "../../assets/js/plugins.js" %}
+    {% endset %}
+    <script>
+      {{ js | safe }}
+    </script>
+
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
