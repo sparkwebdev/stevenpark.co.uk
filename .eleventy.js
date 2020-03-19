@@ -1,6 +1,8 @@
 const CleanCSS = require('clean-css');
 const Terser = require("terser");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const fs = require("fs");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");

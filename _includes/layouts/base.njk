@@ -42,14 +42,14 @@
 
 	    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	    <header id="masthead" class="site-header section" role="banner">
+	    <header id="masthead" class="site-header section">
         <div class="section-inner">
 
           <div class="site-branding">
             <p class="site-title"><a href="/" rel="home"><span class="screen-reader-text-">S<span>teven </span>P<span>ark</span></span></a></p>
           </div><!-- .site-branding -->
 
-          <nav id="site-navigation" class="main-navigation" role="navigation">
+          <nav id="site-navigation" class="main-navigation">
             <div class="menu-main-menu-container">
               {% set navPages = collections.pages | eleventyNavigation %}
               <ul>
@@ -72,7 +72,7 @@
       </div><!-- #content -->
     </div><!-- #page -->
 
-    <footer id="colophon" class="site-footer section" role="contentinfo"><!-- /footer -->
+    <footer id="colophon" class="site-footer section"><!-- /footer -->
 
       <div class="section-inner cols site-info">
 
@@ -108,6 +108,7 @@
                     >{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
+                </ul>
               </div>
             </div>
             <div class="col">
@@ -124,6 +125,7 @@
                     >{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
+                </ul>
               </div>
             </div>
           </div>
