@@ -7,6 +7,20 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.njk");
 
+  eleventyConfig.setBrowserSyncConfig({
+    callbacks: {
+      ready: function(err, bs) {
+        const content_404 = fs.readFileSync('_site/404.html');
+
+        bs.addMiddleware("*", (req, res) => {
+          // Provides the 404 content without redirect.
+          res.write(content_404);
+          res.end();
+        });
+      }
+    }
+  });
+
   eleventyConfig.addFilter('cssmin', function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
