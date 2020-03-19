@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Steven Park",
+    "email": "info@stevenpark.co.uk",
+    "url": "https://stevenpark.co.uk/"
+  },
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",

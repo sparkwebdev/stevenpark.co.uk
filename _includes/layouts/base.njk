@@ -22,16 +22,21 @@
 
     {%- set css -%}
       {% include "../../assets/css/style.css" %}
+      {% include "../../assets/css/new.css" %}
     {%- endset %}
     <style>
       {{ css | cssmin | safe }}
     </style>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://www.stevenpark.co.uk/favicon.ico">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
   </head>
 
-  <body class="home" style="overflow: hidden;">
+  <body class="
+    {%- if page.url == "/" %}home {% endif -%}
+    {%- if "work" | urlmatch(page.url) %}section-work {% endif -%}
+  " style="overflow: hidden;">
 
     <div id="page" class="hfeed site">
 
@@ -41,7 +46,7 @@
         <div class="section-inner">
 
           <div class="site-branding">
-            <p class="site-title"><a href="https://www.stevenpark.co.uk/" rel="home"><span class="screen-reader-text-">S<span>teven </span>P<span>ark</span></span></a></p>
+            <p class="site-title"><a href="/" rel="home"><span class="screen-reader-text-">S<span>teven </span>P<span>ark</span></span></a></p>
           </div><!-- .site-branding -->
 
           <nav id="site-navigation" class="main-navigation" role="navigation">
@@ -49,7 +54,7 @@
               {% set navPages = collections.pages | eleventyNavigation %}
               <ul>
               {%- for entry in navPages %}
-                <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+                <li{% if (entry.url == page.url) or ((entry.url | urlmatch(page.url)) and entry.url !== "/") %} class="current_page_item"{% endif %}>
                   <a href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
               {%- endfor %}
@@ -62,13 +67,7 @@
 
       <div id="content" class="site-content">
 
-        <div id="primary" class="site-content">
-          <main role="main">
-
-            {{ content | safe }}
-
-          </main><!-- #main -->
-        </div><!-- #primary -->
+        {{ content | safe }}
 
       </div><!-- #content -->
     </div><!-- #page -->
@@ -88,7 +87,7 @@
           <ul class="social-links clear">
             <li class="social-links-twitter"><a href="https://twitter.com/sparkwebdev/"><span class="icon-twitter"></span> Twitter</a></li>
             <li class="social-links-instagram"><a href="https://www.instagram.com/sparkwebdev/"><span class="icon-instagram"></span> Instagram</a></li>
-            <li class="social-links-linkedin"><a href="https://www.linkedin.com/profile/view?id=12120227"><span class="icon-linkedin"></span> LinkedIn</a></li>
+            <li class="social-links-linkedin"><a href="https://www.linkedin.com/in/stevenrobertpark/"><span class="icon-linkedin"></span> LinkedIn</a></li>
           </ul>
 
         </div>
@@ -130,7 +129,7 @@
           </div>
         </div>
 
-        <p class="site-info-copy">&copy; <a href="https://www.stevenpark.co.uk/" title="Steven Park" rel="home">Steven Park</a>, 2020.</p>
+        <p class="site-info-copy">&copy; <a href="/" title="Steven Park" rel="home">Steven Park</a>, 2020.</p>
 
       </div>
 
@@ -145,6 +144,55 @@
       {{ js | jsmin | safe }}
     </script>
 
+    <script>
+
+      $( 'dl.faqs' ).on( 'click', 'dt', function() {
+        $(this).next('dd').slideToggle('fast');
+      });
+
+      if(!Modernizr.touchevents){
+        $( document ).ready(function() {
+          $(window).on('load scroll resize', function () {
+            var windowHeight = $( window ).height();
+            var scrollPos = $(document).scrollTop();
+            scrollPosAdjusted = ((scrollPos/2) + (windowHeight/3)) * -1;
+            $('.banner-image').css('background-position', 'center '+scrollPosAdjusted+'px');
+            //scrollPosAdjusted2 = ((scrollPos/16) - windowHeight) * -1;
+            //$('.cover-img').css('background-position', 'center '+scrollPosAdjusted2+'px');
+          });
+        });
+      };
+
+      // Test for non-touch devices
+      //if(!Modernizr.touchevents){
+        // Parallax images plugin
+        //myParaxify = paraxify('.banner-image', { speed: 0.1, boost: 0.5 });
+
+        //console.log(myParaxify);
+      //} else {
+        //jQuery('.banner-image').css('background-attachment', 'scroll');
+      //}
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: false,
+        controls: false,
+        auto: true
+      });
+
+        var header = document.querySelector(".site-header");
+        if(window.location.hash) {
+          header.classList.add("headroom--unpinned");
+        }
+        var headroom = new Headroom(header, {
+            tolerance: {
+              down : 10,
+              up : 20
+            },
+            offset : 100
+        });
+        headroom.init();
+
+      </script>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

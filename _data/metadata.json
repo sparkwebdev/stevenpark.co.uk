@@ -3,14 +3,18 @@
   "url": "https://stevenpark.co.uk/",
   "description": "Freelance web developer and designer, specialising in WordPress and mobile apps.",
   "feed": {
-  "subtitle": "Steven Park",
-  "filename": "feed.xml",
-  "path": "/feed/feed.xml",
-  "url": "https://stevenpark.co.uk/feed/feed.xml",
-  "id": "https://stevenpark.co.uk/"
+    "subtitle": "Steven Park",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://stevenpark.co.uk/feed/feed.xml",
+    "id": "https://stevenpark.co.uk/"
   },
   "author": {
-  "name": "Steven Park",
-  "email": "info@stevenpark.co.uk>"
+    "name": "Steven Park",
+    "email": "info@stevenpark.co.uk"
+  },
+  "status": {
+    "current": "I have availability just now.",
+    "leadtime": "1 to 2 weeks"
   }
 }

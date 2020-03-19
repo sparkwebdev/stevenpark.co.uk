@@ -1,0 +1,11 @@
+.feature-dual-panel-new {
+    background: #eef4d6 url(/assets/img/subtle-pattern-9.jpg);
+}
+
+.feature-dual-panel-new .section-inner {
+    background: #fff;
+}
+
+.section-work .page-intro-content {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
