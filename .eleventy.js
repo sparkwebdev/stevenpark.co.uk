@@ -25,6 +25,10 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  eleventyConfig.addFilter('urlmatch', function(find, url) {
+    return url.indexOf(find) !== -1;
+  });
+
   eleventyConfig.addFilter("jsmin", function(code) {
       let minified = Terser.minify(code);
       if( minified.error ) {
