@@ -12,6 +12,9 @@
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
     position: relative;
 }
+.w-centre {
+    text-align: center;
+}
 
 
 form ul {
