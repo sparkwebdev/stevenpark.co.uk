@@ -9,6 +9,7 @@ eleventyNavigation:
   <div class="entry-content">
     <div class="section page-intro-content">
       <div class="section-inner section-inner-narrower">
+        <br /><br /><br />
         <h1>Contact</h1>
         <div>
           <p class="site-info-contact">
@@ -153,14 +154,14 @@ eleventyNavigation:
                     <label for="input_1_2">Message<span>*</span></label>
                     <div>
                       <textarea
-                        name="input_2"
+                        autocomplete="off"
+                        name="input_2b"
                         id="input_1_2"
-                        aria-required="true"
-                        aria-invalid="false"
                         rows="10"
                         cols="50"
                         required
-                        autocomplete="off"
+                        aria-required="true"
+                        aria-invalid="false"
                       ></textarea>
                     </div>
                   </li>
@@ -220,13 +221,3 @@ eleventyNavigation:
     </div>
   </div>
 </article>
-<script>
-$("#contact-form").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    console.log("Form submitted");
-  });
-});
-</script>

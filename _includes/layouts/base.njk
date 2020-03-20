@@ -196,6 +196,18 @@
 
       </script>
 
+      {% if page.url | url == "/contact/" %} 
+      <script>
+      $("#contact-form").submit(function(e) {
+        e.preventDefault();
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+          console.log("Form submitted");
+        });
+      });
+      </script>
+      {% endif %}
+
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
