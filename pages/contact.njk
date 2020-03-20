@@ -63,11 +63,11 @@ eleventyNavigation:
               <div>
                 <ul>
                   <li class="form-col form-required">
-                    <label>Name<span>*</span></label>
+                    <label for="contact_name">Name<span>*</span></label>
                     <div>
                       <input
-                        name="input_3"
-                        id="input_1_3"
+                        name="contact_name"
+                        id="contact_name"
                         type="text"
                         value=""
                         aria-required="true"
@@ -76,11 +76,11 @@ eleventyNavigation:
                     </div>
                   </li>
                   <li class="form-col">
-                    <label for="input_1_9">Organisation</label>
+                    <label for="contact_org">Organisation</label>
                     <div>
                       <input
-                        name="input_9"
-                        id="input_1_9"
+                        name="contact_org"
+                        id="contact_org"
                         type="text"
                         value=""
                         aria-invalid="false"
@@ -88,11 +88,11 @@ eleventyNavigation:
                     </div>
                   </li>
                   <li class="form-col form-required">
-                    <label for="input_1_4">Email<span>*</span></label>
+                    <label for="contact_email">Email<span>*</span></label>
                     <div>
                       <input
-                        name="input_4"
-                        id="input_1_4"
+                        name="contact_email"
+                        id="contact_email"
                         type="email"
                         value=""
                         aria-required="true"
@@ -102,11 +102,11 @@ eleventyNavigation:
                     </div>
                   </li>
                   <li class="form-col">
-                    <label for="input_1_8">Phone</label>
+                    <label for="contact_phone">Phone</label>
                     <div>
                       <input
-                        name="input_8"
-                        id="input_1_8"
+                        name="contact_phone"
+                        id="contact_phone"
                         type="text"
                         value=""
                         aria-invalid="false"
@@ -116,7 +116,7 @@ eleventyNavigation:
                   {# <li>
                     <label></label>
                     <div>
-                      <ul id="input_1_15">
+                      <ul>
                         <li>
                           <input
                             name="input_15"
@@ -138,11 +138,11 @@ eleventyNavigation:
                     </div>
                   </li> #}
                   <li>
-                    <label for="input_1_1">Message Subject</label>
+                    <label for="contact_subject">Message Subject</label>
                     <div>
                       <input
-                        name="input_1"
-                        id="input_1_1"
+                        name="contact_subject"
+                        id="contact_subject"
                         type="text"
                         value=""
                         aria-invalid="false"
@@ -151,12 +151,12 @@ eleventyNavigation:
                     </div>
                   </li>
                   <li class="form-required">
-                    <label for="input_1_2">Message<span>*</span></label>
+                    <label for="contact_message">Message<span>*</span></label>
                     <div>
                       <textarea
                         autocomplete="off"
-                        name="input_2b"
-                        id="input_1_2"
+                        name="contact_message"
+                        id="contact_message"
                         rows="10"
                         cols="50"
                         required
@@ -166,11 +166,11 @@ eleventyNavigation:
                     </div>
                   </li>
                   {# <li class="form-col">
-                    <label for="input_1_13">Project Budget<!--<span>*</span>--></label>
+                    <label for="contact_budget">Project Budget<!--<span>*</span>--></label>
                     <div>
                       <input
-                        name="input_13"
-                        id="input_1_13"
+                        name="contact_budget"
+                        id="contact_budget"
                         type="text"
                         value=""
                         aria-required="true"
@@ -180,11 +180,11 @@ eleventyNavigation:
                     </div>
                   </li>
                   <li class="form-col">
-                    <label for="input_1_14">Project Deadline(s)<!--<span>*</span>--></label>
+                    <label for="contact_deadlines">Project Deadline(s)<!--<span>*</span>--></label>
                     <div>
                       <input
-                        name="input_14"
-                        id="input_1_14"
+                        name="contact_deadlines"
+                        id="contact_deadlines"
                         type="text"
                         value=""
                         aria-required="true"
@@ -193,13 +193,12 @@ eleventyNavigation:
                       />
                     </div>
                   </li>
-                  <li
-                    id="field_1_12">
-                    <label for="input_1_12">Project Details<span>*</span></label>
+                  <li>
+                    <label for="contact_details">Project Details<span>*</span></label>
                     <div>
                       <textarea
-                        name="input_12"
-                        id="input_1_12"
+                        name="contact_details"
+                        id="contact_details"
                         aria-required="true"
                         aria-invalid="false"
                         rows="10"
@@ -213,7 +212,7 @@ eleventyNavigation:
               <div>
                 <input
                   type="submit"
-                  id="submit_button_1"
+                  id="contact_submit"
                   value="Submit"
                 />
               </form>
