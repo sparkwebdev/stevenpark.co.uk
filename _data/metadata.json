@@ -1,13 +1,13 @@
 {
-  "title": "Steven Park — Web Design &amp; Development, Glasgow, Scotland",
-  "url": "https://stevenpark.co.uk/",
+  "title": "Steven Park | Web Design & Development, Glasgow, Scotland",
+  "url": "https://stevenpark.co.uk",
   "description": "Freelance web developer and designer, specialising in WordPress and mobile apps.",
   "feed": {
     "subtitle": "Steven Park",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://stevenpark.co.uk/feed/feed.xml",
-    "id": "https://stevenpark.co.uk/"
+    "id": "https://stevenpark.co.uk"
   },
   "author": {
     "name": "Steven Park",
