@@ -17,6 +17,8 @@
     "@11ty/eleventy-navigation": "^0.1.5",
     "clean-css": "^4.2.3",
     "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
     "terser": "^4.6.6"
   }
 }

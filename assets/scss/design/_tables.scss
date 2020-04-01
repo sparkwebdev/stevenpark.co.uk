@@ -1,0 +1,35 @@
+table {
+	/* Table cellspacing */
+	border-collapse: separate;
+	border-spacing: 2px;
+
+	tr {
+		background: $color__tone-5;
+
+		&:nth-child(2n) {
+			background: $color__tone-10;
+		}
+
+		td,
+		th {
+			padding: $spacing__smaller $spacing__small;
+			text-align: left;
+		}
+		
+		th {
+			padding: $spacing__smallest $spacing__small;
+			background: $color__brand-1;
+			color: #fff;
+		}
+		
+
+	}
+	tfoot {
+		
+		td,
+		th {
+			background: $color__tone-60;
+			color: #fff;
+		}
+	}	
+}

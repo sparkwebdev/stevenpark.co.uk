@@ -1,0 +1,17 @@
+/* Captions */
+.wp-caption {
+	margin-bottom: $spacing__medium;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+		@include center-block;
+	}
+
+	.wp-caption-text {
+		margin: $spacing__small 0;
+	}
+}
+
+.wp-caption-text {
+	text-align: center;
+}

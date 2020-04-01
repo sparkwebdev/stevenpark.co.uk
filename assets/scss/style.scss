@@ -1,0 +1,140 @@
+/*
+Theme Name: Steven Park 2
+Theme URI: http://underscores.me/
+Author: Steven Park
+Author URI: http://stevenpark.co.uk
+Description: A base theme framework for Steven Park\'s WordPress themes, based on the Steven Park theme from Automattic [http://underscores.me/]
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stevenpark
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Steven Park is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Modules
+	## Accessibility
+	## Alignments
+	## Clearings
+# HTML Elements
+	## Lists
+	## Forms
+	## Tables
+# Structure / Layout
+# Wordpress
+# Design
+# Plugins (3rd Party Plugins etc)
+# Legacy browsers (via Modernizr)
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Assets - Webfont, Icons (IcoMoon)
+--------------------------------------------------------------*/
+@import "assets/webfonts";
+@import "assets/icons";
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+@import "modules/alignments";
+@import "modules/clearings";
+@import "modules/embeds";
+
+/*--------------------------------------------------------------
+# HTML Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Structure / Layout
+--------------------------------------------------------------*/
+@import "structure/structure";
+
+/*--------------------------------------------------------------
+# Wordpress
+--------------------------------------------------------------*/
+@import "wordpress/wordpress";
+
+/*--------------------------------------------------------------
+# Design
+--------------------------------------------------------------*/
+@import "design/design";
+
+/*--------------------------------------------------------------
+# Plugins (3rd Party Plugins etc)
+--------------------------------------------------------------*/
+@import "plugins/plugins";
+
+/*--------------------------------------------------------------
+# Legacy browsers (via Modernizr)
+--------------------------------------------------------------*/
+@import "legacy/legacy";
+
+
+
+
+/*--------------------------------------------------------------
+# New (to integrate)
+--------------------------------------------------------------*/
+
+.feature-dual-panel-new {
+    background: #eef4d6 url(/assets/img/subtle-pattern-9.jpg);
+    .section-inner {
+        background: #fff;
+    }
+}
+
+.section-work .page-intro-content,
+.section-work .feature-page-intro,
+.w-shadow {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+.w-centre {
+    text-align: center;
+}
+
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form .form-col {
+    width: 48.5%;
+    width: calc(50% - 16px);
+    display: inline-flex;
+    flex-direction: column;
+}
+form .form-col:nth-of-type(2n+2) {
+    float: right;
+}
+.form-required label span {
+    color: #ff1a1a;
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1;
+    float: right;
+    padding-right: 0.2em;
+    height: 0.5em;
+}

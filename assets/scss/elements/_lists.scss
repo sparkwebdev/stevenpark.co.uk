@@ -1,0 +1,26 @@
+ul, ol {
+	margin: 0 0 $spacing__medium 0;
+	padding-left: $spacing__medium;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: $spacing__medium;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 $spacing__medium $spacing__medium;
+}

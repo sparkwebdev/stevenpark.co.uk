@@ -1,0 +1,145 @@
+/* Gravity Forms */
+#page {
+	
+	.gform_wrapper {
+		
+		.gform_body {
+			ul {
+				list-style: none;
+				padding: 0;
+			}
+		}
+		
+		// Form columns
+		.form-col {
+			@include bp-mobile-landscape() {
+				width: 48.5%;
+				width: calc(50% - 16px);
+				float:left;
+				clear: left;
+				&:nth-of-type(2n+2) {
+					margin-left: 3%;
+					margin-left: calc(16px * 2);
+				}
+				&:nth-of-type(2n+1) {
+					+ li {
+						clear: left;
+					}
+					+ .form-col {
+						clear: none;
+					}
+				}
+			}
+		}
+		
+		// Header/Footer
+		.gform_heading .gform_title,
+		.gform_footer {
+			text-align: center;
+		}
+		.gform_description {
+			padding: $spacing__medium;
+			background: rgba(#000, 0.075);
+			margin: 0 0 $spacing__medium;
+			display: block;
+			p {
+				@include font-size($font__size-big);
+			}
+			> *:last-child {
+				margin-bottom: 0;
+			}
+		}
+		li.gchoice_1_15_0:before,
+		li.gchoice_1_15_1:before {
+			content: "I want to:";
+			@include font-size($font__size-bigger);
+			color: $color__brand-2-dark;
+			margin-right: $spacing__small;
+			display: block;
+			font-weight: $font__weight-bold;
+			@include bp-small() {
+				display: inline-block;
+			}
+		}
+		li.gchoice_1_15_0:before {
+			content: "Choose:";
+		}
+		li.gchoice_1_15_1:before {
+			content: "or:";
+		}
+		li.with-tint {
+			clear: both;
+			margin-bottom: $spacing__medium;
+			padding: $spacing__medium;
+			background: rgba($color__brand-2, 0.4);	
+			&#field_1_15 {
+				.gfield_radio {
+					li {
+						display: inline-block;
+						//width: 48.5%;
+						//width: calc(50% - 16px);
+						margin-right: $spacing__medium;
+						input {
+							vertical-align: text-top;
+						}
+					}
+				}
+				
+				label, input {
+					&:hover,
+					&:focus {
+					    cursor: pointer;
+					}
+				}
+				label {
+					text-transform: initial;
+					@include font-size($font__size-bigger);
+				}
+				input {
+					margin-right: $spacing__smaller;
+				}
+			}
+			ul {
+				margin-bottom: 0;
+			}
+		}
+		
+		// Submit Button
+		.gform_footer {
+			//text-align: right;
+			
+			input[type="submit"] {
+				@include font-size($font__size-bigger);
+				text-transform: uppercase;
+				min-width: 8em;
+			}
+		}
+		
+			
+		// Validation Errors
+		.validation_error {
+			background-color: $color__background-error;
+			padding: $spacing__small $spacing__medium;
+			margin-bottom: $spacing__medium;
+		}
+		.gfield_error .ginput_container > * {
+			border-bottom-color: $color__error;
+		}
+		.gfield_error {
+			.validation_message {
+				margin-top: -$spacing__medium;
+				margin-bottom: $spacing__small + 0.1em;
+				color: $color__error;
+			}
+		}
+		.gfield_required {
+			color: $color__error;
+			@include font-size($font__size-h2);
+			line-height: 1;
+			float: right;
+			padding-right: $spacing__smallest;
+			height: $spacing__smaller;
+		}
+	}
+
+}

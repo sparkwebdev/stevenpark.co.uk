@@ -1,0 +1,29 @@
+/* Posts & Pages */
+.sticky {
+	display: block;
+}
+
+.hentry {
+	//margin: 0 0 $spacing__medium;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	//margin: $spacing__medium 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $spacing__medium;
+}

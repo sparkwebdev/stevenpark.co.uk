@@ -1,0 +1,95 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-body;
+	font-family: $font__main;
+	font-weight: $font__weight-normal;
+	line-height: $font__line-height-body;
+
+	/* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Browser selected text
+*::selection {
+	background: rgba($color__brand-2, 0.35);
+}
+
+body {
+	
+	@include font-size($font__size-smaller);
+
+	@include bp-nav-switch {
+		
+		@include font-size($font__size-body);
+		
+	}
+	
+	button,
+	input,
+	select,
+	textarea {
+		
+		@include font-size($font__size-body);
+		
+	}
+	
+}
+
+strong {
+	font-weight: $font__weight-bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: $font__weight-slab;
+	font-family: $font__headings;
+	color: $color__brand-1;
+}
+
+h1, .site-title {
+	line-height: 1;
+	margin-bottom: $spacing__smaller;
+	letter-spacing: -0.015em;
+	@include font-size($font__size-h2);
+	@include bp-medium {
+		@include font-size($font__size-h1);
+	}
+}
+
+h2 {
+	letter-spacing: -0.01em;
+	line-height: $font__line-height-tighter;
+	margin-bottom: $spacing__smaller;
+	@include font-size($font__size-h3);
+	@include bp-medium {
+		@include font-size($font__size-h2);
+	}
+}
+
+h3 {
+	letter-spacing: -0.005em;
+	line-height: $font__line-height-tighter;
+	margin-bottom: $spacing__small;
+	@include font-size($font__size-h4);
+	@include bp-medium {
+		@include font-size($font__size-h3);
+	}
+}
+
+h4 {
+	@include font-size($font__size-h4);
+	margin-bottom: $spacing__small;
+}
+
+h5 {
+	@include font-size($font__size-h5);
+	margin-bottom: $spacing__medium;
+}
+
+h6 {
+	@include font-size($font__size-h6);
+	margin-bottom: $spacing__medium;
+}

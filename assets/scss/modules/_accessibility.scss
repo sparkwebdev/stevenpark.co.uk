@@ -1,0 +1,27 @@
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+
+	&:focus {
+		background-color: $color__tone-0;
+		border-radius: $border__radius-input;
+		box-shadow: $shadow__box;
+		clip: auto !important;
+		color: $color__tone-100;
+		display: block;
+		@include font-size($font__size-button);
+		font-weight: bold;
+		height: auto;
+		left: $spacing__small;
+		line-height: normal;
+		padding: $spacing__small $spacing__medium;
+		text-decoration: none;
+		top: $spacing__small;
+		width: auto;
+		z-index: 100000; /* Above WP toolbar. */
+	}
+}
