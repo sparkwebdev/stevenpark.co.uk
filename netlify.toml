@@ -1,0 +1,39 @@
+[[redirects]]
+  from = "/portfolio"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/society-botanical-artists"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/dont-give-fire-a-home"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/gender-in-global-governance-net-work"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/customer-forum-for-water"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/enquire"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/the-pet-business"
+  to = "/work/the-pet-business"
+  status = 301
+
+[[redirects]]
+  from = "/work/ardentinny-outdoor-centre"
+  to = "/work"
+  status = 301

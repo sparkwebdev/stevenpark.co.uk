@@ -1,4 +1,4 @@
 {
   "permalink": "/work/{{page.fileSlug}}/",
-  "layout": "page"
+  "layout": "portfolio"
 }

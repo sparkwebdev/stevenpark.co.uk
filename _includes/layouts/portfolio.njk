@@ -1,7 +1,6 @@
 ---
 layout: base
 ---
-
 <div id="primary" class="site-content section">
   <div class="section feature-page-intro archived-work">
     <div class="section page-intro-content w-shadow">
@@ -14,8 +13,65 @@ layout: base
     </div>
   </div>
 
-  <main class="section-inner">
-    {{ content | safe }}
+  <main>
+    <div class="section-inner">
+      
+      <div id="post-{{id}}" class="post-{{id}} portfolio type-portfolio status-publish has-post-thumbnail hentry">
+        <div class="cols clear archived-portfolio">
+          <div class="entry-content col">
+            <h1 class="entry-title">{{title}}</h1>
+            <div class="entry-meta">
+              {%if builtUsing %}<p>Built using: <strong>{{builtUsing}}</strong></p>{% endif %}
+              {%if projectType %}<p>Project Type: <strong>{{projectType}}</strong></p>{% endif %}
+              {%if credits %}<p>Credits: <strong>{{credits | safe}}</strong></p>{% endif %}
+            </div>
+            <p>
+              {%if url !== "" %}<a href="{{url}}" title="Visit {{displayUrl}}" rel="bookmark" class="block-link">Visit: <strong>{{displayUrl or url}}</strong></a>{% endif %}
+            </p>
+            <p>{{ description }}</p>
+            {{ content | safe }}
+          </div>
+          <ul class="portfolio-images col">
+            {% for image in images %}
+            <li>
+              <img
+                width="875"
+                height="1177"
+                src="/assets/img/{{image.large}}.jpg"
+                class="attachment-large size-large"
+                alt="{{title}} Screenshot"
+                srcset="
+                  /assets/img/{{image.large}} 875w,
+                  /assets/img/{{image.medium}} 535w,
+                  /assets/img/{{image.small}} 400w,
+                  /assets/img/{{image.full}} 1329w
+                "
+                sizes="(max-width: 875px) 100vw, 875px"
+              />
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    
+      {% for image in slideshowImages %}
+      <p><img src="/assets/img/{{image}}" alt="{{title}} Screenshot"/></p>
+      {% endfor %}
+    </div>
+    
+    {%if testimonial %}
+    <div class="section feature-testimonial with-chevron with-tint tint-dark clear with-chevron chevron-top">
+      <div class="section-inner section-inner-narrow">
+        <h3 class="section-title">What the client had to say...</h3>
+        <br />
+        <blockquote>
+          {{ testimonial }}
+          <footer>— {{ testimonialAuthor }}</footer>
+        </blockquote>
+      </div>
+    </div>
+    {% endif %}
+
   </main>
   <!-- #primary -->
 </div>
