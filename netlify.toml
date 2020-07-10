@@ -4,6 +4,11 @@
   status = 301
 
 [[redirects]]
+  from = "/work/galbani-authentic-italian-cheese"
+  to = "/work/galbani"
+  status = 301
+
+[[redirects]]
   from = "/portfolio/society-botanical-artists"
   to = "/work"
   status = 301
@@ -35,5 +40,10 @@
 
 [[redirects]]
   from = "/work/ardentinny-outdoor-centre"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/work/broomhill-dental"
   to = "/work"
   status = 301

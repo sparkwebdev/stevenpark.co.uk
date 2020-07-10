@@ -1,0 +1,14 @@
+---
+title: Sitemap
+pagination:
+  data: collections.all
+  size: 999
+  alias: entries
+layout: base
+permalink: /sitemap/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
+---
+<ul class="margin-top">
+{%- for entry in entries %}
+  <li><a href="{{ entry.url }}">{{ entry.data.title or entry.data.renderData.title or 'Home' }}</a></li>
+{%- endfor %}
+</ul>

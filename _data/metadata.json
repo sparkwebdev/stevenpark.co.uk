@@ -1,7 +1,7 @@
 {
   "title": "Steven Park | Web Design & Development, Glasgow, Scotland",
   "url": "https://stevenpark.co.uk",
-  "description": "Freelance web developer and designer, specialising in WordPress and mobile apps.",
+  "description": "Independent web developer and designer from Glasgow, Scotland",
   "feed": {
     "subtitle": "Steven Park",
     "filename": "feed.xml",
@@ -11,7 +11,15 @@
   },
   "author": {
     "name": "Steven Park",
-    "email": "info@stevenpark.co.uk"
+    "email": "info@stevenpark.co.uk",
+    "location": "Glasgow, UK",
+    "telephone": "07799 255 012",
+    "telephoneInternational": "+447799255012",
+    "socialLinks": {
+      "Twitter": "https://twitter.com/sparkwebdev/",
+      "Instagram": "https://www.instagram.com/sparkwebdev/",
+      "LinkedIn": "https://www.linkedin.com/in/stevenrobertpark/"
+    }
   },
   "status": {
     "current": "I have availability just now.",

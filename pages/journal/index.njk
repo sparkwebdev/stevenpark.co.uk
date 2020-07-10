@@ -1,0 +1,11 @@
+---
+permalink: /blog/
+title: My Blog
+layout: base
+eleventyNavigation:
+  key: Blog
+  order: 50
+---
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

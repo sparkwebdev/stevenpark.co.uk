@@ -18,9 +18,6 @@
 
     <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />
 
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Quicksand:400,700" rel="stylesheet">
-    <script src="/assets/js/modernizr.custom-min.js"></script>
-
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ title or metadata.title }}" />
@@ -34,8 +31,6 @@
     <meta name="twitter:description" content="{{ description or metadata.title }}">
     {# <meta name="twitter:image" content="/assets/img/me-profile.jpg"> #}
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-
     {%- set css %}
       {% include "../../assets/css/critical.css" %}
     {% endset -%}
@@ -46,183 +41,70 @@
     </style>
     {% endif %}
 
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Quicksand:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <meta name="google-site-verification" content="ygz0mHIl2u9-Pgzlpb06ga3wd_Boov5Od7K6lgXhE2o" />
 
   </head>
 
-  <body style="overflow: hidden;"
-    {%- if page.url == "/" %} class="home"{% endif -%}
-    {%- if "work" | urlmatch(page.url) %} class="section-work"{% endif -%}
+  <body id="start"
+    {%- if page.url == "/" %} class="home"
+    {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
+    {%- endif -%}
   >
 
-    <div id="page" class="hfeed site">
+	  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-	    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    {% include "components/header.njk" %}
 
-	    <header id="masthead" class="site-header section">
-        <div class="section-inner">
+    <main>
+      {{ content | safe }}
+    </main>
 
-          <div class="site-branding">
-            <p class="site-title"><a href="/" rel="home"><span class="screen-reader-text-">S<span>teven </span>P<span>ark</span></span></a></p>
-          </div><!-- .site-branding -->
+    {% include "components/footer.njk" %}
 
-          <nav id="site-navigation" class="main-navigation">
-            <div class="menu-main-menu-container">
-              {% set navPages = collections.pages | eleventyNavigation %}
-              <ul>
-              {%- for entry in navPages %}
-                <li{% if (entry.url == page.url) or ((entry.url | urlmatch(page.url)) and entry.url !== "/") %} class="current_page_item"{% endif %}>
-                  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-                </li>
-              {%- endfor %}
-              </ul>
-            </div>
-          </nav><!-- #site-navigation -->
-
-        </div>
-      </header><!-- #masthead -->
-
-      <div id="content" class="site-content">
-
-        {{ content | safe }}
-
-      </div><!-- #content -->
-    </div><!-- #page -->
-
-    <footer id="colophon" class="site-footer section"><!-- /footer -->
-
-      <div class="section-inner cols site-info">
-
-        <div class="col col-2-3">
-
-          <p class="site-info-contact"><strong>Steven Park Web Services Ltd.,<br />
-            Glasgow, UK<br />
-            Email: <a href="info@stevenpark.co.uk" title="Email me">info@stevenpark.co.uk</a><br />
-            Mobile: <a href="tel:+447799255012" title="Call me">07799 255 012</a></strong>
-          </p>
-
-          <ul class="social-links clear">
-            <li class="social-links-twitter"><a href="https://twitter.com/sparkwebdev/"><span class="icon-twitter"></span> Twitter</a></li>
-            <li class="social-links-instagram"><a href="https://www.instagram.com/sparkwebdev/"><span class="icon-instagram"></span> Instagram</a></li>
-            <li class="social-links-linkedin"><a href="https://www.linkedin.com/in/stevenrobertpark/"><span class="icon-linkedin"></span> LinkedIn</a></li>
-          </ul>
-
-        </div>
-
-        <div class="col col-1-3">
-          <div class="cols">
-            <div class="col">
-              <strong>Browse:</strong>
-              <div class="menu-main-menu-container">
-                {% set navPages = collections.pages | eleventyNavigation %}
-                <ul id="footer-menu" class="menu">
-                {%- for entry in navPages %}
-                  <li class="menu-item
-                    {% if entry.url == page.url %} current_page_item{% endif %}"
-                  >
-                    <a href="{{ entry.url | url }}"
-                    {% if entry.url == page.url %} aria-current="page"{% endif %}
-                    >{{ entry.title }}</a>
-                  </li>
-                {%- endfor %}
-                </ul>
-              </div>
-            </div>
-            <div class="col">
-              <strong>Client Support:</strong>
-              <div class="menu-client-services-container">
-                {% set navPages = collections.support | eleventyNavigation %}
-                <ul id="client-menu" class="menu">
-                {%- for entry in navPages %}
-                  <li class="menu-item
-                    {% if entry.url == page.url %} current_page_item{% endif %}"
-                  >
-                    <a href="{{ entry.url | url }}"
-                    {% if entry.url == page.url %} aria-current="page"{% endif %}
-                    >{{ entry.title }}</a>
-                  </li>
-                {%- endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <p class="site-info-copy">&copy; <a href="/" title="Steven Park" rel="home">Steven Park</a>, 2020.</p>
-
-      </div>
-
-    </footer><!-- #colophon -->
-
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/plugins.js"></script>
     {% set js %}
-      {% include "../../assets/js/tools.js" %}
 
-      $( 'dl.faqs' ).on( 'click', 'dt', function() {
-        $(this).next('dd').slideToggle('fast');
-      });
-
-      if(!Modernizr.touchevents){
-        $( document ).ready(function() {
-          $(window).on('load scroll resize', function () {
-            var windowHeight = $( window ).height();
-            var scrollPos = $(document).scrollTop();
-            scrollPosAdjusted = ((scrollPos/2) + (windowHeight/3)) * -1;
-            $('.banner-image').css('background-position', 'center '+scrollPosAdjusted+'px');
-          });
-        });
-      };
-      $('.bxslider').bxSlider({
-        mode: 'fade',
-        captions: false,
-        controls: false,
-        auto: true
-      });
-
-        var header = document.querySelector(".site-header");
-        if(window.location.hash) {
-          header.classList.add("headroom--unpinned");
+    {% include "../../assets/js/app.js" %}
+    
+    var faqs = document.querySelector('dl.faqs');
+    if (faqs) {
+      faqs.addEventListener('click', function(e) {
+        if (e.target.tagName === "DT") {
+          var question = e.target;
+          var answer = question.nextElementSibling;
+          answer.style.display === 'block' ? answer.style.display = 'none' : answer.style.display = 'block';
         }
-        var headroom = new Headroom(header, {
-            tolerance: {
-              down : 10,
-              up : 20
-            },
-            offset : 100
+      });
+    }
+
+    {% if page.url | url == "/contact/" %}
+    let contactForm = document.querySelector("#contact-form");
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', e => {
+        e.preventDefault();
+        const formData = new FormData(contactForm);
+        fetch(contactForm.getAttribute('action'), {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+          },
+          body: new URLSearchParams(formData).toString()
+        })
+        .then(res => {
+          if (res) {
+            contactForm.innerHTML = '<div class="w-centre" role="alert"><h2>Message sent</h2><p><strong>Thank you for your enquiry. I will get back to you ASAP.</strong></p></div>';
+          }
         });
-        headroom.init();
-
-        {% if page.url | url == "/contact/" %}
-        let contactForm = document.querySelector("#contact-form");
-
-        if (contactForm) {
-          contactForm.addEventListener('submit', e => {
-            e.preventDefault();
-            const formData = new FormData(contactForm);
-            fetch(contactForm.getAttribute('action'), {
-              method: 'POST',
-              headers: {
-                'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-                'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-              },
-              body: new URLSearchParams(formData).toString()
-            })
-            .then(res => {
-              if (res) {
-                contactForm.innerHTML = '<div class="w-centre"><h2>Message sent</h2><p><strong>Thank you for your enquiry. I will get back to you ASAP.</strong></p></div>';
-              }
-            });
-          });
-        }
-        {% endif %}
+      });
+    }
+    {% endif %}
     {% endset %}
     <script>
+      document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
       {{ js | jsmin | safe }}
     </script>
-
-
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>

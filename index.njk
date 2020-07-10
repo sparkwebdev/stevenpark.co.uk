@@ -1,0 +1,81 @@
+---
+layout: base
+tags: pages
+title: Home
+subtitle: Two
+eleventyNavigation:
+  key: Home
+  order: 10
+---
+
+
+
+<div class="wrapper">
+
+  <header>
+  <h1>{{ metadata.author.name }}</h1>
+  <h2>Hello 👋... I'm an independent web developer and designer from Glasgow, Scotland.</h2>
+  <p><strong>Please have a look around and get in touch to see if I can help build a better web for you and your users.</strong></p>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="/work/">Work</a> — browse some of my previous work
+      </li>
+      <li>
+        <a href="/about/">About</a> — find out about me, my values and get answers to your questions
+      </li>
+      <li>
+        <a href="/services/">Services</a> discover what I can offer, the tools I use and how I work
+      </li>
+      <li>
+        <del><a href="/journal/">Journal</a> — tolerate some of my chat</del> <ins>Currently offline, back soon...</ins>
+      </li>
+      <li>
+        <a href="/contact/">Contact</a> — get in touch with me
+      </li>
+    </ul>
+  </nav>
+
+  {% include "components/social-links.njk" %}
+
+  <aside>
+    <p>Are you a registered charity or not-for-profit organisation? Or do you working in the areas of public health, education, community outreach or similar? <a href="/contact/">Get in touch</a> about a discount.</p>
+  </aside>
+
+  <h2>Some of my work:</h2>
+
+  {% for item in collections.pages | getPageBySlug('bandstands') %}
+  <article>
+    <header>
+      {%if item.data.title %}<h3><a href="/work/{{item.data.fileSlug}}/">{{item.data.title}}</a></h3>{% endif %}
+      {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
+    </header>
+    {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
+    {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
+  </article>
+  {% endfor %}
+
+  {% for item in collections.pages | getPageBySlug('the-dough-shack-against-the-grain') %}
+  <article>
+    <header>
+      {%if item.data.title %}<h3><a href="/work/{{item.data.fileSlug}}/">{{item.data.title}}</a></h3>{% endif %}
+      {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
+    </header>
+    {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
+    {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
+  </article>
+  {% endfor %}
+
+  <p><a href="/work/">Browse full work archive</a></p>
+
+  <h2><del>From my journal:</del></h2>
+  <ins>Currently offline, back soon...</ins>
+
+  {# {% set postslist = collections.posts %} #}
+  {# {% include "latestposts.njk" %} #}
+
+  {# <p><a href="{{ '/blog/' | url }}">Browse Blog</a></p> #}
+
+</div>

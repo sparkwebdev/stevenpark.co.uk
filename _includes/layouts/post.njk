@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+<ul>
+    <li>
+    Posted: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+    </li>
+    <li>
+    Tags:
+    {% for tag in tags %}
+        {%- if tag != "posts" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}">{{ tag }}</a>
+        {%- endif -%}
+    {% endfor %}
+    </li>
+</ul>
+
+{{ content | safe }}

@@ -1,64 +1,23 @@
-/*
-Theme Name: Steven Park 2
-Theme URI: http://underscores.me/
-Author: Steven Park
-Author URI: http://stevenpark.co.uk
-Description: A base theme framework for Steven Park\'s WordPress themes, based on the Steven Park theme from Automattic [http://underscores.me/]
-Version: 0.0.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: stevenpark
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Steven Park is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
+/*--------------------------------------------------------------
+# Minimal Reset
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Modules
-	## Accessibility
-	## Alignments
-	## Clearings
-# HTML Elements
-	## Lists
-	## Forms
-	## Tables
-# Structure / Layout
-# Wordpress
-# Design
-# Plugins (3rd Party Plugins etc)
-# Legacy browsers (via Modernizr)
+# Variables
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
+@import "variables/variables";
+
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
 @import "mixins/mixins-master";
-
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-@import "normalize";
-
-/*--------------------------------------------------------------
-# Assets - Webfont, Icons (IcoMoon)
---------------------------------------------------------------*/
-@import "assets/webfonts";
-@import "assets/icons";
-
-/*--------------------------------------------------------------
-# Modules
---------------------------------------------------------------*/
-@import "modules/accessibility";
-@import "modules/alignments";
-@import "modules/clearings";
-@import "modules/embeds";
 
 /*--------------------------------------------------------------
 # HTML Elements
@@ -66,59 +25,148 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "elements/elements";
 
 /*--------------------------------------------------------------
-# Structure / Layout
---------------------------------------------------------------*/
-@import "structure/structure";
-
-/*--------------------------------------------------------------
-# Wordpress
---------------------------------------------------------------*/
-@import "wordpress/wordpress";
-
-/*--------------------------------------------------------------
 # Design
 --------------------------------------------------------------*/
-@import "design/design";
+// @import "design/design";
 
 /*--------------------------------------------------------------
-# Plugins (3rd Party Plugins etc)
+# Work In Progress
 --------------------------------------------------------------*/
-@import "plugins/plugins";
-
-/*--------------------------------------------------------------
-# Legacy browsers (via Modernizr)
---------------------------------------------------------------*/
-@import "legacy/legacy";
-
-
-
-
-/*--------------------------------------------------------------
-# New (to integrate)
---------------------------------------------------------------*/
-
-.feature-dual-panel-new {
-    background: #eef4d6 url(/assets/img/subtle-pattern-9.jpg);
-    .section-inner {
-        background: #fff;
-    }
+/* Header  */
+body > header {
 }
 
-.section-work .page-intro-content,
-.section-work .feature-page-intro,
-.w-shadow {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
-    position: relative;
+del a {
+    pointer-events: none;
 }
+
+/* Main  */
+body > main {
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	max-width: 50rem;
+}
+
+
+/* Social Links */
+.social-links {
+	margin-top: var(--spacing__smaller);
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+	li {
+		margin-right: 5%;
+		display: inline-block;
+		&:last-of-type {
+			margin-right: 0;
+		}
+		a {
+			color: inherit;
+		}
+	}
+	
+	[class^="icon-"] {
+		font-size: var(--font__size-h2);
+		display: block;
+		
+		a {
+			transition: var(--transition__color);
+			&:hover,
+			&:focus {
+				border-bottom: dotted 1px;
+			}
+		}
+	}
+}
+.social-links-twitter {
+	color: var(--color__twitter);
+}
+.social-links-instagram {
+	color: var(--color__instagram);
+}
+.social-links-linkedin {
+	color: var(--color__linkedin);
+}
+
 .w-centre {
     text-align: center;
 }
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
 
+	&:focus {
+		background-color: var(--color__tone-0);
+		border-radius: var(--border__radius-input);
+		box-shadow: var(--shadow__box);
+		clip: auto !important;
+		color: var(--color__tone-100);
+		display: block;
+		font-size: var(--font__size-body);
+		font-weight: bold;
+		height: auto;
+		left: var(--spacing__small);
+		line-height: normal;
+		padding: var(--spacing__small) var(--spacing__medium);
+		text-decoration: none;
+		top: var(--spacing__small);
+		width: auto;
+		z-index: 100000; /* Above WP toolbar. */
+	}
+}
 
-form ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.clear:before,
+.clear:after {
+	@include clearfix;
+}
+
+.clear:after {
+	@include clearfix-after;
+}
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	margin-bottom: var(--spacing__medium);
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// Form columns
+.form-col {
+    @include bp-mobile-landscape() {
+        width: 48.5%;
+        width: calc(50% - 16px);
+        float:left;
+        clear: left;
+        &:nth-of-type(2n+2) {
+            margin-left: 3%;
+            margin-left: calc(16px * 2);
+        }
+        &:nth-of-type(2n+1) {
+            + li {
+                clear: left;
+            }
+            + .form-col {
+                clear: none;
+            }
+        }
+    }
 }
 form .form-col {
     width: 48.5%;
@@ -138,3 +186,157 @@ form .form-col:nth-of-type(2n+2) {
     padding-right: 0.2em;
     height: 0.5em;
 }
+
+
+
+
+.screenshots {
+	text-align: center;
+	background-color: var(--color__brand-2);
+	position: relative;
+	margin-top: 5rem;
+}
+.screenshots__title {
+	color: var(--color__brand-2);
+    font-size: 3rem;
+    position: absolute;
+    top: -2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.screenshots__image {
+	box-shadow: 0 15px 35px var(--color__tone-80);
+	border-radius: 8px;
+	margin: 75px auto;
+    display: block;
+}
+.screenshots__image--mobile {
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.image-group {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 22vw 22vw 10vw;
+	grid-gap: 5px;
+}
+
+.image-group--twothird img {
+	// box-shadow: 0 2px 10px var(--color__tone-80);
+	// border-radius: 8px;
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-group--twothird img:first-of-type {
+	grid-column: 1 / 13;
+}
+.image-group--twothird img:nth-of-type(2) {
+	grid-column: 1 / 7;
+	grid-row: 2 / 4;
+}
+.image-group--twothird img:last-of-type {
+	grid-column: 7 / 11;
+}
+.image-group__title {
+	grid-column: 7 / 11;
+    padding: 0.5rem 2rem 0 0.65rem;
+    font-size: 15px;
+    color: var(--color__tone-60);
+}
+
+
+
+.w-paper {
+	padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f3d091;
+    box-sizing: border-box;
+    position: relative;
+    top: 30px;
+	box-shadow: 1px 1px 2px #555;
+	opacity: 0.9;
+  }
+  
+  .w-paper:after {
+	content: "";
+	display: block;
+	position: absolute;
+	border: 50px solid transparent;
+	border-bottom: 50px solid #fefefe;
+	bottom: -60px;
+	right: -65px;
+	box-shadow: 0px 7px 6px -9px black;
+	transform: rotate(135deg);
+  }
+  
+  .w-paper:before {
+	content: "";
+	display: block;
+	position: absolute;
+	border: 50px solid transparent;
+	border-top: 50px solid #fefefe;
+	top: -60px;
+	left: -65px;
+	box-shadow: 0px -7px 6px -9px black;
+	transform: rotate(135deg);
+  }
+.image-group__title {
+	// font-size: 15px;
+	//   padding: 10px 10px;
+	//   margin: 10px 0;
+	//   background: rgba(255,255,255, 0.9);
+	//   max-width: 100ch;
+	//   box-shadow: 1px 1px 2px #555;
+}
+
+.wrapper {
+	padding: unquote("1rem max(1rem, (50% - 585px))");
+}
+
+body {
+	margin: 0;
+}
+
+
+figure {
+	margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--color__brand-1);
+}
+
+/* Bandstands */
+[data-theme="bandstands"] {
+	--color__brand-2: purple;
+}
+/* The Dough Shack */
+[data-theme="the-dough-shack"] {
+	--color__brand-2: #1E9AA9;
+}
+/* Galbani */
+[data-theme="galbani"] {
+	--color__brand-2: #1E9AA9;
+}
+/* Navigator Partnership */
+[data-theme="navigator-partnership"] {
+	--color__brand-2: #dd6a2c;
+}
+/* The Pet Business */
+[data-theme="the-pet-business"] {
+	--color__brand-2: #9e9fbe;
+}
+/* VariPrint */
+[data-theme="variprint"] {
+	--color__brand-2: #EB5240;
+}
+/* SooUK */
+[data-theme="soouk"] {
+	--color__brand-2: var(--color__tone-60);
+}
+

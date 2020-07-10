@@ -1,0 +1,30 @@
+<ul>
+{% for post in postslist | reverse %}
+  <li>
+    <h>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </h4>
+    {% if post.data.subtitle or post.data.excerpt %}
+      <div>
+        {% if post.data.subtitle %}
+        <p>{{ post.data.subtitle }}</p>
+        {% endif %}
+        {# {% if post.data.excerpt %}
+        <p>{{ post.data.excerpt }}</p>
+        {% endif %} #}
+      </div>
+    {% endif %}
+    <ul>
+      <li>
+        <em>Posted: </em><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      </li>
+      <li>
+      <em>Tags: </em>
+      {% for tag in post.data.tags %}
+        {{ tag }}
+      {% endfor %}
+      </li>
+    </ul>
+  </li>
+{% endfor %}
+</ul>

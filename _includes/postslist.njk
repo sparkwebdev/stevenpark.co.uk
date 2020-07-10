@@ -1,0 +1,33 @@
+<ul>
+{% for post in postslist | reverse %}
+  <li>
+    <h3>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </h3>
+    <ul>
+      <li>
+        <em>Posted: </em><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+      </li>
+      <li><em>Tags: </em>
+        {% for tag in post.data.tags %}
+          {%- if tag != "posts" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}">{{ tag }}</a>
+          {%- endif -%}
+        {% endfor %}
+      </li>
+    </ul>
+
+    {% if post.data.subtitle or post.data.excerpt %}
+      <div>
+        {% if post.data.subtitle %}
+        <p>{{ post.data.subtitle }}</p>
+        {% endif %}
+        {% if post.data.excerpt %}
+        <p>{{ post.data.excerpt }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

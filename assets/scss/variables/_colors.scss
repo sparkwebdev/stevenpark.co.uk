@@ -1,0 +1,47 @@
+:root {
+    /* Brand Colour 1 (Teal) */
+    --color__brand-1: #689dbe;
+    --color__brand-1-mid: #689dbe;
+    --color__brand-1-light: #689dbe;
+    --color__brand-1-dark: #689dbe;
+    // --color__brand-1-bright: saturate(--color__brand-1, 35%);
+
+    /* Brand Colour 2 (Lime Green) */
+    --color__brand-2: #abc931;
+    --color__brand-2-mid: #abc931;
+    --color__brand-2-light: #abc931;
+    --color__brand-2-dark: #abc931;
+    // --color__brand-2-bright: saturate(--color__brand-2, 35%);
+
+    /* Tones */
+    --color__tone-0: #fff; // White
+    --color__tone-100: #000; // Black
+    --color__tone-20: #ccc;
+    --color__tone-40: #888;
+    --color__tone-60: #555;
+    --color__tone-80: #333;
+
+    /* Text */
+    --color__text-body: var(--color__tone-80);
+    --color__text-inputs: var(--color__tone-80)
+
+    /* Links */
+    --color__link: var(--color__brand-1);
+    --color__link-visited: var(--color__brand-1);
+    --color__link-hover: var(--color__brand-1-dark);
+
+    /* Notices */
+    --color__success: var(--color__brand-2-dark);
+    --color__notice: var(--color__brand-1-mid);
+    --color__error: red;
+    --color__background-success: var(--color__brand-2-light);
+    --color__background-notice: var(--color__brand-2-light);
+    --color__background-error: red;
+
+    /* 3rd Party */
+    --color__twitter: #1da1f2;
+    --color__facebook: #3b5998;
+    --color__youtube: #cd201f;
+    --color__linkedin: #0077b5;
+    --color__instagram: #e12f67;
+ }

@@ -1,0 +1,152 @@
+Blog Notes:
+- Cannae do random (testimonial) as its server side code
+
+
+- Automate
+    - broken links
+    - image processing
+    - A11y check
+    - Validation
+    - https://www.11ty.dev/docs/plugins/inclusive-language/
+    - Visual regresion test
+    - 
+
+TO run 
+gulp watch & eleventy --serve
+
+
+Integrate as many HTML tags as possible! Run coverage test
+
+
+
+
+  <h3>Testimonials</h3>
+
+  {%- for testimonial in testimonials -%}
+    <blockquote>
+      {{ testimonial.quoteExcerpt }}
+      <footer>— {% if testimonial.name %}{{ testimonial.name }}, {% endif %}{{ testimonial.company }}, {{ testimonial.location }}</footer>
+    </blockquote>
+  {%- endfor -%}
+
+
+# Blog post
+
+## Part 1 - Getting started
+- init eleventy
+    - add ignore files
+- create index file
+    - eleventy -- serve
+        - explain output — static (fast, portable, later this is what we will deploy)
+        - add secondary page
+            - explain URL
+        - Not sure about nunjucks etc — explain at this stage?
+    - add metadata.json
+        - explain _data folder
+            - (will explain collections later)
+        - output medadata.title as <h1>
+        - output medadata.description as <title>
+            - (will make dynamic later)
+- add assets
+    - CSS
+        - fonts (icoMoon)
+    - JS
+    - img
+    - SASS-ify
+
+    - (not appearing in output ? If not, explain passthrough folder)
+        - explain supported file types
+- add .eleventy.js
+    - add passthrough/template types
+    - Add CleanCSS, Terser
+        - Explain npm install packages
+        - {{ css | cssmin | safe }} etc
+        - Explain not appropriate if long CSS
+- Add base template
+    - Descript {%- using <title>
+    - _includes folder
+    - .eleventy.js layoutAlias
+    - Explain {{ content | safe }}
+
+
+## Part 2 - Dynamic data, collections and navigation
+- Dynamic data and YAML
+    - Explain power of eleventy
+        - <h1> and <h1> dynamic from YAML
+        - Briefly explain collections
+- Pages
+    - Explain folder structure (root or in folder)
+        - as it relates to URL
+        - override permalink with YAML
+            - need to restarty eleventy --serve
+    - pages.json in root
+        - override permalink
+            - need to restarty eleventy --serve
+            - will cascade to child folders, so override may be needed for child pages
+- collections
+    - Nunjucks brief explainer
+    - Contributors example
+        - foreach (nunjucks)
+    - Manual Nav example
+        - Collections.all
+- Navigation
+    - Navigation plugin
+        - YAML
+            - (Dynamic with pages.json?)
+    - Active state
+    - Exclude with tags?
+        - shows power of collections
+
+
+Part 3 - Content
+- FAQs
+    - HTML/Markdown in data?
+- Components (shared/dynamic)
+    - Includes
+        - Passing data
+- Blog/posts
+    - Dates?
+    - Ordering?
+    - Paging
+    - Tags
+    - RSS feed
+- 404 page
+- Sitemap
+- Contact Form
+- Private/Draft content?
+
+Part 4 - Optimisation
+- Measure GTMetrix before and after
+- add .eleventy.js
+    - add passthrough/template types
+    - Add CleanCSS, Terser
+        - Explain npm install packages
+        - {{ css | cssmin | safe }} etc
+        - Explain not appropriate if long CSS
+- Broken links
+- Validation
+- Remove jQuery dependancy
+
+Part 5 - Deployment
+- Options
+    - Webspace
+    - GitHub pages
+    - Netlify
+- Deploy code
+- CI setup
+- Domain pointing
+    - Add domain
+        > Netlify > Settings > Domain > Add custom domain
+        > Input domain e.g. www.stevenpark.co.uk and click Verify
+        > Your domain will appear under 'Custom domains'
+            - Choose www or non-www as primary — forwrding will be setup
+        > On your primary domain select Options menu > Go to DNS panel
+
+    - SSL Certificate
+        - Cant be set up until domain pointed
+
+
+TO ADD???
+- template formats — Markdown, nunjucks etc?
+- moving across content — transferring to dynamicgrabbing images — img download plugin
+- img processing

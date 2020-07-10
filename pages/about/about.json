@@ -1,5 +1,5 @@
 {
-  "tags": "support",
+  "menu": "support",
   "permalink": "/about/{{page.fileSlug}}/",
   "layout": "page"
 }

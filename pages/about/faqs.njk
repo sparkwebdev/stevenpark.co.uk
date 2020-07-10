@@ -1,158 +1,45 @@
 ---
 title: Frequently Asked Questions
-eleventyNavigation:
-  key: FAQs
-  order: 120
+description: Please have a look at some common questions you may have. Or if you have a question to ask, please <a href="http://stevenpark.co.uk/contact/">contact me</a>.
 ---
 
-<article id="post-600" class="post-600 page type-page status-publish hentry">
-  <div class="entry-content">
-    <div class="section feature-page-intro">
-      <div
-        class="banner-image"
-        style="background-image: url(/assets/img/steve-fade-3-1900x1267.jpg);"
-      ></div>
-      <div class="section page-intro-content">
-        <div class="section-inner section-inner-narrower">
-          <h1>Frequently Asked Questions</h1>
-          <p>
-            Please have a look at some common questions you may have. Or if you
-            have a question to ask, please
-            <a href="http://stevenpark.co.uk/contact/"
-              >contact me</a
-            >.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div id="feature_general_content-1" class="section feature-general-content">
-      <div class="section-inner">
-        <dl class="faqs">
-          <dt>Q. What is your availability? When can you start?</dt>
-          <dd>
-            <p>
-              I regularly update my availability status below so that you have
-              an idea when I can get started on your website.
-            </p>
-            <p><strong>My current status is:</strong></p>
-            <ul>
-              <li>{{metadata.status.current}}</li>
-              <li>
-                I can to begin work on your project in approximately
-                <strong>{{metadata.status.leadtime}}</strong>.
-              </li>
-            </ul>
-            <p>
-              If the above is suitable for you, please
-              <a href="http://stevenpark.co.uk/contact/"
-                >get in touch</a
-              >
-              to get things rolling.
-            </p>
-          </dd>
-          <dt>Q. Do you have any references/testimonials?</dt>
-          <dd>
-            <p>
-              Yes, please see
-              <a href="/about/testimonials/"
-                >my testimonials</a
-              >.
-            </p>
-          </dd>
-          <dt>Q. Do you offer hosting?</dt>
-          <dd>
-            <p>
-              Yes, please browse
-              <a
-                href="http://stevenpark.co.uk/about/prices-payment-terms/#hosting"
-                >available hosting options</a
-              >. My hosting prices, although not the cheapest, are competitive
-              and offer more tailored and secure features than you get with some
-              cheaper hosts.
-            </p>
-            <p>
-              However, if you're budget is tight and/or you don't require all
-              the features of my hosting, here are a couple of my recommended
-              third-party WordPress compatible hosting and domain providers:
-            </p>
-            <ul>
-              <li>
-                <a href="https://www.siteground.com/" target="_blank"
-                  >Siteground</a
-                >
-                (approx. £8 to £14 a month) — Wordpress hosting with lots of
-                features
-              </li>
-              <li>
-                <a
-                  href="https://www.zen.co.uk/smallerbusiness/hosting-and-domains/hosting/"
-                  target="_blank"
-                  >Zen Hosting</a
-                >
-                (approx. £5 to £10 a month) — cheap but reliable, UK based
-              </li>
-            </ul>
-            <p>
-              &hellip;and I can be on hand to help you get your website on one
-              of the above hosts.
-            </p>
-          </dd>
-          <dt>
-            Q. Can I host my WordPress site on my own servers or with another
-            hosting company?
-          </dt>
-          <dd>
-            <p>
-              Yes, once your website is finished you are free to host it
-              anywhere you like. Some companies will insist you use them for
-              hosting and effectively 'lock you out' of accessing your site —
-              I'll never do this!
-            </p>
-            <p>
-              You may be interested in my
-              <a
-                href="http://stevenpark.co.uk/about/prices-payment-terms/#hosting"
-                >hosting options</a
-              >.
-            </p>
-          </dd>
-          <dt>Q. What do you charge / What are your payment terms?</dt>
-          <dd>
-            <p>
-              You can see a full list of my
-              <a
-                href="http://stevenpark.co.uk/about/prices-payment-terms/"
-                >prices and payment terms here</a
-              >. My standard rate for for web development work is
-              <strong>£300 per day</strong>. However if you have a fixed budget
-              in mind or want a reduced rate for bulk/ongoing work, please
-              <a href="http://stevenpark.co.uk/contact"
-                >get in touch</a
-              >
-              to discuss.
-            </p>
-          </dd>
-          <dt>Q. Do you offer ongoing support? What is your response time?</dt>
-          <dd>
-            <p>
-              Yes, support is available at the standard daily rate. Regular
-              ongoing support can be purchased at reduced rates — please see my
-              <a
-                href="http://stevenpark.co.uk/about/prices-payment-terms/"
-                >prices</a
-              >
-              and
-              <a href="http://stevenpark.co.uk/contact/"
-                >get in touch</a
-              >
-              to discuss. For all support requests, I aim for a response time a
-              response time of 48 hours, although it is often 24 hours or less.
-            </p>
-          </dd>
-        </dl>
-      </div>
-      <!-- .section-inner -->
-    </div>
-    <!-- .section -->
-  </div>
-</article>
+<h1>{{title}}</h1>
+<p>{{description}}</p>
+
+<dl class="faqs">
+  <dt>Q. What is your availability? When can you start?</dt>
+  <dd>
+    <p>I regularly update my availability status below so that you have an idea when I can get started on your website.</p>
+    <p><strong>My current status is:</strong></p>
+  <ul>
+    <li>{{metadata.status.current}}</li>
+    <li>I can to begin work on your project in approximately <strong>{{metadata.status.leadtime}}</strong>.</li>
+  </ul>
+    <p>If the above is suitable for you, please <a href="http://stevenpark.co.uk/contact/">get in touch</a> to get things rolling.</p>
+  </dd>
+  <dt>Q. Do you have any references/testimonials?</dt>
+  <dd>
+    <p>Yes, please see <a href="/about/testimonials/">my testimonials</a>.</p>
+  </dd>
+  <dt>Q. Do you offer hosting?</dt>
+  <dd>
+    <p>Yes, please browse <a href="http://stevenpark.co.uk/about/prices-payment-terms/#hosting">available hosting options</a>. My hosting prices, although not the cheapest, are competitive and offer more tailored and secure features than you get with some cheaper hosts.</p>
+    <p>However, if you're budget is tight and/or you don't require all the features of my hosting, here are a couple of my recommended third-party WordPress compatible hosting and domain providers:</p>
+  <ul> <li> <a href="https://www.siteground.com/" target="_blank">Siteground</a>(approx. £8 to £14 a month) — Wordpress hosting with lots of features </li> <li> <a href="https://www.zen.co.uk/smallerbusiness/hosting-and-domains/hosting/"  target="_blank"  >Zen Hosting</a>(approx. £5 to £10 a month) — cheap but reliable, UK based </li>
+  </ul>
+    <p>&hellip;and I can be on hand to help you get your website on one of the above hosts.</p>
+  </dd>
+  <dt>Q. Can I host my WordPress site on my own servers or with another hosting company?</dt>
+  <dd>
+    <p>Yes, once your website is finished you are free to host it anywhere you like. Some companies will insist you use them for hosting and effectively 'lock you out' of accessing your site — I'll never do this!</p>
+    <p>You may be interested in my <a href="http://stevenpark.co.uk/about/prices-payment-terms/#hosting">hosting options</a>.</p>
+  </dd>
+  <dt>Q. What do you charge / What are your payment terms?</dt>
+  <dd>
+    <p>You can see a full list of my <a href="http://stevenpark.co.uk/about/prices-payment-terms/">prices and payment terms here</a>. My standard rate for for web development work is <strong>£300 per day</strong>. However if you have a fixed budget in mind or want a reduced rate for bulk/ongoing work, please <a href="http://stevenpark.co.uk/contact">get in touch</a> to discuss.</p>
+  </dd>
+  <dt>Q. Do you offer ongoing support? What is your response time?</dt>
+  <dd>
+    <p>Yes, support is available at the standard daily rate. Regular ongoing support can be purchased at reduced rates — please see my <a href="http://stevenpark.co.uk/about/prices-payment-terms/">prices</a> and <a href="http://stevenpark.co.uk/contact/">get in touch</a> to discuss. For all support requests, I aim for a response time a response time of 48 hours, although it is often 24 hours or less.</p>
+  </dd>
+</dl>
