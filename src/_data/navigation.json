@@ -1,0 +1,62 @@
+{
+  "primary": [
+    {
+      "label": "Work",
+      "url": "/work/",
+      "description": "browse some of my previous work",
+      "offline": false
+    },
+    {
+      "label": "Services",
+      "url": "/services/",
+      "description": "discover what I can offer, the tools I use and how I work",
+      "offline": false
+    },
+    {
+      "label": "Journal",
+      "url": "/journal/",
+      "description": "tolerate some of my chat",
+      "offline": true
+    },
+    {
+      "label": "About",
+      "url": "/about/",
+      "description": "find out about me, my values and get answers to your questions",
+      "offline": false
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/",
+      "description": "get in touch with me",
+      "offline": false
+    }
+  ],
+  "support": [
+    {
+      "label": "Testimonials",
+      "url": "/about/testimonials/",
+      "description": "",
+      "offline": false
+    },
+    {
+      "label": "Frequently Asked Questions",
+      "url": "/about/faqs/",
+      "description": "",
+      "offline": false
+    },
+    {
+      "label": "Prices & Payment Terms",
+      "url": "/prices-payment-terms/",
+      "description": "",
+      "offline": false
+    }
+  ],
+  "unused": [
+    {
+      "label": "Home",
+      "url": "/",
+      "description": "home page",
+      "offline": false
+    }
+  ]
+}

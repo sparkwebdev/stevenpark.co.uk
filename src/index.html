@@ -3,9 +3,6 @@ layout: base
 tags: pages
 title: Home
 subtitle: Two
-eleventyNavigation:
-  key: Home
-  order: 10
 ---
 <div class="wrapper">
 
@@ -14,26 +11,11 @@ eleventyNavigation:
     <h2>Hello 👋... I'm a web developer and designer from Glasgow, Scotland.</h2>
     <p><strong>Please have a look around and get in touch to see if I can help build a better web for you and your users.</strong></p>
   </header>
+{% set navItems = navigation.primary %}
+{% set navShowDescription = true %}
+{% set navAriaLabel = "Contextual" %}
+{% include "partials/nav.html" %}
 
-  <nav>
-    <ul>
-      <li>
-        <a href="/work/">Work</a> — browse some of my previous work
-      </li>
-      <li>
-        <a href="/about/">About</a> — find out about me, my values and get answers to your questions
-      </li>
-      <li>
-        <a href="/services/">Services</a> discover what I can offer, the tools I use and how I work
-      </li>
-      <li>
-        <del><a href="/journal/">Journal</a> — tolerate some of my chat</del> <ins>Currently offline, back soon...</ins>
-      </li>
-      <li>
-        <a href="/contact/">Contact</a> — get in touch with me
-      </li>
-    </ul>
-  </nav>
 
   {% include "components/social-links.html" %}
 

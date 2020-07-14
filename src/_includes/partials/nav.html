@@ -1,0 +1,14 @@
+<nav{% if navAriaLabel %} aria-label="{{navAriaLabel}}"{% endif %}>
+    <ul>
+    {%- for item in navItems %}
+        <li{% if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} class="active"{% endif %}>
+        {% if item.offline %}
+        <del>{{ item.label }}</del> <ins>Currently offline, back soon...</ins>
+        {% else %}
+        <a href="{{ item.url | url }}">{{ item.label }}</a>
+        {% endif %}
+        {% if navShowDescription %} — {{ item.description }}{% endif %}
+        </li>
+    {%- endfor %}
+    </ul>
+</nav>

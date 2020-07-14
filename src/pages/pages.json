@@ -1,5 +1,4 @@
 {
-  "tags": "pages",
   "permalink": "/{{page.fileSlug}}/",
   "layout": "page"
 }

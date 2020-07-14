@@ -1,14 +1,7 @@
 <a class="skip-link screen-reader-text" href="#main-content">Skip to content</a>
 <header id="main-header" class="wrapper">
   <p><a href="/" rel="home"><span>S<span>teven </span>P<span>ark</span></span></a></p>
-  <nav>
-    {% set navPages = collections.pages | eleventyNavigation %}
-    <ul>
-    {%- for entry in navPages %}
-      <li{% if (entry.url == page.url) or ((entry.url | urlmatch(page.url)) and entry.url !== "/") %} class="active"{% endif %}>
-        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-      </li>
-    {%- endfor %}
-    </ul>
-  </nav>
+  {% set navItems = navigation.primary %}
+  {% set navAriaLabel = "Primary" %}
+  {% include "partials/nav.html" %}
 </header>

@@ -10,31 +10,14 @@
   {% include "components/social-links.html" %}
 
   <h4>Browse:</h4>
-  {% set navPages = collections.pages | eleventyNavigation %}
-  <nav>
-    <ul>
-      {%- for entry in navPages %}
-      <li{%- if entry.url == page.url %} class="active"{% endif -%}>
-        <a href="{{ entry.url | url }}"
-        {%- if entry.url == page.url %} aria-current="page"{% endif -%}
-        >{{ entry.title }}</a>
-      </li>
-      {%- endfor %}
-    </ul>
-  </nav>
+  {% set navItems = navigation.primary %}
+  {% set navAriaLabel = "" %}
+  {% include "partials/nav.html" %}
 
   <h4>Client Support:</h4>
-  <nav>
-    <ul>
-      {% for entry in collections.pages | menu('support') %}
-      <li{%- if entry.url == page.url %} class="active"{% endif -%}>
-        <a href="{{ entry.url | url }}"
-        {%- if entry.url == page.url %} aria-current="page"{% endif -%}
-        >{{ entry.data.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
+  {% set navItems = navigation.support %}
+  {% set navAriaLabel = "Supplementary Support" %}
+  {% include "partials/nav.html" %}
 
   <p>&copy; <a href="/" title="Steven Park" rel="home">{{ metadata.author.name }}</a>, 2020.</p>
 
