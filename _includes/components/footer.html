@@ -7,7 +7,7 @@
     Mobile: <a href="tel:{{ metadata.author.telephoneInternational }}" title="Call me">{{ metadata.author.telephone }}</a></strong>
   </p>
 
-  {% include "components/social-links.njk" %}
+  {% include "components/social-links.html" %}
 
   <h4>Browse:</h4>
   {% set navPages = collections.pages | eleventyNavigation %}

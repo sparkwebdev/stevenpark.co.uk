@@ -56,13 +56,13 @@
 
 	  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-    {% include "components/header.njk" %}
+    {% include "components/header.html" %}
 
     <main>
       {{ content | safe }}
     </main>
 
-    {% include "components/footer.njk" %}
+    {% include "components/footer.html" %}
 
     {% set js %}
 

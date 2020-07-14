@@ -15,10 +15,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-  eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.njk");
+  eleventyConfig.addLayoutAlias("base", "layouts/base.html");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.html");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.html");
+  eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
@@ -92,7 +92,7 @@ module.exports = function(eleventyConfig) {
         let tags = item.data.tags;
         tags = tags.filter(function(item) {
           switch(item) {
-            // this list should match the `filter` list in tags.njk
+            // this list should match the `filter` list in tags.html
             case "all":
             case "nav":
             case "post":
@@ -140,7 +140,6 @@ module.exports = function(eleventyConfig) {
     //   "html"
     // ],
     dir: {
-      input: '',
       output: 'dist'
     }
   };
