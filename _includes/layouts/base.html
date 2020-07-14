@@ -1,36 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-GB" class="no-js">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ title }}</title>
 
-    <title>
-      {%- if page.url == "/" -%}
-        {{ metadata.title }}
-      {%- else -%}
-        {{ title + " | " + metadata.author.name }}
-      {%- endif -%}
-    </title>
-
-    <meta name="description" content="{{ description or metadata.description }}">
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-
-    <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}" />
-
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ title or metadata.title }}" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:url" content="{{ metadata.url }}{{ page.url | url }}" />
-    <meta property="og:site_name" content="{{ metadata.author.name }}" />
-    {# <meta property="og:image" content="/assets/img/me-profile.jpg"> #}
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ title or metadata.title }}">
-    <meta name="twitter:description" content="{{ description or metadata.title }}">
-    {# <meta name="twitter:image" content="/assets/img/me-profile.jpg"> #}
+    {% include "partials/meta.html" %}
 
     {%- set css %}
       {% include "../../assets/css/critical.css" %}
@@ -48,49 +20,28 @@
 
   </head>
 
-  <body id="start"
+  <body
     {%- if page.url == "/" %} class="home"
     {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
     {%- endif -%}
   >
 
-	  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    {% include "partials/header.html" %}
 
-    {% include "components/header.html" %}
-
-    <main>
+    <main tabindex="-1" id="main-content">
       {{ content | safe }}
     </main>
 
-    {% include "components/footer.html" %}
+    {% include "partials/footer.html" %}
 
     {% set js %}
 
-    {% include "../../assets/js/app.js" %}
+      {% include "../../assets/js/app.js" %}
 
-    {% if page.url | url == "/contact/" %}
-    let contactForm = document.querySelector("#contact-form");
+      {% if page.url | url == "/contact/" %}
+        {% include "../../assets/js/form.js" %}
+      {% endif %}
 
-    if (contactForm) {
-      contactForm.addEventListener('submit', e => {
-        e.preventDefault();
-        const formData = new FormData(contactForm);
-        fetch(contactForm.getAttribute('action'), {
-          method: 'POST',
-          headers: {
-            'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-            'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-          },
-          body: new URLSearchParams(formData).toString()
-        })
-        .then(res => {
-          if (res) {
-            contactForm.innerHTML = '<div class="w-centre" role="alert"><h2>Message sent</h2><p><strong>Thank you for your enquiry. I will get back to you ASAP.</strong></p></div>';
-          }
-        });
-      });
-    }
-    {% endif %}
     {% endset %}
     <script>
       document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
