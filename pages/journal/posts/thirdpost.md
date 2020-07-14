@@ -2,9 +2,7 @@
 title: Check out my sweet code examples
 excerpt: What are you hacking off? Is it my torso?! 'It is! ' My precious torso! You guys realize you live in a sewer, right? Switzerland is small and neutral! We are more like Germany, ambitious and misunderstood!
 date: 2020-01-03
-tags:
-  - second-tag
-  - code
+tags: ['Second Tag', 'Code']
 ---
 
 ``` js/2/4
