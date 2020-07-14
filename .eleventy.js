@@ -85,6 +85,18 @@ module.exports = function(eleventyConfig) {
     return collection.filter(item => item.data.menu == menu);
   });
 
+  // Collections
+  eleventyConfig.addCollection('work', collection => {
+    return collection
+      .getFilteredByGlob('./pages/work/*.html');
+  });
+
+  eleventyConfig.addCollection('featuredWork', collection => {
+    return collection
+      .getFilteredByGlob('./pages/work/*.html')
+      .filter(x => x.data.featured);
+  });
+
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function(item) {

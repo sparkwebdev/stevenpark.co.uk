@@ -1,0 +1,8 @@
+<article> 
+    <header>
+        {%if item.data.title %}<h3><a href="/work/{{item.data.fileSlug}}/">{{item.data.title}}</a></h3>{% endif %}
+        {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
+    </header>
+    {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
+    {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
+</article>

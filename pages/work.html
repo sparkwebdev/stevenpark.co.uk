@@ -34,12 +34,6 @@ workItems:
     description: A contemporary online design store, based near Edinburgh. The site showcases a mutual love of beautiful product design, interiors and architecture.
     image: soo-uk-00-535x326.jpg
 ---
-
-<ul>
-  {% for item in workItems %}
-  <li>
-    <a href="/work/{{item.slug}}/">{{item.title}}</a> — 
-    {{item.description}}
-  </li>
-  {% endfor %}
-</ul>
+{% for item in collections.work %}
+  {% include "partials/preview.html" %}
+{% endfor %}

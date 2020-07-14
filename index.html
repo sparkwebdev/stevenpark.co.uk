@@ -7,15 +7,12 @@ eleventyNavigation:
   key: Home
   order: 10
 ---
-
-
-
 <div class="wrapper">
 
   <header>
-  <h1>{{ metadata.author.name }}</h1>
-  <h2>Hello 👋... I'm an independent web developer and designer from Glasgow, Scotland.</h2>
-  <p><strong>Please have a look around and get in touch to see if I can help build a better web for you and your users.</strong></p>
+    <h1>{{ metadata.author.name }}</h1>
+    <h2>Hello 👋... I'm a web developer and designer from Glasgow, Scotland.</h2>
+    <p><strong>Please have a look around and get in touch to see if I can help build a better web for you and your users.</strong></p>
   </header>
 
   <nav>
@@ -46,26 +43,8 @@ eleventyNavigation:
 
   <h2>Some of my work:</h2>
 
-  {% for item in collections.pages | getPageBySlug('bandstands') %}
-  <article>
-    <header>
-      {%if item.data.title %}<h3><a href="/work/{{item.data.fileSlug}}/">{{item.data.title}}</a></h3>{% endif %}
-      {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
-    </header>
-    {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
-    {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
-  </article>
-  {% endfor %}
-
-  {% for item in collections.pages | getPageBySlug('the-dough-shack-against-the-grain') %}
-  <article>
-    <header>
-      {%if item.data.title %}<h3><a href="/work/{{item.data.fileSlug}}/">{{item.data.title}}</a></h3>{% endif %}
-      {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
-    </header>
-    {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
-    {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
-  </article>
+  {% for item in collections.featuredWork %}
+    {% include "partials/preview.html" %}
   {% endfor %}
 
   <p><a href="/work/">Browse full work archive</a></p>
