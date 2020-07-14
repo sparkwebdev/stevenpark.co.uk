@@ -2,7 +2,6 @@ const CleanCSS              = require('clean-css');
 const Terser                = require("terser");
 const pluginRss             = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation      = require("@11ty/eleventy-navigation");
 const fs                    = require("fs");
 const { DateTime }          = require("luxon");
 const markdownIt            = require("markdown-it");
@@ -14,7 +13,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
-  eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
@@ -141,10 +139,10 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  eleventyConfig.addPassthroughCopy("assets/img");
-  eleventyConfig.addPassthroughCopy("assets/js");
-  eleventyConfig.addPassthroughCopy("assets/css");
-  eleventyConfig.addPassthroughCopy("assets/css/fonts");
+  eleventyConfig.addPassthroughCopy("./src/assets/img");
+  eleventyConfig.addPassthroughCopy("./src/assets/js");
+  eleventyConfig.addPassthroughCopy("./src/assets/css");
+  eleventyConfig.addPassthroughCopy("./src/assets/css/fonts");
   
 
   return {
