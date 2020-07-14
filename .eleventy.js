@@ -152,6 +152,7 @@ module.exports = function(eleventyConfig) {
     //   "html"
     // ],
     dir: {
+      input: 'src',
       output: 'dist'
     }
   };
