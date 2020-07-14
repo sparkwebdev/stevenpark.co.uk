@@ -2,9 +2,9 @@
   "name": "stevenpark.co.uk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx eleventy --serve"
   },
   "author": {
     "name": "Steven Park",

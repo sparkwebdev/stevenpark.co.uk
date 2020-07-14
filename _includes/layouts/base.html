@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-GB" class="no-js">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ title }}</title>
 
     <title>
       {%- if page.url == "/" -%}
@@ -66,17 +67,6 @@
     {% set js %}
 
     {% include "../../assets/js/app.js" %}
-    
-    var faqs = document.querySelector('dl.faqs');
-    if (faqs) {
-      faqs.addEventListener('click', function(e) {
-        if (e.target.tagName === "DT") {
-          var question = e.target;
-          var answer = question.nextElementSibling;
-          answer.style.display === 'block' ? answer.style.display = 'none' : answer.style.display = 'block';
-        }
-      });
-    }
 
     {% if page.url | url == "/contact/" %}
     let contactForm = document.querySelector("#contact-form");
