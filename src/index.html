@@ -10,27 +10,19 @@ description: Please have a look around and get in touch to see if I can help bui
 {% set navAriaLabel = "Contextual" %}
 {% include "partials/nav.html" %}
 
+{% include "components/social-links.html" %}
 
-  {% include "components/social-links.html" %}
+{% set noticeText = "<p>Are you a registered charity or not-for-profit organisation? Or do you working in the areas of public health, education, community outreach or similar? <a href=\"/contact/\">Get in touch</a> about a discount.</p>" %}
+{% include "components/notice.html" %}
 
-  <aside>
-    <p>Are you a registered charity or not-for-profit organisation? Or do you working in the areas of public health, education, community outreach or similar? <a href="/contact/">Get in touch</a> about a discount.</p>
-  </aside>
+<h2>Some of my work:</h2>
+{% for item in collections.featuredWork %}
+  {% include "partials/preview.html" %}
+{% endfor %}
+<p><a href="/work/">Browse full work archive</a></p>
 
-  <h2>Some of my work:</h2>
-
-  {% for item in collections.featuredWork %}
-    {% include "partials/preview.html" %}
-  {% endfor %}
-
-  <p><a href="/work/">Browse full work archive</a></p>
-
-  <h2><del>From my journal:</del></h2>
-  <ins>Currently offline, back soon...</ins>
-
-  {# {% set postslist = collections.posts %} #}
-  {# {% include "latestposts.html" %} #}
-
-  {# <p><a href="{{ '/blog/' | url }}">Browse Blog</a></p> #}
-
-</div>
+<h2><del>From my journal:</del></h2>
+<ins>Currently offline, back soon...</ins>
+{% set postslist = collections.journal %}
+{% include "latestposts.html" %}
+<p><a href="{{ '/journal/' | url }}">Browse full journal archive</a></p>

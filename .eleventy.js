@@ -97,6 +97,11 @@ module.exports = function(eleventyConfig) {
       .filter(x => x.data.featured);
   });
 
+  // Returns a collection of journal posts in reverse date order
+  eleventyConfig.addCollection('journal', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
+
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function(item) {
