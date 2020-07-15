@@ -2,7 +2,7 @@
 title: Leverage agile frameworks to provide a robust synopsis for high level overviews.
 subtitle:  Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-date: 2020-01-04
+date: 2020-02-04
 tags: [Second Tag, Another Tag]
 ---
 

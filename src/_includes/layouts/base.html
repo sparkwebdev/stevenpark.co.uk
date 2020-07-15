@@ -21,6 +21,7 @@
   </head>
 
   <body
+    id="main-body"
     {%- if page.url == "/" %} class="home"
     {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
     {%- endif -%}

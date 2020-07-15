@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+{% set postList = pagination.items %}
+{% set postListExtended = true %}
+
+{% if tag %}
+  {% set postList = collections[tag] %}
+{% endif %}
+
+{% block content %}
+  <article>
+    {% include "partials/post-list.html" %}
+    {% if not tag %}
+      {% include "partials/pagination.html" %}
+    {% endif %}
+  </article>
+{% endblock %}

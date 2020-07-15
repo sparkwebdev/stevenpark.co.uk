@@ -1,19 +1,18 @@
 ---
 title: Contact
 ---
-
 <p>
   <strong>Steven Park Web Services Ltd.,<br />
     Glasgow, UK<br />
-    Email: <a href="mailto:info@stevenpark.co.uk" title="Email me">info@stevenpark.co.uk</a><br />
-    Mobile: <a href="tel:+447799255012" title="Call me">07799 255 012</a>
+    Email: <a href="mailto:{{ metadata.author.email }}" title="Email me">{{ metadata.author.email }}</a><br />
+    Mobile: <a href="tel:{{ metadata.author.telephoneInternational }}" title="Call me">{{ metadata.author.telephone }}</a>
   </strong>
 </p>
 
 {% include "components/social-links.html" %}
 
 <form id="contact-form" name="contact" method="POST" action="/#contact" data-netlify="true">
-  <h3>Enquiry Form</h3>
+  <h2>Enquiry Form</h2>
   <p>Please fill out this form and I will get in touch with you shortly. I aim to answer all queries within 24 hours. If you'd rather I called you back please also enter your phone number.</p>
   
   <p class="form-col form-required">
@@ -31,7 +30,6 @@ title: Contact
   <p class="form-col">
     <label for="contact_phone">Phone</label>
     <input name="contact_phone" id="contact_phone" type="text" value="" aria-invalid="false" />
-    </div>
   </p>
   <p>
     <input name="input_15" type="radio" value="Send a message" checked="checked" id="choice_1_15_0" />
@@ -42,7 +40,7 @@ title: Contact
     <label for="choice_1_15_1" id="label_1_15_1">Start a project</label>
   </p>
 
-  <div class="one" style="border: solid red;">
+  <div class="form-conditional form-conditional--message">
     <p>
       <label for="contact_subject">Message Subject</label>
       <input name="contact_subject" id="contact_subject" type="text" value="" aria-invalid="false" autocomplete="off" />
@@ -53,25 +51,18 @@ title: Contact
     </p>
   </div>
 
-  <div class="two" style="border: solid green;">
+  <div class="form-conditional form-conditional--project">
     <p class="form-col">
-      <label for="contact_budget">Project Budget<!--<span>*</span>--></label>
-      <div>
-        <input name="contact_budget" id="contact_budget" type="text" value="" aria-required="true" aria-invalid="false" disabled=""
-        />
-      </div>
+      <label for="contact_budget">Project Budget<span>*</span></label>
+      <input name="contact_budget" id="contact_budget" type="text" value="" aria-required="true" aria-invalid="false" disabled="" />
     </p>
     <p class="form-col">
-      <label for="contact_deadlines">Project Deadline(s)<!--<span>*</span>--></label>
-      <div>
-        <input name="contact_deadlines" id="contact_deadlines" type="text" value="" aria-required="true" aria-invalid="false" disabled="" />
-      </div>
+      <label for="contact_deadlines">Project Deadline(s)<span>*</span></label>
+      <input name="contact_deadlines" id="contact_deadlines" type="text" value="" aria-required="true" aria-invalid="false" disabled="" />
     </p>
     <p>
       <label for="contact_details">Project Details<span>*</span></label>
-      <div>
-        <textarea name="contact_details" id="contact_details" aria-required="true" aria-invalid="false" rows="10" cols="50" disabled=""></textarea>
-      </div>
+      <textarea name="contact_details" id="contact_details" aria-required="true" aria-invalid="false" rows="10" cols="50" disabled=""></textarea>
     </p>
   </div>
   

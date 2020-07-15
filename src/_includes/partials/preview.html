@@ -5,4 +5,5 @@
     </header>
     {%if item.data.description %}<p>{{item.data.description}}</p>{% endif %}
     {%if item.data.fileSlug %}<a href="/work/{{item.data.fileSlug}}/">Read more</a>{% endif %}
+    {%if item.data.image %}<img src="/assets/img/{{item.data.image}}">{% endif %}
 </article>

@@ -1,21 +1,13 @@
 ---
+layout: page
 pagination:
   data: collections
   size: 1
   alias: tag
   filter:
-    - all
-    - nav
-    - post
-    - posts
-    - tagList
-    - tagList
   addAllPagesToCollections: true
-layout: base
-renderData:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag }}/
+permalink: /journal/tags/{{ tag | slug }}/
 ---
-
-{% set postslist = collections[ tag ] %}
-{% include "postslist.html" %}
+<h1>Posts filed under '{{ tag }}'</h1>
+{% set postList = collections[ tag ] %}
+{% include "partials/post-list.html" %}

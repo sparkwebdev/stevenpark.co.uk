@@ -15,6 +15,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
+  eleventyConfig.addLayoutAlias("feed", "layouts/feed.html");
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
   eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 
@@ -22,7 +23,6 @@ module.exports = function(eleventyConfig) {
     callbacks: {
       ready: function(err, bs) {
         const content_404 = fs.readFileSync('dist/404.html');
-
         bs.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
@@ -85,14 +85,11 @@ module.exports = function(eleventyConfig) {
 
   // Collections
   eleventyConfig.addCollection('work', collection => {
-    return collection
-      .getFilteredByGlob('./pages/work/*.html');
+    return [...collection.getFilteredByGlob('./src/pages/work/*.html')].reverse();
   });
 
   eleventyConfig.addCollection('featuredWork', collection => {
-    return collection
-      .getFilteredByGlob('./pages/work/*.html')
-      .filter(x => x.data.featured);
+    return [...collection.getFilteredByGlob('./src/pages/work/*.html')].filter(x => x.data.featured).reverse();
   });
 
   // Returns a collection of journal posts in reverse date order

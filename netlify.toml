@@ -1,3 +1,7 @@
+[build]
+  command = "npm run production"
+  publish = "dist"
+
 [[redirects]]
   from = "/portfolio"
   to = "/work"

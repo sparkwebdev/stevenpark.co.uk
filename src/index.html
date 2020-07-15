@@ -23,6 +23,6 @@ description: Please have a look around and get in touch to see if I can help bui
 
 <h2><del>From my journal:</del></h2>
 <ins>Currently offline, back soon...</ins>
-{% set postslist = collections.journal %}
-{% include "latestposts.html" %}
-<p><a href="{{ '/journal/' | url }}">Browse full journal archive</a></p>
+{% set postList = collections.journal %}
+{% include "partials/post-list.html" %}s
+{# <p><a href="{{ '/journal/' | url }}">Browse full journal archive</a></p> #}

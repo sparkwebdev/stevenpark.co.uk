@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 ---
 
 <ul>
@@ -10,7 +10,7 @@ layout: base
     Tags:
     {% for tag in tags %}
         {%- if tag != "posts" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        {% set tagUrl %}/journal/tags/{{ tag | slug }}/{% endset %}
         <a href="{{ tagUrl | url }}">{{ tag }}</a>
         {%- endif -%}
     {% endfor %}
