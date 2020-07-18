@@ -18,6 +18,7 @@ layout: base
     <img width="875" height="1177" src="/assets/img/{{image.large}}.jpg" alt="{{title}} Screenshot"
       srcset="/assets/img/{{image.large}} 875w, /assets/img/{{image.medium}} 535w, /assets/img/{{image.small}} 400w, /assets/img/{{image.full}} 1329w"
       sizes="(max-width: 875px) 100vw, 875px"
+      loading="lazy"
     />
   {% endfor %}
 
@@ -30,16 +31,18 @@ layout: base
 
 </div>
 
-<figure role="group" aria-labelledby="screenshots" class="wrapper screenshots">
-  <figcaption id="screenshots" class="screenshots__title">Screenshots<span class="screen-reader-text"> for {{title}}.
-    {%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}
-    </span>
-  </figcaption>
-  {% for image in screenshots %}
-  <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image">
-  {% endfor %}
-  {# TODO: Add conditional check for screenshotsMobile #}
-  {% for image in screenshotsMobile %}
-  <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image screenshots__image--mobile">
-  {% endfor %}
+{%if screenshots.length or screenshotsMobile.length -%}
+<figure role="group" class="wrapper screenshots">
+  <figcaption class="screenshots__title">Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></figcaption>
+  {%if screenshots.length -%}
+    {% for image in screenshots %}
+    <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image" loading="lazy">
+    {% endfor %}
+  {%- endif %}
+  {%if screenshotsMobile.length -%}
+    {% for image in screenshotsMobile %}
+    <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image screenshots__image--mobile" loading="lazy">
+    {% endfor %}
+  {%- endif %}
 </figure>
+{%- endif %}

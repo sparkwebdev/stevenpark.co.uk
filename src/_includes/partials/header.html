@@ -1,7 +1,10 @@
-<a class="skip-link screen-reader-text" href="#main-content">Skip to content</a>
+<a class="skip-link visually-hidden" href="#main-content">Skip to content</a>
+
 <header role="banner" class="wrapper">
   <p><a href="/" rel="home"><span>S<span>teven </span>P<span>ark</span></span></a></p>
-  {% set navItems = navigation.primary %}
+
+  {%- set navItems = navigation.primary %}
   {% set navAriaLabel = "Primary" %}
+  {% set navIncludeHome = true %}
   {% include "partials/nav.html" %}
 </header>

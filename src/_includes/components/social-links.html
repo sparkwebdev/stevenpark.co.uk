@@ -1,9 +1,9 @@
-<nav class="social-links">
-  <h3 class="screen-reader-text">Social Links</h3>
-  <ul>
+<nav class="social-links" aria-label="Social Links">
+  <h3 class="visually-hidden">Social Links</h3>
+  <ul class="unstyled">
     {% for title, url in metadata.author.socialLinks %}
     <li>
-        <a href="{{url}}"><span class="icon-{{title | classname}}"></span> {{title}}</a>
+      <a href="{{url}}"><span class="icon-{{title | classname}}"></span> {{title}}</a>
     </li>
     {% endfor %}
   </ul>

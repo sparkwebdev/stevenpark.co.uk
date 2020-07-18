@@ -3,32 +3,60 @@
     {
       "label": "Work",
       "url": "/work/",
-      "description": "browse some of my previous work",
-      "offline": false
-    },
-    {
-      "label": "Services",
-      "url": "/services/",
-      "description": "discover what I can offer, the tools I use and how I work",
-      "offline": false
-    },
-    {
-      "label": "Journal",
-      "url": "/journal/",
-      "description": "tolerate some of my chat",
-      "offline": true
+      "description": "discover my portfolio and how I work",
+      "online": true,
+      "sub": [
+        {
+          "label": "Services",
+          "url": "/work/services/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Tools I Use",
+          "url": "/work/tools/",
+          "description": "",
+          "online": true
+        }
+      ]
     },
     {
       "label": "About",
       "url": "/about/",
-      "description": "find out about me, my values and get answers to your questions",
-      "offline": false
+      "description": "me, my services, values and more",
+      "online": true,
+      "sub": [
+        {
+          "label": "Testimonials",
+          "url": "/about/testimonials/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "FAQs",
+          "url": "/about/faqs/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Prices & Payment Terms",
+          "url": "/about/prices-payment-terms/",
+          "description": "",
+          "online": true
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/",
+      "description": "tolerate some of my chat",
+      "online": false
     },
     {
       "label": "Contact",
       "url": "/contact/",
       "description": "get in touch with me",
-      "offline": false
+      "online": true
     }
   ],
   "support": [
@@ -36,19 +64,39 @@
       "label": "Testimonials",
       "url": "/about/testimonials/",
       "description": "",
-      "offline": false
+      "online": true
     },
     {
       "label": "Frequently Asked Questions",
       "url": "/about/faqs/",
       "description": "",
-      "offline": false
+      "online": true
     },
     {
       "label": "Prices & Payment Terms",
       "url": "/prices-payment-terms/",
       "description": "",
-      "offline": false
+      "online": true
+    }
+  ],
+  "quicklinksAbout": [
+    {
+      "label": "Testimonials",
+      "url": "/about/testimonials/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "FAQs",
+      "url": "/about/faqs/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "Prices & Payment Terms",
+      "url": "/about/prices-payment-terms/",
+      "description": "",
+      "online": true
     }
   ],
   "unused": [
@@ -56,7 +104,7 @@
       "label": "Home",
       "url": "/",
       "description": "home page",
-      "offline": false
+      "online": true
     }
   ]
 }

@@ -1,4 +1,4 @@
-<footer class="wrapper">
+<footer role="contentinfo" class="wrapper">
 
   <p>
     <strong>{{ metadata.author.name }},<br />
@@ -9,18 +9,13 @@
 
   {% include "components/social-links.html" %}
 
-  <h4>Browse:</h4>
   {% set navItems = navigation.primary %}
+  {% set navTitle = "Browse:" %}
+  {% set navShowSub = true %}
   {% set navAriaLabel = "" %}
+  {% set navIncludeHome = true %}
   {% include "partials/nav.html" %}
 
-  <h4>Client Support:</h4>
-  {% set navItems = navigation.support %}
-  {% set navAriaLabel = "Supplementary Support" %}
-  {% include "partials/nav.html" %}
-
-  <p>&copy; <a href="/" title="Steven Park" rel="home">{{ metadata.author.name }}</a>, 2020.</p>
-
-  <a class="skip-link screen-reader-text" href="#main-body">Back to stop</a>
+  <p>&copy; {{ "" | currentYear }} <a href="/" title="Steven Park" rel="home">{{ metadata.author.name }}</a>. Site built with <a href="https://www.11ty.dev/">11ty</a>. | <a href="#main-body">Back to top</a></p>
 
 </footer>

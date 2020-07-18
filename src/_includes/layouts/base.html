@@ -1,32 +1,34 @@
+{% set assetHash = helpers.random() %}
 <!DOCTYPE html>
 <html lang="en-GB" class="no-js">
+
   <head>
 
     {% include "partials/meta.html" %}
+    <style>/* Critical CSS */
+    {% include "css/critical.css" %}</style>
+    {% if pageCriticalStyles %}
+      {% for item in pageCriticalStyles %}
+        <style>{% include item %}</style>
+      {% endfor %}
+    {% endif -%}
+    
+    {%- if pageStylesheets %}
+    {% for item in pageStylesheets %}
+      <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
+    {% endfor %}
+    {% endif -%}
 
-    {%- set css %}
-      {% include "../../assets/css/critical.css" %}
-    {% endset -%}
-    {% if css %}
-    <style>
-      /* Critical CSS */
-      {{ css | cssmin | safe }}
-    </style>
-    {% endif %}
-
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Quicksand:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
+    {# <link rel="stylesheet" media="print" href="/css/common.css?{{ assetHash }}" onload="this.media='all'" /> #}
 
   </head>
 
-  <body
-    id="main-body"
+  <body id="main-body"
     {%- if page.url == "/" %} class="home"
     {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
     {%- endif -%}
   >
-
     {% include "partials/header.html" %}
 
     <main tabindex="-1" id="main-content">
@@ -35,18 +37,17 @@
 
     {% include "partials/footer.html" %}
 
+    <script>
     {% set js %}
-
       {% include "../../assets/js/app.js" %}
-
       {% if page.url | url == "/contact/" %}
         {% include "../../assets/js/form.js" %}
       {% endif %}
-
     {% endset %}
-    <script>
-      document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
-      {{ js | jsmin | safe }}
+    document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+    {{ js | jsmin | safe }}
     </script>
+
   </body>
+
 </html>

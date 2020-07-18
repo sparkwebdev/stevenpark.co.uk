@@ -8,11 +8,20 @@ const markdownIt            = require("markdown-it");
 const markdownItAnchor      = require("markdown-it-anchor");
 const markdownItAttrs       = require("markdown-it-attrs");
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
+  
+  // Plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+
+  if (isProduction) {
+  }
+
+  // Layout aliases
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
   eleventyConfig.addLayoutAlias("feed", "layouts/feed.html");
@@ -31,6 +40,9 @@ module.exports = function(eleventyConfig) {
       }
     }
   });
+
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  eleventyConfig.setUseGitIgnore(false);
 
   eleventyConfig.addFilter('cssmin', function(code) {
     return new CleanCSS({}).minify(code).styles;
@@ -56,6 +68,10 @@ module.exports = function(eleventyConfig) {
       return array.slice(n);
     }
     return array.slice(0, n);
+  });
+
+  eleventyConfig.addFilter("currentYear", () => {
+    return DateTime.local().year;
   });
 
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -84,16 +100,16 @@ module.exports = function(eleventyConfig) {
   });
 
   // Collections
-  eleventyConfig.addCollection('work', collection => {
-    return [...collection.getFilteredByGlob('./src/pages/work/*.html')].reverse();
+  eleventyConfig.addCollection('portfolio', collection => {
+    return [...collection.getFilteredByGlob('./src/pages/work/portfolio/*.html')].reverse();
   });
 
-  eleventyConfig.addCollection('featuredWork', collection => {
-    return [...collection.getFilteredByGlob('./src/pages/work/*.html')].filter(x => x.data.featured).reverse();
+  eleventyConfig.addCollection('featuredPortfolio', collection => {
+    return [...collection.getFilteredByGlob('./src/pages/work/portfolio/*.html')].filter(x => x.data.featured).reverse();
   });
 
-  // Returns a collection of journal posts in reverse date order
-  eleventyConfig.addCollection('journal', collection => {
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 

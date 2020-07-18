@@ -1,5 +1,5 @@
 <header>
   {% if title %}<h1>{{ title }}</h1>{% endif %}
-  {% if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
+  {% if subtitle %}<h2>{{ subtitle | safe }}</h2>{% endif %}
   {% if description %}<p><strong>{{ description | safe }}</strong></p>{% endif %}
 </header>

@@ -6,7 +6,7 @@ pagination:
   alias: tag
   filter:
   addAllPagesToCollections: true
-permalink: /journal/tags/{{ tag | slug }}/
+permalink: /blog/tags/{{ tag | slug }}/
 ---
 <h1>Posts filed under '{{ tag }}'</h1>
 {% set postList = collections[ tag ] %}

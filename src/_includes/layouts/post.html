@@ -1,20 +1,14 @@
 ---
 layout: page
 ---
-
 <ul>
-    <li>
-    Posted: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-    </li>
-    <li>
-    Tags:
-    {% for tag in tags %}
-        {%- if tag != "posts" -%}
-        {% set tagUrl %}/journal/tags/{{ tag | slug }}/{% endset %}
-        <a href="{{ tagUrl | url }}">{{ tag }}</a>
-        {%- endif -%}
-    {% endfor %}
-    </li>
+  <li>Posted: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
+  <li>Tags:
+  {% for tag in tags %}
+    {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}">{{ tag }}</a>
+  {% endfor %}
+  </li>
 </ul>
 
 {{ content | safe }}

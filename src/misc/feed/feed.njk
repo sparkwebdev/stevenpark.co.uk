@@ -1,22 +1,23 @@
 ---
 permalink: feed/feed.xml
+summary: A feed of the latest posts from my blog.
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
-	<subtitle>{{ metadata.feed.subtitle }}</subtitle>
+	<subtitle>{{ summary }}</subtitle>
 	<link href="{{ metadata.feed.url }}" rel="self"/>
 	<link href="{{ metadata.url }}"/>
-	{% if collections.posts %}
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	{% if collections.blog %}
+	<updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
 	{% endif %}
 	<id>{{ metadata.feed.id }}</id>
 	<author>
 		<name>{{ metadata.author.name }}</name>
 		<email>{{ metadata.author.email }}</email>
 	</author>
-	{%- for post in collections.posts %}
+	{%- for post in collections.blog %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title }}</title>

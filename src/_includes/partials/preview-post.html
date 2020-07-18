@@ -8,7 +8,7 @@
   <li>
   <em>Tags: </em>
   {% for tag in post.data.tags %}
-    {% set tagUrl %}/journal/tags/{{ tag | slug }}/{% endset %}
+    {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url }}">{{ tag }}</a>
   {% endfor %}
   </li>
