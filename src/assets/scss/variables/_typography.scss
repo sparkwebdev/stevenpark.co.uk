@@ -15,12 +15,12 @@
     --font__line-height-tighter: 1.2;
     --font__line-height-pre: 1.6;
 
+    --font__size-headline: 4; /* 64px */
     --font__size-h1: 3; /* 48px */
     --font__size-h2: 2.25; /* 36px */
     --font__size-h3: 1.875; /* 30px */
     --font__size-h4: 1.5; /* 24px */
     --font__size-h5: 1.3125; /* 21px */
-    --font__size-h6: 1.125; /* 18px */
 
     --font__size-bigger: 1.25; /* 20px */
     --font__size-big: 1.125; /* 18px */
@@ -29,6 +29,4 @@
     --font__size-smaller: 0.875; /* 14px */
     --font__size-smallprint: 0.75; /* 12px */
     --font__size-smallest: 0.625; /* 10px */
-
-    --font__size-pre: $font__size-small; /* 15px */
 }

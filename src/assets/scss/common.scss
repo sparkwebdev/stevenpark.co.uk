@@ -1,3 +1,76 @@
+// First up: config and functions
+@import 'config';
+
+// Import utilities
+@import 'utilities/auto-grid';
+@import 'utilities/flow';
+@import 'utilities/visually-hidden';
+
+// Set gorko to output no CSS for this file
+$outputTokenCSS: false;
+
+// Next: pull in gorko for design tokens
+@import '../../../node_modules/gorko/gorko.scss';
+
+
+// Generic styles
+time[datetime] {
+  display: block;
+  color: get-color('primary-shade');
+  font-size: get-size('700');
+  font-style: italic;
+}
+
+.skip-link {
+  position: absolute;
+  top: get-size('400');
+  left: get-size('400');
+  z-index: 99;
+
+  // @extends should be used with care, but this is a great example of them being hella useful
+  &:not(:focus) {
+    @extend .visually-hidden;
+  }
+}
+
+
+.pagination {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  // Pushes a sole "next" link out to the right
+  &__inner > [data-direction='forwards'] {
+    margin-inline-start: auto;
+  }
+}
+
+body > main {
+  @include apply-utility('leading', 'loose');
+}
+
+> * {
+  @include apply-utility('measure', 'long');
+}
+
+blockquote {
+  border-inline-start: 1rem solid get-color('quinary');
+  padding-inline-start: get-size('600');
+  padding-top: get-size('500');
+  padding-bottom: get-size('500');
+  font-style: italic;
+}
+
+.wrapper {
+  max-width: 70rem;
+  padding: 0 get-size('500');
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 /*--------------------------------------------------------------
 # Minimal Reset
 --------------------------------------------------------------*/
@@ -91,33 +164,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 .w-centre {
     text-align: center;
-}
-/* Text meant only for screen readers. */
-.screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-
-	&:focus {
-		background-color: var(--color__tone-0);
-		border-radius: var(--border__radius-input);
-		box-shadow: var(--shadow__box);
-		clip: auto !important;
-		color: var(--color__tone-100);
-		display: block;
-		font-size: var(--font__size-body);
-		font-weight: bold;
-		height: auto;
-		left: var(--spacing__small);
-		line-height: normal;
-		padding: var(--spacing__small) var(--spacing__medium);
-		text-decoration: none;
-		top: var(--spacing__small);
-		width: auto;
-		z-index: 100000; /* Above WP toolbar. */
-	}
 }
 
 .clear:before,
