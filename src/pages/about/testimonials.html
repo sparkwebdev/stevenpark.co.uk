@@ -2,6 +2,12 @@
 title: Testimonials
 subtitle: Please have a look at some of the things my clients have been saying about what it's like working with me...
 ---
+{# {%- for testimonial in testimonials -%}
+  <blockquote>
+    {{ testimonial.quoteExcerpt }}
+    <footer>— {% if testimonial.name %}{{ testimonial.name }}, {% endif %}{{ testimonial.company }}, {{ testimonial.location }}</footer>
+  </blockquote>
+{%- endfor -%} #}
 <blockquote>
   <p>Steven and I have worked together on numerous projects within the arts sector. Always a pleasure to work with, he is <strong><em>receptive to ideas, reliable and committed</em></strong> to creating a high quality and design focussed finished product. The Forth Valley Open Studios iOS app and responsively designed website both are great products which I am very pleased with.</p>
   <footer> — Rosy Naylor, Platform Designs, Edinburgh</footer>
