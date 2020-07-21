@@ -1,10 +1,11 @@
 <a class="skip-link visually-hidden" href="#main-content">Skip to content</a>
 
-<header role="banner" class="wrapper">
-  <p><a href="/" rel="home"><span>S<span>teven </span>P<span>ark</span></span></a></p>
+<header role="banner" class="wrapper auto-flex p-t-50 p-b-90">
+  <{{ "h1" if page.url == "/" else "p" }}><a href="/" rel="home">S<span>teven </span>P<span>ark</span></a></{{ "h1" if page.url == "/" else "p" }}>
 
   {%- set navItems = navigation.primary %}
   {% set navAriaLabel = "Primary" %}
   {% set navIncludeHome = true %}
+  {% set navListClass = "auto-flex" %}
   {% include "partials/nav.html" %}
 </header>

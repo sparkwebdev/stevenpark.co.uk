@@ -1,28 +1,28 @@
 ---
 layout: page
-title: Steven Park
-subtitle: Hello 👋 ... I'm a web developer and designer from Glasgow, Scotland.
+subtitle: Hello <span class="wave">👋</span> ... I'm a web developer and designer from Glasgow, Scotland.
 description: Please have a look around and get in touch to see if I can help build a better web for you and your users.
 ---
 {%- set navItems = navigation.primary -%}
 {%- set navShowDescription = true -%}
 {%- set navAriaLabel = "Primary Extended" %}
+{%- set navClass = "navigation--feature" %}
 {% include "partials/nav.html" %}
 
-{% set noticeText = "<p>Are you a registered charity or not-for-profit organisation? Or do you working in the areas of public health, education, community outreach or similar? <a href=\"/contact/\">Get in touch</a> about a discount.</p>" %}
-{% include "components/notice.html" %}
+{# {% set noticeText = "<p>Are you a registered charity or not-for-profit organisation? Or do you working in the areas of public health, education, community outreach or similar? <a href=\"/contact/\">Get in touch</a> about a discount.</p>" %}
+{% include "components/notice.html" %} #}
 
-<section>
-  <h2>Some of my work:</h2>
-  {% set previewShowImage = "123" %}
+<section class="flow">
+  <h2>Latest work:</h2>
+  {% set previewShowImage = true %}
   {% for item in collections.featuredPortfolio %}
     {% include "partials/preview.html" %}
   {% endfor %}
   <p><a href="/work/"><strong>Browse full work archive</strong></a></p>
 </section>
 
-<section>
-  <h2><del>From my blog:</del> <ins>currently offline, back soon...</ins></h2>
+<section class="flow">
+  <h2><del>From my blog:<br /></del> <ins>currently offline, back soon...</ins></h2>
   {# {% set postList = collections.blog %} #}
   {# {% include "partials/post-list.html" %} #}
   {# <p><a href="{{ '/blog/' | url }}"><strong>Browse full blog archive</strong></a></p> #}

@@ -3,7 +3,7 @@
     {
       "label": "Work",
       "url": "/work/",
-      "description": "discover my portfolio and how I work",
+      "description": "view my portfolio and discover how I work",
       "online": true,
       "sub": [
         {
@@ -35,12 +35,6 @@
         {
           "label": "FAQs",
           "url": "/about/faqs/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Prices & Payment Terms",
-          "url": "/about/prices-payment-terms/",
           "description": "",
           "online": true
         }

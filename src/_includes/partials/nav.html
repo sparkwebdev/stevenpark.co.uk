@@ -1,6 +1,6 @@
-<nav{% if navAriaLabel %} aria-label="{{navAriaLabel}}"{% endif %}>
+<nav class="navigation{% if navClass %} {{navClass}}{% endif %}"{% if navAriaLabel %} aria-label="{{navAriaLabel}}"{% endif %}>
   {% if navTitle %}<h4>{{ navTitle }}</h4>{% endif %}
-  <ul class="unstyled">
+  <ul class="{{ navListClass or "unstyled" }}">
     {% if navIncludeHome %}
     <li{% if page.url == "/" %} data-state="active" aria-current="page"{% endif %}><a href="/">Home</a></li>
     {% endif %}
@@ -21,7 +21,7 @@
         {% if item.description and navShowDescription %} — {{ item.description }}{% endif -%}
       {%- endif %}
       {% if item.sub and navShowSub -%}
-      <ul>
+      <ul class="unstyled">
         {%- for item in item.sub %}
           <li
             {%- if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} data-state="active"{% endif -%}
