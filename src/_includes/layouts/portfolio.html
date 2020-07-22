@@ -54,7 +54,7 @@ layout: base
 <aside id="screenshots">
 
   {%if screenshots.length or screenshotsMobile.length -%}
-  <figure role="group" class="screenshots | wrapper flow p-b-90">
+  <figure role="group" class="screenshots wrapper flow">
     <figcaption class="screenshots__title">Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></figcaption>
     {%if screenshots.length -%}
       {% for image in screenshots %}
