@@ -12,8 +12,8 @@
 }
 
 body {
-  background: get-color('light');
-  color: get-color('dark-shade');
+  background: #fff;
+  color: get-color('tone-800');
   line-height: 1.5;
   font-size: get-size('500');
 
@@ -22,11 +22,11 @@ body {
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color('quinary');
+  text-decoration-color: get-color('brand-2-mid');
 }
 
 :focus {
-  outline: 2px dashed get-color('primary');
+  outline: 2px dashed get-color('brand-1');
   outline-offset: 0.25rem;
 }
 
@@ -39,24 +39,26 @@ h2,
 h3,
 h4 {
   font-weight: 900;
-
+  
   @include apply-utility('font', 'sans');
-  @include apply-utility('leading', 'flat');
+  @include apply-utility('leading', 'tight');
 }
 
 // High contrast selection because it can help visually-impaired
 // folks read the text easier
 ::selection {
-  color: get-color('light');
+  color: get-color('tone-200');
 
   // We set this as an RGBA because that's how you get a solid color, by using 0.99
   // alpha value. Browsers are wild.
-  background: rgba(get-color('dark-shade'), 0.99);
+  background: rgba(get-color('tone-800'), 0.99);
 }
+
+// Import blocks
+@import 'blocks/skip-link';
 
 // Import utilities
 @import 'utilities/auto-grid';
 @import 'utilities/flow';
 @import 'utilities/visually-hidden';
-
-// Import blocks
+@import 'utilities/wrapper';

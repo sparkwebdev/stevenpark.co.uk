@@ -1,0 +1,10 @@
+.wrapper {
+  padding-left: get-size('500');
+  padding-right: get-size('500');
+  margin-left: auto;
+  margin-right: auto;
+	position: relative;
+  max-width: 70rem;
+  /* Alt method */
+  // padding: unquote("1rem max(1rem, (50% - 585px))");
+}
