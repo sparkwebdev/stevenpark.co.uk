@@ -1,0 +1,68 @@
+form:not(.unstyled) {
+  // border-left: solid 5px get-color('brand-1');
+  margin-bottom: get-size('900') * -1;
+  width: 100%;
+  .wrapper__breakout {
+		padding-top: get-size('800');
+		padding-bottom: get-size('900');
+    background: get-color('tone-200') url(/assets/img/subtle-pattern-9.jpg);
+  }
+	legend {
+		width: 100%;
+	}
+  fieldset {
+		border: 0;
+    padding: 0;
+    p {
+      --flow-space: #{get-size('300')};
+    }
+  }
+  label {
+    display: block;
+    font-size: 0.9em;
+  }
+  input:not([type="radio"]) {
+    min-width: 50%;
+    padding: get-size('100') get-size('200');
+    font-size: 0.9em;
+  }
+  textarea {
+    padding: get-size('100') get-size('200');
+    font-size: 0.9em;
+  }
+  input[type="radio"] {
+    + label {
+      display: inline-block;
+    }
+  }
+
+  input[type="submit"] {
+  
+    padding-top: get-size('300');
+    padding-bottom: get-size('300');
+    background: get-color('brand-2-mid');
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    @include apply-utility('font', 'base');
+  
+    // Make sure hover state trumps all variants with a good ol’ important
+    &:hover,
+    &:focus {
+      background: get-color('brand-2') !important;
+      color: get-color('tone-800') !important;
+    }
+  
+  }
+  .form-required label span {
+    color: #ff1a1a;
+    // font-size: 36px;
+    // font-size: 1.25rem;
+    line-height: 1;
+    // float: right;
+    padding-right: 0.2em;
+    height: 0.5em;
+  }
+  
+}
+

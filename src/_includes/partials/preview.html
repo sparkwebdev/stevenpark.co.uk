@@ -8,7 +8,7 @@
         {% endfor %}
       {% endif %}
     </header>
-    {% if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}" class="[ preview__image ]" alt="" role="presentation">{% endif %}
+    {% if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}" class="[ preview__image ]" alt="" role="presentation" loading="lazy">{% endif %}
     {% if item.data.description %}<p class="[ preview__description ]">{{item.data.description}}{% endif %}
   {% if item.data.previewImage %}</div>{% endif %}
 </article>

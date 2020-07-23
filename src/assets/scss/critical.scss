@@ -20,7 +20,7 @@ body {
   @include apply-utility('font', 'base');
 }
 
-a:not([class]) {
+a {
   color: currentColor;
   text-decoration-color: get-color('brand-3');
   &:hover,
@@ -30,8 +30,8 @@ a:not([class]) {
 }
 
 :focus {
-  outline: 2px dashed get-color('brand-1');
-  outline-offset: 0.25rem;
+  outline: 2px dashed get-color('brand-2');
+  outline-offset: 1px;
 }
 
 main:focus {
@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6, p, textarea {
 @import 'blocks/definition-lists';
 @import 'blocks/header';
 @import 'blocks/footer';
+@import 'blocks/forms';
 @import 'blocks/navigation';
 @import 'blocks/notice';
 @import 'blocks/page-header';
