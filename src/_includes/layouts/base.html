@@ -20,7 +20,7 @@
     {% endif -%}
 
     <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
-    <link rel="stylesheet" media="print" href="/css/common.css?{{ assetHash }}" onload="this.media='all'" />
+    {# <link rel="stylesheet" media="print" href="/css/common.css?{{ assetHash }}" onload="this.media='all'" /> #}
 
   </head>
 
@@ -29,13 +29,17 @@
     {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
     {%- endif -%}
   >
-    {% include "partials/header.html" %}
+    <div class="site-wrap">
+    
+      {% include "partials/header.html" %}
 
-    <main tabindex="-1" id="main-content">
-      {{ content | safe }}
-    </main>
+      <main tabindex="-1" id="main-content">
+        {{ content | safe }}
+      </main>
 
-    {% include "partials/footer.html" %}
+      {% include "partials/footer.html" %}
+
+    </div>
 
     <script>
     {% set js %}

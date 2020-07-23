@@ -1,16 +1,16 @@
 {% if pagination.href.next or pagination.href.previous %}
-<footer>
-    <nav aria-label="Pagination">
-        {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}" data-direction="forwards">
-            <span>{{ paginationPrevText if paginationPrevText else 'Next' }}</span>
-        </a>
-        {% endif %}
-        {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}" data-direction="backwards">
-          <span>{{ paginationNextText if paginationNextText else 'Previous' }}</span>
-        </a>
-        {% endif %}
-    </nav>
+<footer class="pagination">
+  <nav class="pagination__nav auto-flex" aria-label="Pagination">
+    {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" data-direction="backwards">
+        <span>{{ paginationPrevText if paginationPrevText else 'Next' }}</span>
+    </a>
+    {% endif %}
+    {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" data-direction="forwards">
+      <span>{{ paginationNextText if paginationNextText else 'Previous' }}</span>
+    </a>
+    {% endif %}
+  </nav>
 </footer>
 {% endif %}

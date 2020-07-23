@@ -1,28 +1,24 @@
-<footer role="contentinfo">
+<footer class="[ site-footer ]" role="contentinfo">
   <div class="wrapper auto-flex">
 
-    <aside>
-      <h3><a href="/" title="Go to home page">{{ metadata.author.name }}</a></h3>
-      <p>
-        <strong>{{ metadata.author.location }}<br />
-        Email: <a href="{{ metadata.author.email }}" title="Email me">{{ metadata.author.email }}</a><br />
-        Mobile: <a href="tel:{{ metadata.author.telephoneInternational }}" title="Call me">{{ metadata.author.telephone }}</a></strong>
-      </p>
-      {% include "components/social-links.html" %}
-    </aside>
+    <div class="[ site-footer__contact ] flow">
+      {% include "partials/contact-details.html" %}
+    </div>
 
-    {% set navItems = navigation.primary %}
-    {% set navTitle = "Browse:" %}
-    {% set navShowSub = true %}
-    {% set navAriaLabel = "" %}
-    {% set navIncludeHome = true %}
-    {% include "partials/nav.html" %}
+    <div class="[ site-footer__browse ] flow">
+      {% set navItems = navigation.primary %}
+      {% set navTitle = "Browse" %}
+      {% set navShowSub = true %}
+      {% set navIncludeHome = true %}
+      {% include "partials/navigation.html" %}
+    </div>
+
   </div>
 
-  <p class="site-info">
-    <span>&copy; {{ "" | currentYear }} <a href="/" title="Steven Park" rel="home">{{ metadata.author.name }}</a>.
-    Site built with <a href="https://www.11ty.dev/">11ty</a>.</span>
-    <span><a href="#main-body">Back to top</a></span>
+  <p class="[ site-footer__info ]">
+    <small>&copy; {{ "" | currentYear }} <a href="/" title="Steven Park" rel="home">{{ metadata.author.name }}</a>.
+    Site built with <a href="https://www.11ty.dev/">11ty</a>.</small>
+    <a class="[ site-footer__back-to-top ]" href="#main-body">Back to top</a>
   </p>
   
 </footer>

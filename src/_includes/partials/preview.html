@@ -1,14 +1,14 @@
-<article class="preview flow" data-theme="{{item.fileSlug}}"> 
-  <header>
-    {%if item.data.title %}<{{ "h2" if page.url == "/work/" else "h3" }}><a href="/work/{{item.fileSlug}}/" rel="bookmark">{{item.data.title}}</a></h3>{% endif %}
-    {%if item.data.projectType %}<p><strong>{{item.data.projectType}}</strong></p>{% endif %}
-    {% if item.data.projectMeta %}
-      {% for name, item in item.data.projectMeta %}
-        {% if name == "Project Type" %}<p><strong>{{item}}</strong></p>{% endif %}
-      {% endfor %}
-    {% endif %}
-  </header>
-  {%if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}" class="screenshot" alt="" role="presentation">{% endif %}
-  {%if item.data.description %}<p>{{item.data.description}}{% endif %}
-  {# {%if item.fileSlug %} <br /><a href="/work/{{item.fileSlug}}/" rel="bookmark" aria-label="">View project</a>&hellip;{% endif %}</p> #}
+<article class="[ preview {%- if item.data.previewImage %} preview--with-image{% endif %} {%- if item.data.featured %} preview--featured{% endif %} ] flow {%- if item.data.featured %} wrapper__breakout{% endif %}" data-theme="{{item.fileSlug}}"> 
+  {% if item.data.previewImage %}<div class="preview__inner flow">{% endif %}
+    <header>
+      {% if item.data.title %}<{{ "h2" if page.url == "/work/" else "h3" }} class="[ preview__title ]"><a href="{{item.url}}" rel="bookmark">{{item.data.title}}</a></{{ "h2" if page.url == "/work/" else "h3" }}>{% endif %}
+      {% if item.data.projectMeta %}
+        {% for name, item in item.data.projectMeta %}
+          {% if name == "Project Type" %}<p class="[ preview__subtitle ]">{{item}}</p>{% endif %}
+        {% endfor %}
+      {% endif %}
+    </header>
+    {% if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}" class="[ preview__image ]" alt="" role="presentation">{% endif %}
+    {% if item.data.description %}<p class="[ preview__description ]">{{item.data.description}}{% endif %}
+  {% if item.data.previewImage %}</div>{% endif %}
 </article>

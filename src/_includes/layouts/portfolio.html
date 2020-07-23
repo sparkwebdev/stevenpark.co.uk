@@ -1,35 +1,25 @@
 ---
 layout: base
 ---
-<article class="wrapper flow">
+<article class="[ site-article ] wrapper flow">
 
-  <header class="flow">
-
-    <h1>
-    {% if icon %}
-      <img src="/assets/img/{{icon}}" class="icon" alt="" role="presentation" loading="lazy" />
-    {% endif %}
-    {{title}}</h1>
-
-    {% if projectMeta %}
-      <ul class="meta">
-      {% for name, item in projectMeta %}
-        <li><strong>{{ name | safe }}:</strong> {{ item | safe }}</li>
-        {%if linkUrl %}<li><a href="{{linkUrl}}" title="Visit {{displayUrl}}"><strong>Visit site</strong>: <strong>{{displayUrl or linkUrl}}</strong></a></li>{% endif %}
-      {% endfor %}
-      </ul>
-    {% endif %}
-
-    {%if subtitle %}<h2>{{ subtitle }}</h2>{% endif %}
-    {%if description %}<h3>{{ description }}</h3>{% endif %}
-
-    {%if screenshots.length or screenshotsMobile.length -%}
-      <p><a href="#screenshots">Go to screenshots</strong></a></p>
-    {%- endif %}
-
-  </header>
+  {% if screenshots.length or screenshotsMobile.length %}
+    {% set headerInclude = "partials/anchor-link.html" %}
+    {% set anchorLinkID = "screenshots" %}
+    {% set anchorLinkLabel = "Go to screenshots" %}
+  {% endif %}
+  {% include "partials/page-header.html" %}
 
   <h2>About this project</h2>
+
+  {% if projectMeta %}
+    <ul>
+    {% for name, item in projectMeta %}
+      <li><strong>{{ name | safe }}:</strong> {{ item | safe }}</li>
+      {% if linkUrl %}<li><a href="{{linkUrl}}" title="Visit {{displayUrl}}"><strong>Visit site</strong>: <strong>{{displayUrl or linkUrl}}</strong></a></li>{% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
               
   {{ content | safe }}
 
@@ -41,7 +31,7 @@ layout: base
     />
   {% endfor %} #}
 
-  {%if testimonial -%}
+  {% if testimonial -%}
   <h3>What the client said:</h3>
   <blockquote>
     {{ testimonial | safe }}
@@ -51,20 +41,20 @@ layout: base
 
 </article>
 
-<aside id="screenshots">
+<aside id="screenshots" class="[ screenshots ]">
 
-  {%if screenshots.length or screenshotsMobile.length -%}
-  <figure role="group" class="screenshots wrapper flow">
-    <figcaption class="screenshots__title">Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></figcaption>
-    {%if screenshots.length -%}
+  {% if screenshots.length or screenshotsMobile.length -%}
+  <figure role="group" class="wrapper flow">
+    <figcaption class="[ screenshots__title ]"><h2>Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></h2></figcaption>
+    {% if screenshots.length -%}
       {% for image in screenshots %}
-      <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image" loading="lazy">
+      <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
       {% endfor %}
     {%- endif %}
-    {%if screenshotsMobile.length -%}
-      <div class="screenshots__mobile auto-grid">
+    {% if screenshotsMobile.length -%}
+      <div class="auto-grid">
         {% for image in screenshotsMobile %}
-        <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image screenshots__image--mobile" loading="lazy">
+        <img src="/assets/img/{{image.src}}" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image screenshots__image--mobile ]" loading="lazy">
         {% endfor %}
       </div>
     {%- endif %}

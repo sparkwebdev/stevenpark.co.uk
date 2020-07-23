@@ -21,8 +21,11 @@
       "LinkedIn": "https://www.linkedin.com/in/stevenrobertpark/"
     }
   },
-  "status": {
-    "current": "I have availability just now.",
-    "leadtime": "1 to 2 weeks"
+  "global": {
+    "siteAlert": "",
+    "status": {
+      "current": "I have availability just now.",
+      "leadtime": "1 to 2 weeks"
+    }
   }
 }

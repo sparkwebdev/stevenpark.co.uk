@@ -9,10 +9,8 @@ layout: page
 {% endif %}
 
 {% block content %}
-  <article>
-    {% include "partials/post-list.html" %}
-    {% if not tag %}
-      {% include "partials/pagination.html" %}
-    {% endif %}
-  </article>
+  {% include "partials/post-list.html" %}
+  {% if not tag %}
+    {% include "partials/pagination.html" %}
+  {% endif %}
 {% endblock %}
