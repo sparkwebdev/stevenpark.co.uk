@@ -1,21 +1,8 @@
 // First up: config and functions
 @import 'config';
 
-// Import utilities
-@import 'utilities/auto-flex';
-@import 'utilities/auto-grid';
-@import 'utilities/flow';
-@import 'utilities/visually-hidden';
-
 // Set gorko to output no CSS for this file
 $outputTokenCSS: false;
 
 // Next: pull in gorko for design tokens
 @import '../../../node_modules/gorko/gorko.scss';
-
-
-
-
-/*--------------------------------------------------------------
-# Work In Progress
---------------------------------------------------------------*/

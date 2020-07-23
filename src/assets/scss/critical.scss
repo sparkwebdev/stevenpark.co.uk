@@ -22,7 +22,11 @@ body {
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color('brand-2-mid');
+  text-decoration-color: get-color('brand-3');
+  &:hover,
+  &:focus {
+    text-decoration-color: get-color('brand-2');
+  }
 }
 
 :focus {
@@ -39,9 +43,17 @@ h2,
 h3,
 h4 {
   font-weight: 900;
-  
-  @include apply-utility('font', 'sans');
   @include apply-utility('leading', 'tight');
+}
+
+h1,
+h2 {
+  @include apply-utility('font', 'sans');
+}
+
+/* Limit line length for better readability */
+h1, h2, h3, h4, h5, h6, p, textarea {
+	max-width: 50rem;
 }
 
 // High contrast selection because it can help visually-impaired
@@ -55,10 +67,50 @@ h4 {
 }
 
 // Import blocks
+@import 'blocks/anchor-link';
+@import 'blocks/blockquotes';
+@import 'blocks/definition-lists';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/navigation';
+@import 'blocks/notice';
+@import 'blocks/page-header';
+@import 'blocks/pagination';
+@import 'blocks/preview';
+@import 'blocks/section';
 @import 'blocks/skip-link';
+@import 'blocks/site-article';
+@import 'blocks/tables';
 
 // Import utilities
+@import 'utilities/auto-flex';
 @import 'utilities/auto-grid';
 @import 'utilities/flow';
-@import 'utilities/visually-hidden';
+@import 'utilities/section-link';
+@import 'utilities/site-wrap';
 @import 'utilities/wrapper';
+@import 'utilities/visually-hidden';
+
+// Move to page-specific
+@import 'blocks/image-group';
+@import 'blocks/wave';
+@import 'blocks/screenshots';
+
+
+/*--------------------------------------------------------------
+# Work In Progress
+--------------------------------------------------------------*/
+del + ins {
+	font-size: 1rem;
+	text-decoration: none;
+	background: yellow;
+	padding: 2px 8px;
+	font-weight: bold;
+}
+strong > em {
+	background-color: get-color('brand-1-mid');
+	text-decoration: none;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	padding-bottom: 0.2rem;
+}

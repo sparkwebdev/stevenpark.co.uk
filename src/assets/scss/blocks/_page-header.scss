@@ -1,0 +1,35 @@
+.page-header {
+	padding-bottom: get-size('600');
+
+  &__title {
+    font-size: get-size('700');
+    @include media-query('md') {
+      font-size: get-size('800');
+    }
+  }
+
+  &__subtitle {
+    // max-width: 48rem;
+    --flow-space: #{get-size('100')};
+    font-size: get-size('600');
+    @include media-query('md') {
+      font-size: get-size('700');
+    }
+  }
+
+  &__description {
+    .home & {
+      max-width: 28em;
+    }
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: get-size('900');
+    height: 5px;
+    background: black;
+    margin-top: get-size('700');
+  }
+
+}

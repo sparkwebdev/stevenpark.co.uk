@@ -34,13 +34,16 @@ $gorko-size-scale: (
  * You can also use them to power borders, fills or shadows, for example.
  */
 $gorko-colors: (
-  'brand-1': #34806d,
-  'brand-1-mid': #60b39e,
-  'brand-1-light': #9ec4ba,
-  'brand-2': #ae2f40,
-  'brand-2-mid': #fa576e,
-  'brand-2-light': #eba3ad,
-  'tone-200': #ddd,
+  'brand-1': #53bf93,
+  'brand-1-mid': #99dabf,
+  'brand-1-light': #d0e6dd,
+  'brand-2': #5fb6d2,
+  'brand-2-mid': lightblue, //#97d3e4
+  'brand-2-light': #e1f1f6,
+  'brand-3': #f53849,
+  'brand-3-mid': #FE8B94,
+  'brand-3-light': #fbe2e5,
+  'tone-200': #e3e3e3,
   'tone-400': #888,
   'tone-600': #555,
   'tone-800': #333
@@ -106,6 +109,16 @@ $gorko-config: (
     ),
     'output': 'standard',
     'property': 'font-weight',
+  ),
+  'width': (
+    'items': (
+      'full': '100%',
+      'half': percentage(1/2),
+      'quarter': percentage(1/4),
+      'third': percentage(1/3)
+    ),
+    'output': 'responsive',
+    'property': 'width'
   ),
   'breakpoints': (
     'md': '(min-width: 37em)',

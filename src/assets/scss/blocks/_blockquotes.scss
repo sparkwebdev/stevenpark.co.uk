@@ -1,0 +1,28 @@
+
+blockquote:not([class="unstyled"]) {
+	$quoteSize: get-size('900');
+	quotes: "“" "”" "“" "”";
+	margin-left: get-size('800');
+	margin-bottom: $quoteSize;
+	p {
+		margin-bottom: get-size('300');
+		&:first-of-type {
+			position: relative;
+			&::before {
+				font-weight: bold;
+				line-height: 0.1;
+				content: open-quote;
+				margin-right: get-size('100');
+				position: absolute;
+				left: -0.75em;
+				top: 0.35em;
+				font-size: $quoteSize;
+				color: #e8bd30;
+			}
+		}
+	}
+	footer {
+		font-weight: bold;
+		font-size: get-size('600');
+	}
+}

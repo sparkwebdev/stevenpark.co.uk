@@ -1,0 +1,10 @@
+
+dl {
+	dt {
+		font-weight: bold;
+		font-size: 1.15em;
+	}
+	dd {
+		--flow-space: #{get-size('200')};
+	}
+}

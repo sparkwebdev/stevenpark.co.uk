@@ -1,0 +1,31 @@
+.notice {
+  --flow-space: #{get-size('800')};
+  margin-bottom: get-size('800');
+  background-color: get-color('brand-1-mid');
+  padding: get-size('600');
+  &::before {
+    content: "";
+    display: block;
+    width: get-size('900');
+    height: 5px;
+    background: black;
+    margin-top: get-size('600') * -1;
+    margin-left: get-size('600') * -1;
+    margin-bottom: get-size('600');
+  }
+
+  &__title {
+    font-size: get-size('500');
+    font-weight: bold;
+
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   width: get-size('900');
+    //   height: 5px;
+    //   background: black;
+    //   margin-top: get-size('300');
+    //   margin-bottom: get-size('300');
+    // }
+  }
+}

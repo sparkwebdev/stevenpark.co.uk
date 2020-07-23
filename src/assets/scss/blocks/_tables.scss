@@ -1,0 +1,30 @@
+table:not([class="unstyled"]) {
+	table-layout: fixed;
+	thead th,
+	tfoot td {
+		text-align: center;
+	}
+	th,
+	td {
+		padding: get-size('300') get-size('500');
+	}
+	th, tfoot td {
+		color: #fff;
+		background: get-color('brand-1');
+	}
+	td {
+		background: get-color('brand-1-light');
+	}
+	ul {
+		font-size: 0.85em;
+		li:not(:last-child) {
+			padding-bottom: 5px;
+			margin-bottom: 5px;
+			border-bottom: solid 1px #ccc;
+		}
+	}
+
+	&.table-fixed {
+
+	}
+}
