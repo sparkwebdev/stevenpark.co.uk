@@ -2,6 +2,17 @@
   command = "npm run production"
   publish = "dist"
 
+[context.production.environment]
+    ELEVENTY_ENV = "production"
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy= "no-referrer-when-downgrade"
+
 [[redirects]]
   from = "/services"
   to = "/work/services"
