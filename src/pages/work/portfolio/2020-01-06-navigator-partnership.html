@@ -31,8 +31,31 @@ screenshots:
     alt: The Navigator Partnership approach page showing a stepped process with related iconography.
   - src: navigator-partnership-contact.jpg
     alt: The Navigator Partnership contact page with contact form
+imageGroups: {
+  'a': {
+    'image1': 'navigator-partnership-mobile-form.jpg',
+    'image2': 'navigator-partnership-mobile-menu.jpg',
+    'alt': 'The site on an iPhone, showing the contact form, and the expanded main menu.'
+  },
+  'b': {
+    'image1': 'navigator-partnership-ipad-carousel.jpg',
+    'image2': 'navigator-partnership-ipad-home.jpg',
+    'alt': "The site on an iPad, showing a carsouel slider on the partners page and the site's home page."
+  }
+}
 ---
 <p>The Navigator Partnership are a Glasgow based marketing services partner that “provides fantastic experiences for your audiences across web, digital and creative”. They required a website that showcased their services and methodology.</p>
-<p>Working with a design by <a href="http://www.michellehaswell.com/">Michelle Haswell</a>, the result is a bright, bold WordPress site that is responsive and mobile-friendly.</p>
-<p>The site is built using WordPress and features a mobile-friendly, responsive design that adapts across mobile, tablet and desktop computers.</p>
+
+{% set imageGroupItems = imageGroups.a %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>Working with a design by <a href="http://www.michellehaswell.com/">Michelle Haswell</a>, the result is a bright, bold WordPress site that is responsive and mobile-friendly..</p>
+
+{% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "02" %}
+{% include "partials/image-group.html" %}
+
 <p>The design looked great but was challenging to build as there feature several &#8216;off-grid' positioned element, which was especially difficult to achieve across different screen sizes.</p>

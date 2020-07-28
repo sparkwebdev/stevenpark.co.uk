@@ -5,11 +5,10 @@ description: Here's some answers to common questions I get asked.
 <dl class="flow">
   <dt>What is your availability? When can you start?</dt>
     <dd>
-      <p><strong>My current status is:</strong></p>
-      <ul>
-        <li>{{metadata.global.status.current}}</li>
-        <li>I can to begin work on your project in approximately <strong>{{metadata.global.status.leadtime}}</strong>.</li>
-      </ul>
+      <p><strong>My current status is:</strong><br />
+      — {{metadata.global.status.current}}<br />
+      — I can to begin work in <strong><em>approximately {{metadata.global.status.leadtime}}</em></strong>.
+      </p>
     </dd>
   <dt>Do you have any references/testimonials?</dt>
     <dd>
@@ -18,25 +17,25 @@ description: Here's some answers to common questions I get asked.
   <dt>How much does a website cost / What do you charge / What are your payment terms?</dt>
     <dd>
       <p>See a full list of my <a href="/about/prices-payment-terms/">prices and payment terms</a> and some <a href="/about/prices-payment-terms/#examples">example prices</a>.</p>
-      <p>If you have a fixed budget in mind or want a reduced rate for bulk/ongoing work, please <a href="/contact">get in touch</a> to discuss.</p>
+      <p>If you have a fixed budget in mind or want a reduced rate for bulk/ongoing work, please <a href="/contact">get in touch</a> to discuss. I also offer discounts for charities, not-for-profits and new businesses.</p>
     </dd>
   <dt>Do you offer ongoing support?</dt>
     <dd>
-      <p>Yes, support is available at the standard daily rate. Regular ongoing support can be purchased at reduced rates — please see my <a href="/about/prices-payment-terms/">prices</a> and <a href="/contact/">get in touch</a> to discuss.</p>
+      <p>Yes, regular ongoing support can be purchased at reduced rates — please see my <a href="/about/prices-payment-terms/#support">example prices</a> and <a href="/contact/">get in touch</a> to discuss.</p>
     </dd>
   <dt>What tools/technologies do you use?</dt>
     <dd>
       <p>Lots! Have a look at the <a href="/work/tools/">Tools I Use</a>.</p>
     </dd>
   <dt>What is your response time?</dt>
-    <dd><p>For all support requests, I aim for a response time of 24 hours, although it is often same day.</p></dd>
+    <dd><p>For all support requests, I aim for a response time of 24-48 hours, although it is often same day.</p></dd>
   <dt>Can I host my WordPress site on my own servers or with another hosting company?</dt>
     <dd>
       <p>Yes, once your website is finished you are free to host it anywhere you like. Some companies will insist you use them for hosting and effectively 'lock you out' of accessing your site — I'll never do this!</p>
     </dd>
   <dt>Do you offer hosting or email services?</dt>
     <dd>
-      <p>Not usually, no — I will work with you to source some reliable hosting and I''ll be on hand to help you get your website live.</p>
+      <p>Not usually, no — I will work with you to source some reliable hosting and I'll be on hand to help you get your website live.</p>
     </dd>
   <dt>Can you recommend any hosting providers?</dt>
     <dd>
@@ -51,5 +50,5 @@ description: Here's some answers to common questions I get asked.
 </dl>
 
 {% set noticeTitle = "Got a question?" %}
-{% set noticeText = "If you have a question not covered below, please <a href=\"http://stevenpark.co.uk/contact/\">contact me</a> and I'll do my best to answer." %}
+{% set noticeText = "<p>If you have a question not covered below, please <a href=\"http://stevenpark.co.uk/contact/\">contact me</a> and I'll do my best to answer.</p>" %}
 {% include "components/notice.html" %}

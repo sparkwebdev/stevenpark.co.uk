@@ -1,31 +1,35 @@
 ---
 title: About me
-subtitle: I am a web developer and designer based in Glasgow, Scotland.
+subtitle: I am a freelance web developer and designer based in Glasgow, Scotland.
 ---
 
 <p>I’ve been working in the industry since the early 2000s 🤯. From around 2009 I have been an independent freelancer, collaborating with like-minded folks and agencies, as well as directly with businesses, charities and public sector organisations.</p>
 
 <p>I also take on longer term consultancy/contract work, if the project is right.</p>
 
-{%- set navItems = navigation.quicklinksAbout -%}
-{%- set navShowDescription = true -%}
-{%- set navAriaLabel = "Primary Extended" %}
-{%- set navTitle = "Useful links" %}
-{% include "partials/navigation.html" %}
+{# <div class="wrapper__breakout">
+  <div class="wrapper"> #}
+  {%- set navItems = navigation.quicklinksAbout -%}
+  {%- set navShowDescription = true -%}
+  {%- set navAriaLabel = "Contextual" %}
+  {%- set navTitle = "Useful links" %}
+  {% include "partials/navigation.html" %}
+  {# </div>
+</div> #}
 
 <h3>About My Work</h3>
 
-<p>I am primarily a front-end developer but have full-stack skills, along with some decent design chops. Most of my client sites are built using WordPress, but I use a <a href="/work/tools">wide range of tech</a> and I try my best to keep on top of the latest web tools and trends and incorporate them into my work.</p>
+<p>I am primarily a front-end developer but have full-stack skills, along with some decent design chops. Most of my client sites are <strong><em>built using WordPress</em></strong>, but I use a <a href="/work/tools">wide range of tech</a>. I try my best to keep on top of the latest web tools and trends and incorporate them into my work.</p>
 
-<p>Each web project I work on aims for a high level of <strong>standards-compliance, accessibility and browser performance</strong>. I always try to focus on the user’s experience and keep in mind that a website should not only look great but work great too.</p>
+<p>Each web project I work on aims for a high level of <strong><em>standards-compliance, accessibility and browser performance</em></strong>. I always try to focus on the user’s experience and keep in mind that a website should not only look great but work great too.</p>
 
 <h3>My Values & Goals…</h3>
 
-<p>When working with me you can expect me to aim high and stick to my values, values such as honesty, patience and advocating best practice where possible. The following principles are what guide me when working on any project:</p>
+<p>When working with me you can expect me to aim high and stick to my values, values such as <strong><em>honesty, patience and advocating best practice</em></strong> where possible. The following principles are what guide me when working on any project:</p>
 
-<ol class="auto-grid">
+<ol class="[ feature-list ] auto-grid">
   <li>
-    <strong>Be open, up-front and honest:</strong>
+    <strong class="[ feature-list__item-title ]">Be open, up-front and honest:</strong>
     <ul>
       <li>No hidden costs or surprises</li>
       <li>No passing your work on to others</li>
@@ -33,7 +37,7 @@ subtitle: I am a web developer and designer based in Glasgow, Scotland.
     </ul>
   </li>
   <li>
-    <strong>Be reliable, patient and understanding:</strong>
+    <strong class="[ feature-list__item-title ]">Be reliable, patient and understanding:</strong>
     <ul>
       <li>See through every project</li>
       <li>Take time to listen and support</li>
@@ -41,7 +45,7 @@ subtitle: I am a web developer and designer based in Glasgow, Scotland.
     </ul>
   </li>
   <li>
-    <strong>Follow industry best practice:</strong>
+    <strong class="[ feature-list__item-title ]">Follow industry best practice:</strong>
     <ul>
       <li>Avoid taking shortcuts</li>
       <li>Do not exclude users based on ability</li>
@@ -52,23 +56,24 @@ subtitle: I am a web developer and designer based in Glasgow, Scotland.
 </ol>
 
 {% set noticeTitle = "Always A.S.P.I.R.E." %}
-{% set noticeText = '<p><a href="https://twitter.com/aweyenberg/status/1180514636833214465">This tweet</a> from <a href="https://twitter.com/scottjehl">@scottjehl</a> / <a href="https://twitter.com/aweyenberg">@aweyenberg</a> stuck in my head and feels like a great  summation/reminder of what my priorities are/should be...</p><p><strong>A</strong>ccessible. <strong>S</strong>ecure. <strong>P</strong>erformant. <strong>I</strong>nclusive. <strong>R</strong>esponsive. <strong>E</strong>thical.</p>' %}
+{% set noticeText = '<p><a href="https://twitter.com/aweyenberg/status/1180514636833214465">This tweet</a> from <a href="https://twitter.com/scottjehl">@scottjehl</a> and <a href="https://twitter.com/aweyenberg">@aweyenberg</a> stuck in my head and feels like a great  summation/reminder of what my priorities are/should be...</p><h3>Accessible. Secure. Performant. Inclusive. Responsive. Ethical.</h3>' %}
 {% include "components/notice.html" %}
 
 <h3>Giving Back</h3>
 
-<p>This industry has given me a lot over the years — a wealth of knowledge, help, advice (usually freely given) and not least a roof over my head. I try to always be mindful of how lucky I was to stumble into the new-fangled Internet-thingy (after badly failing to get into art school), and so I try to give a little back with...</p>
+<p>This industry has given me a lot over the years — a wealth of knowledge, help, advice (usually freely given) and not least a roof over my head. I try to always be mindful of how lucky I was to stumble into the new-fangled Internet-thingy (after failing to get into art school), and so I try to give a little back with...</p>
 
 <ul>
   <li>
     <p><strong>Discounts for charities and non-profits</strong> — I offer a discount for registered charities, not-for-profits and companies/organisations offering support, education or community services and similar. This discount usually ranges from 10-20% but can be more — <a href="/contact">ask me for details</a>.</p>
   </li>
   <li>
-    <p><strong>Volunteering</strong> — I try to dedicate some time to helping charitable organisations. This has included volunteering for <a href="https://www.oxfam.org.uk/">Oxfam</a>, supporting student at <a href="https://codeyourfuture.io/">Code Your Future</a> and providing free web development services, such as for <a href="http://www.ecodrama.co.uk/">Eco Drama</a>.</p>
-    <p><strong><em>I currently have capacity for some more work</em></strong> — <a href="/contact">please reach out</a> if you need help with your website.</p>
+    <p><strong>Donating</strong> — in recent years I have donated a portion of profits to worthwhile causes. Previous recipients have been <a href="https://www.caat.org.uk/">Campaign Against Arms Trade</a>, <a href="https://tinychanges.com/">Tiny Changes</a> and <a href="https://colorofchange.org/">Color Of Change</a>.</p>
   </li>
   <li>
-    <p><strong>Donating</strong> — in recent years I have donated a portion of profits to worthwhile causes. Previous recipients have been <a href="https://www.caat.org.uk/">Campaign Against Arms Trade</a>, <a href="https://tinychanges.com/">Tiny Changes</a> and <a href="https://colorofchange.org/">Color Of Change</a>.</p>
+    <p><strong>Volunteering</strong> — I try to dedicate some free time each month to helping charitable organisations. 
+    {# This has included volunteering for <a href="https://www.oxfam.org.uk/">Oxfam</a>, supporting student at <a href="https://codeyourfuture.io/">Code Your Future</a> and providing free web development services, such as for <a href="http://www.ecodrama.co.uk/">Eco Drama</a>.</p> #}
+    <strong><em>I currently have capacity for some more work</em></strong> — <a href="/contact">please reach out</a> if you need help with your website.</p>
   </li>
 </ul>
 
@@ -81,7 +86,7 @@ subtitle: I am a web developer and designer based in Glasgow, Scotland.
   <li>The military, weapons suppliers and/or any company that facilitates in the violent suppression of free protest</li>
 </ul>
 
-<p>This is not a definitive list but a reflection of my priorities and belief that some things are more important than money.</p>
+<p>This is not a definitive list but more a reflection of my priorities and belief that some things are more important than money.</p>
 
 {% set noticeTitle = 'Still want to know more?' %}
 {% set noticeText = '<p>Browse my <a href=\"/about/faqs\">frequently asked questions</a>, discover what <a href=\"/work/tools/\">tools and tech</a> I use, <a href=\"work/services/\">what services I provide</a>, or see what some of my <a href=\"/about/testimonials/\">clients have to say</a> about me.</p>' %}
