@@ -26,7 +26,7 @@
 		li {
 			font-size: clamp(1rem, 2.5vw, 2rem); 
 			@media screen and (min-width: 44rem) {
-				font-size: 1.3rem;
+				font-size: get-size('500');
 			}
 			&:not(:last-child) {
 				margin-right: get-size('300');

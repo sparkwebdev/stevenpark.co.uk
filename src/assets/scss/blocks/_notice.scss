@@ -1,7 +1,7 @@
 .notice {
   --flow-space: #{get-size('800')};
   margin-bottom: get-size('800');
-  background-color: get-color('brand-1-mid');
+  background-color: get-color('brand-1-light');
   padding: get-size('600');
   &::before {
     content: "";
@@ -12,6 +12,10 @@
     margin-top: get-size('600') * -1;
     margin-left: get-size('600') * -1;
     margin-bottom: get-size('600');
+  }
+
+  > * {
+    max-width: calc(50rem - #{get-size('600')});
   }
 
   &__title {

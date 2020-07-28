@@ -6,7 +6,7 @@
   &__title {
     font-size: get-size('600');
     @include apply-utility('font', 'sans');
-    @include media-query('md') {
+    @include media-query('sm') {
       font-size: get-size('700');
     }
   }

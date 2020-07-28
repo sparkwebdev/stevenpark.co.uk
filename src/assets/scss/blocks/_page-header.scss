@@ -3,7 +3,7 @@
 
   &__title {
     font-size: get-size('700');
-    @include media-query('md') {
+    @include media-query('sm') {
       font-size: get-size('800');
     }
   }
@@ -12,7 +12,7 @@
     // max-width: 48rem;
     --flow-space: #{get-size('100')};
     font-size: get-size('600');
-    @include media-query('md') {
+    @include media-query('sm') {
       font-size: get-size('700');
     }
   }

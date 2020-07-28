@@ -15,7 +15,10 @@ body {
   background: #fff;
   color: get-color('tone-800');
   line-height: 1.5;
-  font-size: get-size('500');
+  font-size: 1.1rem;
+  @include media-query('sm') {
+    font-size: 1.2rem;
+  }
 
   @include apply-utility('font', 'base');
 }
@@ -52,7 +55,7 @@ h2 {
 }
 
 /* Limit line length for better readability */
-h1, h2, h3, h4, h5, h6, p, textarea {
+h1, h2, h3, h4, h5, h6, p, ul:not([class]), ol:not([class]), textarea, dl {
 	max-width: 50rem;
 }
 
@@ -89,6 +92,7 @@ h1, h2, h3, h4, h5, h6, p, textarea {
 @import 'utilities/flow';
 @import 'utilities/section-link';
 @import 'utilities/site-wrap';
+@import 'utilities/styled-scroll';
 @import 'utilities/wrapper';
 @import 'utilities/visually-hidden';
 
@@ -109,9 +113,25 @@ del + ins {
 	font-weight: bold;
 }
 strong > em {
-	background-color: get-color('brand-1-mid');
+	background-color: get-color('brand-1-light');
 	text-decoration: none;
 	padding-left: 0.4rem;
 	padding-right: 0.4rem;
 	padding-bottom: 0.2rem;
+}
+
+.feature-list {
+  &.auto-grid {
+    padding-top: get-size('600');
+    --auto-grid-min-size: 14rem;
+  }
+  &__item-title {
+    margin-bottom: get-size('400');
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: get-size('600');
+  }
+  
 }

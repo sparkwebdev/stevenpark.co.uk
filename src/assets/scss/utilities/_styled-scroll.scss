@@ -1,0 +1,17 @@
+.styled-scroll {
+
+		&::-webkit-scrollbar {
+			height: get-size('400');
+		}
+		
+		&::-webkit-scrollbar-track {
+			background-color: get-color('brand-2-mid');
+			border: 1px solid get-color('brand-2');
+			border-radius: get-size('050');
+		}
+		
+		&::-webkit-scrollbar-thumb {
+			background-color: get-color('brand-2');
+			border-radius: get-size('050');
+		}
+}

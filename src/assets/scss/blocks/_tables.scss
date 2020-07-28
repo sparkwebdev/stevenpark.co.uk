@@ -7,6 +7,7 @@ table:not([class="unstyled"]) {
 	th,
 	td {
 		padding: get-size('300') get-size('500');
+		// white-space: nowrap;
 	}
 	th, tfoot td {
 		color: #fff;
@@ -16,7 +17,9 @@ table:not([class="unstyled"]) {
 		background: get-color('brand-1-light');
 	}
 	ul {
-		font-size: 0.85em;
+		font-size: 1.1rem;
+		list-style: none;
+		padding: 0;
 		li:not(:last-child) {
 			padding-bottom: 5px;
 			margin-bottom: 5px;
@@ -27,4 +30,23 @@ table:not([class="unstyled"]) {
 	&.table-fixed {
 
 	}
+
+	&.styled-scroll {
+		display: block;
+		overflow-x: auto;
+		th,
+		td {
+			min-width: calc(5rem + 50vw);
+		}
+		@include media-query('md') {
+			display: table;
+			overflow-x: initial;
+			th,
+			td {
+				min-width: 0;
+			}
+		}
+	}
+
+
 }

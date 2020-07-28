@@ -5,7 +5,7 @@ form:not(.unstyled) {
   .wrapper__breakout {
 		padding-top: get-size('800');
 		padding-bottom: get-size('900');
-    background: get-color('tone-200') url(/assets/img/subtle-pattern-9.jpg);
+    background: get-color('tone-200');
   }
 	legend {
 		width: 100%;
