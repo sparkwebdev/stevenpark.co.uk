@@ -21,13 +21,14 @@
 
 		.navigation__item {
 			margin-bottom: get-size('400');
-			font-size: get-size('400');
-			line-height: 1;
+			@include apply-utility('leading', 'tight');
+			display: flex;
 			a, del {
 				font-size: get-size('500');
 			}
 			a {
 				text-decoration-style: wavy;
+				line-height: 1;
 			}
 			@include media-query('sm') {
 				font-size: get-size('500');
@@ -39,4 +40,9 @@
 		}
 	}
 
+}
+
+.navigation__item-separator {
+	display: inline-block;
+	margin-left: get-size('100');
 }

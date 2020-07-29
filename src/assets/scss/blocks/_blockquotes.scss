@@ -17,12 +17,15 @@ blockquote:not([class="unstyled"]) {
 				left: -0.75em;
 				top: 0.35em;
 				font-size: $quoteSize;
-				color: #e8bd30;
+				color: get-color('brand-2');
 			}
 		}
 	}
 	footer {
 		font-weight: bold;
-		font-size: get-size('600');
+		font-size: get-size('500');
+		@include media-query('sm') {
+			font-size: get-size('600');
+		}
 	}
 }

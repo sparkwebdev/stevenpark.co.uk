@@ -52,6 +52,8 @@ h4 {
 h1,
 h2 {
   @include apply-utility('font', 'sans');
+  font-size-adjust: 0.8;
+  letter-spacing: -0.1rem;
 }
 
 /* Limit line length for better readability */

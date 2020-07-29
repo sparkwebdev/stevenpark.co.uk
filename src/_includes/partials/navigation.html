@@ -24,7 +24,7 @@
         {% endif -%}
       {%- else -%}
         <a href="{{ item.url | url }}">{{ item.label }}</a>
-        {% if item.description and navShowDescription %} — {{ item.description }}{% endif -%}
+        {% if item.description and navShowDescription %}<span class="navigation__item-separator"> — </span><span class="navigation__item-description">{{ item.description }}</span{% endif -%}
       {%- endif %}
       {% if item.sub and navShowSub -%}
       <ul class="unstyled">

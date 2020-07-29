@@ -23,6 +23,12 @@
 				columns: initial;
 			}
 		}
+		a {
+			display: inline-block;
+			&:focus {
+				outline-offset: -1px; // Fix column display quirk
+			}
+		}
 	}
 
 	&__info {

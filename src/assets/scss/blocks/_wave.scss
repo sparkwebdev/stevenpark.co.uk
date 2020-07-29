@@ -15,7 +15,8 @@
   animation-delay: 0.5s;
 	animation-iteration-count: 3;
 	transform-origin: 65% 65%;
-	display: inline-block;
+  display: inline-block;
+  margin-left: get-size('300');
   &:hover {
     animation-name: hi5;
     animation-duration: 0.3s;

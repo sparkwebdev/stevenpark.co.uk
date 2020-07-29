@@ -29,6 +29,7 @@ form:not(.unstyled) {
   textarea {
     padding: get-size('100') get-size('200');
     font-size: 0.9em;
+    width: 100%;
   }
   input[type="radio"] {
     + label {
@@ -38,11 +39,14 @@ form:not(.unstyled) {
 
   input[type="submit"] {
   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-decoration: none;
     padding-top: get-size('300');
     padding-bottom: get-size('300');
     background: get-color('brand-2-mid');
-    border: 0;
-    text-decoration: none;
+    border: 2px solid;
     text-align: center;
     @include apply-utility('font', 'base');
   

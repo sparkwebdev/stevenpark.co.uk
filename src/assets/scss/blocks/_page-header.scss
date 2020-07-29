@@ -11,9 +11,11 @@
   &__subtitle {
     // max-width: 48rem;
     --flow-space: #{get-size('100')};
-    font-size: get-size('600');
+    font-size: get-size('500');
+    line-height: inherit;
     @include media-query('sm') {
       font-size: get-size('700');
+      @include apply-utility('leading', 'tight');
     }
   }
 

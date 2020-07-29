@@ -44,7 +44,13 @@
 	/* Notice text */
 	&__alert {
 		flex-basis: 100%;
-		margin-top: get-size('600') + get-size('600');
+		margin-top: get-size('600');
+		@include media-query('sm') {
+			margin-top: get-size('600') + get-size('600');
+		}
+		strong em {
+			display: inline-block;
+		}
 	}
 
 }
