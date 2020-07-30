@@ -1,0 +1,10 @@
+
+<nav class="social-links" aria-label="Social Links">
+  <ul class="unstyled">
+    {% for title, url in metadata.author.socialLinks %}
+    <li>
+      <a href="file:///private/var/folders/p0/qd3fn041357fr8fw3cn6jv9r0000gn/T/%7B%7Burl%7D%7D"><span class="icon-{{title | classname}}"></span> {{title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
