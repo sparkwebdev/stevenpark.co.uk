@@ -4,7 +4,7 @@
   
   {% elseif navTitle %} aria-labelledby="navigation-title-{{ navTitle | slug }}"
   {% endif %}>
-  {% if navTitle %}<h4 id="navigation-title-{{ navTitle | slug }}" class="navigation__title">{{ navTitle }}</h4>{% endif %}
+  {% if navTitle %}<h3 id="navigation-title-{{ navTitle | slug }}" class="navigation__title">{{ navTitle }}</h3>{% endif %}
   <ul class="{{ navListClass or "unstyled" }}">
     {% if navIncludeHome %}
     <li{% if page.url == "/" %} data-state="active" aria-current="page"{% endif %}><a href="/">Home</a></li>
