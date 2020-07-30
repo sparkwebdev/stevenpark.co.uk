@@ -18,7 +18,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
+  // Transforms
+  const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+
   if (isProduction) {
+    eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
 
   // Layout aliases
