@@ -37,7 +37,7 @@ form:not(.unstyled) {
     }
   }
 
-  input[type="submit"] {
+  *[type="submit"] {
   
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -49,6 +49,7 @@ form:not(.unstyled) {
     border: 2px solid;
     text-align: center;
     @include apply-utility('font', 'base');
+    min-width: 10rem;
   
     // Make sure hover state trumps all variants with a good ol’ important
     &:hover,

@@ -3,25 +3,27 @@ title: Prices & Payment Terms
 ---
 <h3>Current Prices</h3>
 <table>
-  <tr>
-    <th scope="row">Web Development:</th>
-    <td><strong>£350</strong><small>+VAT per day</small></td>
-  </tr>
-  <tr>
-    <th scope="row">Web Design:</th>
-    <td><strong>£350</strong><small>+VAT per day</small></td>
-  </tr>
-  <tr>
-    <th scope="row">Ongoing Support:</th>
-    <td>
-      <small>from</small> <strong>£75</strong><small>+VAT per month</small> (<a href="#support">See below</a>)
-    </td>
-  </tr>
+  <tbody>
+    <tr>
+      <th scope="row">Web Development:</th>
+      <td><strong>£350</strong><small>+VAT per day</small></td>
+    </tr>
+    <tr>
+      <th scope="row">Web Design:</th>
+      <td><strong>£350</strong><small>+VAT per day</small></td>
+    </tr>
+    <tr>
+      <th scope="row">Ongoing Support:</th>
+      <td>
+        <small>from</small> <strong>£75</strong><small>+VAT per month</small> (<a href="#support">See below</a>)
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 {% set noticeTitle = "How much does a website cost?" %}
 {% set noticeText = "See '<a href=\"#examples\">Example Prices</a>' below for example costs for some typical web projects." %}
-{% include "components/notice.html" %}
+{% include "partials/notice.html" %}
 
 <h3 id="support">Ongoing Support Prices</h3>
 
@@ -32,9 +34,9 @@ title: Prices & Payment Terms
 <table class="styled-scroll width-full">
   <thead>
     <tr>
-      <th scope="column">Basic Support</th>
-      <th scope="column">Standard Support</th>
-      <th scope="column">Pro Performance Support</th>
+      <th scope="col">Basic Support</th>
+      <th scope="col">Standard Support</th>
+      <th scope="col">Pro Performance Support</th>
     </tr>
   </thead>
   <tbody>
@@ -74,7 +76,7 @@ title: Prices & Payment Terms
       <td><strong>£150</strong><small>+VAT per month</small></td>
       <td><strong>£350</strong><small>+VAT per month</small></td>
     </tr>
-  <tfoot>
+  </tfoot>
 </table>
 
 <h3>Payment Terms & Conditions</h3>
@@ -96,9 +98,9 @@ title: Prices & Payment Terms
 <table class="styled-scroll width-full">
   <thead>
     <tr>
-      <th scope="column">5 page brochure site</th>
-      <th scope="column">E-commerce site</th>
-      <th scope="column">iOS App</th>
+      <th scope="col">5 page brochure site</th>
+      <th scope="col">E-commerce site</th>
+      <th scope="col">iOS App</th>
     </tr>
   </thead>
   <tbody>
@@ -151,9 +153,9 @@ title: Prices & Payment Terms
         <strong>£8,400.00</strong><small>+VAT</small>
       </td>
     </tr>
-  <tfoot>
+  </tfoot>
 </table>
 
 {% set noticeTitle = "Ready to chat?" %}
 {% set noticeText = "<a href=\"/contact\">Get in touch</a> with me and see if I can help your project!" %}
-{% include "components/notice.html" %}
+{% include "partials/notice.html" %}
