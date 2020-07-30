@@ -1,0 +1,50 @@
+.site-footer {
+	overflow: hidden;
+	background-color: get-color('tone-200');
+	
+	&__contact {
+		margin-right: get-size('900');
+
+		&::before {
+			content: "";
+			display: block;
+			width: get-size('900');
+			height: 5px;
+			background: black;
+			margin-bottom: get-size('900');
+		}
+	}
+
+	&__browse {
+		margin-top: get-size('900');
+		ul {
+			columns: 2;
+			ul {
+				columns: initial;
+			}
+		}
+		a {
+			display: inline-block;
+			&:focus {
+				outline-offset: -1px; // Fix column display quirk
+			}
+		}
+	}
+
+	&__info {
+		font-size: get-size('500');
+		text-align: center;
+		margin: 0 auto;
+		padding: get-size('700');
+	}
+	
+	&__back-to-top {
+		display: block;
+		@media screen and (min-width: 40rem) {
+			display: initial;
+			white-space: nowrap;
+			margin-left: get-size('200');
+		}
+	}
+
+}

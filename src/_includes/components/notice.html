@@ -1,0 +1,6 @@
+{% if noticeTitle or noticeText %}
+<aside class="notice{% if noticeModifier %}notice--{{noticeModifier }}{% endif %}">
+  {% if noticeTitle %}<{{ noticeTag or "h3" }} class="notice__title">{{noticeTitle | safe }}</{{ noticeTag or "h3" }}>{% endif %}
+  {% if noticeText %}{{noticeText | safe }}{% endif %}
+</aside>
+{% endif %}

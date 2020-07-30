@@ -1,0 +1,18 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header role="banner" class="[ site-header ] wrapper auto-flex">
+  <{{ "h1" if page.url == "/" else "p" }} class="[ site-header__branding ]"><a href="/" rel="home">S<span>teven </span>P<span>ark</span></a></{{ "h1" if page.url == "/" else "p" }}>
+
+  {%- set navItems = navigation.primary %}
+  {% set navAriaLabel = "Primary" %}
+  {% set navIncludeHome = true %}
+  {% set navListClass = "auto-flex" %}
+  {% include "partials/navigation.html" %}
+
+  {% if alert or metadata.global.siteAlert %}
+  <aside class="[ site-header__alert ]">
+    <p><strong><em>{{ alert or metadata.global.siteAlert }}</em></strong></p>
+  </aside>
+  {% endif %}
+
+</header>

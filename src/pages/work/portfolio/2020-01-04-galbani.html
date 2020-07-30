@@ -1,0 +1,77 @@
+---
+title: Galbani
+description: A tasty website for Italy's No.1 cheese brand, built using WordPress and featuring a recipe finder, with exclusive recipes from chefs and food bloggers.
+projectMeta: {
+  "Project Type": "WordPress Website"
+}
+previewImage: galbani-01-preview.jpg
+images:
+  - large: P1130807-535x401.jpg
+    medium: P1130807-535x401.jpg
+    small: P1130807-535x401.jpg
+    full: P1130807-535x401.jpg
+  - large: P1130831-535x401.jpg
+    medium: P1130831-535x401.jpg
+    small: P1130831-535x401.jpg
+    full: P1130831-535x401.jpg
+  - large: P1130814-535x401.jpg
+    medium: P1130814-535x401.jpg
+    small: P1130814-535x401.jpg
+    full: P1130814-535x401.jpg
+screenshotsAlt: They show a visual design with Galbani's blue brand colour prminent throughout and lots of food photography. 
+screenshots: 
+  - src: galbani-01.jpg
+    alt: Galbani home page, showing a an image carousel and recipe grid view with filters.
+  - src: galbani-02.jpg
+    alt: Galbani products page, showing a grid of cheese products and descriptions.
+  - src: galbani-03.jpg
+    alt: Galbani recipe page, showing almb, sweet potato and mozzarella tray bake, with instructions and ingredients list.
+screenshotsMobile: 
+  - src: galbani-mobile-01.jpg
+    alt: Galbani products page mobile view
+  - src: galbani-mobile-02.jpg
+    alt: Galbani blog page mobile view, highlighting chef Joe Hurd 
+  - src: galbani-mobile-03.jpg
+    alt: Galbani recipes page mobile view with main menu expanded.
+imageGroups: {
+  'a': {
+    'image1': 'galbani-b&w-branding-old-style.jpg',
+    'image2': 'galbani-b&w-old-van.jpg',
+    'image3': 'galbani-b&w-crowd.jpg',
+    'alt': 'Workers dismantling an old Edinburgh bandstand&nbsp;<small aria-disabled="true">(top)</small>, an example of a waypoint location for the app&nbsp;<small aria-disabled="true">(left)</small>, and another waypoint, showing the 8 locations&nbsp;<small aria-disabled="true">(right)</small>.'
+  },
+  'b': {
+    'image1': 'galbani-ambassador.jpg',
+    'image2': 'galbani-ambassadors-ipad.jpg',
+    'alt': "Galbani ambassador 'Ms Marmite lover' who contributed recipes to the site"
+  },
+  'c': {
+    'image1': 'galbani-recipes-finder-ipad.jpg',
+    'image2': 'galbani-home-page-iphone.jpg',
+    'alt': 'The site on an iPhone, showing the contact form, and the expanded main menu.'
+  }
+  
+}
+---
+<p>Dating all the way back to 1882, when father and son Davide & Egidio Galbani first made it in the lush Alpine valley village of Ballabio, Galbani is the Italian’s favourite cheese brand. They sell more than 300 products in 50 different countries.</p>
+
+{% set imageGroupItems = imageGroups.a %}
+{% set imageGroupModifier = "thirds" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>For the site, Galbani teamed up with several chefs and food bloggers to create a range of exclusive recipes, using Galbani products in various tasty and interesting ways, such as <a href="http://www.galbani.co.uk/recipes/lamb-cutlet-sweet-potato-galbani-mozzarella-tray-bake/">Lamb Cutlet, Sweet Potato &amp; Galbani Mozzarella Tray Bake</a>, <a href="http://www.galbani.co.uk/recipes/roasted-pepper-sausage-and-galbani-mozzarella-bake/">Roasted pepper, sausage and Galbani Mozzarella bake</a> and <a href="http://www.galbani.co.uk/recipes/chocolate-ice-cream/">Chocolate Ice Cream with Galbani Mascarpone</a>.</p>
+
+{% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "02" %}
+{% include "partials/image-group.html" %}
+
+<p>Recipes can be searched and filtered by style, course and cooking time. Recipes are dynamically linked to their products and author — this allows the user to browse through the various content types with ease and share to social media channels, increasing their engagement with the products.</p>
+
+{% set imageGroupItems = imageGroups.c %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "03" %}
+{% include "partials/image-group.html" %}
+
+<p>The site is built using WordPress and features a mobile-friendly, responsive design that adapts across mobile, tablet and desktop computers. WordPress Custom Fields are used to store the various product/recipe content types and a custom search implementation is used for the recipe finder. </p>

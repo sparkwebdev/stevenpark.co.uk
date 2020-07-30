@@ -1,0 +1,104 @@
+{
+  "primary": [
+    {
+      "label": "Work",
+      "url": "/work/",
+      "description": "view my portfolio and discover how I work",
+      "online": true,
+      "sub": [
+        {
+          "label": "Services",
+          "url": "/work/services/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Tools I Use",
+          "url": "/work/tools/",
+          "description": "",
+          "online": true
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/about/",
+      "description": "me, my services, values and more",
+      "online": true,
+      "sub": [
+        {
+          "label": "Testimonials",
+          "url": "/about/testimonials/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "FAQs",
+          "url": "/about/faqs/",
+          "description": "",
+          "online": true
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/",
+      "description": "tolerate some of my chat",
+      "online": false
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/",
+      "description": "get in touch with me",
+      "online": true
+    }
+  ],
+  "support": [
+    {
+      "label": "Testimonials",
+      "url": "/about/testimonials/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "Frequently Asked Questions",
+      "url": "/about/faqs/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "Prices & Payment Terms",
+      "url": "/prices-payment-terms/",
+      "description": "",
+      "online": true
+    }
+  ],
+  "quicklinksAbout": [
+    {
+      "label": "Testimonials",
+      "url": "/about/testimonials/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "FAQs",
+      "url": "/about/faqs/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "Prices & Payment Terms",
+      "url": "/about/prices-payment-terms/",
+      "description": "",
+      "online": true
+    }
+  ],
+  "unused": [
+    {
+      "label": "Home",
+      "url": "/",
+      "description": "home page",
+      "online": true
+    }
+  ]
+}

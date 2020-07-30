@@ -1,0 +1,11 @@
+
+<!-- saved from url=(0154)file:///private/var/folders/p0/qd3fn041357fr8fw3cn6jv9r0000gn/T/src__includes_components_social-links_Before_d81ffdcfa7caab293aa754348933e99229f5dfbe.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><nav class="social-links" aria-label="Social Links">
+  <ul class="unstyled">
+    {% for title, url in metadata.author.socialLinks %}
+    <li>
+      <a href="file:///private/var/folders/p0/qd3fn041357fr8fw3cn6jv9r0000gn/T/%7B%7Burl%7D%7D"><span class="icon-{{title | classname}}"></span> {{title}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav></body></html>

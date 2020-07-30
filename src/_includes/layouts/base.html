@@ -1,0 +1,57 @@
+{% set assetHash = helpers.random() %}
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+
+  <head>
+
+    {% include "partials/meta.html" %}
+    <style>/* Critical CSS */
+    {% include "css/critical.css" %}</style>
+    {% if pageCriticalStyles %}
+      {% for item in pageCriticalStyles %}
+        <style>{% include item %}</style>
+      {% endfor %}
+    {% endif -%}
+    
+    {%- if pageStylesheets %}
+    {% for item in pageStylesheets %}
+      <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
+    {% endfor %}
+    {% endif -%}
+
+    <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
+    {# <link rel="stylesheet" media="print" href="/css/common.css?{{ assetHash }}" onload="this.media='all'" /> #}
+
+  </head>
+
+  <body id="main-body"
+    {%- if page.url == "/" %} class="home"
+    {%- elseif "work" | urlmatch(page.url) %} data-theme="{{page.fileSlug}}"
+    {%- endif -%}
+  >
+    <div class="site-wrap">
+    
+      {% include "partials/header.html" %}
+
+      <main tabindex="-1" id="main-content">
+        {{ content | safe }}
+      </main>
+
+      {% include "partials/footer.html" %}
+
+    </div>
+
+    <script>
+    {% set js %}
+      {% include "../../assets/js/app.js" %}
+      {% if page.url | url == "/contact/" %}
+        {% include "../../assets/js/form.js" %}
+      {% endif %}
+    {% endset %}
+    {# document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' ); #}
+    {{ js | jsmin | safe }}
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,50 @@
+<nav class="[ navigation
+    {%- if navClass %} {{navClass}}{% endif %} ]"
+  {% if navAriaLabel %} aria-label="{{navAriaLabel}}"
+  
+  {% elseif navTitle %} aria-labelledby="navigation-title-{{ navTitle | slug }}"
+  {% endif %}>
+  {% if navTitle %}<h4 id="navigation-title-{{ navTitle | slug }}" class="navigation__title">{{ navTitle }}</h4>{% endif %}
+  <ul class="{{ navListClass or "unstyled" }}">
+    {% if navIncludeHome %}
+    <li{% if page.url == "/" %} data-state="active" aria-current="page"{% endif %}><a href="/">Home</a></li>
+    {% endif %}
+    {%- for item in navItems %}
+    <li
+      class="[ navigation__item ]"
+      {%- if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} data-state="active"{% endif -%}
+      {%- if (item.url == page.url) and (item.url !== "/") %} aria-current="page"{% endif -%}
+    >
+      {% if not item.online -%}
+        <del>{{ item.label }}</del>
+        {% if navShowDescription %}
+            — <ins>currently offline, back soon...</ins>
+        {% else %}
+          <ins class="visually-hidden">currently offline</ins>
+        {% endif -%}
+      {%- else -%}
+        <a href="{{ item.url | url }}">{{ item.label }}</a>
+        {% if item.description and navShowDescription %}<span class="navigation__item-separator"> — </span><span class="navigation__item-description">{{ item.description }}</span{% endif -%}
+      {%- endif %}
+      {% if item.sub and navShowSub -%}
+      <ul class="unstyled">
+        {%- for item in item.sub %}
+          <li
+            class="[ navigation__item ]"
+            {%- if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} data-state="active"{% endif -%}
+            {%- if (item.url == page.url) and (item.url !== "/") %} aria-current="page"{% endif -%}
+          >
+            {% if not item.online -%}
+            <del>{{ item.label }}</del>{% if navShowDescription %} — <ins>currently offline, back soon...{% endif -%}</ins>
+            {%- else -%}
+            <a href="{{ item.url | url }}">{{ item.label }}</a>
+            {% if item.description and navShowDescription %}{{ item.description }}{% endif -%}
+            {%- endif %}
+          </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</nav>

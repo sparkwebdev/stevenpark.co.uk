@@ -1,0 +1,61 @@
+---
+title: Navigator Partnership
+description: A responsive WordPress website for a Glasgow based marketing services partner working across web, digital and creative.
+projectMeta: {
+  "Project Type": "WordPress Website",
+  "Credits": "Design by <a href=\"http://www.michellehaswell.com/\">Michelle Haswell Design</a>"
+}
+testimonial: <p>Very easy to deal with and understood the project objectives clearly...I honestly couldn't fault you at all and am looking forward to collaborating on several more projects!</p>
+testimonialAuthor: Chris, Navigator Partnership, Glasgow
+previewImage: navigator-partnership-home-preview.jpg
+images:
+  - large: P1140165b-535x401.jpg
+    medium: P1140165b-535x401.jpg
+    small: P1140165b-535x401.jpg
+    full: P1140165b-535x401.jpg
+  - large: P1140169b-535x401.jpg
+    medium: P1140169b-535x401.jpg
+    small: P1140169b-535x401.jpg
+    full: P1140169b-535x401.jpg
+screenshotsAlt: They show a visual design that could be described as modern with a duotone-like colour scheme and interface elements that break out of a structured grid layout.
+screenshots:
+  - src: navigator-partnership-home.jpg
+    alt: The Navigator Partnership home page showing introductory text and headline with imagery.
+  - src: navigator-partnership-services.jpg
+    alt: The Navigator Partnership services page showing business imagery and services offered
+  - src: navigator-partnership-network.jpg
+    alt: The Navigator Partnership network page
+  - src: navigator-partnership-partners.jpg
+    alt: The Navigator Partnership partners page
+  - src: navigator-partnership-approach.jpg
+    alt: The Navigator Partnership approach page showing a stepped process with related iconography.
+  - src: navigator-partnership-contact.jpg
+    alt: The Navigator Partnership contact page with contact form
+imageGroups: {
+  'a': {
+    'image1': 'navigator-partnership-mobile-menu.jpg',
+    'image2': 'navigator-partnership-mobile-form.jpg',
+    'alt': 'The site on an iPhone, showing the contact form, and the expanded main menu.'
+  },
+  'b': {
+    'image1': 'navigator-partnership-ipad-carousel.jpg',
+    'image2': 'navigator-partnership-ipad-home.jpg',
+    'alt': "The site on an iPad, showing a carousel slider on the partners page and the site's home page."
+  }
+}
+---
+<p>The Navigator Partnership are a Glasgow based marketing services partner that “provides fantastic experiences for your audiences across web, digital and creative”. They required a website that showcased their services and methodology.</p>
+
+{% set imageGroupItems = imageGroups.a %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>Working with a design by <a href="http://www.michellehaswell.com/">Michelle Haswell</a>, the result is a bright, bold WordPress site that is responsive and mobile-friendly.</p>
+
+<p>The design looked great but was challenging to build as there feature several &#8216;off-grid' positioned element, which was especially difficult to achieve across different screen sizes.</p>
+
+{% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "02" %}
+{% include "partials/image-group.html" %}

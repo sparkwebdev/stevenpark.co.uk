@@ -1,0 +1,69 @@
+[build]
+  command = "npm run production"
+  publish = "dist"
+
+[context.production.environment]
+    ELEVENTY_ENV = "production"
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "DENY"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy= "no-referrer-when-downgrade"
+
+[[redirects]]
+  from = "/services"
+  to = "/work/services"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/work/galbani-authentic-italian-cheese"
+  to = "/work/galbani"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/society-botanical-artists"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/dont-give-fire-a-home"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/gender-in-global-governance-net-work"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/customer-forum-for-water"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/enquire"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/the-pet-business"
+  to = "/work/the-pet-business"
+  status = 301
+
+[[redirects]]
+  from = "/work/ardentinny-outdoor-centre"
+  to = "/work"
+  status = 301
+
+[[redirects]]
+  from = "/work/broomhill-dental"
+  to = "/work"
+  status = 301

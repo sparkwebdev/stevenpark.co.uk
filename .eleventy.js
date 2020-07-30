@@ -1,19 +1,37 @@
-const CleanCSS = require('clean-css');
-const Terser = require("terser");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const fs = require("fs");
+const CleanCSS              = require('clean-css');
+const Terser                = require("terser");
+const pluginRss             = require("@11ty/eleventy-plugin-rss");
+const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const fs                    = require("fs");
+const { DateTime }          = require("luxon");
+const markdownIt            = require("markdown-it");
+const markdownItAnchor      = require("markdown-it-anchor");
+const markdownItAttrs       = require("markdown-it-attrs");
+
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
-  eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.njk");
+
+  eleventyConfig.setDataDeepMerge(true);
+  
+  // Plugins
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight);
+
+  if (isProduction) {
+  }
+
+  // Layout aliases
+  eleventyConfig.addLayoutAlias("base", "layouts/base.html");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.html");
+  eleventyConfig.addLayoutAlias("feed", "layouts/feed.html");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.html");
+  eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, bs) {
-        const content_404 = fs.readFileSync('_site/404.html');
-
+        const content_404 = fs.readFileSync('dist/404.html');
         bs.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
@@ -23,12 +41,11 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  eleventyConfig.setUseGitIgnore(false);
+
   eleventyConfig.addFilter('cssmin', function(code) {
     return new CleanCSS({}).minify(code).styles;
-  });
-
-  eleventyConfig.addFilter('urlmatch', function(find, url) {
-    return url.indexOf(find) !== -1;
   });
 
   eleventyConfig.addFilter("jsmin", function(code) {
@@ -40,9 +57,131 @@ module.exports = function(eleventyConfig) {
       return minified.code;
   });
 
-  eleventyConfig.addPassthroughCopy("assets/img");
-  eleventyConfig.addPassthroughCopy("assets/js");
-  eleventyConfig.addPassthroughCopy("assets/css");
-  eleventyConfig.addPassthroughCopy("assets/css/fonts");
+  eleventyConfig.addFilter('urlmatch', function(find, url) {
+    return url.indexOf(find) !== -1;
+  });
+
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (!Array.isArray(array)) return;
+    if( n < 0 ) {
+      return array.slice(n);
+    }
+    return array.slice(0, n);
+  });
+
+  eleventyConfig.addFilter("currentYear", () => {
+    return DateTime.local().year;
+  });
+
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+
+  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  });
+
+  eleventyConfig.addFilter('classname', function(string) {
+    return string.toLowerCase(); // needs improved
+  });
+
+  eleventyConfig.addFilter('logme', function(label, item) {
+    console.log(label, item);
+  });
+
+  eleventyConfig.addFilter('getPageBySlug', function(pages, fileSlug) {
+    return pages.filter(item => item.data.page.fileSlug == fileSlug);
+  });
+
+  eleventyConfig.addFilter("menu", function(collection, menu) {
+    return collection.filter(item => item.data.menu == menu);
+  });
+
+  // Collections
+  eleventyConfig.addCollection('portfolio', collection => {
+    return [...collection.getFilteredByGlob('./src/pages/work/portfolio/*.html')].reverse();
+  });
+
+  eleventyConfig.addCollection('featuredPortfolio', collection => {
+    return [...collection.getFilteredByGlob('./src/pages/work/portfolio/*.html')].filter(x => x.data.featured).reverse();
+  });
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('blog', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  });
+
+  eleventyConfig.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(function(item) {
+      if ("tags" in item.data) {
+        let tags = item.data.tags;
+        tags = tags.filter(function(item) {
+          switch(item) {
+            // this list should match the `filter` list in tags.html
+            case "all":
+            case "nav":
+            case "post":
+            case "posts":
+              return false;
+          }
+          return true;
+        });
+        for (const tag of tags) {
+          tagSet.add(tag);
+        }
+      }
+    });
+    // returning an array in addCollection works in Eleventy 0.5.3
+    return [...tagSet];
+  });
+
+  /* Markdown Overrides */
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).disable('code')
+  .use(markdownItAnchor, {
+    permalink: false
+  })
+  .use(markdownItAttrs, {
+    allowedAttributes: ['id', 'class', /^regex.*$/]
+  });
+  eleventyConfig.setLibrary("md", markdownLibrary);
+
+  // Assets
+  eleventyConfig.addPassthroughCopy("./src/assets/img");
+  eleventyConfig.addPassthroughCopy("./src/assets/js");
+  eleventyConfig.addPassthroughCopy("./src/assets/css");
+  eleventyConfig.addPassthroughCopy("./src/assets/css/fonts");
+
+  // Favicon, PWA, robots, etc
+  eleventyConfig.addPassthroughCopy('./src/robots.txt');
+  eleventyConfig.addPassthroughCopy('./src/browserconfig.xml');
+  eleventyConfig.addPassthroughCopy('./src/site.webmanifest');
+  eleventyConfig.addPassthroughCopy("./src/*.png");
+  eleventyConfig.addPassthroughCopy("./src/*.ico");
+  eleventyConfig.addPassthroughCopy("./src/safari-pinned-tab.svg");
+  
+  
+
+  return {
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    // templateFormats: [
+    //   "md",
+    //   "njk",
+    //   "html"
+    // ],
+    dir: {
+      input: 'src',
+      output: 'dist'
+    }
+  };
+
 
 };

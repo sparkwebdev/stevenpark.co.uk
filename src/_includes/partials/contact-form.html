@@ -1,0 +1,73 @@
+
+
+<form id="contact-form" name="contact" method="POST" action="/#contact" data-netlify="true">
+
+  <div class="wrapper__breakout flow">
+  <header class="flow">
+    <h2>Enquiry Form</h2>
+    <p>Please fill out this form and I will get in touch with you shortly. I aim to answer all queries within 24 hours. If you'd rather I called you back please also enter your phone number.</p>
+  </header>
+
+  <fieldset class="flow">
+    <p class="form-required">
+      <label for="contact_name">Name<span>*</span></label>
+      <input name="contact_name" id="contact_name" type="text" value="" aria-required="true" required />
+    </p>
+    <p>
+      <label for="contact_org">Organisation</label>
+      <input name="contact_org" id="contact_org" type="text" value="" />
+    </p>
+    <p class="form-required">
+      <label for="contact_email">Email<span>*</span></label>
+      <input name="contact_email" id="contact_email" type="email" value="" aria-required="true" required />
+    </p>
+    <p>
+      <label for="contact_phone">Phone</label>
+      <input name="contact_phone" id="contact_phone" type="text" value="" />
+    </p>
+  </fieldset>
+
+  {# <fieldset>
+    <p class="width-third">
+      <input name="input_15" type="radio" value="Send a message" checked="checked" id="choice_1_15_0" />
+      <label for="choice_1_15_0" id="label_1_15_0">Send a message</label>
+    </p>
+    <p class="width-third">
+      <input name="input_15" type="radio" value="Start a project" id="choice_1_15_1" />
+      <label for="choice_1_15_1" id="label_1_15_1">Start a project</label>
+    </p>
+  </fieldset> #}
+
+  <fieldset class="flow form-conditional" data-form-conditional="message">
+    <p>
+      <label for="contact_subject">Message Subject</label>
+      <input name="contact_subject" id="contact_subject" type="text" value="" autocomplete="off" />
+    </p>
+    <p class="form-required">
+      <label for="contact_message">Message<span>*</span></label>
+      <textarea autocomplete="off" name="contact_message" id="contact_message" rows="10" aria-required="true" required></textarea>
+    </p>
+  </fieldset>
+
+  {# <fieldset class="flow form-conditional"data-form-conditional="project">
+    <p class="auto-grid">
+      <label for="contact_budget">Project Budget<span>*</span></label>
+      <input name="contact_budget" id="contact_budget" type="text" value="" aria-required="true" />
+    </p>
+    <p class="auto-grid">
+      <label for="contact_deadlines">Project Deadline(s)<span>*</span></label>
+      <input name="contact_deadlines" id="contact_deadlines" type="text" value="" aria-required="true"="" />
+    </p>
+    <p class="auto-grid">
+      <label for="contact_details">Project Details<span>*</span></label>
+      <textarea name="contact_details" id="contact_details" aria-required="true" rows="10" cols="50"=""></textarea>
+    </p>
+  </fieldset> #}
+  
+  <fieldset class="flow">
+    <p>
+      <input type="submit" id="contact_submit" value="Submit" />
+    </p>
+  </fieldset>
+  </div>
+</form>

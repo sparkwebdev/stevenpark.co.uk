@@ -1,0 +1,11 @@
+.section-link {
+  display: inline-block;
+  text-decoration-style: wavy;
+  line-height: 1;
+  font-weight: bold;
+  
+  &:hover,
+  &:focus {
+    text-decoration-color: get-color('brand-2');
+  }
+}

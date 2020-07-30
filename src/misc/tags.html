@@ -1,0 +1,13 @@
+---
+layout: page
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+  addAllPagesToCollections: true
+permalink: /blog/tags/{{ tag | slug }}/
+---
+<h1>Posts filed under '{{ tag }}'</h1>
+{% set postList = collections[ tag ] %}
+{% include "partials/post-list.html" %}

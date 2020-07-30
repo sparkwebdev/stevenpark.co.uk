@@ -1,0 +1,8 @@
+.pagination {
+  padding-top: get-size('900') - get-size('600');
+
+  [data-direction='forwards'] {
+    margin-inline-start: auto;
+  }
+
+}

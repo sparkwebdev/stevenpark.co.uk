@@ -1,0 +1,4 @@
+{
+  "permalink": "/about/{{page.fileSlug}}/",
+  "layout": "page"
+}

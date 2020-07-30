@@ -1,0 +1,52 @@
+table:not([class="unstyled"]) {
+	table-layout: fixed;
+	thead th,
+	tfoot td {
+		text-align: center;
+	}
+	th,
+	td {
+		padding: get-size('300') get-size('500');
+		// white-space: nowrap;
+	}
+	th, tfoot td {
+		color: #fff;
+		background: get-color('brand-1');
+	}
+	td {
+		background: get-color('brand-1-light');
+	}
+	ul {
+		font-size: 1.1rem;
+		list-style: none;
+		padding: 0;
+		li:not(:last-child) {
+			padding-bottom: 5px;
+			margin-bottom: 5px;
+			border-bottom: solid 1px #ccc;
+		}
+	}
+
+	&.table-fixed {
+
+	}
+
+	&.styled-scroll {
+		display: block;
+		overflow-x: auto;
+		th,
+		td {
+			min-width: calc(5rem + 50vw);
+		}
+		@include media-query('md') {
+			display: table;
+			overflow-x: initial;
+			th,
+			td {
+				min-width: 0;
+			}
+		}
+	}
+
+
+}

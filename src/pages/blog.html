@@ -1,0 +1,11 @@
+---
+title: Blog
+subtitle: Lorem ipsum dolor sit amet, tempor incididunt magna.
+layout: feed
+pagination:
+  data: collections.blog
+  size: 2
+permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationPrevText: 'Older posts'
+paginationNextText: 'Newer posts'
+---
