@@ -1,0 +1,10 @@
+---
+title: Blog
+description: Here you'll find a semi-regularly updated stream of work and personal notes, along with longer form articles, tutorials and resources.
+layout: posts
+pagination:
+  data: collections.blog
+  size: 8
+permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/index.html'
+---
+{# <a href="/blog/articles/">articles</a>, <a href="/blog/tutorials/">tutorials</a> and <a href="/blog/resources/">resources</a> #}

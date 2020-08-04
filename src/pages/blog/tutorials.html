@@ -1,0 +1,9 @@
+---
+title: Tutorials
+description: Web development guides and tips&hellip;
+layout: posts
+pagination:
+  data: collections.tutorials
+  size: 8
+permalink: 'blog/tutorials{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/index.html'
+---
