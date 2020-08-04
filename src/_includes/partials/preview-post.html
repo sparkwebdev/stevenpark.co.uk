@@ -1,25 +1,34 @@
-<h4>
-  <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-</h4>
-<ul>
-  <li>
-    <em>Posted: </em><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-  </li>
-  <li>
-  <em>Tags: </em>
-  {% for tag in post.data.tags %}
-    {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}">{{ tag }}</a>
-  {% endfor %}
-  </li>
-</ul>
-{% if post.data.subtitle or post.data.excerpt %}
-  <div>
+<article class="[ preview ]">
+  <header>
+    <{{ "h3" if page.url == "/" else "h2" }} class="[ preview__title ]">
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title | safe }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    </{{ "h3" if page.url == "/" else "h2" }}>
     {% if post.data.subtitle %}
-    <p>{{ post.data.subtitle }}</p>
+      <p><strong>{{ post.data.subtitle }}</strong></p>
     {% endif %}
-    {% if post.data.description and postListExtended %}
+    <ul class="[ preview__meta ]">
+      <li>
+        <em>Posted on </em><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        {% if post.data.blogType %}<em>in</em> <a href="/blog/{{ post.data.blogType | slug }}"><strong>{{ post.data.blogType }}</strong></a>{% endif %}
+      </li>
+    </ul>
+  </header>
+  {% if post.data.description %}
     <p>{{ post.data.description }}</p>
-    {% endif %}
-  </div>
-{% endif %}
+  {% endif %}
+
+  {% if post.data.tags.length %}
+  <footer>
+    <ul class="[ preview__meta ]">
+      <li>
+        <em>Tags:</em>
+        {% set comma = joiner() %}
+        {% for tag in post.data.tags -%}
+          {%- set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset -%}
+          {{ comma() }} <a href="{{ tagUrl | url }}">{{ tag }}</a>
+        {%- endfor %}
+      </li>
+    </ul>
+  </footer>
+  {% endif %}
+</article>

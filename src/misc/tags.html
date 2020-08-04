@@ -1,4 +1,5 @@
 ---
+title: Blog
 layout: page
 pagination:
   data: collections
@@ -8,6 +9,6 @@ pagination:
   addAllPagesToCollections: true
 permalink: /blog/tags/{{ tag | slug }}/
 ---
-<h1>Posts filed under '{{ tag }}'</h1>
+<h2>Posts filed under '{{ tag }}'</h2>
 {% set postList = collections[ tag ] %}
-{% include "partials/post-list.html" %}
+{% include "partials/posts.html" %}

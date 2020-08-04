@@ -30,7 +30,7 @@ module.exports = function(eleventyConfig) {
   // Layout aliases
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
-  eleventyConfig.addLayoutAlias("feed", "layouts/feed.html");
+  eleventyConfig.addLayoutAlias("posts", "layouts/posts.html");
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
   eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 

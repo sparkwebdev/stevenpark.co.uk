@@ -1,5 +1,9 @@
 .page-header {
-	padding-bottom: get-size('600');
+  padding-bottom: get-size('600');
+  
+  &__category {
+    font-size: get-size('600');
+  }
 
   &__title {
     font-size: get-size('700');

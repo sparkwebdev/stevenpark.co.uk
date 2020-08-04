@@ -1,0 +1,16 @@
+{% if pagination.href.next or pagination.href.previous %}
+<footer class="pagination">
+  <nav class="pagination__nav auto-flex" aria-label="Pagination">
+    {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" data-direction="backwards">
+      <span>{{ paginationNextText if paginationNextText else 'Older posts' }}</span>
+    </a>
+    {% endif %}
+    {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" data-direction="forwards">
+        <span>{{ paginationPrevText if paginationPrevText else 'Newer posts' }}</span>
+    </a>
+    {% endif %}
+  </nav>
+</footer>
+{% endif %}

@@ -3,12 +3,12 @@
   <nav class="pagination__nav auto-flex" aria-label="Pagination">
     {% if pagination.href.previous %}
     <a href="{{ pagination.href.previous }}" data-direction="backwards">
-        <span>{{ paginationPrevText if paginationPrevText else 'Next' }}</span>
+        <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span>
     </a>
     {% endif %}
     {% if pagination.href.next %}
     <a href="{{ pagination.href.next }}" data-direction="forwards">
-      <span>{{ paginationNextText if paginationNextText else 'Previous' }}</span>
+      <span>{{ paginationNextText if paginationNextText else 'Next' }}</span>
     </a>
     {% endif %}
   </nav>
