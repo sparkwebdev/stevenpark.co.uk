@@ -7,6 +7,7 @@ const { DateTime }          = require("luxon");
 const markdownIt            = require("markdown-it");
 const markdownItAnchor      = require("markdown-it-anchor");
 const markdownItAttrs       = require("markdown-it-attrs");
+const readingTime           = require('eleventy-plugin-reading-time');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -17,6 +18,7 @@ module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(readingTime);
 
   // Transforms
   const htmlMinTransform = require('./src/transforms/html-min-transform.js');
