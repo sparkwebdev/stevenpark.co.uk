@@ -6,6 +6,7 @@
   &__title {
     font-size: get-size('600');
     @include apply-utility('font', 'sans');
+    letter-spacing: -0.075rem;
     @include media-query('sm') {
       font-size: get-size('700');
     }
@@ -13,6 +14,16 @@
 
   &__subtitle {
     margin-top: get-size('100');
+  }
+
+  &__meta {
+    font-size: get-size('400');
+    margin-top: get-size('200') !important;
+    margin-bottom: get-size('200') !important;
+    a {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
   }
 
 	&__inner {

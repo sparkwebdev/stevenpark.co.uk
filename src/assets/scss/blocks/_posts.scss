@@ -1,0 +1,16 @@
+.posts {
+  margin-top: get-size('600') !important;
+
+  &__item {
+    &:not(:last-child)::after {
+      content: "";
+      display: block;
+      width: get-size('900');
+      height: 2px;
+      background: black;
+      margin-top: get-size('800');
+      margin-bottom: get-size('800');
+    }
+  }
+
+}

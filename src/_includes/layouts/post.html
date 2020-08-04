@@ -1,14 +1,10 @@
 ---
-layout: page
+layout: base
 ---
-<ul>
-  <li>Posted: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-  <li>Tags:
-  {% for tag in tags %}
-    {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}">{{ tag }}</a>
-  {% endfor %}
-  </li>
-</ul>
+<article class="[ site-article ] wrapper flow">
 
-{{ content | safe }}
+  {% include "partials/page-header--blog.html" %}
+
+  {{ content | safe }}
+
+</article>

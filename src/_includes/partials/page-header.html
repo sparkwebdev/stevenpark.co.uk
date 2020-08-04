@@ -1,6 +1,6 @@
 <header class="[ page-header ] flow">
 
-  {% if title %}<h1 class="[ page-header__title ]">{{ title }}</h1>{% endif %}
+  {% if title %}<h1 class="[ page-header__title ]">{{ title | safe }}</h1>{% endif %}
   {% if subtitle %}<h2 class="[ page-header__subtitle ]">{{ subtitle | safe }}</h2>{% endif %}
   {% if description %}<p class="[ page-header__description ]">{{ description | safe }}</p>{% endif %}
 

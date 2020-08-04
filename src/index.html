@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: <span class="[ page-header__title ]">Hello.<span class="[ wave ]">👋</span></span> <br />I am a web developer and designer from Glasgow, Scotland.
+subtitle: <span class="[ page-header__title ]">Hello.</span> <br />I am a web developer and designer from Glasgow, Scotland.
 description: Please have a look around and <a href="/contact/">get in touch</a> to see if I can help build a better web for you and your users.
 alert: This site is being updated, please excuse any erors.
 ---
@@ -28,8 +28,8 @@ alert: This site is being updated, please excuse any erors.
 </section>
 
 <section class="[ section ] flow">
-  <h2><del>From my blog<br /></del> <ins>currently offline, back soon...</ins></h2>
-  {# {% set postList = collections.blog %} #}
-  {# {% include "partials/post-list.html" %} #}
-  {# <p><a href="{{ '/blog/' | url }}" class="[ section__link ]"><strong>Browse full blog archive</strong></a></p> #}
+  <h2 class="[ section__title ]">From my blog</h2>
+  {% set postList = collections.blogLatest %}
+  {% include "partials/posts.html" %}
+  <p><a href="{{ '/blog/' | url }}" class="[ section__link ]"><strong>Browse full blog archive</strong></a></p>
 </section>

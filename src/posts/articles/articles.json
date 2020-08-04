@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "permalink": "/articles/{{page.fileSlug}}/",
+  "blogType": "Articles"
+}

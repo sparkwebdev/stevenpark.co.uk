@@ -44,7 +44,7 @@
       "label": "Blog",
       "url": "/blog/",
       "description": "tolerate some of my chat",
-      "online": false
+      "online": true
     },
     {
       "label": "Contact",

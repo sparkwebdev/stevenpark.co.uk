@@ -7,6 +7,7 @@ const { DateTime }          = require("luxon");
 const markdownIt            = require("markdown-it");
 const markdownItAnchor      = require("markdown-it-anchor");
 const markdownItAttrs       = require("markdown-it-attrs");
+const readingTime           = require('eleventy-plugin-reading-time');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -17,6 +18,7 @@ module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(readingTime);
 
   // Transforms
   const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -28,7 +30,7 @@ module.exports = function(eleventyConfig) {
   // Layout aliases
   eleventyConfig.addLayoutAlias("base", "layouts/base.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
-  eleventyConfig.addLayoutAlias("feed", "layouts/feed.html");
+  eleventyConfig.addLayoutAlias("posts", "layouts/posts.html");
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
   eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 
@@ -114,7 +116,27 @@ module.exports = function(eleventyConfig) {
 
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/posts/**/*.md')].reverse();
+  });
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('blogLatest', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/**/*.md')].reverse().slice(0,2);
+  });
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('articles', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/articles/*.md')].reverse();
+  });
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('resources', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/resources/*.md')].reverse();
+  });
+
+  // Returns a collection of blog posts in reverse date order
+  eleventyConfig.addCollection('tutorials', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/tutorials/*.md')].reverse();
   });
 
   eleventyConfig.addCollection("tagList", function(collection) {
