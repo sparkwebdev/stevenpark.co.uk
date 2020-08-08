@@ -10,7 +10,7 @@
 
   <ul class="[ preview__meta ]">
     <li>
-      <em>Posted on </em><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+      <em>Posted on </em><time datetime="{{ page.data.date or page.date | htmlDateString }}">{{ page.data.date or page.date | readableDate }}</time>
       {% if page.data.blogType %}<em>in</em> <a href="/blog/{{ page.data.blogType | slug }}"><strong>{{ page.data.blogType }}</strong></a>{% endif %}
       ~ {{ content | readingTime }} reading time
     </li>
