@@ -1,11 +1,11 @@
 ---
-title: Useful dev and design links for lockdown
+title: Useful dev and design links
 subtitle: A list of resources, tutorials and quizzes that I've been using to brush up on my front-end dev and design skills during recent months.
 date: 2020-08-08
 tags: ['Useful Links']
 ---
 
-One of the upsides to the recent lockdown restrictions and downturn of client work is the time it has given me look through some of my saved web bookmarks and improve my front-end dev and design skills. Below is a list of some of the resources, tutorials and quizzes that I've been working my way through.
+THe downturn of client work over these last few months has had a silver lining of giving me the time to improve my front-end dev and design skills. Below is a list of some of the resources, tutorials and quizzes that I've been working my way through.
 
 ## Front End Dev
 
@@ -52,6 +52,14 @@ One of the upsides to the recent lockdown restrictions and downturn of client wo
 - [Think Like (a) Git](http://think-like-a-git.net/) — achieve some level of Git enlightenment
 - [Git Immersion](https://gitimmersion.com/) — A guided tour that walks through the fundamentals of Git
 
+## UX & Design
+
+- [The Guide to Design](https://start.uxdesign.cc/) — There are no magic formulas in design. But if you are looking for guidance, here's a starting point.
+- [Can't Unsee](https://cantunsee.space/) — Visual quiz to test your design eye
+- [UX Crash Course](https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals) — 31 Fundamentals of UX (old article but still useful)
+- [Laws of UX](https://lawsofux.com/) — more UX design priciples
+- [Daily UI](https://www.dailyui.co/) — Design Challenge, Inspiration, and Resources
+
 ## Misc
 
 - [A Variable Fonts Primer](https://variablefonts.io/) — add nuance and artistry to your web typography
@@ -63,11 +71,3 @@ One of the upsides to the recent lockdown restrictions and downturn of client wo
 - [RegexOne](https://regexone.com/) — Learn Regular Expressions
 - [BrowserStack Summer of Learning](https://www.browserstack.com/events/summer-of-learning) — A 5-part webinar series on test automation
 - [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) — Behind the scenes of modern web browsers (old article but still useful)
-
-## UX & Design
-
-- [The Guide to Design](https://start.uxdesign.cc/) — There are no magic formulas in design. But if you are looking for guidance, here's a starting point.
-- [Can't Unsee](https://cantunsee.space/) — Visual quiz to test your design eye
-- [UX Crash Course](https://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals) — 31 Fundamentals of UX (old article but still useful)
-- [Laws of UX](https://lawsofux.com/) — more UX design priciples
-- [Daily UI](https://www.dailyui.co/) — Design Challenge, Inspiration, and Resources
