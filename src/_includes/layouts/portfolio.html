@@ -44,9 +44,9 @@ layout: base
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=375 375w,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=768 768w,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=1078 1078w,
-          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1536 1536w
+          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1536 1536
         "
-        src=" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
+        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=1078" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
       {% endfor %}
     {%- endif %}
     {% if screenshotsMobile.length -%}
