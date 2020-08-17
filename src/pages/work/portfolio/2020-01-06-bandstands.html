@@ -45,47 +45,8 @@ imageGroups: {
   }
 }
 ---
-<p>The <a href="https://www.artwalkporty.co.uk/">Arty Walk Porty</a> project, run by <a href="https://www.rosydesigns.co.uk/">Rosy Naylor</a>, conceived of an immersive sound-based performance and exhibition to celebrate and commemorate 8 historical bandstands across Edinburgh &amp; Musselburgh. A range of events and exhibitions took place, including musical performances across various locations and culminating in a procession along Portobello promenade.</p>
-
-<blockquote>
-  <p>Marking the spaces of where bandstands once stood, and some still do, this project brings together a sense of discovery through sound...</p>
-  <footer>— <strong>Rosy Naylor, Platform Designs, Edinburgh</strong></footer>
-</blockquote>
 
 {% set imageGroupItems = imageGroups.a %}
 {% set imageGroupModifier = "thirds" %}
 {% set imageGroupID = "01" %}
 {% include "partials/image-group.html" %}
-
-<p>To enhance participants' experience, a mobile app was created, encouraging users to visit all 8 bandstand sites. Each location within the app features an accompanying melodic loop composed by sound artist <a href="https://www.rosswhyte.com/">Ross Whyte</a>, and performed by the Portobello Community Choir.</p>
-
-<h3>"As I walk, I glimpse, I hear..."</h3>
-
-<p>The user is guided towards each location and when they are close the sound file begins playing, increasing in volume as they get closer. Once close enough the location is 'unlocked' — alternatively the user can scan a QR code that was printed on physical markers at each location.</p>
-
-{% set imageGroupItems = imageGroups.b %}
-{% set imageGroupModifier = "row" %}
-{% set imageGroupID = "02" %}
-{% include "partials/image-group.html" %}
-
-<p>As each location is 'collected' the user is rewarded with imagery, historical information and the loop becomes playable. When 3 or more are visited the user can combine the collected loops to form a unique composition. Together all loops form a complete song, entitled 'The Great Exhibition'.</p>
-
-{% set imageGroupItems = imageGroups.c %}
-{% set imageGroupModifier = "single" %}
-{% set imageGroupID = "03" %}
-{% include "partials/image-group.html" %}
-
-<p>The app itself is build using React, along with the <a href="https://expo.io/">Expo</a> framework. This utilises React Native components and allows access to mobile device features via their various APIs, namely:</p>
-
-<ul>
-  <li>Camera (for QR code scanning)</li>
-  <li>Geolocation and Device Motion (for maps and waypoints)</li>
-  <li>Keep Awake (for keeping the app and sound active)</li>
-</ul>
-
-{% set imageGroupItems = imageGroups.d %}
-{% set imageGroupModifier = "thirds" %}
-{% set imageGroupID = "04" %}
-{% include "partials/image-group.html" %}
-
-<p>There are plans to create a follow up event and accompanying, this time with a focus on cycling — encouraging users to explore their local surroundings on bike and interact by adding photos, comments and so on. It is hoped the event can go ahead in 2021 and the app would be available late 2020.</p>
