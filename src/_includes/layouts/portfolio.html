@@ -40,24 +40,27 @@ layout: base
     <figcaption class="[ screenshots__title ]"><h2>Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></h2></figcaption>
     {% if screenshots.length -%}
       {% for image in screenshots %}
-        <img srcset="
+        <img 
+        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=1078"
+        srcset="
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=375 375w,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=768 768w,
-          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1078 1078w,
-          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1536 1536
+          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1078 1078w
         "
-        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=1078" alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
+        sizes="(max-width: 1077px) 100vw, 1078px">
+        alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
       {% endfor %}
     {%- endif %}
     {% if screenshotsMobile.length -%}
       <div class="auto-grid">
         {% for image in screenshotsMobile %}
-        <img srcset="
+        <img
+        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=652"
+        srcset="
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=375,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=488 1.5x,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=652 2x
         "
-        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=652"
         alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image screenshots__image--mobile ]" loading="lazy">
         {% endfor %}
       </div>
