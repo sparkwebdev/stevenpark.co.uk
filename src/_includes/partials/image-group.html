@@ -2,13 +2,73 @@
   {% if imageGroupModifier != "single" and imageGroupModifier != "half" %}
   <div class="image-group__row-1{% if imageGroupModifier == "row" %} auto-grid{% endif %}">
   {% endif %}
-    {% if imageGroupItems.image1 %}<img src="/assets/img/{{ imageGroupItems.image1 }}" class="image-group__image-1" alt="" role="presentation" loading="lazy" />{% endif %}
+  {% if imageGroupItems.image1 %}
+      <img src="/assets/img/{{ imageGroupItems.image1 }}?nf_resize=fit&amp;w=768" 
+        {% if imageGroupModifier == "single" %}
+          srcset="
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=375 375w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=768 768w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=1077 1077w
+          "
+          sizes="(max-width: 1076px) 96vw, 1077px"
+        {% elseif imageGroupModifier == "half" %}
+          srcset="
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=375 375w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=538 538w
+          "
+          sizes="(max-width: 592px) 96vw, (max-width: 1076px) 48vw, 538px"
+        {% elseif imageGroupModifier == "row" %}
+          srcset="
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=375 375w
+          "
+          sizes="(max-width: 1076px) 33vw, 354px"
+        {% elseif imageGroupModifier == "thirds" %}
+          srcset="
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=375 375w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=768 768w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=1077 1077w,
+            /assets/img/{{imageGroupItems.image1}}?nf_resize=fit&amp;w=1600 1600w
+          "
+          sizes="(max-width: 1076px) 98vw, 1600px"
+        {% endif %}
+        class="image-group__image-1" alt="" role="presentation" loading="lazy" />
+  {% endif %}
   {% if imageGroupModifier == "thirds" %}
   </div>
   <div class="image-group__row-2 auto-grid">
   {% endif %}
-    {% if imageGroupItems.image2 %}<img src="/assets/img/{{ imageGroupItems.image2 }}" class="image-group__image-2" alt="" role="presentation" loading="lazy" />{% endif %}
-    {% if imageGroupItems.image3 %}<img src="/assets/img/{{ imageGroupItems.image3 }}" class="image-group__image-3" alt="" role="presentation" loading="lazy" />{% endif %}
+    {% if imageGroupItems.image2 %}
+      <img src="/assets/img/{{ imageGroupItems.image2 }}?nf_resize=fit&amp;w=768" 
+      {% if imageGroupModifier == "row" %}
+          srcset="
+            /assets/img/{{imageGroupItems.image2}}?nf_resize=fit&amp;w=375 375w
+          "
+          sizes="(max-width: 1076px) 33vw, 354px"
+      {% else %}
+        srcset="
+          /assets/img/{{imageGroupItems.image2}}?nf_resize=fit&amp;w=375 375w,
+          /assets/img/{{imageGroupItems.image2}}?nf_resize=fit&amp;w=538 538w
+        "
+        sizes="(max-width: 592px) 96vw, (max-width: 1076px) 48vw, 538px"
+      {% endif %}
+      class="image-group__image-2" alt="" role="presentation" loading="lazy" />
+    {% endif %}
+    {% if imageGroupItems.image3 %}
+      <img src="/assets/img/{{ imageGroupItems.image3 }}?nf_resize=fit&amp;w=768" 
+      {% if imageGroupModifier == "row" %}
+        srcset="
+          /assets/img/{{imageGroupItems.image3}}?nf_resize=fit&amp;w=375 375w
+        "
+        sizes="(max-width: 1076px) 33vw, 354px"
+      {% else %}
+      srcset="
+        /assets/img/{{imageGroupItems.image3}}?nf_resize=fit&amp;w=375 375w,
+        /assets/img/{{imageGroupItems.image3}}?nf_resize=fit&amp;w=538 538w
+      "
+      sizes="(max-width: 592px) 96vw, (max-width: 1076px) 48vw, 448px"
+      {% endif %}
+      class="image-group__image-3" alt="" role="presentation" loading="lazy" />
+    {% endif %}
     <figcaption id="image-group-title-{{ imageGroupID }}" class="[ image-group__caption ]">
       <p>{{ imageGroupItems.alt | safe }}</p>
     </figcaption>

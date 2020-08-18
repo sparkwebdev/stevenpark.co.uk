@@ -41,13 +41,13 @@ layout: base
     {% if screenshots.length -%}
       {% for image in screenshots %}
         <img 
-        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=1078"
+        src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=1077"
         srcset="
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=375 375w,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=768 768w,
-          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1078 1078w
+          /assets/img/{{image.src}}?nf_resize=fit&amp;w=1077 1077w
         "
-        sizes="(max-width: 1077px) 100vw, 1078px">
+        sizes="(max-width: 1076px) 100vw, 1077px"
         alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
       {% endfor %}
     {%- endif %}
