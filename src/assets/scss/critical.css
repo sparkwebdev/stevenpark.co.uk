@@ -1542,7 +1542,7 @@ table:not([class=unstyled]).styled-scroll td {
     padding-left: 0.85rem;
   }
   .image-group--thirds .image-group__row-2 {
-    grid-template-rows: 8fr 6fr 2fr 3fr;
+    grid-template-rows: 16fr 12fr 3fr 4fr;
   }
 }
 

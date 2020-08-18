@@ -7,3 +7,6 @@ Thumbs.db
 .env
 .cache
 .sass-cache
+
+# Local Netlify folder
+.netlify
