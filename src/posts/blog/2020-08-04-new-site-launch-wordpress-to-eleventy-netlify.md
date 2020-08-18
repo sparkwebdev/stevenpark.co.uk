@@ -24,15 +24,15 @@ The site is deployed/hosted on [Netlify](https://www.netlify.com/) and I've inte
 
 As the site is now static HTML, with various build-step checks, it benefits from a big improvement in performance metrics. The home page, for example, gets a [Lighthouse](https://developers.google.com/web/tools/lighthouse) score of 100&hellip; 😍
 
-![Screengrab showing a Google Lighthouse performance metrics score of 100](/assets/img/lighthouse-100.png)
+![Screengrab showing a Google Lighthouse performance metrics score of 100](/assets/img/lighthouse-100.png?nf_resize=fit&amp;w=505)
 
 Some of the inner pages fall slightly below this, due to some required work needed on responsive images, but I'm planning on fixing this next.
 
 And here's the before and after from GT Metrix PageSpeed/YSlow reports&hellip;
 
-![Before - GT Metrix PageSpeed/YSlow performance metrics showing a score of 96% and 94% and load time of 5.9 seconds](/assets/img/gtmetrix-before.png)
+![Before - GT Metrix PageSpeed/YSlow performance metrics showing a score of 96% and 94% and load time of 5.9 seconds](/assets/img/gtmetrix-before.png?nf_resize=fit&amp;w=860)
 
-![After - GT Metrix PageSpeed/YSlow performance metrics showing a score of 100% and 98% and load time of 0.8 seconds](/assets/img/gtmetrix-after.png)
+![After - GT Metrix PageSpeed/YSlow performance metrics showing a score of 100% and 98% and load time of 0.8 seconds](/assets/img/gtmetrix-after.png?nf_resize=fit&amp;w=860)
 
 
 ## Shout outs
@@ -44,7 +44,7 @@ A big help in learning Eleventy was some techniques from both Max Boeck's '[elev
 I'm rebuilding with an Agile approach, so it's very much a work in progress. Next steps for the build are:
 
 - <del>Integrate a blog</del> <ins>Done</ins>
-- Responsive images, served scaled and optimised as part of the build process
+- <del>Responsive images, served scaled and optimised as part of the build process</del> <ins>Done</ins>
 - Re-try the Netlify a11y plugin to bake-in accessibility tests at build/deployment (currenty seems a bit buggy?) 
 - HTML validation coverage is failing due to `<figcaption>` elements not being direct descendents of `<figure>` elements, so a rework is needed
 - Revisit design colour scheme/fonts
