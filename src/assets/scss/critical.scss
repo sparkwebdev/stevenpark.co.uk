@@ -21,6 +21,7 @@ body {
   }
 
   @include apply-utility('font', 'base');
+  font-display: swap;
 }
 
 a {
