@@ -14,7 +14,6 @@
 body {
   background: #fff;
   color: get-color('tone-800');
-  line-height: 1.5;
   font-size: 1.1rem;
   @include media-query('sm') {
     font-size: 1.2rem;
