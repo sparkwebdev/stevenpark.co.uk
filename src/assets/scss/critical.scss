@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul:not([class]), ol:not([class]), textarea, dl {
 // Import blocks
 @import 'blocks/anchor-link';
 @import 'blocks/blockquotes';
+@import 'blocks/card-link';
 @import 'blocks/definition-lists';
 @import 'blocks/header';
 @import 'blocks/footer';
