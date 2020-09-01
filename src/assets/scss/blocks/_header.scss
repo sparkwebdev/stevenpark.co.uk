@@ -49,7 +49,7 @@
 		@include media-query('sm') {
 			margin-top: get-size('600') + get-size('600');
 		}
-		strong em {
+		em strong {
 			display: inline-block;
 		}
 	}

@@ -147,7 +147,7 @@
   background: #fbe2e5;
 }
 
-.bg-tone-200 {
+.bg-tone-100 {
   background: #e3e3e3;
 }
 
@@ -199,7 +199,7 @@
   color: #fbe2e5;
 }
 
-.color-tone-200 {
+.color-tone-100 {
   color: #e3e3e3;
 }
 
@@ -993,7 +993,7 @@ dl dd {
     margin-top: 3.54rem;
   }
 }
-.site-header__alert strong em {
+.site-header__alert em strong {
   display: inline-block;
 }
 
