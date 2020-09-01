@@ -1,0 +1,33 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>\n            <title>woman technologist emoji with white skin and dark hair</title>\n            <text y=%22.9em%22 font-size=%2290%22>\n              👩🏻‍💻\n            </text>\n          </svg>"
+      }
+    ],
+    "description": "Some Background I had the privilege of creating course material to teach accessibility testing for work this past quarter. I agonized over…",
+    "title": "Accessibility Testing is like Making Coffee | Madalyn Parker",
+    "lang": "en-us"
+  },
+  "openGraph": {
+    "title": "Accessibility Testing is like Making Coffee",
+    "url": "https://madalyn.dev",
+    "description": "Some Background I had the privilege of creating course material to teach accessibility testing for work this past quarter. I agonized over…",
+    "image": {
+      "url": "https://madalyn.dev",
+      "alt": "some background i had the privilege of creating course material to teach accessibility testing for work this past quarter. i agonized over…"
+    },
+    "type": "website"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Accessibility Testing is like Making Coffee",
+    "url": "https://madalyn.dev",
+    "description": "Some Background I had the privilege of creating course material to teach accessibility testing for work this past quarter. I agonized over…",
+    "image": {
+      "url": "https://madalyn.dev",
+      "alt": "Some Background I had the privilege of creating course material to teach accessibility testing for work this past quarter. I agonized over…"
+    },
+    "creator": "@madalynrose"
+  }
+}

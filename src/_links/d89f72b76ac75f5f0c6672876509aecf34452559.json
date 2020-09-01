@@ -1,0 +1,32 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.png"
+      }
+    ],
+    "author": "Dan Klammer",
+    "canonical": "https://reachlightspeed.com/blog/using-the-new-high-performance-avif-image-format-on-the-web-today/",
+    "description": "Start using next-gen .avif images today progressively with the <picture> element. The format is ~50% smaller in size compared to JPEG, and ~20% smaller than WebP.",
+    "title": "How to Use AVIF: The New Next-Gen Image Compression Format — Lightspeed",
+    "lang": "en"
+  },
+  "openGraph": {
+    "type": "article",
+    "title": "How to Use AVIF: The New Next-Gen Image Compression Format — Lightspeed",
+    "description": "Start using next-gen .avif images today progressively with the <picture> element. The format is ~50% smaller in size compared to JPEG, and ~20% smaller than WebP.",
+    "image": {
+      "url": "https://reachlightspeed.com/img/blog/og-how-to-use-avif.jpg"
+    },
+    "url": "https://reachlightspeed.com/blog/using-the-new-high-performance-avif-image-format-on-the-web-today/",
+    "publisher": "https://reachlightspeed.com",
+    "published_time": "2020-08-05"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "How to Use AVIF: The New Next-Gen Image Compression Format",
+    "description": "August 26, 2020 Update: Chrome 85 now supports the AVIF format and the link to the preview build of the Squoosh.app has been updated as it now fully supports AVIF. A More Optimal Image Format AV1...",
+    "image": "https://reachlightspeed.com/img/blog/og-how-to-use-avif.jpg",
+    "url": "https://reachlightspeed.com/blog/using-the-new-high-performance-avif-image-format-on-the-web-today/"
+  }
+}

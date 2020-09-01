@@ -1,0 +1,20 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "./favicon.ico",
+        "sizes": "16x16"
+      }
+    ],
+    "icons": [
+      {
+        "href": "./windowswap-logo.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "description": "Open a new window somewhere in the world",
+    "title": "WindowSwap",
+    "lang": "en"
+  }
+}

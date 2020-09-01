@@ -1,0 +1,113 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "60x60"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico"
+      }
+    ],
+    "author": "Elad Shechter",
+    "authorlink": "https://medium.com/@elad",
+    "canonical": "https://medium.com/@elad/why-css-logical-properties-arent-ready-for-use-c102925a5cba",
+    "description": "The new CSS logical properties module is one of the most important developments to have come to CSS in recent years. This module enables us to support all the directions that human languages are…",
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Why CSS Logical Properties Aren’t Ready for Use! | by Elad Shechter | Aug, 2020 | Medium",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "image": [
+      "https://miro.medium.com/max/1200/1*2Vrjo66EEFbysBSE0IwWGA.png"
+    ],
+    "url": "https://medium.com/@elad/why-css-logical-properties-arent-ready-for-use-c102925a5cba",
+    "dateCreated": "2020-08-24T13:56:13.376Z",
+    "datePublished": "2020-08-24T13:56:13.376Z",
+    "dateModified": "2020-08-26T21:35:39.376Z",
+    "headline": "Why CSS Logical Properties Aren’t Ready for Use! - Elad Shechter - Medium",
+    "name": "Why CSS Logical Properties Aren’t Ready for Use! - Elad Shechter - Medium",
+    "description": "The new CSS logical properties module is one of the most important developments to have come to CSS in recent years. This module enables us to support all the directions that human languages are…",
+    "identifier": "c102925a5cba",
+    "keywords": [
+      "Lite:true",
+      "Tag:CSS",
+      "Tag:Web Development",
+      "Tag:Front End Development",
+      "Tag:Programming",
+      "Tag:HTML",
+      "Topic:Programming",
+      "Elevated:false",
+      "LockedPostSource:LOCKED_POST_SOURCE_NONE",
+      "LayerCake:4"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Elad Shechter",
+      "url": "https://medium.com/@elad"
+    },
+    "creator": [
+      "Elad Shechter"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Medium",
+      "url": "https://medium.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 308,
+        "height": 60,
+        "url": "https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png"
+      }
+    },
+    "mainEntityOfPage": "https://medium.com/@elad/why-css-logical-properties-arent-ready-for-use-c102925a5cba"
+  },
+  "openGraph": {
+    "app_id": "542599432471018",
+    "site_name": "Medium",
+    "type": "article",
+    "published_time": "2020-08-24T13:56:13.376Z",
+    "title": "Why CSS Logical Properties Aren’t Ready for Use!",
+    "description": "The new CSS logical properties module is one of the most important developments to have come to CSS in recent years. This module enables…",
+    "url": "https://medium.com/@elad/why-css-logical-properties-arent-ready-for-use-c102925a5cba",
+    "image": {
+      "url": "https://miro.medium.com/max/880/1*2Vrjo66EEFbysBSE0IwWGA.png"
+    },
+    "author": "https://medium.com/@elad"
+  },
+  "twitter": {
+    "app": {
+      "name": {
+        "iphone": "Medium"
+      },
+      "id": {
+        "iphone": "828256236"
+      },
+      "url": {
+        "iphone": "medium://p/c102925a5cba"
+      }
+    },
+    "site": "@Medium",
+    "image": {
+      "src": "https://miro.medium.com/max/880/1*2Vrjo66EEFbysBSE0IwWGA.png"
+    },
+    "card": "summary_large_image",
+    "creator": "@eladsc"
+  }
+}

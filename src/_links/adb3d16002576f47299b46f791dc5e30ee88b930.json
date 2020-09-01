@@ -1,0 +1,48 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://adamsilver.io/assets/images/favicon/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://adamsilver.io/assets/images/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "https://adamsilver.io/assets/images/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "author": "Adam Silver",
+    "authorlink": "https://plus.google.com/u/0/+AdamSilver1",
+    "canonical": "https://adamsilver.io/articles/the-trouble-with-mailto-email-links-and-what-to-do-instead/",
+    "description": "Mailto links are everywhere and yet browsers and operating systems don’t make them easy to use. Learn why that is and what we did about it when we launched Frankly, a joint venture helping teams create clear, accessible and user-centred digital products.",
+    "title": "The trouble with mailto email links and what to do instead by Adam Silver – Designer, London, UK. ",
+    "lang": "en"
+  },
+  "openGraph": {
+    "locale": "en_GB",
+    "type": "website",
+    "title": "The trouble with mailto email links and what to do instead by Adam Silver – Designer, London, UK. ",
+    "description": "Mailto links are everywhere and yet browsers and operating systems don’t make them easy to use. Learn why that is and what we did about it when we launched Frankly, a joint venture helping teams create clear, accessible and user-centred digital products.",
+    "url": "https://adamsilver.io/articles/the-trouble-with-mailto-email-links-and-what-to-do-instead/",
+    "site_name": "Adamsilver.io",
+    "image": {
+      "url": "https://adamsilver.io/assets/images/card.png",
+      "width": "181",
+      "height": "181"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "description": "Mailto links are everywhere and yet browsers and operating systems don’t make them easy to use. Learn why that is and what we did about it when we launched Frankly, a joint venture helping teams create clear, accessible and user-centred digital products.",
+    "title": "The trouble with mailto email links and what to do instead by Adam Silver – Designer, London, UK. ",
+    "site": "@adambsilver",
+    "creator": "@adambsilver"
+  }
+}

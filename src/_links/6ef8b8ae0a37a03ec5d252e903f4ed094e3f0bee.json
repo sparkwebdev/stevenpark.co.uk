@@ -1,0 +1,39 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "description": "Personal website of Tomas Pustelnik. A front-end developer with focus on HTML/CSS, React, performance and accessibility. Founder of Qjub.app and tooling addict.",
+    "title": "Optimizing CSS for faster page loads - Tomas Pustelnik's personal website",
+    "lang": "en"
+  },
+  "openGraph": {
+    "url": "https://pustelto.com//blog/optimizing-css-for-faster-page-loads/",
+    "type": "website",
+    "title": "Optimizing CSS for faster page loads",
+    "description": "Learn how CSS affects page load times and how you can improve it by optimizing your CSS build pipeline and the way you load it.",
+    "image": {
+      "url": "https://pustelto.com/images/me_large.jpg"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "@pustelto",
+    "creator": "@pustelto",
+    "image": "https://pustelto.com/images/me@2x.jpg"
+  }
+}

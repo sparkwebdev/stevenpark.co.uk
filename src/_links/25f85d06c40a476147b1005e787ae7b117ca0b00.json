@@ -1,0 +1,14 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "canonical": "https://codeguide.co",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS",
+    "title": "\n      Code Guide by @mdo\n    ",
+    "lang": "en"
+  }
+}

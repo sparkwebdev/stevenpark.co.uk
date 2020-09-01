@@ -1,0 +1,99 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--l0c3Kmql--/c_limit,f_png,fl_progressive,q_80,w_152/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "180x180"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--2ecYCSjC--/c_limit,f_png,fl_progressive,q_80,w_167/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "167x167"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "192x192"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "128x128"
+      }
+    ],
+    "canonical": "https://daily.dev/posts/15-awesome-developer-home-workstations",
+    "description": "Work from home is part of our lives now. This is probably where we spend most of our time, and we des... Tagged with workstations, productivity, motivation, career.",
+    "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "title": "15 Awesome Developer Home Workstations - DEV",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://dev.to/dailydotdev/15-awesome-developer-home-workstations-5hk6"
+    },
+    "url": "https://dev.to/dailydotdev/15-awesome-developer-home-workstations-5hk6",
+    "image": [
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--ic-_4iZA--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/41k8tm1t1hre3rym3j70.jpg",
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--ZZaGMIuK--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/41k8tm1t1hre3rym3j70.jpg",
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--3XDNvLyz--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/41k8tm1t1hre3rym3j70.jpg"
+    ],
+    "publisher": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "DEV Community",
+      "logo": {
+        "@context": "http://schema.org",
+        "@type": "ImageObject",
+        "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "width": "192",
+        "height": "192"
+      }
+    },
+    "headline": "15 Awesome Developer Home Workstations",
+    "author": {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "url": "https://dev.to/nimrodkra",
+      "name": "Nimrod Kramer"
+    },
+    "datePublished": "2020-08-27T13:47:28Z",
+    "dateModified": "2020-08-27T13:47:28Z"
+  },
+  "openGraph": {
+    "type": "article",
+    "url": "https://dev.to/dailydotdev/15-awesome-developer-home-workstations-5hk6",
+    "title": "15 Awesome Developer Home Workstations",
+    "description": "Work from home is part of our lives now. This is probably where we spend most of our time, and we des...",
+    "site_name": "DEV Community",
+    "image": {
+      "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--yIsIpJYV--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/41k8tm1t1hre3rym3j70.jpg"
+    },
+    "pages": "568966383279687"
+  },
+  "twitter": {
+    "site": "@thepracticaldev",
+    "creator": "@NimrodKramer",
+    "title": "15 Awesome Developer Home Workstations",
+    "description": "Work from home is part of our lives now. This is probably where we spend most of our time, and we des...",
+    "card": "summary_large_image",
+    "widgets": {
+      "new-embed-design": "on"
+    },
+    "image": {
+      "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--yIsIpJYV--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/41k8tm1t1hre3rym3j70.jpg"
+    }
+  }
+}

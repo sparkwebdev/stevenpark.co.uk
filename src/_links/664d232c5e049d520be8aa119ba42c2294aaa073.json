@@ -1,0 +1,114 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "60x60"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://miro.medium.com/fit/c/256/256/1*7f8ZMJRwy10UGSDQzt8LqQ.png"
+      }
+    ],
+    "author": "Leslie Mu",
+    "authorlink": "https://uxdesign.cc/@lesliemu",
+    "canonical": "https://uxdesign.cc/the-onion-for-design-systems-atomic-design-and-pace-layering-4cc59a3c486",
+    "description": "Understand Atomic Design with Pace Layering to assist Design Systems' construction and maintenance",
+    "robots": "index,follow,max-image-preview:large",
+    "title": "The onion for Design Systems: atomic design and pace layering | by Leslie Mu | Aug, 2020 | UX Collective",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "image": [
+      "https://miro.medium.com/max/1200/1*oYvu0_4zYdGbGcsDn73Lag.png"
+    ],
+    "url": "https://uxdesign.cc/the-onion-for-design-systems-atomic-design-and-pace-layering-4cc59a3c486",
+    "dateCreated": "2020-08-16T05:25:17.459Z",
+    "datePublished": "2020-08-16T05:25:17.459Z",
+    "dateModified": "2020-08-22T14:13:40.353Z",
+    "headline": "The onion for Design Systems: atomic design and pace layering",
+    "name": "The onion for Design Systems: atomic design and pace layering",
+    "description": "Understand Atomic Design with Pace Layering to assist Design Systems' construction and maintenance",
+    "identifier": "4cc59a3c486",
+    "keywords": [
+      "Lite:true",
+      "Tag:Product Design",
+      "Tag:Design Systems",
+      "Tag:UX",
+      "Tag:User Experience",
+      "Tag:Ts",
+      "Topic:Design",
+      "Topic:UX",
+      "Publication:user-experience-design-1",
+      "Elevated:false",
+      "LockedPostSource:LOCKED_POST_SOURCE_NONE",
+      "LayerCake:4"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Leslie Mu",
+      "url": "https://uxdesign.cc/@lesliemu"
+    },
+    "creator": [
+      "Leslie Mu"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "UX Collective",
+      "url": "uxdesign.cc",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 360,
+        "height": 60,
+        "url": "https://miro.medium.com/max/720/1*9V9oqYyYnfP5yy7cb7YTMQ.png"
+      }
+    },
+    "mainEntityOfPage": "https://uxdesign.cc/the-onion-for-design-systems-atomic-design-and-pace-layering-4cc59a3c486"
+  },
+  "openGraph": {
+    "app_id": "542599432471018",
+    "site_name": "Medium",
+    "type": "article",
+    "published_time": "2020-08-22T14:13:33.983Z",
+    "title": "The onion for Design Systems: atomic design and pace layering",
+    "description": "Understand Atomic Design with Pace Layering to assist Design Systems’ construction and maintenance",
+    "url": "https://uxdesign.cc/the-onion-for-design-systems-atomic-design-and-pace-layering-4cc59a3c486",
+    "image": {
+      "url": "https://miro.medium.com/max/1080/1*oYvu0_4zYdGbGcsDn73Lag.png"
+    },
+    "author": "https://uxdesign.cc/@lesliemu"
+  },
+  "twitter": {
+    "app": {
+      "name": {
+        "iphone": "Medium"
+      },
+      "id": {
+        "iphone": "828256236"
+      },
+      "url": {
+        "iphone": "medium://p/4cc59a3c486"
+      }
+    },
+    "site": "@uxdesigncc",
+    "image": {
+      "src": "https://miro.medium.com/max/1080/1*oYvu0_4zYdGbGcsDn73Lag.png"
+    },
+    "card": "summary_large_image"
+  }
+}

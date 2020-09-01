@@ -1,0 +1,112 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "60x60"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://cdn-static-1.medium.com/_/fp/icons/favicon-rebrand-medium.3Y6xpZ-0FSdWDnPM3hSBIA.ico"
+      }
+    ],
+    "author": "Solo Cube",
+    "authorlink": "https://medium.com/@solo_cube",
+    "canonical": "https://medium.com/@solo_cube/figma-components-with-a-fixed-aspect-ratio-elements-c7272e2ada9",
+    "description": "Before Figma Auto Layout our days were dark and full of horror. We had to create tons of components just to display different states of one and the same element. With Auto Layout 2.0 everything…",
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Figma components with a fixed aspect ratio elements | by Solo Cube | Aug, 2020 | Medium",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "image": [
+      "https://miro.medium.com/max/1200/1*s-g1Rf_aiXl_CDCnOgMeUA.png"
+    ],
+    "url": "https://medium.com/@solo_cube/figma-components-with-a-fixed-aspect-ratio-elements-c7272e2ada9",
+    "dateCreated": "2020-08-03T09:03:45.302Z",
+    "datePublished": "2020-08-03T09:03:45.302Z",
+    "dateModified": "2020-08-09T13:00:49.721Z",
+    "headline": "Figma components with a fixed aspect ratio elements",
+    "name": "Figma components with a fixed aspect ratio elements",
+    "description": "Before Figma Auto Layout our days were dark and full of horror. We had to create tons of components just to display different states of one and the same element. With Auto Layout 2.0 everything…",
+    "identifier": "c7272e2ada9",
+    "keywords": [
+      "Lite:true",
+      "Tag:Figma",
+      "Tag:Components",
+      "Tag:Aspect Ratio",
+      "Tag:Autolayout",
+      "Tag:Design",
+      "Topic:Programming",
+      "Elevated:false",
+      "LockedPostSource:LOCKED_POST_SOURCE_NONE",
+      "LayerCake:4"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Solo Cube",
+      "url": "https://medium.com/@solo_cube"
+    },
+    "creator": [
+      "Solo Cube"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Medium",
+      "url": "https://medium.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 308,
+        "height": 60,
+        "url": "https://miro.medium.com/max/616/1*OMF3fSqH8t4xBJ9-6oZDZw.png"
+      }
+    },
+    "mainEntityOfPage": "https://medium.com/@solo_cube/figma-components-with-a-fixed-aspect-ratio-elements-c7272e2ada9"
+  },
+  "openGraph": {
+    "app_id": "542599432471018",
+    "site_name": "Medium",
+    "type": "article",
+    "published_time": "2020-08-09T13:00:49.428Z",
+    "title": "Figma components with a fixed aspect ratio elements",
+    "description": "Keep an aspect ratio of a nested element when resizing its parent.",
+    "url": "https://medium.com/@solo_cube/figma-components-with-a-fixed-aspect-ratio-elements-c7272e2ada9",
+    "image": {
+      "url": "https://miro.medium.com/max/1200/1*s-g1Rf_aiXl_CDCnOgMeUA.png"
+    },
+    "author": "https://medium.com/@solo_cube"
+  },
+  "twitter": {
+    "app": {
+      "name": {
+        "iphone": "Medium"
+      },
+      "id": {
+        "iphone": "828256236"
+      },
+      "url": {
+        "iphone": "medium://p/c7272e2ada9"
+      }
+    },
+    "site": "@Medium",
+    "image": {
+      "src": "https://miro.medium.com/max/1200/1*s-g1Rf_aiXl_CDCnOgMeUA.png"
+    },
+    "card": "summary_large_image"
+  }
+}

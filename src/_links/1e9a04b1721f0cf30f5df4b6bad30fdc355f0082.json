@@ -1,0 +1,22 @@
+{
+  "general": {
+    "canonical": "https://increment.com/",
+    "description": "This issue explores all things APIs—from their prehistory to their future, their design and development to their opportunities and impacts.",
+    "title": "Increment: APIs"
+  },
+  "openGraph": {
+    "title": "Increment: APIs",
+    "url": "https://increment.com/apis/",
+    "description": "This issue explores all things APIs—from their prehistory to their future, their design and development to their opportunities and impacts.",
+    "image": {
+      "url": "https://increment.com/art/14/cover-1000-f009cf5b.jpeg"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "image": "https://increment.com/art/14/cover-1000-f009cf5b.jpeg",
+    "site": "@IncrementMag",
+    "title": "Increment: APIs",
+    "description": "This issue explores all things APIs—from their prehistory to their future, their design and development to their opportunities and impacts."
+  }
+}

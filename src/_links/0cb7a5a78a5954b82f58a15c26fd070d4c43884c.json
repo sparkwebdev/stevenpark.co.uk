@@ -1,0 +1,121 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "60x60"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://miro.medium.com/fit/c/256/256/1*7f8ZMJRwy10UGSDQzt8LqQ.png"
+      }
+    ],
+    "author": "Ted Goas",
+    "authorlink": "https://uxdesign.cc/@tedgoas",
+    "canonical": "https://uxdesign.cc/all-design-projects-should-start-in-a-google-doc-20ad24f75a8c",
+    "description": "Maybe a kickoff meeting is organized. In an effort to keep things efficient, the guest list is kept small(ish). Some folks can’t attend. Ideas are brainstormed. A few do most of the speaking while…",
+    "robots": "index,follow,max-image-preview:large",
+    "title": "All design projects should start in a Google Doc | by Ted Goas | Aug, 2020 | UX Collective",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "image": [
+      "https://miro.medium.com/max/1200/1*oRC3IQo6hEt_PIjJpPEzcg.png"
+    ],
+    "url": "https://uxdesign.cc/all-design-projects-should-start-in-a-google-doc-20ad24f75a8c",
+    "dateCreated": "2020-08-19T23:55:39.199Z",
+    "datePublished": "2020-08-19T23:55:39.199Z",
+    "dateModified": "2020-08-24T20:29:47.401Z",
+    "headline": "All design projects should start in a Google Doc - UX Collective",
+    "name": "All design projects should start in a Google Doc - UX Collective",
+    "description": "Maybe a kickoff meeting is organized. In an effort to keep things efficient, the guest list is kept small(ish). Some folks can’t attend. Ideas are brainstormed. A few do most of the speaking while…",
+    "identifier": "20ad24f75a8c",
+    "keywords": [
+      "Lite:true",
+      "Tag:Design",
+      "Tag:Product Design",
+      "Tag:Writing",
+      "Tag:UX",
+      "Tag:Ts",
+      "Topic:Design",
+      "Topic:UX",
+      "Publication:user-experience-design-1",
+      "Elevated:false",
+      "LockedPostSource:LOCKED_POST_SOURCE_UGC_UNENROLLED",
+      "LayerCake:3"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Ted Goas",
+      "url": "https://uxdesign.cc/@tedgoas"
+    },
+    "creator": [
+      "Ted Goas"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "UX Collective",
+      "url": "uxdesign.cc",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 360,
+        "height": 60,
+        "url": "https://miro.medium.com/max/720/1*9V9oqYyYnfP5yy7cb7YTMQ.png"
+      }
+    },
+    "mainEntityOfPage": "https://uxdesign.cc/all-design-projects-should-start-in-a-google-doc-20ad24f75a8c",
+    "isAccessibleForFree": "False",
+    "hasPart": {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".meteredContent"
+    }
+  },
+  "openGraph": {
+    "app_id": "542599432471018",
+    "site_name": "Medium",
+    "type": "article",
+    "published_time": "2020-08-24T20:29:40.357Z",
+    "title": "All design projects should start in a Google Doc",
+    "description": "Most designers jump into their UI tools too quickly.",
+    "url": "https://uxdesign.cc/all-design-projects-should-start-in-a-google-doc-20ad24f75a8c",
+    "image": {
+      "url": "https://miro.medium.com/max/1200/1*oRC3IQo6hEt_PIjJpPEzcg.png"
+    },
+    "author": "https://uxdesign.cc/@tedgoas"
+  },
+  "twitter": {
+    "app": {
+      "name": {
+        "iphone": "Medium"
+      },
+      "id": {
+        "iphone": "828256236"
+      },
+      "url": {
+        "iphone": "medium://p/20ad24f75a8c"
+      }
+    },
+    "site": "@uxdesigncc",
+    "image": {
+      "src": "https://miro.medium.com/max/1200/1*oRC3IQo6hEt_PIjJpPEzcg.png"
+    },
+    "card": "summary_large_image",
+    "creator": "@TedGoas"
+  }
+}

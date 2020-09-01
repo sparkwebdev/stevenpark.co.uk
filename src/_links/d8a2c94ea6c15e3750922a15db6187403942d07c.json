@@ -1,0 +1,29 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "https://media.nngroup.com/static/img/favicon.ico"
+      }
+    ],
+    "canonical": "https://www.nngroup.com/articles/accordion-icons/",
+    "description": "The caret icon most clearly indicated to users that it would open an accordion in place, rather than linking directly to a new page.",
+    "robots": "noarchive",
+    "title": "Accordion Icons: Which Signifiers Work Best?",
+    "lang": "en"
+  },
+  "openGraph": {
+    "description": "The caret icon most clearly indicated to users that it would open an accordion in place, rather than linking directly to a new page.",
+    "title": "Accordion Icons: Which Signifiers Work Best?",
+    "url": "https://www.nngroup.com/articles/accordion-icons/",
+    "site_name": "Nielsen Norman Group",
+    "type": "article",
+    "image": {
+      "url": "https://media.nngroup.com/media/articles/opengraph_images/Accordion-Icons-Signifiers_Social-Media-Posts_2020.png"
+    }
+  },
+  "twitter": {
+    "dnt": "on",
+    "site": "@nngroup",
+    "card": "summary_large_image"
+  }
+}

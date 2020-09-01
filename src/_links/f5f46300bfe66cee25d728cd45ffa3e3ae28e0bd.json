@@ -1,0 +1,73 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/images/favicon/apple-touch-icon-iphone-60x60.png"
+      },
+      {
+        "href": "/images/favicon/apple-touch-icon-ipad-76x76.png",
+        "sizes": "60x60"
+      },
+      {
+        "href": "/images/favicon/apple-touch-icon-iphone-retina-120x120.png",
+        "sizes": "114x114"
+      },
+      {
+        "href": "/images/favicon/apple-touch-icon-ipad-retina-152x152.png",
+        "sizes": "144x144"
+      },
+      {
+        "href": "/images/favicon/app-icon-256x256.png",
+        "sizes": "256x256"
+      },
+      {
+        "href": "/images/favicon/app-icon-512x512.png",
+        "sizes": "512x512"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/images/favicon/favicon.png",
+        "type": "image/png"
+      },
+      {
+        "href": "/images/favicon/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "canonical": "https://www.smashingmagazine.com/2020/08/accessibility-chrome-devtools/",
+    "description": "This article will demonstrate some useful features in DevTools which can help you improve the accessibility of your website.",
+    "robots": "noodp",
+    "title": "Accessibility In Chrome DevTools — Smashing Magazine",
+    "lang": "en"
+  },
+  "openGraph": {
+    "pages": "45576747489",
+    "locale": "en_US",
+    "type": "article",
+    "title": "Accessibility In Chrome DevTools — Smashing Magazine",
+    "description": "This article will demonstrate some useful features in DevTools which can help you improve the accessibility of your website.",
+    "url": "https://www.smashingmagazine.com/2020/08/accessibility-chrome-devtools/",
+    "site_name": "Smashing Magazine",
+    "publisher": "https://www.facebook.com/smashmag",
+    "author": "https://www.smashingmagazine.com/author/umar-hansa/",
+    "tag": [
+      "Accessibility",
+      "Tools"
+    ],
+    "section": "General",
+    "published_time": "2020-08-13 07:00:00 +0000 UTC",
+    "modified_time": "2020-08-13 07:00:00 +0000 UTC",
+    "updated_time": "2020-08-13 07:00:00 +0000 UTC",
+    "image": {
+      "url": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1aaa4f81-68d8-4c74-aa38-6d843cbd0d72/accessibility-chrome-devtools.png"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "description": "This article will demonstrate some useful features in DevTools which can help you improve the accessibility of your website.",
+    "title": "Accessibility In Chrome DevTools — Smashing Magazine",
+    "site": "@smashingmag",
+    "image": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1aaa4f81-68d8-4c74-aa38-6d843cbd0d72/accessibility-chrome-devtools.png"
+  }
+}

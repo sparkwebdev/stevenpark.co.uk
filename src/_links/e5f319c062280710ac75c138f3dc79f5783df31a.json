@@ -1,0 +1,77 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "//s.w.org/favicon.ico?2",
+        "type": "image/x-icon"
+      }
+    ],
+    "canonical": "https://wordpress.org/plugins/shortpixel-adaptive-images/",
+    "description": "Start serving properly sized, smart cropped & optimized images from our CDN with a click; On the fly convert WebP support.",
+    "shortlink": "https://wordpress.org/plugins/?p=94615",
+    "title": "ShortPixel Adaptive Images – WordPress plugin | WordPress.org",
+    "lang": "en-US",
+    "dir": "ltr"
+  },
+  "jsonLd": [
+    {
+      "@context": "http://schema.org",
+      "@type": [
+        "SoftwareApplication",
+        "Product"
+      ],
+      "applicationCategory": "Plugin",
+      "operatingSystem": "WordPress",
+      "name": "ShortPixel Adaptive Images",
+      "url": "https://wordpress.org/plugins/shortpixel-adaptive-images/",
+      "description": "Start serving properly sized, smart cropped &amp; optimized images from our CDN with a click; On the fly convert WebP support.",
+      "softwareVersion": "2.0.5",
+      "fileFormat": "application/zip",
+      "downloadUrl": "https://downloads.wordpress.org/plugin/shortpixel-adaptive-images.2.0.5.zip",
+      "dateModified": "2020-08-20T13:40:51+00:00",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": 1,
+        "bestRating": 5,
+        "ratingValue": 4.9,
+        "ratingCount": 69,
+        "reviewCount": 69
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/DownloadAction",
+        "userInteractionCount": 351091
+      },
+      "image": [
+        "https://ps.w.org/shortpixel-adaptive-images/assets/icon-256x256.png?rev=1989833",
+        "https://ps.w.org/shortpixel-adaptive-images/assets/banner-1544x500.png?rev=1989833"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wordpress.org/plugins/shortpixel-adaptive-images/",
+        "price": "0.00",
+        "priceCurrency": "USD",
+        "seller": {
+          "@type": "Organization",
+          "name": "WordPress.org",
+          "url": "https://wordpress.org"
+        }
+      }
+    }
+  ],
+  "openGraph": {
+    "title": "ShortPixel Adaptive Images",
+    "description": "Start serving properly sized, smart cropped & optimized images from our CDN with a click; On the fly convert WebP support.",
+    "site_name": "WordPress.org",
+    "type": "website",
+    "url": "https://wordpress.org/plugins/shortpixel-adaptive-images/",
+    "image": {
+      "url": "https://ps.w.org/shortpixel-adaptive-images/assets/banner-772x250.png?rev=1989833"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@WordPress",
+    "image": "https://ps.w.org/shortpixel-adaptive-images/assets/banner-1544x500.png?rev=1989833"
+  }
+}

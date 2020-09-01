@@ -1,0 +1,53 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/icon.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/icon.png"
+      }
+    ],
+    "canonical": "https://csswizardry.com/2020/05/the-fastest-google-fonts/",
+    "description": "Google Fonts is fast. Now it’s faster. Much faster.",
+    "title": "The Fastest Google Fonts – CSS Wizardry – Web Performance Optimisation",
+    "lang": "en-GB"
+  },
+  "schemaOrg": {
+    "items": [
+      {
+        "properties": {
+          "datePublished": [
+            "2020-05-19"
+          ],
+          "name": [
+            "The Fastest Google Fonts"
+          ],
+          "headline": [
+            "The Fastest Google Fonts"
+          ],
+          "author": [
+            "Harry Roberts"
+          ],
+          "publisher": [
+            "CSS Wizardry"
+          ]
+        },
+        "type": [
+          "http://schema.org/Article"
+        ]
+      }
+    ]
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "@csswizardry",
+    "domain": "csswizardry.com",
+    "creator": "@csswizardry",
+    "title": "The Fastest Google Fonts – CSS Wizardry",
+    "image": "https://csswizardry.com/logo.png",
+    "description": "Google Fonts is fast. Now it’s faster. Much faster."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>"
+      }
+    ],
+    "canonical": "https://whimsical.club/",
+    "description": "A curated list of sites with an extra bit of fun.",
+    "title": "The Whimsical Web",
+    "lang": "en"
+  },
+  "openGraph": {
+    "site_name": "The Whimsical Web",
+    "title": "The Whimsical Web",
+    "description": "A curated list of sites with an extra bit of fun.",
+    "url": "https://whimsical.club/",
+    "locale": "en_us",
+    "image": {
+      "url": "https://whimsical.club/assets/images/cover.jpg?v2"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/apple-touch-icon.png"
+      }
+    ],
+    "canonical": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+    "description": "I have spent the past several years working (alongside a bunch of super talented people) on a font family called Recursive Sans & Mono, and it just",
+    "robots": "index, follow",
+    "shortlink": "https://css-tricks.com/?p=317559",
+    "title": "\n    Getting the Most Out of Variable Fonts on Google Fonts | CSS-Tricks  ",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://css-tricks.com/#organization",
+        "name": "CSS-Tricks",
+        "url": "https://css-tricks.com/",
+        "sameAs": [
+          "https://www.facebook.com/CSSTricks",
+          "https://twitter.com/CSS"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#logo",
+          "inLanguage": "en-US",
+          "url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg?fit=%2C&ssl=1",
+          "caption": "CSS-Tricks"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/#logo"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://css-tricks.com/#website",
+        "url": "https://css-tricks.com/",
+        "name": "CSS-Tricks",
+        "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets.",
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": "https://css-tricks.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/07/recursive-specimen.png?fit=1200%2C600&ssl=1",
+        "width": 1200,
+        "height": 600
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#webpage",
+        "url": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+        "name": "Getting the Most Out of Variable Fonts on Google Fonts | CSS-Tricks",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#primaryimage"
+        },
+        "datePublished": "2020-07-30T14:24:45+00:00",
+        "dateModified": "2020-08-01T16:54:30+00:00",
+        "description": "I have spent the past several years working (alongside a bunch of super talented people) on a font family called Recursive Sans &amp; Mono, and it just",
+        "breadcrumb": {
+          "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/",
+              "url": "https://css-tricks.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+              "url": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+              "name": "Getting the Most Out of Variable Fonts on Google Fonts"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#article",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#webpage"
+        },
+        "author": {
+          "@id": "https://css-tricks.com/#/schema/person/b28ed00a292cc94e172cf60f56fa4000"
+        },
+        "headline": "Getting the Most Out of Variable Fonts on Google Fonts",
+        "datePublished": "2020-07-30T14:24:45+00:00",
+        "dateModified": "2020-08-01T16:54:30+00:00",
+        "commentCount": "10",
+        "mainEntityOfPage": {
+          "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#webpage"
+        },
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#primaryimage"
+        },
+        "keywords": "font-variant,google fonts,typography,variable fonts",
+        "articleSection": "Article",
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+              "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/#respond"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": [
+          "Person"
+        ],
+        "@id": "https://css-tricks.com/#/schema/person/b28ed00a292cc94e172cf60f56fa4000",
+        "name": "Stephen Nixon",
+        "image": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#personlogo",
+          "inLanguage": "en-US",
+          "url": "https://secure.gravatar.com/avatar/b5ad1b8d5348d12c21e8e7dffd1a7a0f?s=96&d=retro&r=pg",
+          "caption": "Stephen Nixon"
+        }
+      }
+    ]
+  },
+  "openGraph": {
+    "pages": "124436167285",
+    "locale": "en_US",
+    "type": "article",
+    "title": "Getting the Most Out of Variable Fonts on Google Fonts | CSS-Tricks",
+    "description": "I have spent the past several years working (alongside a bunch of super talented people) on a font family called Recursive Sans & Mono, and it just",
+    "url": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+    "site_name": "CSS-Tricks",
+    "publisher": "https://www.facebook.com/CSSTricks",
+    "published_time": "2020-07-30T14:24:45+00:00",
+    "modified_time": "2020-08-01T16:54:30+00:00",
+    "image": {
+      "url": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/07/recursive-specimen.png?fit=1200%2C600&ssl=1",
+      "width": "1200",
+      "height": "600"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "creator": "@CSS",
+    "site": "@CSS"
+  }
+}

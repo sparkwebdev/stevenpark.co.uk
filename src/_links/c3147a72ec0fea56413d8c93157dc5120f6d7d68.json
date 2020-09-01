@@ -1,0 +1,28 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "favico/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "favico/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "author": "Pavel Laptev",
+    "description": "Old Web features — frontend and UI patterns",
+    "title": "Dark Ages of the Web",
+    "lang": "en"
+  },
+  "openGraph": {
+    "title": "Dark Ages of the Web",
+    "image": {
+      "url": "https://pavellaptev.github.io/web-dark-ages/img/web-preview.jpg"
+    },
+    "description": "Old Web features — frontend and UI patterns",
+    "url": "https://pavellaptev.github.io/web-dark-ages/"
+  }
+}

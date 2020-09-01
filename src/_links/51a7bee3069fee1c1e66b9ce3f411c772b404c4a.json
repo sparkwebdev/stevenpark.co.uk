@@ -1,0 +1,88 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/blog/favicon.png",
+        "type": "image/png"
+      }
+    ],
+    "canonical": "https://9elements.com/blog/gradient-angles-in-css/",
+    "description": "Today it's easy to copy CSS for gradients from Figma/Sketch, but you should be careful. Gradient angles behave differently in graphics tools than with CSS.",
+    "title": "Gradient angles in CSS, Figma & Sketch",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+      "@type": "Organization",
+      "name": "9elements Blog",
+      "logo": "https://static.ghost.org/v1.0.0/images/ghost-logo.svg"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Nils Binder",
+      "image": {
+        "@type": "ImageObject",
+        "url": "//www.gravatar.com/avatar/53282fcdf68ebc24f2dc1dcec5791206?s=250&d=mm&r=x",
+        "width": 250,
+        "height": 250
+      },
+      "url": "https://9elements.com/blog/author/nils/",
+      "sameAs": [
+        "https://twitter.com/supremebeing09"
+      ]
+    },
+    "headline": "Gradient angles in CSS, Figma &amp; Sketch",
+    "url": "https://9elements.com/blog/gradient-angles-in-css/",
+    "datePublished": "2020-08-10T07:24:30.000Z",
+    "dateModified": "2020-08-10T07:24:30.000Z",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://9elements.com/blog/content/images/2020/08/gradient-angles-figma-sketch-css-3.svg",
+      "width": 2000,
+      "height": 694
+    },
+    "keywords": "css, webdesign, gradient, figma, sketch",
+    "description": "Do you know the feeling when a subject never lets you go? In the last years, I\nhave worked with different graphics programs and have written many lines of CSS.\nEven though it is now easy to copy CSS code for gradients directly from e.g.\nFigma, I always had the feeling that gradients in graphics programs behave\nsomewhat differently than gradients created with CSS. Especially the angle of a\ngradient sometimes seemed more like a random product to me. In the end, copying\nthe CSS code often leads to ",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://9elements.com/blog/"
+    }
+  },
+  "openGraph": {
+    "site_name": "9elements Blog",
+    "type": "article",
+    "title": "Gradient angles in CSS, Figma & Sketch",
+    "description": "Do you know the feeling when a subject never lets you go? In the last years, I\nhave worked with different graphics programs and have written many lines of CSS.\nEven though it is now easy to copy CSS code for gradients directly from e.g.\nFigma, I always had the feeling that gradients in graphics programs behave\nsomewhat differently than gradients created with CSS. Especially the angle of a\ngradient sometimes seemed more like a random product to me. In the end, copying\nthe CSS code often leads to ",
+    "url": "https://9elements.com/blog/gradient-angles-in-css/",
+    "image": {
+      "url": "https://9elements.com/blog/content/images/2020/08/gradient-angles-in-figma-sketch-css-4.png",
+      "width": "1200",
+      "height": "630"
+    },
+    "published_time": "2020-08-10T07:24:30.000Z",
+    "modified_time": "2020-08-10T07:24:30.000Z",
+    "tag": [
+      "css",
+      "webdesign",
+      "gradient",
+      "figma",
+      "sketch"
+    ],
+    "publisher": "https://www.facebook.com/9elements"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Gradient angles in CSS, Figma & Sketch",
+    "description": "Do you know the feeling when a subject never lets you go? In the last years, I\nhave worked with different graphics programs and have written many lines of CSS.\nEven though it is now easy to copy CSS code for gradients directly from e.g.\nFigma, I always had the feeling that gradients in graphics programs behave\nsomewhat differently than gradients created with CSS. Especially the angle of a\ngradient sometimes seemed more like a random product to me. In the end, copying\nthe CSS code often leads to ",
+    "url": "https://9elements.com/blog/gradient-angles-in-css/",
+    "image": "https://9elements.com/blog/content/images/2020/08/gradient-angles-in-figma-sketch-css-3.png",
+    "label1": "Written by",
+    "data1": "Nils Binder",
+    "label2": "Filed under",
+    "data2": "css, webdesign, gradient, figma, sketch",
+    "site": "@9elements",
+    "creator": "@supremebeing09"
+  }
+}

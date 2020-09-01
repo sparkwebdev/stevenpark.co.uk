@@ -1,0 +1,121 @@
+{
+  "dublinCore": {
+    "title": "Hosting Checker - Find out who is hosting any website",
+    "description": "Just enter the URL and find out: The hosting company, IP, Datacenter, Location and Nameservers of any website. And check our other tools for web developers.",
+    "relation": "https://hostingchecker.com/",
+    "source": "https://hostingchecker.com/",
+    "language": "en_US"
+  },
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://hostingchecker.com/wp-content/uploads/2019/07/cropped-favicon-180x180.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://hostingchecker.com/wp-content/uploads/2019/07/cropped-favicon-32x32.png",
+        "sizes": "32x32"
+      },
+      {
+        "href": "https://hostingchecker.com/wp-content/uploads/2019/07/cropped-favicon-192x192.png",
+        "sizes": "192x192"
+      }
+    ],
+    "author": "hC",
+    "canonical": "https://hostingchecker.com/",
+    "description": "Just enter the URL and find out: The hosting company, IP, Datacenter, Location and Nameservers of any website. And check our other tools for web developers.",
+    "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "shortlink": "https://hostingchecker.com/",
+    "title": "Hosting Checker - Find out who is hosting any website",
+    "lang": "en-US"
+  },
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Hosting Checker",
+      "url": "https://hostingchecker.com"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://hostingchecker.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hostingchecker.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://hostingchecker.com",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Wednesday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "name": "Hosting Checker"
+    }
+  ],
+  "openGraph": {
+    "url": "https://hostingchecker.com/",
+    "site_name": "Hosting Checker",
+    "locale": "en_US",
+    "type": "website",
+    "title": "Hosting Checker - Find out who is hosting any website",
+    "description": "Just enter the URL and find out: The hosting company, IP, Datacenter, Location and Nameservers of any website. And check our other tools for web developers.",
+    "image": {
+      "url": "https://hostingchecker.com/wp-content/uploads/2019/09/hosting-checker-fb.jpg",
+      "secure_url": "https://hostingchecker.com/wp-content/uploads/2019/09/hosting-checker-fb.jpg",
+      "width": "600",
+      "height": "300"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "title": "Hosting Checker - Find out who is hosting any website",
+    "description": "Just enter the URL and find out: The hosting company, IP, Datacenter, Location and Nameservers of any website. And check our other tools for web developers.",
+    "image": "https://hostingchecker.com/wp-content/uploads/2019/09/hosting-checker-tw.jpg"
+  }
+}

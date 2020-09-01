@@ -1,0 +1,23 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.png"
+      }
+    ],
+    "description": "A modern CSS showcase styled by community contributions. Maintained by Stephanie Eckles (@5t3ph) of ModernCSS.dev.",
+    "title": "Style Stage from Modern CSS Solutions",
+    "lang": "en"
+  },
+  "openGraph": {
+    "image": {
+      "url": "https://stylestage.dev/previews/home.png"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Style Stage",
+    "description": "A modern CSS showcase styled by community contributions. Maintained by Stephanie Eckles (@5t3ph) of ModernCSS.dev.",
+    "image": "https://stylestage.dev/previews/home.png"
+  }
+}

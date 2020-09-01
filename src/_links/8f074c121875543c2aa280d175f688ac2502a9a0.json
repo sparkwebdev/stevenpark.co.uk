@@ -1,0 +1,113 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://matthiasott.com/apple-touch-icon.png?v=00rKnA7O762",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://matthiasott.com/favicon-32x32.png?v=00rKnA7O762",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "https://matthiasott.com/favicon-16x16.png?v=00rKnA7O762",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "href": "https://matthiasott.com/favicon.ico?v=00rKnA7O762"
+      }
+    ],
+    "author": "Matthias Ott",
+    "authorlink": "https://plus.google.com/+MatthiasOtt/posts",
+    "canonical": "https://matthiasott.com/notes/how-i-structure-my-css",
+    "publisher": "https://plus.google.com/+MatthiasOtt",
+    "robots": "index,follow",
+    "title": " How I Structure My CSS (for Now) · Matthias Ott – User Experience Designer",
+    "lang": "en"
+  },
+  "openGraph": {
+    "title": "How I Structure My CSS (for Now) · Matthias Ott – User Experience Designer",
+    "url": "https://matthiasott.com/notes/how-i-structure-my-css",
+    "site_name": "Matthias Ott – User Experience Designer",
+    "type": "website",
+    "description": "Matthias Ott is an independent user experience designer and developer from Stuttgart, Germany. Besides design practice he teaches Interface Prototyping at the Muthesius Academy of Fine Arts and Design, Kiel."
+  },
+  "schemaOrg": {
+    "items": [
+      {
+        "properties": {
+          "name": [
+            "Matthias Ott – User Experience Designer"
+          ],
+          "description": [
+            "Matthias Ott is an independent user experience designer and developer from Stuttgart, Germany. Besides design practice he teaches Interface Prototyping at the Muthesius Academy of Fine Arts and Design, Kiel."
+          ],
+          "image": [
+            ""
+          ]
+        }
+      },
+      {
+        "properties": {
+          "articleBody": [
+            "\n\n\t\t\n\n\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tWhen it comes to structuring CSS, there is no shortage of different naming conventions, methodologies, and architectures. Be it BEM, OOCSS, SMACSS, ITCSS, or CUBE CSS – over the last years, many different approaches to managing modular CSS have emerged. Some are offering strategies on how to split CSS into smaller, more manageable pieces, while others focus more on naming conventions for classes. Sometimes, it can be hard to grasp where the differences or advantages of certain methodologies lie, yet in the end, they all aim at the same: Providing structure and consistency, also known as “avoiding a mess”, when you are working in a team or with your present and future self.\n\nNo wonder there isn’t a new project where I don’t start to think about the structure of my CSS a bit and, over time, the way I organize and write CSS has changed a lot. The biggest change came when we all started to write CSS for components. But also preprocessors like Sass have clearly left their mark.\n\nIn this post, I will share my current take on CSS structure. It does not religiously follow any particular methodology, although people familiar with Harry Roberts’ ITCSS (“Inverted Triangle CSS”) will definitely recognize parts of his methodology. If you haven’t yet looked at ITCSS, I highly recommend it. What I like most, is the pragmatic, real-life approach and the principle of structuring your CSS in a way that gets ever more specific and explicit the farther down you go in the structure. This allows you to focus on the high-level styles first and makes it easier to deal with the cascade, inheritance, and selector specificity while keeping the number of classes – and the specificity! – as low as possible. There are, however, a few differences, and this is also what I’d suggest to anyone setting up their own structure: Take any methodology with a grain of salt and freely adjust it to your needs and the way you work.\n\nThe Folder Structure\n\nThis is how my folder structure currently looks like:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n/scss/\n├── 1-settings\n├── 2-design-tokens\n├── 3-tools\n├── 4-generic\n├── 5-elements\n├── 6-skeleton\n├── 7-components\n├── 8-utilities\n├── _shame.scss\n└── main.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tLet’s break it down a bit.\n\nSettings\n\nThe first folder, 1-settings, is for all general project settings, so for the most basic high-level configuration. This might be a collection of global variables – either as Sass variables or custom properties.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 1-settings\n│   └── _global.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tDesign Tokens\n\nThe second folder is for all styles regarding the visual vocabulary of the site. At this level, we are still not generating any CSS output. It is where we define variables for the typography, colors, spacing, media-queries, or any other attributes which you will use throughout the design. For these visual design attributes, the term design tokens has taken hold. Those design tokens could even be coming from your design system as a single source of truth.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 2-design-tokens\n│   ├── _colors.scss\n│   ├── _fonts.scss\n│   ├── _media-queries.scss\n│   ├── _spacing.scss\n│   └── _typography.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tTools\n\nThe tools folder is where your global Sass mixins and functions live. Maybe you want to manipulate colors with blend modes or set the aspect ratio for a video container? Or clear your float, for example. I am not a heavy user of mixins myself, but I know many people who love them, so this is where to put them.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 3-tools\n│   ├── _aspect-ratio.scss\n│   ├── _blend-modes.scss\n│   ├── _center.scss\n│   ├── _clearfix.scss\n│   └── _gradients.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tGeneric\n\nJust like in ITCSS, the generic folder is the first one that actually produces CSS. It contains global box-sizing rules, CSS resets, or print styles – anything that should be set right at the beginning of your CSS but isn’t yet project-specific.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 4-generic\n│   ├── _box-sizing.scss\n│   ├── _font-face.scss\n│   ├── _normalize.scss\n│   └── _print.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tElements\n\nNow that the most basic things are set up, we can start to style the building blocks of our front-end: Raw HTML Elements. Mostly without classes, we are now redefining the basic browser styles of headlines, buttons, links, lists, etc. and can make sure that all components in our design are using the same consistent base.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 5-elements\n│   ├── _forms.scss\n│   ├── _headings.scss\n│   ├── _images.scss\n│   ├── _links.scss\n│   └── _lists.scss\n│   ├── ...\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tSkeleton\n\nAny modern web project that is built with components also comes with the need for a higher-level structure in which all the components can live: Wrappers, containers, grids, and all kinds of reusable objects that provide layout patterns. This is the skeleton of your site.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 6-skeleton\n│   ├── _grid.scss\n│   ├── _layouts.scss\n│   └── _objects.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tComponents\n\nThe beating heart of the project. This is where we design the components of the UI. In a few recent projects, I sometimes distinguished between larger modules and smaller components, but you can also nest components into each other and do without the additional distinction. Use prefixes, if you like, and also a naming convention like BEM can make a lot of sense. I have recently settled on a BEM-like but more simplified naming convention: Just use the simplest but most descriptive class name possible and separate elements within other elements with a simple dash, like .card and .card-content. Sometimes – for example, when I work with Fractal – the CSS for individual components might also live in another folder, together with the HTML and JavaScript code. In this case, the components folder might be empty, or contain references via @import.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 7-components\n│   ├── _accordion.scss\n│   ├── _card.scss\n│   ├── _hero.scss\n│   ├── _pan-galactic-gargle-blaster.scss\n│   └── ...\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tUtilities\n\nAnother folder? Yes, but this is definitely the last one. The utilities folder contains utility and helper classes and, most importantly, states and modifiers like .is-active or .visually-hidden. Those styles override the styles in the previous layers and are often set via JavaScript. I really like the suggestion by Andy Bell in his CUBE CSS methodology to use data-attributes to change the state of components, which is also useful in terms of the higher specificity.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n├── 8-utilities\n│   ├── _modifiers.scss\n│   └── _states.scss\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \t_shame.scss\n\nThis file, which is another idea by Harry Roberts, is a place for all the shameful CSS solutions like quick fixes and hacky things that might solve a problem for the time being but should be solved properly later. Make sure to document all those nasty hacks with comments, though: Why did you solve it this way? Do you already have an idea on how to solve it better? What is needed to solve it? And so on…\n\nPutting it all together\n\nFinally, the main.scss file is where all the individual files are combined. I prefer to explicitly import each file in a new line instead of importing whole folders because I have more control over the source order. But this is only my personal preference, of course.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n@charset \"UTF-8\";\n\n// 1. Settings\n@import \n\t\"1-settings/global\";\n  \n// 2. Design Tokens\n@import\n  \"2-design-tokens/colors\",\n  \"2-design-tokens/fonts\",\n  \"2-design-tokens/media-queries\",\n  \"2-design-tokens/spacing\",\n  \"2-design-tokens/typography\";\n...\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tAnd that’s it. A structure like this has served me well in recent projects because it keeps everything tidy. The resulting CSS is also much cleaner and it is easier to find the right piece of code when you have to make changes or do bugfixes.\n\nI asked on Twitter the other day which CSS methodology you all prefer and the results were, as was to be expected, mixed:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \tWeb developers and designers of the interwebs! What is your favorite…\n\n✨CSS methodology✨?\n\n—and why?— Matthias Ott (@m_ott) August 10, 2020  \n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \tPeople all like to use their own flavor of CSS, which is great.  If you use a methodology or folder structure that you would like to share, write a post about it and I’ll happily link to it here. It would be interesting to see how you structure your CSS.\n\nFor future reference, here’s the whole folder structure again:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t\t\t\t    \t\n/scss/\n├── 1-settings\n│   └── _global.scss\n├── 2-design-tokens\n│   ├── _colors.scss\n│   ├── _fonts.scss\n│   ├── _media-queries.scss\n│   ├── _spacing.scss\n│   └── _typography.scss\n├── 3-tools\n│   ├── _aspect-ratio.scss\n│   ├── _blend-modes.scss\n│   ├── _center.scss\n│   ├── _clearfix.scss\n│   └── _gradients.scss\n├── 4-generic\n│   ├── _box-sizing.scss\n│   ├── _font-face.scss\n│   ├── _normalize.scss\n│   └── _print.scss\n├── 5-elements\n│   ├── _forms.scss\n│   ├── _headings.scss\n│   ├── _images.scss\n│   ├── _links.scss\n│   ├── _lists.scss\n│   └── ...\n├── 6-skeleton\n│   ├── _grid.scss\n│   ├── _layouts.scss\n│   └── _objects.scss\n├── 7-components\n│   ├── _accordion.scss\n│   ├── _card.scss\n│   ├── _hero.scss\n│   ├── _pan-galactic-gargle-blaster.scss\n│   └── ...\n├── 8-utilities\n│   ├── _modifiers.scss\n│   └── _states.scss\n├── _shame.scss\n└── main.scss\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t    \t    \t\t\t\t    \t\t      \t    \t-\n\nThis is the 51st post of my 100 days of writing series. You can find a list of all posts here.\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t~\n\t\t\n    \t\n\tHave you published a response to this? Send me a webmention by letting me know the URL.\n\t\n\t\n\tPing!\n\n    \n\t"
+          ],
+          "headline": [
+            "How I Structure My CSS (for Now)"
+          ],
+          "author": [
+            "\n\t\t\t\t\tby \n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tMatthias Ott\n\t\t\t\t\t\n\t\t\t\t"
+          ],
+          "datePublished": [
+            "2020-08-11 23:08:00"
+          ],
+          "url": [
+            "https://matthiasott.com"
+          ],
+          "about": [
+            "architecture",
+            "css",
+            "ITCSS",
+            "methodologies",
+            "sass"
+          ]
+        },
+        "type": [
+          "https://schema.org/BlogPosting"
+        ]
+      },
+      {
+        "properties": {},
+        "type": [
+          "https://schema.org/SiteNavigationElement"
+        ]
+      },
+      {
+        "properties": {},
+        "type": [
+          "https://schema.org/SiteNavigationElement"
+        ]
+      },
+      {
+        "properties": {},
+        "type": [
+          "https://schema.org/SiteNavigationElement"
+        ]
+      }
+    ]
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "@m_ott",
+    "creator": "@m_ott",
+    "url": "https://matthiasott.com/notes/how-i-structure-my-css",
+    "title": "How I Structure My CSS (for Now) · Matthias Ott – User Experience Designer",
+    "image": "https://matthiasott.com/android-chrome-384x384.png?v=00rKnA7O762",
+    "domain": "matthiasott.com",
+    "description": "Matthias Ott is an independent user experience designer and developer from Stuttgart, Germany. Besides design practice he teaches Interface Prototyping at the Muthesius Academy of Fine Arts and Design, Kiel."
+  }
+}
