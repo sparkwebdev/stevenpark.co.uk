@@ -14,7 +14,6 @@
 body {
   background: #fff;
   color: get-color('tone-800');
-  line-height: 1.5;
   font-size: 1.1rem;
   @include media-query('sm') {
     font-size: 1.2rem;
@@ -64,7 +63,7 @@ h1, h2, h3, h4, h5, h6, p, ul:not([class]), ol:not([class]), textarea, dl {
 // High contrast selection because it can help visually-impaired
 // folks read the text easier
 ::selection {
-  color: get-color('tone-200');
+  color: get-color('tone-100');
 
   // We set this as an RGBA because that's how you get a solid color, by using 0.99
   // alpha value. Browsers are wild.
@@ -74,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul:not([class]), ol:not([class]), textarea, dl {
 // Import blocks
 @import 'blocks/anchor-link';
 @import 'blocks/blockquotes';
+@import 'blocks/card-link';
 @import 'blocks/definition-lists';
 @import 'blocks/header';
 @import 'blocks/footer';
@@ -115,7 +115,7 @@ del + ins {
 	padding: 2px 8px;
 	font-weight: bold;
 }
-strong > em {
+em > strong {
 	background-color: get-color('brand-1-light');
 	text-decoration: none;
 	padding-left: 0.4rem;
