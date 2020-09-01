@@ -41,15 +41,14 @@
 
     </div>
 
-    <script>
     {% set js %}
       {% include "../../assets/js/app.js" %}
       {% if page.url | url == "/contact/" %}
         {% include "../../assets/js/form.js" %}
       {% endif %}
     {% endset %}
-    {# document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' ); #}
-    {{ js | jsmin | safe }}
+    <script>{# document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' ); #}
+    {{- js | jsmin | safe -}}
     </script>
 
   </body>

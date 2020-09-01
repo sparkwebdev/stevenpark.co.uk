@@ -1,0 +1,27 @@
+.card-link {
+  padding: get-size('400') get-size('400') get-size('400') get-size('900');
+  border: solid;
+  border-width: 1px 1px 1px get-size('200');
+  display: block;
+  position: relative;
+  text-decoration-line: none;
+
+  &__icon {
+    width: get-size('500');
+    position: absolute;
+    top: calc(50% - #{(get-size('500') / 2)});
+    left: get-size('500');
+  }
+
+  &__description {
+    font-size: get-size('400');
+  }
+
+  &__url {
+    font-size: get-size('400');
+    color: get-color('tone-400');
+    text-decoration-line: underline;
+    line-break: anywhere;
+  }
+
+}
