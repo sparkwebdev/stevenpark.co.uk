@@ -1,13 +1,13 @@
 ---
 title: Monthly dev roundup 01
-subtitle: A round-up of the articles, tools and techniques I've discovered over the past month of August 2020.
+subtitle: A round-up of the articles, tools and techniques I've discovered during the month of August 2020.
 date: 2020-08-31
 tags: ['Useful Links']
 ---
 
 ## Articles
 
-The ***Neilson Norman group*** outline various problems with the PDF format for online reading, and user testing research on which icon signifier works best for accordion components. ***Madalyn Parker*** compares Accessibility Testing to making coffee (along with some brilliant illustrations), ***Ted Goas*** says we should begin our design stage in your collaborative document editor of choice — "It lowers the barrier to entry, makes it easier to cast a wide netand keeps people focused on the problem...", ***Leslie Mu*** discusses atomic design systems and the Pace Layering theory, ***Elad Shechter*** warns us that CSS Logical Properties (the ability to control layout through logical, rather than physical dimensions, e.g. for vertical or right-to-left text)) aren't ready for prime time and the always beautiful ***Increment*** magazine latest issue focuses on APIs.
+The ***Neilson Norman group*** outline various problems with the PDF format for online reading, and user testing research on which icon signifier works best for accordion components. ***Madalyn Parker*** compares Accessibility Testing to making coffee (along with some brilliant illustrations), ***Ted Goas*** says we should begin our design stage in your collaborative document editor of choice — "It lowers the barrier to entry, makes it easier to cast a wide netand keeps people focused on the problem...", ***Leslie Mu*** discusses atomic design systems and the Pace Layering theory, ***Elad Shechter*** warns us that CSS Logical Properties (the ability to control layout through logical, rather than physical dimensions, e.g. for vertical or right-to-left text) aren't ready for prime time and the always beautiful ***Increment*** magazine's latest issue focuses on APIs.
 
 {{"https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/" | linkPreview | safe}}
 
@@ -53,7 +53,7 @@ Open source browser tools and CSS generators from ***Omatsuri***, a tool for fin
 
 ## Inspiration & Fun Stuff
 
-***Stephanie Eckles'*** Style Stage showcases modern CSS via user contibutions (similar to the legendary CSS Zen Garden), ***Max Böck's*** Whimsical Web showcase web design with a fun edge, whilst ***Pavel Laptev's*** Web Dark Ages gives us a blast of nostalgia. With a nod to lot of us now working from home ***Window Swap*** and ***Nimrod Kramer*** both give us a glimpse into other people workplaces.
+***Stephanie Eckles'*** Style Stage showcases modern CSS via user contibutions (similar to the legendary CSS Zen Garden), ***Max Böck's*** Whimsical Web showcase web design with a fun edge, whilst ***Pavel Laptev's*** Web Dark Ages gives us a blast of nostalgia. With a nod to lot of us now working from home ***Window Swap*** and ***Nimrod Kramer*** both give us a glimpse into other people workspaces.
 
 {{"https://stylestage.dev/" | linkPreview | safe}}
 
