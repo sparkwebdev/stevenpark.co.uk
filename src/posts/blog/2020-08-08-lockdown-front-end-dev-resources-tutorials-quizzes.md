@@ -5,7 +5,7 @@ date: 2020-08-08
 tags: ['Useful Links']
 ---
 
-THe downturn of client work over these last few months has had a silver lining of giving me the time to improve my front-end dev and design skills. Below is a list of some of the resources, tutorials and quizzes that I've been working my way through.
+The downturn of client work over these last few months has had a silver lining of giving me the time to improve my front-end dev and design skills. Below is a list of some of the resources, tutorials and quizzes that I've been working my way through.
 
 ## Front End Dev
 
