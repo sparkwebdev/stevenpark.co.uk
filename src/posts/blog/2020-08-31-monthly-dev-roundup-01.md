@@ -25,7 +25,7 @@ The ***Neilson Norman group*** outline various problems with the PDF format for 
 
 ## Techniques & Tutorials
 
-***Stephen Nixon*** describes how to use Variable Google Fonts, both ***Nils Binder*** and ***Solo Cube*** will test your maths skills to discuss, respetively, CSS Gradients and fixed aspect elements in Figma, ***Dan Klammer*** explais the new AVIF image format looking to improve upon JPEG, PNG and WebP images. ***Tomas Pustelnik*** talks CSS Optimisation, Chrome DevTools expert ***Umar Hansa*** discusses DevTools' Accessibility features and ***Matthias Ott*** gives us a peek into his CSS methodology. 
+***Stephen Nixon*** describes how to use Variable Google Fonts, both ***Nils Binder*** and ***Solo Cube*** will test your maths skills to discuss, respectively, CSS Gradients and fixed aspect elements in Figma, ***Dan Klammer*** explais the new AVIF image format looking to improve upon JPEG, PNG and WebP images. ***Tomas Pustelnik*** talks CSS Optimisation, Chrome DevTools expert ***Umar Hansa*** discusses DevTools' Accessibility features and ***Matthias Ott*** gives us a peek into his CSS methodology. 
 
 {{"https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/" | linkPreview | safe}}
 
