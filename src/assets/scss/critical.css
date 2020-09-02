@@ -984,16 +984,16 @@ dl dd {
     display: initial;
   }
 }
-.site-header__alert {
+.site-main__alert {
   flex-basis: 100%;
   margin-top: 1.77rem;
 }
 @media (min-width: 37em) {
-  .site-header__alert {
+  .site-main__alert {
     margin-top: 3.54rem;
   }
 }
-.site-header__alert em strong {
+.site-main__alert em strong {
   display: inline-block;
 }
 
