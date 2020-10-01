@@ -1,0 +1,33 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/favicons/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicons/favicon.ico"
+      }
+    ],
+    "title": "How screen readers navigate data tables - Tink - Léonie Watson",
+    "lang": "en"
+  },
+  "openGraph": {
+    "site_name": "Tink - Léonie Watson - On technology, food & life in the digital age",
+    "title": "How screen readers navigate data tables - Tink - Léonie Watson",
+    "type": "website",
+    "url": "https://tink.uk/how-screen-readers-navigate-data-tables/"
+  }
+}

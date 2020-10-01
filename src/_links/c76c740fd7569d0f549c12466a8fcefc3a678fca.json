@@ -1,0 +1,99 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--l0c3Kmql--/c_limit,f_png,fl_progressive,q_80,w_152/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "180x180"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--2ecYCSjC--/c_limit,f_png,fl_progressive,q_80,w_167/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "167x167"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "192x192"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "128x128"
+      }
+    ],
+    "canonical": "https://daily-dev-tips.com/posts/i-made-my-website-28ms-faster-with-content-visibility-%F0%9F%A4%93/",
+    "description": "You might think, what is 28ms? If you are a big advocate of speeding up the web and getting perfect s... Tagged with website, html, css, speed.",
+    "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "title": "I made my website 28ms faster with content-visibility 🤓 - DEV",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://dev.to/dailydevtips1/i-made-my-website-28ms-faster-with-content-visibility-466e"
+    },
+    "url": "https://dev.to/dailydevtips1/i-made-my-website-28ms-faster-with-content-visibility-466e",
+    "image": [
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--GSPE_sYf--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/0wqox4k09919jpio512i.jpg",
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--xV21pM2M--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/0wqox4k09919jpio512i.jpg",
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--8po7znrN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/0wqox4k09919jpio512i.jpg"
+    ],
+    "publisher": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "DEV Community",
+      "logo": {
+        "@context": "http://schema.org",
+        "@type": "ImageObject",
+        "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "width": "192",
+        "height": "192"
+      }
+    },
+    "headline": "I made my website 28ms faster with content-visibility 🤓",
+    "author": {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "url": "https://dev.to/dailydevtips1",
+      "name": "Chris Bongers"
+    },
+    "datePublished": "2020-09-24T05:42:25Z",
+    "dateModified": "2020-09-24T07:59:38Z"
+  },
+  "openGraph": {
+    "type": "article",
+    "url": "https://dev.to/dailydevtips1/i-made-my-website-28ms-faster-with-content-visibility-466e",
+    "title": "I made my website 28ms faster with content-visibility 🤓",
+    "description": "You might think, what is 28ms? If you are a big advocate of speeding up the web and getting perfect s...",
+    "site_name": "DEV Community",
+    "image": {
+      "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--QOgtsbq2--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/0wqox4k09919jpio512i.jpg"
+    },
+    "pages": "568966383279687"
+  },
+  "twitter": {
+    "site": "@thepracticaldev",
+    "creator": "@DailyDevTips1",
+    "title": "I made my website 28ms faster with content-visibility 🤓",
+    "description": "You might think, what is 28ms? If you are a big advocate of speeding up the web and getting perfect s...",
+    "card": "summary_large_image",
+    "widgets": {
+      "new-embed-design": "on"
+    },
+    "image": {
+      "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--QOgtsbq2--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/0wqox4k09919jpio512i.jpg"
+    }
+  }
+}

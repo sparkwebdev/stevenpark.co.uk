@@ -1,0 +1,45 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/2020/images/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/2020/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/2020/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "href": "./favicon.ico"
+      }
+    ],
+    "description": "A Free 24-Hour Online Community Event On Accessibility.",
+    "title": "Inclusive Design 24 (#id24) 17 September 2020",
+    "lang": "en"
+  },
+  "openGraph": {
+    "title": "Inclusive Design 24 (#id24)",
+    "image": {
+      "url": "https://inclusivedesign24.org/2020/images/android-chrome-512x512.png"
+    },
+    "site_name": "Inclusive Design 24 (#id24)",
+    "description": "A Free 24-Hour Online Community Event On Accessibility."
+  },
+  "twitter": {
+    "card": "summary",
+    "url": "https://inclusivedesign24.org/",
+    "title": "Inclusive Design 24 (#id24)",
+    "description": "A Free 24-Hour Online Community Event On Accessibility.",
+    "image": "https://inclusivedesign24.org/2020/images/android-chrome-512x512.png",
+    "site": "@id24conf",
+    "creator": "@id24conf"
+  }
+}

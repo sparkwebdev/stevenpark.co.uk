@@ -1,0 +1,99 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--l0c3Kmql--/c_limit,f_png,fl_progressive,q_80,w_152/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--gDM0_LTS--/c_limit,f_png,fl_progressive,q_80,w_180/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "180x180"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--2ecYCSjC--/c_limit,f_png,fl_progressive,q_80,w_167/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "167x167"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "192x192"
+      },
+      {
+        "href": "https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "sizes": "128x128"
+      }
+    ],
+    "canonical": "https://dev.to/bornfightcompany/my-journey-to-mastering-react-82n",
+    "description": "Let’s go back a couple of years, to a much different state in the world. When people didn’t have to s... Tagged with engineeringmonday, react, javascript.",
+    "robots": "max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "title": "My journey to mastering React - DEV",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://dev.to/bornfightcompany/my-journey-to-mastering-react-82n"
+    },
+    "url": "https://dev.to/bornfightcompany/my-journey-to-mastering-react-82n",
+    "image": [
+      "https://dev.to/social_previews/article/455580.png",
+      "https://dev.to/social_previews/article/455580.png",
+      "https://dev.to/social_previews/article/455580.png"
+    ],
+    "publisher": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "DEV Community",
+      "logo": {
+        "@context": "http://schema.org",
+        "@type": "ImageObject",
+        "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--t7tVouP9--/c_limit,f_png,fl_progressive,q_80,w_192/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png",
+        "width": "192",
+        "height": "192"
+      }
+    },
+    "headline": "My journey to mastering React",
+    "author": {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "url": "https://dev.to/shockwavee",
+      "name": "Davor Tvorić"
+    },
+    "datePublished": "2020-09-14T10:23:09Z",
+    "dateModified": "2020-09-15T08:05:45Z"
+  },
+  "openGraph": {
+    "type": "article",
+    "url": "https://dev.to/bornfightcompany/my-journey-to-mastering-react-82n",
+    "title": "My journey to mastering React",
+    "description": "Let’s go back a couple of years, to a much different state in the world. When people didn’t have to s...",
+    "site_name": "DEV Community",
+    "image": {
+      "url": "https://dev.to/social_previews/article/455580.png"
+    },
+    "pages": "568966383279687"
+  },
+  "twitter": {
+    "site": "@thepracticaldev",
+    "creator": "@",
+    "title": "My journey to mastering React",
+    "description": "Let’s go back a couple of years, to a much different state in the world. When people didn’t have to s...",
+    "card": "summary_large_image",
+    "widgets": {
+      "new-embed-design": "on"
+    },
+    "image": {
+      "src": "https://dev.to/social_previews/article/455580.png"
+    }
+  }
+}

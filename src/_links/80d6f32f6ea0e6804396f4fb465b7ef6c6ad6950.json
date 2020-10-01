@@ -1,0 +1,151 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/media/sites/slate-com/icon.196x196.png",
+        "sizes": "196x196"
+      },
+      {
+        "href": "/media/sites/slate-com/icon.svg",
+        "type": "image/svg+xml"
+      },
+      {
+        "href": "/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "author": "Pranav Malhotra",
+    "canonical": "https://slate.com/technology/2020/09/social-dilemma-netflix-technology.html",
+    "description": "The Netflix documentary replicates Silicon Valley’s biggest shortcomings.",
+    "title": "Netflix’s The Social Dilemma fails to tackle the real issues in tech.",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "articleSection": "Future Tense",
+    "dateCreated": "2020-09-18T15:31:32+00:00",
+    "headline": "The Social Dilemma Fails to Tackle the Real Issues in Tech",
+    "url": "https://slate.com/technology/2020/09/social-dilemma-netflix-technology.html",
+    "thumbnailUrl": "https://compote.slate.com/images/208105ae-fe2b-4ad8-868a-c74f25414acc.jpeg?width=780&height=520&rect=1560x1040&offset=0x0",
+    "keywords": [
+      "netflix",
+      "social-media",
+      "documentaries",
+      "silicon-valley",
+      "facebook",
+      "mental-health",
+      "children",
+      "redux",
+      "Section:technology",
+      "AdNode:technology/future_tense"
+    ],
+    "datePublished": "2020-09-18T15:31:32+00:00",
+    "image": "https://compote.slate.com/images/208105ae-fe2b-4ad8-868a-c74f25414acc.jpeg?width=780&height=520&rect=1560x1040&offset=0x0",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Slate",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://slate.com/media/sites/slate-com/icon.400x400.png"
+      }
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Pranav Malhotra"
+    },
+    "about": "The Netflix documentary replicates Silicon Valley’s biggest shortcomings."
+  },
+  "openGraph": {
+    "title": "The Social Dilemma Fails to Tackle the Real Issues in Tech",
+    "url": "https://slate.com/technology/2020/09/social-dilemma-netflix-technology.html",
+    "description": "The Netflix documentary replicates Silicon Valley’s biggest shortcomings.",
+    "image": {
+      "url": "https://compote.slate.com/images/208105ae-fe2b-4ad8-868a-c74f25414acc.jpeg?width=780&height=520&rect=1560x1040&offset=0x0"
+    },
+    "app_id": "142011022527753",
+    "site_name": "Slate Magazine",
+    "type": "article"
+  },
+  "schemaOrg": {
+    "items": [
+      {
+        "properties": {
+          "publisher": [
+            {
+              "properties": {
+                "name": [
+                  "Slate"
+                ],
+                "logo": [
+                  {
+                    "properties": {
+                      "url": [
+                        "https://slate.com/media/sites/slate-com/icon.400x400.png"
+                      ],
+                      "width": [
+                        "400"
+                      ],
+                      "height": [
+                        "400"
+                      ]
+                    },
+                    "type": [
+                      "https://www.schema.org/ImageObject"
+                    ]
+                  }
+                ]
+              },
+              "type": [
+                "http://schema.org/Organization"
+              ]
+            }
+          ],
+          "image": [
+            {
+              "properties": {
+                "url": [
+                  "https://compote.slate.com/images/208105ae-fe2b-4ad8-868a-c74f25414acc.jpeg?width=780&height=520&rect=1560x1040&offset=0x0"
+                ]
+              },
+              "type": [
+                "https://www.schema.org/ImageObject"
+              ]
+            }
+          ],
+          "https://www.schema.org/headline": [
+            "The Social Dilemma Fails to Tackle the Real Issues in Tech"
+          ],
+          "https://www.schema.org/mainEntityOfPage": [
+            "\n          \n\n\n          \n          \n            \n          \n        \n\n  \nSkyler Gisondo as Ben in The Social Dilemma.\nNetflix\n\n\n\n  Toward the end of Netflix’s new documentary-drama The Social Dilemma, former Google employee Tristan Harris describes technology as “simultaneous utopia and dystopia.” This quote encapsulates the focus of the film: It primarily plays up well-worn dystopian narratives surrounding technology, with a sprinkling of early utopian views. Although The Social Dilemma attempts to raise awareness around important issues like design ethics and data privacy, it ends up depending on tired (and not helpful) tropes about technology as the sole cause of harm, especially to children. It also omits the very voices who have been sounding the alarm on Silicon Valley for a long time.\n\n  \n\n\n  The film, instead, mainly centers the voices of former employees at big technology companies like Facebook, Google, and Twitter. Many make it a point to tell us about the utopian intentions behind their involvement in the rise of these companies. For instance, Justin Rosenstein, who led the team that built the Facebook like button, says the team was motivated by a desire to “spread love and positivity in the world.” People within the technology industry have leaned into such techno-utopianism for decades, underplaying how maximizing profits is a major motivating factor for them. As Maria Farrell, an Irish tech writer, argued in March, these “prodigal tech bros” get an extremely easy ride toward redemption, and The Social Dilemma is another example of this phenomenon. Farrell also points out how they are given attention at the expense of digital rights activists who have been working tirelessly for years. This documentary, which will undoubtedly reach a global audience being on Netflix (itself a key cog within the technology industry), could have amplified such voices. It could have also given space to critical internet and media scholars like Safiya Noble, Sarah T. Roberts, and Siva Vaidhyanathan, just to name a few, who continue to write about how broader structural inequalities are reflected in and often amplified by the practices of big technology companies.\n\n  \n\n\n  \n\n\n  \n\n\n  This is one of the documentary’s most glaring omissions because it keeps The Social Dilemma from grappling with the roots of the problems with these companies. In a world where economic inequality continues to widen and many people are deeply skeptical of those in power, the film emphasizes how issues like political polarization and the spread of misinformation are directly caused by the design of online platforms. Certainly, the nature of recommendation algorithms that pull people into certain rabbit holes contributes to these issues. But it is not the sole reason for them—and oversimplifying problems is part of how we ended up with our current digital environment.\n\n  Focusing instead on how existing inequalities intersect with technology would have opened up space for a different and more productive conversation. These inequalities actually influence the design choices that the film so heavily focuses on—more specifically, who gets to make these choices. Many of the people featured in this film express shock and say they never imagined how online platforms would be weaponized. They might have been less surprised by online hate speech—or at least better equipped to respond quickly—if their companies’ workforces were truly diverse in both race and gender. Black women have been sounding the alarm about abusive online speech for a long time, but their words were long ignored—and the film perpetuates that problem.\n\n  \n\n\n  \n\n\n  Rather than a meaningful discussion on this subject, The Social Dilemma retells a dystopian narrative about technology that harks back to moral panics that have accompanied the introduction of various technologies, including books, the radio, and even the bicycle (despite what Tristan Harris says in the documentary). Social media is framed as ruining Gen Z and leading to a mental health epidemic. Although there are valid concerns about issues like excessive use and unrealistic body image expectations, years of research on how young people’s social media use affects their mental health and well-being tells a much more nuanced story. The film correlates a rise in mental health issues among teens in the U.S. with mobile social media use and makes a causal argument that ignores the role of a number of factors. As professor Sonia Livingstone, co-author of the new book Parenting for a Digital Future, points out, issues ranging from economic inequality to climate change may also contribute to young people’s anxiety and stress—yet the film suggests technology alone is the problem. This narrative is further bolstered by framing technology use as an addiction. Some researchers who focus on digital well-being warn against using such labels as it pathologizes technology use. It treats frequent use of technology, even for a short period in someone’s life, as a disorder that possibly requires clinical intervention. This debate continues on, but the documentary only presents one side of it.\n\n  \n\n\n  \n\n\n  \n\n\n  \n    \n        Popular in\n        \n          Technology\n        \n    \n    \n        \n          \n            \n            Hypothetically, What Drug Would Turn an Old Man Into a Debate Whiz?\n          \n        \n        \n          \n            \n            Halloween Is Not Canceled\n          \n        \n        \n          \n            \n            The Trump Family Chose to Watch All of That Maskless and Indoors for Two Hours\n          \n        \n        \n          \n            \n            Was the Identity of Q Really Just Revealed? Here’s Everything We Know.\n          \n        \n    \n\n\n  This framing of technology use as an addiction also serves to promote complete abstention as a possible solution. In fact, completely logging off social media is one of the few muddled solutions offered toward the end of the documentary. We are told that those in Silicon Valley do not let their children use any social media. Not only does this gloss over how young people can make positive social connections online, it does not offer parents any productive advice about the conversations they may have with their children on issues like media literacy and privacy protection. Again, experts who have spent years conducting research on children and digital media could have offered such suggestions. But they are absent while a dystopian narrative that lacks any nuance is uncritically presented.\n\n  \n\n\n  Ultimately, this omission of experts and lack of nuance results in The Social Dilemma feeling like a missed opportunity. On the plus side, it informs a wide audience about issues like surveillance, persuasive design practices, and the spread of misinformation online, which may encourage them to hold big technology companies accountable. But who gets to convey this information and how it is framed are also crucial. Amplifying voices who have always had a seat at the table and continuing to ignore those who haven’t will not lead us any closer to resolving the dilemma the film claims to present.\n\n  \n  Future Tense\n  is a partnership of\n  Slate,\n  New America, and\n  Arizona State  University\n  that examines emerging technologies, public policy, and society.\n\n\n  \n  \n    \n      \n        \n      \n      Tweet\n    \n  \n\n  \n    \n      \n        \n      \n      Share\n    \n  \n\n  \n    \n      \n        \n      \n      Comment\n    \n  \n\n\n"
+          ],
+          "https://www.schema.org/datePublished": [
+            ""
+          ],
+          "https://www.schema.org/author": [
+            {
+              "properties": {
+                "name": [
+                  "Pranav Malhotra"
+                ]
+              },
+              "type": [
+                "http://schema.org/Person"
+              ]
+            }
+          ]
+        },
+        "type": [
+          "http://schema.org/Article"
+        ]
+      }
+    ]
+  },
+  "twitter": {
+    "title": "The Social Dilemma Fails to Tackle the Real Issues in Tech",
+    "description": "The Netflix documentary replicates Silicon Valley’s biggest shortcomings.",
+    "image": "https://compote.slate.com/images/208105ae-fe2b-4ad8-868a-c74f25414acc.jpeg?width=780&height=520&rect=1560x1040&offset=0x0",
+    "card": "summary_large_image",
+    "site": "@slate"
+  }
+}

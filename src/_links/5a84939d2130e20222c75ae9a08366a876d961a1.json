@@ -1,0 +1,28 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://assets.website-files.com/5e51b3b0337309d672efd94c/5e51ce4e2c16e82ce80d8b42_icon.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://assets.website-files.com/5e51b3b0337309d672efd94c/5e51ce488c34f8b713499e29_icon32w.png",
+        "type": "image/x-icon"
+      }
+    ],
+    "description": "Open Peeps is a hand-drawn illustration library to create scenes of people. You can use them in product illustration, marketing, comics, product states, user flows, personas, storyboarding, quinceañera invitations, or whatever you want! ⠀",
+    "title": "Open Peeps, Hand-Drawn Illustration Library"
+  },
+  "openGraph": {
+    "title": "Open Peeps, Hand-Drawn Illustration Library",
+    "description": "Open Peeps is a hand-drawn illustration library to create scenes of people. You can use them in product illustration, marketing, comics, product states, user flows, personas, storyboarding, quinceañera invitations, or whatever you want! ⠀",
+    "image": {
+      "url": "https://assets.website-files.com/5e51b3b0337309d672efd94c/5e51ce05258ffe802886ef21_cover-1.png"
+    },
+    "type": "website"
+  },
+  "twitter": {
+    "card": "summary_large_image"
+  }
+}

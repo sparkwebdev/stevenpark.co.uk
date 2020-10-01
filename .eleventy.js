@@ -48,7 +48,6 @@ const linkPreview = (link, callback) => {
   // Hash the link URL (using SHA1) and create a file name from it
   let hash = crypto.createHash('sha1').update(link).digest('hex');
   let file = path.join('src/_links', `${hash}.json`);
-  console.log(file);
   if (fs.existsSync(file)) {
     // File with cached metadata exists
     console.log(`[linkPreview] Using persisted data for link ${link}.`);
@@ -66,7 +65,7 @@ const linkPreview = (link, callback) => {
       fs.writeFile(file, JSON.stringify(metadata, null, 2), (err) => { /* Ignore errors, worst case we parse the link again */ });
       // Then, format the link
       callback(null, format(metadata)); 
-    }));
+    })).catch(error => console.log(error.message));;
   }  
 }
 

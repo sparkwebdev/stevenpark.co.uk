@@ -1,0 +1,47 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "author": "Manuel Matuzović",
+    "description": "Progressive enhancement is amazing. Building websites layer by layer allows for a cleaner separation of concerns, which makes the website more accessible.",
+    "title": "Writing even more CSS with Accessibility in Mind, Part 1: Progressive Enhancement - Manuel Matuzović",
+    "lang": "en"
+  },
+  "openGraph": {
+    "title": "Writing even more CSS with Accessibility in Mind, Part 1: Progressive Enhancement",
+    "description": "Progressive enhancement is amazing. Building websites layer by layer allows for a cleaner separation of concerns, which makes the website more accessible.",
+    "image": {
+      "url": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_css_a11y2_pe3.jpg"
+    },
+    "url": "https://matuzo.at/blog/writing-even-more-css-with-accessibility-in-mind-progressive-enhancement/",
+    "site_name": "Writing even more CSS with Accessibility in Mind, Part 1: Progressive Enhancement",
+    "locale": "en_GB",
+    "type": "website"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Writing even more CSS with Accessibility in Mind, Part 1: Progressive Enhancement",
+    "description": "Progressive enhancement is amazing. Building websites layer by layer allows for a cleaner separation of concerns, which makes the website more accessible.",
+    "site": "@mmatuzo",
+    "creator": "@mmatuzo",
+    "image": {
+      "src": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1024/articles/sm_css_a11y2_pe3.jpg"
+    }
+  }
+}

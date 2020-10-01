@@ -1,0 +1,12 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/static/images/phmini2.png"
+      }
+    ],
+    "description": "ParseHub is a free web scraping tool. Turn any site into a spreadsheet or API. As easy as clicking on the data you want to extract.",
+    "title": "\n      ParseHub | Free web scraping - The most powerful web scraper\n    ",
+    "lang": "en"
+  }
+}

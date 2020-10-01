@@ -1,0 +1,83 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-57x57-a034111014f56842e47ebda5acfad3b4c3c692711626e3ab1b289be157412742.png",
+        "sizes": "57x57"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-60x60-e5edf78f8c8216e77d3e23c6ec2b98c51716a215409f2f84aa9818c1b35980f3.png",
+        "sizes": "60x60"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-72x72-aee687d9d3fc9526e8f88b9ffc9efdcb0ede5d83da7b174e04840f8015522e8a.png",
+        "sizes": "72x72"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-76x76-48d099a4bbcca8b954c16bc15447795423395f401ef38dc29ae5b996b78d1db9.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-114x114-87b960af4fe2340123730d8d5bba693645fc38dcdd647e1d044b86becc8c9c44.png",
+        "sizes": "114x114"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-120x120-a2c049eead5cc212435e00332c036e9db5c8efa915a6834154fb0bf8f5fc7a7b.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-144x144-e8d6c531c0a5c83837a2a4cc6fa5a6d18149e4b0d424b08ddfdf2763634c743a.png",
+        "sizes": "144x144"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-152x152-36c05dbf580fd58ca968cfe47a8a4bc4ee9158fc4ee7951cb139d76064981d75.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/apple-touch-icon-180x180-b835adc306a79c80e064123d941cc6a6872c6730b0e64dc5db53f6760f47f5b1.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/favicon-32x32-5f07b938870f5d433d6b99aef3965c98d59b4486d308e9774feb7b84d6e78e0d.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/android-chrome-192x192-db589ca20dbdff4cfc50f51f2c9d157044e926295d4c911fd5ef08b1d7ac51d7.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/favicon-96x96-612e95d7b8d458bd7ad9407952abe368b41df24937aeccb7e8008bb83aa146a9.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "href": "https://assets.beta.tito.io/assets/favicons/favicon-16x16-832f057dc790b8bcef14e05214f6c7cb81aea4305c4b15ab7bc05b15396543d1.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "author": "Team Tito",
+    "canonical": "https://ti.to/netlify/jamstack_virtual_oct/en",
+    "description": "Jamstack Conf Virtual Is Back!\n\nThis year Jamstack Conf is a virtual event celebrating the next generation of web apps, where the Jamstack community and ecosystem comes together to learn, connect and create.  We’ll cover the future of Jamstack for many use cases, including new innovations, demos and case studies.\n\n\n\n\nSchedule (Pacific - PDT)\n\nView the full catalogue of talks here.\n\nTuesday, Oct 6, 9:00 am - 4:00 pm PDT\n\n\nKeynotes: State of the Jamstack, and how the Jamstack powers the ACLU\nBreakout talks & lightning talks: Real-time Satellite Tasking on the Jamstack, How Teespring has 2x conversion, How Kleppiere migrated 98 sites to the Jamstack to increase performance and cost savings, In Search of Jamstack Search, Migrating to Netlify One Page at a Time, Touring Next.js, and more!\nInteractive topic tables: Jamstack E-Commerce, Jamstack at the Edge, Accessibility, and more!\n1:1 attendee networking\nJamstack Expo + product demos\nCommunity Celebration\n\n\nWednesday, Oct 7, 9:00 am PDT\n\nPaid workshops will take place on October 7th. All workshops start at 9 am PDT, and attendance is limited. Please only register for one workshop.\n\n\nGetting Started with GatsbyJS\nBuilding Modern APIs with GraphQL\nBuild a Better Build Plugin\nBuilding from Scratch with Nuxt.js\nJamstack for E-Commerce\n\n\n\n\nTickets\n\nJamstack Conf Virtual conference sessions will be FREE on October 6th, thanks to our sponsors. Workshops on October 7th are $100, and availability is limited. We look forward to bringing together thousands of global Jamstack community members for this virtual event!\n\n\nCheck out the Swag Pack!\n",
+    "title": "\n    Jamstack Conf Virtual\n",
+    "lang": "en"
+  },
+  "openGraph": {
+    "url": "https://ti.to/netlify/jamstack_virtual_oct",
+    "title": "Jamstack Conf Virtual",
+    "description": "Unlocking a FREE global conference 🌍 Join and learn how we can increase the webs reach and effectiveness all with the Jamstack",
+    "site_name": "Tito",
+    "image": {
+      "url": "https://do3z7e6uuakno.cloudfront.net/uploads/event/logo/1093832/2a813938a009bfe6d3e60be5902a502d.png"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "@useTito",
+    "image": "https://do3z7e6uuakno.cloudfront.net/uploads/event/logo/1093832/2a813938a009bfe6d3e60be5902a502d.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico"
+      }
+    ],
+    "title": "The tangled webs we weave - daverupert.com",
+    "lang": "en-us"
+  },
+  "openGraph": {
+    "url": "https://daverupert.com/2020/09/tangled-webs/",
+    "title": "The tangled webs we weave",
+    "description": "Another reflection on modern web development"
+  },
+  "twitter": {
+    "card": "summary",
+    "image": "https://daverupert.com/images/global/newshammericon.png",
+    "site": "@davatron5000",
+    "creator": "@davatron5000"
+  }
+}

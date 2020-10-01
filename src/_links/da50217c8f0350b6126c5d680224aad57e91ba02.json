@@ -1,0 +1,43 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://builtformars.co.uk/wp-content/uploads/2020/06/cropped-Builtforthisicon-180x180.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://builtformars.co.uk/wp-content/uploads/2020/06/cropped-Builtforthisicon-32x32.png",
+        "sizes": "32x32"
+      },
+      {
+        "href": "https://builtformars.co.uk/wp-content/uploads/2020/06/cropped-Builtforthisicon-192x192.png",
+        "sizes": "192x192"
+      }
+    ],
+    "canonical": "https://builtformars.co.uk/how-klarna-works/",
+    "shortlink": "https://builtformars.co.uk/?p=8794",
+    "title": "How Klarna works – Built for Mars",
+    "lang": "en-US"
+  },
+  "twitter": {
+    "card": [
+      "summary_large_image",
+      "summary_large_image"
+    ],
+    "description": [
+      "Klarna is one of the biggest names in the 'buy now, pay later' space—but is their UX any good?",
+      "Klarna is one of the biggest names in the 'buy now, pay later' space—but is their UX any good?"
+    ],
+    "title": [
+      "How Klarna works - Built for Mars",
+      "How Klarna works"
+    ],
+    "image": [
+      "https://builtformars.co.uk/wp-content/uploads/2020/09/Klarna.jpg",
+      "https://builtformars.co.uk/wp-content/uploads/2020/09/Klarna-1.jpg"
+    ],
+    "url": "https://builtformars.co.uk/how-klarna-works/",
+    "site": "@BuiltforMars"
+  }
+}

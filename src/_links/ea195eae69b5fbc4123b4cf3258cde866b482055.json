@@ -1,0 +1,47 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/images/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/images/favicon.ico"
+      },
+      {
+        "href": "/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/images/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "canonical": "https://web.dev/css-marker-pseudo-element/",
+    "description": "It is now trivial to customize the color, size or type of number or bullet when using a <ul> or <ol>.",
+    "title": "Custom bullets with CSS ::marker",
+    "lang": "en"
+  },
+  "openGraph": {
+    "locale": "en_US",
+    "type": "article",
+    "url": "https://web.dev/css-marker-pseudo-element/",
+    "site_name": "web.dev",
+    "title": "Custom bullets with CSS ::marker",
+    "description": "It is now trivial to customize the color, size or type of number or bullet when using a <ul> or <ol>.",
+    "image": {
+      "url": "https://webdev.imgix.net/css-marker-pseudo-element/thumb.png?auto=format&fit=max&w=1200",
+      "alt": "showing the anatomy of a single list item by putting separate boxes around the bullet and the text"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Custom bullets with CSS ::marker",
+    "description": "It is now trivial to customize the color, size or type of number or bullet when using a <ul> or <ol>.",
+    "image": "https://webdev.imgix.net/css-marker-pseudo-element/thumb.png?auto=format&fit=max&w=1200"
+  }
+}

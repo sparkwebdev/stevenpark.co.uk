@@ -1,0 +1,36 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/assets/images/touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/assets/images/logo.svg",
+        "type": "image/x-icon"
+      }
+    ],
+    "description": "Shoelace provides a collection of professionally designed, every day UI components built on a framework-agnostic technology.",
+    "title": "Shoelace: A forward-thinking library of web components.",
+    "lang": "en"
+  },
+  "openGraph": {
+    "title": "Shoelace",
+    "description": "Shoelace provides a collection of professionally designed, every day UI components built on a framework-agnostic technology.",
+    "type": "website",
+    "url": "https://shoelace.style/",
+    "image": {
+      "url": "https://shoelace.style/assets/images/og-image.png"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@shoelace_style",
+    "creator": "@claviska",
+    "title": "Shoelace",
+    "description": "Shoelace provides a collection of professionally designed, every day UI components built on a framework-agnostic technology.",
+    "image": "https://shoelace.style/assets/images/twitter-card.png"
+  }
+}

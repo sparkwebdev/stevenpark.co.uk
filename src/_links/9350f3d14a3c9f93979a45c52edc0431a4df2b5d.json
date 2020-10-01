@@ -1,0 +1,21 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.svg",
+        "type": "image/svg+xml"
+      }
+    ],
+    "description": "How modularity is transforming design and frontend development",
+    "title": "Component Driven User Interfaces"
+  },
+  "openGraph": {
+    "type": "website",
+    "url": "https://componentdriven.org/",
+    "title": "Component Driven User Interfaces",
+    "description": "How modularity is transforming design and frontend development",
+    "image": {
+      "url": "https://componentdriven.org/og-component-driven.jpg"
+    }
+  }
+}

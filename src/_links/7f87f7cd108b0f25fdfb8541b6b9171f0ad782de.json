@@ -1,0 +1,100 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ],
+    "canonical": "https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/",
+    "description": "How a tool for sensemaking reconciles two distinct software design ideologies.",
+    "title": "Web Brutalism, Seamfulness, and Notion | Viget",
+    "lang": "en",
+    "dir": "ltr"
+  },
+  "jsonLd": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/"
+      },
+      "headline": "Web Brutalism, Seamfulness, and Notion",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://static.viget.com/Icon-Web-Brutalism.jpg?mtime=20200826114140&amp;focal=noneimages/viget.png",
+        "height": "1200",
+        "width": "1200"
+      },
+      "datePublished": "2020-08-26T12:00:36-04:00",
+      "dateModified": "2020-09-01T10:49:32-04:00",
+      "author": {
+        "@type": "Person",
+        "name": "Brandon Dorn"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viget",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.viget.com/images/viget.png",
+          "width": "220",
+          "height": "100"
+        }
+      },
+      "description": "How a tool for sensemaking reconciles two distinct software design ideologies."
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Viget",
+      "url": "http://www.viget.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressRegion": "VA",
+        "addressLocality": "Falls Church",
+        "postalCode": "22046",
+        "streetAddress": "4th Floor, 105 W Broad St"
+      },
+      "email": "info(at)viget.com",
+      "logo": "https://www.viget.com/images/viget.png",
+      "sameAs": [
+        "https://twitter.com/viget",
+        "https://www.facebook.com/vigetlabs/",
+        "https://www.instagram.com/viget/",
+        "https://www.linkedin.com/company/39826",
+        "https://plus.google.com/+Viget/"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-703-891-0670",
+          "contactType": "sales"
+        }
+      ]
+    }
+  ],
+  "openGraph": {
+    "title": "Web Brutalism, Seamfulness, and Notion | Viget",
+    "type": "website",
+    "url": "https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/",
+    "image": {
+      "url": "https://static.viget.com/Icon-Web-Brutalism.jpg?mtime=20200826114140&focal=none",
+      "height": "1200",
+      "width": "1200"
+    },
+    "description": "How a tool for sensemaking reconciles two distinct software design ideologies.",
+    "site_name": "https://www.viget.com",
+    "pages": "44843471127"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "@viget",
+    "title": "Web Brutalism, Seamfulness, and Notion | Viget",
+    "description": "How a tool for sensemaking reconciles two distinct software design ideologies.",
+    "creator": "@viget",
+    "image": "https://static.viget.com/Icon-Web-Brutalism.jpg?mtime=20200826114140&focal=none"
+  }
+}

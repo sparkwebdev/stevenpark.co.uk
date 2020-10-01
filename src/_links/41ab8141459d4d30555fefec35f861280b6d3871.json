@@ -1,0 +1,18 @@
+{
+  "general": {
+    "canonical": "https://blog.jim-nielsen.com/2020/economics-of-the-front-end/",
+    "title": "The Economics of the Front-End - Jim Nielsen’s Weblog",
+    "lang": "en-us"
+  },
+  "openGraph": {
+    "title": "The Economics of the Front-End",
+    "type": "article",
+    "url": "https://blog.jim-nielsen.com/2020/economics-of-the-front-end/"
+  },
+  "twitter": {
+    "card": "summary",
+    "site": "@jimniels",
+    "creator": "@jimniels",
+    "title": "The Economics of the Front-End"
+  }
+}

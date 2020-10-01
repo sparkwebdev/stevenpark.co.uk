@@ -1,0 +1,188 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/apple-touch-icon.png"
+      }
+    ],
+    "canonical": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+    "description": "It’s true, web animation can be accessible! Sometimes it just takes a little extra effort to make sure that it is. There are strategic things we can do to",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "shortlink": "https://css-tricks.com/?p=320684",
+    "title": "\n    Accessible Web Animation: The WCAG on Animation Explained | CSS-Tricks  ",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://css-tricks.com/#organization",
+        "name": "CSS-Tricks",
+        "url": "https://css-tricks.com/",
+        "sameAs": [
+          "https://www.facebook.com/CSSTricks",
+          "https://twitter.com/CSS"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#logo",
+          "inLanguage": "en-US",
+          "url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg?fit=%2C&ssl=1",
+          "caption": "CSS-Tricks"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/#logo"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://css-tricks.com/#website",
+        "url": "https://css-tricks.com/",
+        "name": "CSS-Tricks",
+        "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets.",
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": "https://css-tricks.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/02/Untitled_Artwork.png?fit=4000%2C2000&ssl=1",
+        "width": 4000,
+        "height": 2000
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#webpage",
+        "url": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+        "name": "Accessible Web Animation: The WCAG on Animation Explained | CSS-Tricks",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#primaryimage"
+        },
+        "datePublished": "2020-09-22T14:56:56+00:00",
+        "dateModified": "2020-09-22T14:56:58+00:00",
+        "description": "It’s true, web animation can be accessible! Sometimes it just takes a little extra effort to make sure that it is. There are strategic things we can do to",
+        "breadcrumb": {
+          "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/",
+              "url": "https://css-tricks.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+              "url": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+              "name": "Accessible Web Animation: The WCAG on Animation Explained"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#article",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#webpage"
+        },
+        "author": {
+          "@id": "https://css-tricks.com/#/schema/person/a7a302b28ff29fba4f06e3f81665cfe4"
+        },
+        "headline": "Accessible Web Animation: The WCAG on Animation Explained",
+        "datePublished": "2020-09-22T14:56:56+00:00",
+        "dateModified": "2020-09-22T14:56:58+00:00",
+        "mainEntityOfPage": {
+          "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#webpage"
+        },
+        "commentCount": "2",
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#primaryimage"
+        },
+        "keywords": "accessibility,animation,prefers-reduced-motion",
+        "articleSection": "Article",
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+              "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/#respond"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://css-tricks.com/#/schema/person/a7a302b28ff29fba4f06e3f81665cfe4",
+        "name": "Val Head",
+        "image": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#personlogo",
+          "inLanguage": "en-US",
+          "url": "https://secure.gravatar.com/avatar/48544d7b14d3544427909d5ddb330e76?s=96&d=retro&r=pg",
+          "caption": "Val Head"
+        }
+      }
+    ]
+  },
+  "openGraph": {
+    "pages": "124436167285",
+    "locale": "en_US",
+    "type": "article",
+    "title": "Accessible Web Animation: The WCAG on Animation Explained | CSS-Tricks",
+    "description": "It’s true, web animation can be accessible! Sometimes it just takes a little extra effort to make sure that it is. There are strategic things we can do to",
+    "url": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+    "site_name": "CSS-Tricks",
+    "publisher": "https://www.facebook.com/CSSTricks",
+    "published_time": "2020-09-22T14:56:56+00:00",
+    "modified_time": "2020-09-22T14:56:58+00:00",
+    "image": {
+      "url": "https://css-tricks.com/wp-content/uploads/2019/02/Untitled_Artwork-1024x512.png",
+      "width": "1024",
+      "height": "512"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "creator": "@CSS",
+    "site": "@CSS"
+  }
+}

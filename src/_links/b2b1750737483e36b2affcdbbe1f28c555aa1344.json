@@ -1,0 +1,21 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico"
+      }
+    ],
+    "title": "What is the Value of Browser Diversity? - daverupert.com",
+    "lang": "en-us"
+  },
+  "openGraph": {
+    "url": "https://daverupert.com/2020/09/the-value-of-browser-diversity/",
+    "title": "What is the Value of Browser Diversity?"
+  },
+  "twitter": {
+    "card": "summary",
+    "image": "https://daverupert.com/images/global/newshammericon.png",
+    "site": "@davatron5000",
+    "creator": "@davatron5000"
+  }
+}

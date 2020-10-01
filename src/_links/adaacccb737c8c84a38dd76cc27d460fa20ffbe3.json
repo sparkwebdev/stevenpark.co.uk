@@ -1,0 +1,26 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://uploads-ssl.webflow.com/5f47cec00744f533cf1b42cb/5f48bf20e685fcb903e66d96_touchicon.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://uploads-ssl.webflow.com/5f47cec00744f533cf1b42cb/5f48bf1efe3f7f5dc35796e3_favicon.png",
+        "type": "image/x-icon"
+      }
+    ],
+    "description": "A growing list of accessibility tools and resources",
+    "title": "a11yresources - A growing list of accessibility tools and resources"
+  },
+  "twitter": {
+    "card": [
+      "summary_large_image",
+      "summary_large_image"
+    ],
+    "description": "A growing list of accessibility tools and resources.",
+    "title": "a11yresources",
+    "image": "https://uploads-ssl.webflow.com/5f47cec00744f533cf1b42cb/5f4c954aff69ea9978667195_OG_image.jpg"
+  }
+}

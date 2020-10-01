@@ -1,0 +1,122 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "152x152"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/120/120/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "120x120"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/76/76/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "https://cdn-images-1.medium.com/fit/c/60/60/1*8I-HPL0bfoIzGied-dzOvA.png",
+        "sizes": "60x60"
+      }
+    ],
+    "icons": [
+      {
+        "href": "https://miro.medium.com/fit/c/256/256/1*7f8ZMJRwy10UGSDQzt8LqQ.png"
+      }
+    ],
+    "author": "Sophie Hodge",
+    "authorlink": "https://uxdesign.cc/@sophie.hodge_90419",
+    "canonical": "https://uxdesign.cc/everything-i-know-about-ux-research-i-learnt-from-cats-c62a27870d58",
+    "description": "In User Experience design, it’s easy to think of ‘users’ as a faceless group of humans. To combat that we use ‘personas’ as a shorthand to represent users, giving them a name (like Joan), a face…",
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Everything I know about UX Research, I learnt from cats | by Sophie Hodge | Sep, 2020 | UX Collective",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "image": [
+      "https://miro.medium.com/max/1200/1*bTvF5n_adf7620rGVwhjZA.png"
+    ],
+    "url": "https://uxdesign.cc/everything-i-know-about-ux-research-i-learnt-from-cats-c62a27870d58",
+    "dateCreated": "2020-09-08T11:35:18.943Z",
+    "datePublished": "2020-09-08T11:35:18.943Z",
+    "dateModified": "2020-09-09T23:30:12.383Z",
+    "headline": "Everything I know about UX Research, I learnt from cats",
+    "name": "Everything I know about UX Research, I learnt from cats",
+    "description": "In User Experience design, it’s easy to think of ‘users’ as a faceless group of humans. To combat that we use ‘personas’ as a shorthand to represent users, giving them a name (like Joan), a face…",
+    "identifier": "c62a27870d58",
+    "keywords": [
+      "Lite:true",
+      "Tag:UX Design",
+      "Tag:UX Research",
+      "Tag:Cats",
+      "Tag:User Experience",
+      "Tag:Product Design",
+      "Topic:Design",
+      "Topic:Pets",
+      "Topic:UX",
+      "Publication:user-experience-design-1",
+      "Elevated:false",
+      "LockedPostSource:LOCKED_POST_SOURCE_UGC",
+      "LayerCake:3"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Sophie Hodge",
+      "url": "https://uxdesign.cc/@sophie.hodge_90419"
+    },
+    "creator": [
+      "Sophie Hodge"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "UX Collective",
+      "url": "uxdesign.cc",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 360,
+        "height": 60,
+        "url": "https://miro.medium.com/max/720/1*9V9oqYyYnfP5yy7cb7YTMQ.png"
+      }
+    },
+    "mainEntityOfPage": "https://uxdesign.cc/everything-i-know-about-ux-research-i-learnt-from-cats-c62a27870d58",
+    "isAccessibleForFree": "False",
+    "hasPart": {
+      "@type": "WebPageElement",
+      "isAccessibleForFree": "False",
+      "cssSelector": ".meteredContent"
+    }
+  },
+  "openGraph": {
+    "app_id": "542599432471018",
+    "site_name": "Medium",
+    "type": "article",
+    "published_time": "2020-09-09T11:17:18.840Z",
+    "title": "Everything I know about UX Research, I learnt from cats",
+    "description": "In User Experience design, it’s easy to think of ‘users’ as a faceless group of humans. To combat that we use ‘personas’ as a shorthand to…",
+    "url": "https://uxdesign.cc/everything-i-know-about-ux-research-i-learnt-from-cats-c62a27870d58",
+    "image": {
+      "url": "https://miro.medium.com/max/1200/1*bTvF5n_adf7620rGVwhjZA.png"
+    },
+    "author": "https://uxdesign.cc/@sophie.hodge_90419"
+  },
+  "twitter": {
+    "app": {
+      "name": {
+        "iphone": "Medium"
+      },
+      "id": {
+        "iphone": "828256236"
+      },
+      "url": {
+        "iphone": "medium://p/c62a27870d58"
+      }
+    },
+    "site": "@uxdesigncc",
+    "image": {
+      "src": "https://miro.medium.com/max/1200/1*bTvF5n_adf7620rGVwhjZA.png"
+    },
+    "card": "summary_large_image",
+    "creator": "@sophiainthesnow"
+  }
+}

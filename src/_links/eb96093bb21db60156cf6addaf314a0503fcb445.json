@@ -1,0 +1,192 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/apple-touch-icon.png"
+      }
+    ],
+    "canonical": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+    "description": "Gerry McGovern asked if I had any insight into energy consumption and websites. He has a book, after all, about the digital costs on the planet. He was",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "shortlink": "https://css-tricks.com/?p=320595",
+    "title": "\n    Thinking About Power Usage and Websites | CSS-Tricks  ",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://css-tricks.com/#organization",
+        "name": "CSS-Tricks",
+        "url": "https://css-tricks.com/",
+        "sameAs": [
+          "https://www.facebook.com/CSSTricks",
+          "https://twitter.com/CSS"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#logo",
+          "inLanguage": "en-US",
+          "url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg?fit=%2C&ssl=1",
+          "caption": "CSS-Tricks"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/#logo"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://css-tricks.com/#website",
+        "url": "https://css-tricks.com/",
+        "name": "CSS-Tricks",
+        "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets.",
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": "https://css-tricks.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        ],
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#primaryimage",
+        "inLanguage": "en-US",
+        "url": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2019/08/website-lightning.png?fit=1200%2C600&ssl=1",
+        "width": 1200,
+        "height": 600
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#webpage",
+        "url": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+        "name": "Thinking About Power Usage and Websites | CSS-Tricks",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#primaryimage"
+        },
+        "datePublished": "2020-09-21T22:18:05+00:00",
+        "dateModified": "2020-09-21T22:18:07+00:00",
+        "description": "Gerry McGovern asked if I had any insight into energy consumption and websites. He has a book, after all, about the digital costs on the planet. He was",
+        "breadcrumb": {
+          "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://css-tricks.com/thinking-about-power-usage-and-websites/"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/",
+              "url": "https://css-tricks.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+              "url": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+              "name": "Thinking About Power Usage and Websites"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#article",
+        "isPartOf": {
+          "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#webpage"
+        },
+        "author": {
+          "@id": "https://css-tricks.com/#/schema/person/439366a88619858a797824d5498cf50f"
+        },
+        "headline": "Thinking About Power Usage and Websites",
+        "datePublished": "2020-09-21T22:18:05+00:00",
+        "dateModified": "2020-09-21T22:18:07+00:00",
+        "mainEntityOfPage": {
+          "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#webpage"
+        },
+        "commentCount": "5",
+        "publisher": {
+          "@id": "https://css-tricks.com/#organization"
+        },
+        "image": {
+          "@id": "https://css-tricks.com/thinking-about-power-usage-and-websites/#primaryimage"
+        },
+        "keywords": "performance",
+        "articleSection": "Article",
+        "inLanguage": "en-US",
+        "potentialAction": [
+          {
+            "@type": "CommentAction",
+            "name": "Comment",
+            "target": [
+              "https://css-tricks.com/thinking-about-power-usage-and-websites/#respond"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://css-tricks.com/#/schema/person/439366a88619858a797824d5498cf50f",
+        "name": "Chris Coyier",
+        "image": {
+          "@type": "ImageObject",
+          "@id": "https://css-tricks.com/#personlogo",
+          "inLanguage": "en-US",
+          "url": "https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=96&d=retro&r=pg",
+          "caption": "Chris Coyier"
+        },
+        "description": "Founder, writer, designer, spam-deleter, email personality",
+        "sameAs": [
+          "https://twitter.com/chriscoyier"
+        ]
+      }
+    ]
+  },
+  "openGraph": {
+    "pages": "124436167285",
+    "locale": "en_US",
+    "type": "article",
+    "title": "Thinking About Power Usage and Websites | CSS-Tricks",
+    "description": "Gerry McGovern asked if I had any insight into energy consumption and websites. He has a book, after all, about the digital costs on the planet. He was",
+    "url": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+    "site_name": "CSS-Tricks",
+    "publisher": "https://www.facebook.com/CSSTricks",
+    "published_time": "2020-09-21T22:18:05+00:00",
+    "modified_time": "2020-09-21T22:18:07+00:00",
+    "image": {
+      "url": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2019/08/website-lightning.png?fit=1200%2C600&ssl=1",
+      "width": "1200",
+      "height": "600"
+    }
+  },
+  "twitter": {
+    "card": "summary",
+    "creator": "@chriscoyier",
+    "site": "@CSS"
+  }
+}
