@@ -24,8 +24,8 @@
   "global": {
     "siteAlert": "",
     "status": {
-      "current": "I have limited availability just now.",
-      "leadtime": "5 to 6 weeks"
+      "current": "I have good availability just now.",
+      "leadtime": "1 week"
     }
   }
 }
