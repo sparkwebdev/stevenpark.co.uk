@@ -38,6 +38,21 @@ layout: base
   {% if screenshots.length or screenshotsMobile.length -%}
   <figure role="group" class="wrapper flow">
     <figcaption class="[ screenshots__title ]"><h2>Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></h2></figcaption>
+    {% if screenshotsMobile.length and screenshotsMobileFirst -%}
+    <div class="auto-grid">
+      {% for image in screenshotsMobile %}
+      <img
+      src="/assets/img/{{image.src}}?nf_resize=fit&amp;w=652"
+      srcset="
+        /assets/img/{{image.src}}?nf_resize=fit&amp;w=375,
+        /assets/img/{{image.src}}?nf_resize=fit&amp;w=488 1.5x,
+        /assets/img/{{image.src}}?nf_resize=fit&amp;w=652 2x
+      "
+      alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image screenshots__image--mobile ]" loading="lazy">
+      {% endfor %}
+    </div>
+    {%- endif %}
+    {% if screenshots.length or screenshotsMobile.length -%}
     {% if screenshots.length -%}
       {% for image in screenshots %}
         <img 
@@ -51,7 +66,7 @@ layout: base
         alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
       {% endfor %}
     {%- endif %}
-    {% if screenshotsMobile.length -%}
+    {% if screenshotsMobile.length and not screenshotsMobileFirst -%}
       <div class="auto-grid">
         {% for image in screenshotsMobile %}
         <img
