@@ -1,0 +1,76 @@
+---
+title: Forth Valley Art Beat
+featured: true
+description: A cross-platform mobile app and responsive WordPress website for the 'Open Studios Weekend' and 'Art Cycle' events.
+projectMeta: {
+  "Project Type": "Mobile App and Website",
+  'Built Using': 'Ionic, React, WordPress',
+}
+testimonial: <p>The Forth Valley Art Beat app and responsively designed website both are great products which I am very pleased with.</p>
+testimonialAuthor: Rosy Naylor, Platform Designs, Edinburgh
+previewImage: fvab-2021-home-preview.jpg
+screenshotsAlt: They show a visual design that could be described as modern with a duotone-like colour scheme and interface elements that break out of a structured grid layout.
+screenshotsMobileFirst: true
+screenshotsMobile:
+  - src: fvab-2021-app-home.jpg
+    alt: The FVAB mobile app home page on.
+  - src: fvab-2021-app-open-studios.jpg
+    alt: The app artist directory page showing a browseable list with tabs.
+  - src: fvab-2021-app-single-artist.jpg
+    alt: The app single artist page showing images, artist description and links to directions.
+  - src: fvab-2021-app-my-map.jpg
+    alt: The app My App page showing favourited artists and map
+  - src: fvab-2021-app-art-cycle.jpg
+    alt: The app Art Cycle information page
+  - src: fvab-2021-app-news.jpg
+    alt: The app news page showing a news item
+screenshots:
+  - src: fvab-2021-home.jpg
+    alt: The FVAB desktop website home page
+  - src: fvab-2021-artists-directory.jpg
+    alt: The artists directory page showing browseable list with tabs
+  - src: fvab-2021-single-artist.jpg
+    alt: The single artist page showing images, artist description and links to directions.
+imageGroups: {
+  'a': {
+    'image1': 'fvab-2021-mobile-app-home.jpg',
+    'image2': 'fvab-2021-mobile-app-artists-directory.jpg',
+    'alt': 'The app on an iPhone, showing the home page and directory page, allowing users to browse artists.'
+  },
+  'b': {
+    'image1': 'fvab-2021-mobile-app-artist-single.jpg',
+    'image2': 'fvab-2021-mobile-app-my-map.jpg',
+    'alt': 'The app on an iPhone, showing the single artist page and My Map page to allow users to add their favourite artists.'
+  }
+}
+webVitals: [0.75, 0, 0.04]
+GTmetrixGrade: [A, 99, 90]
+---
+<p>Since 2010, Forth Valley Art Beat has been a yearly art event that showcases artists and celebrates creativity across the Forth Valley, becoming one of the largest cultural events in the area.</p>
+
+<p>The exception to this was, as you'd guess, in 2020, where the event was cancelled due to COVID restrictions. And, although it was touch and go, 2021's event was able to go ahead, albeit a smaller event over a weekend.</p>
+
+{% set imageGroupItems = imageGroups.a %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>The FVAB mobile app accompanies the event and helps visitors find venues, discover artists and get directions to venues. There is a 'My Map' area for adding your favourite artists as well as latest news, including details of the Art Cycle event.</p>
+
+<p>The app is cross-platform (iOS and Android) and works on phones and tablets. It was built using React and the Ionic mobile framework. The uncertainty surrounding whether the event would go ahead left little development time and so Ionic's rapid development environment and publishing tools really helped in delivering something speedily.</p>
+
+{% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>Accompanying the app is a website to provide further information about the events and ongoing projects. Built using WordPress, it has a responive design focused on performance — a combination of performant code, careful asset usage, caching strategies and CDN/server tweaks gives the following Lighthouse/GT Metrix scores:</p>
+
+{% include "partials/metrics.html" %}
+
+<p>The site also integrates a members/artists only area to allow participants to sign up for the event. This area features a multi-step form to capture artists' details, media assets and integrated payment for participation fees.</p>
+
+<!-- {% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "02" %}
+{% include "partials/image-group.html" %} -->
