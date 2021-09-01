@@ -1,0 +1,28 @@
+.metrics {
+	font-size: 0.8rem;
+	line-height: 1.3;
+	.metrics__table {
+		text-align: center;
+		th,
+		td {
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
+	}
+	&__value-huge {
+		font-size: 4.2em;
+    line-height: 1;
+	}
+	&__value-large {
+		font-size: 2em;
+	}
+	&__value-small {
+		font-size: 0.6em;
+	}
+	&__disclaimer {
+		font-size: get-size('400');
+	}
+	@include media-query('md') {
+		font-size: inherit;
+	}
+}

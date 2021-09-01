@@ -27,26 +27,29 @@ table:not([class="unstyled"]) {
 		}
 	}
 
-	&.table-fixed {
+	// &.table-fixed {
 
-	}
+	// }
 
 	&.styled-scroll {
 		display: block;
 		overflow-x: auto;
+		@include media-query('md') {
+			display: table;
+			overflow-x: initial;
+		}
+	}
+
+	&.styled-scroll--wide {
 		th,
 		td {
 			min-width: calc(5rem + 50vw);
 		}
 		@include media-query('md') {
-			display: table;
-			overflow-x: initial;
 			th,
 			td {
 				min-width: 0;
 			}
 		}
 	}
-
-
 }

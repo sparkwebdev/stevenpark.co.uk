@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6, p, ul:not([class]), ol:not([class]), textarea, dl {
 
 // Move to page-specific
 @import 'blocks/image-group';
+@import 'blocks/metrics';
 @import 'blocks/wave';
 @import 'blocks/screenshots';
 
