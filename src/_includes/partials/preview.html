@@ -11,7 +11,7 @@
         </p>
       {% endif %}
     </header>
-    {% if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}?nf_resize=fit&amp;w=520" class="[ preview__image ]" alt="" role="presentation" loading="lazy">{% endif %}
+    {% if item.data.previewImage %}<a href="{{item.url}}" rel="bookmark" class="[ preview__image-link-container ]"><img src="/assets/img/{{ item.data.previewImage }}?nf_resize=fit&amp;w=520" class="[ preview__image ]" alt="" role="presentation" loading="lazy"></a>{% endif %}
     {% if item.data.description %}<p class="[ preview__description ]">{{item.data.description | safe }}{% endif %}
   {% if item.data.previewImage %}</div>{% endif %}
 </article>

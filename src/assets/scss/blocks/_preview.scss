@@ -26,6 +26,10 @@
     }
   }
 
+  &__image-link-container {
+    display: block;
+  }
+
 	&__inner {
 		--auto-grid-gap: 0 #{get-size("700")};
 		--auto-grid-min-size: 24rem;
@@ -35,7 +39,7 @@
       grid-template-columns: 1fr 1fr;
 			grid-gap: var(--auto-grid-gap, get-size('500'));
 
-			.preview__image {
+			.preview__image-link-container {
         --flow-space: 0;
 				grid-column: 3 / 2;
         grid-row: 1 / 3;
@@ -63,7 +67,7 @@
 
       &:nth-of-type(2n+2) {
         @include media-query('lg') {
-          .preview__image {
+          .preview__image-link-container {
             grid-column: 1 / 2;
           }
           .preview__description {
