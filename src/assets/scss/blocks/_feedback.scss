@@ -1,0 +1,12 @@
+
+.feedback {
+  margin-top: get-size('900');
+  &::before {
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 5px;
+    background: black;
+    margin-bottom: get-size('800');
+  }
+}

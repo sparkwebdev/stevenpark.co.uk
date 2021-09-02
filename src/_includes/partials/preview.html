@@ -3,9 +3,12 @@
     <header>
       {% if item.data.title %}<{{ "h2" if page.url == "/work/" else "h3" }} class="[ preview__title ]"><a href="{{item.url}}" rel="bookmark">{{item.data.title}}</a></{{ "h2" if page.url == "/work/" else "h3" }}>{% endif %}
       {% if item.data.projectMeta %}
-        {% for name, item in item.data.projectMeta %}
-          {% if name == "Project Type" %}<p class="[ preview__subtitle ]">{{item}}</p>{% endif %}
-        {% endfor %}
+        <p class="[ preview__subtitle ]">
+          {% for name, item in item.data.projectMeta %}
+            {% if name == "Project Type" %}<strong><span class="visually-hidden">Project Type: </span>{{item | safe}}</strong>{% endif %}
+            {% if name == "Built Using" %} — <em><span class="visually-hidden">Built Using: </span>{{item | safe}}</em>{% endif %}
+          {% endfor %}
+        </p>
       {% endif %}
     </header>
     {% if item.data.previewImage %}<img src="/assets/img/{{ item.data.previewImage }}?nf_resize=fit&amp;w=520" class="[ preview__image ]" alt="" role="presentation" loading="lazy">{% endif %}

@@ -1,0 +1,76 @@
+---
+title: e.fundamentals
+featured: true
+description: A responsive WordPress website and design system for an international marketing and analytics platform provider.
+projectMeta: {
+  "Project Type": "Website",
+  'Built Using': 'WordPress',
+}
+testimonial: <p>The <em><strong>harmony between design and technical execution was great</strong></em>, unlike dealing with other providers in the past there was no friction or issues that you can normally see between design and tech implementations. On top of that the speed of activity was strong, responsive and no request we had was ever pushed back on. <em><strong>Absolutely delighted with the finished product</strong></em>.</p>
+testimonialAuthor: Scott Ferguson, e.fundamentals, London
+previewImage: efundamentals-home-preview.jpg
+screenshotsAlt: They show a visual design that could be described as modern with a duotone-like colour scheme and interface elements that break out of a structured grid layout.
+screenshots:
+  - src: efundamentals-desktop-00.jpg
+    alt: The e.fundamentals home page showing several components.
+  - src: efundamentals-desktop-04.jpg
+    alt: The Platform page showing several highly visual components and graphical elements.
+  - src: efundamentals-desktop-03.jpg
+    alt: The Customer Success page, including tab and form components.
+  - src: efundamentals-desktop-05.jpg
+    alt: The contact and enquiries page, with active primary menu state ad site footer.
+  - src: efundamentals-desktop-01.jpg
+    alt: The Platform child page showing a call to action, testimonial and product dashboard imagery.
+  - src: efundamentals-desktop-02.jpg
+    alt: More examples of the various components used throught the e.fundamentals site.
+imageGroups: {
+  'a': {
+    'image1': 'efundamentals-mobile-home.jpg',
+    'image2': 'efundamentals-mobile-cta.jpg',
+    'alt': 'The site on an iPhone, showing the home page, and Featured Guide resource download call to action.'
+  },
+  'b': {
+    'image1': 'efundamentals-mobile-case-study.jpg',
+    'image2': 'efundamentals-mobile-roi.jpg',
+    'alt': "Some examples of the components used throughout the site, including calls to action and custom graphical elements to convey features."
+  },
+  'c': {
+    'image1': 'efundamentals-mobile-content.jpg',
+    'image2': 'efundamentals-mobile-dashboard.jpg',
+    'alt': "Some more examples of the components used throughout the site."
+  }
+}
+webVitals: [1.6, 62, 0]
+GTmetrixGrade: [B, 86, 83]
+---
+<p>e.fundamentals are a Glasgow based marketing services partner that “provides fantastic experiences for your audiences across web, digital and creative”. They required a website that showcased their services and methodology.</p>
+
+{% set imageGroupItems = imageGroups.a %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "01" %}
+{% include "partials/image-group.html" %}
+
+<p>The large amount of content on their site presented a challenge — the site had to be not only easy to update and consistent in it's aesthetic, but provide a wide variety of re-usable content blocks. These would need to convey fairly complex content in an appealing way.</p>
+
+<p>The result was a design system containing over 20 unique components that could be easily added to the site, as well as font, colour, sizing and branding elements.</p>
+
+
+{% set imageGroupItems = imageGroups.b %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "02" %}
+{% include "partials/image-group.html" %}
+
+<p>The client had used WordPress before but were more comfortable with page builders, in particular Elementor, which was used on their old site. This raised some concerns due it's often slow, 'bloated' output. So, some time was put to investigating alternatives and the recommendation to the client for the new site was <a href="https://oxygenbuilder.com/">Oxygen</a>.</p>
+
+<p>Oxygen claimed to offer a better performance and this proved to be the case in testing. It had some quirks in it's usage, but the trade-of was worth it and produced some creditable performance scores:</p>
+
+{% include "partials/metrics.html" %}
+
+<p>These results where hampered somewhat by not having full control of the server implementation and the site having quite a few third-party tools on there but the results are a pretty good comprimise of features versus performance, especially considering a page builder was used.</p>
+
+{% set imageGroupItems = imageGroups.c %}
+{% set imageGroupModifier = "half" %}
+{% set imageGroupID = "03" %}
+{% include "partials/image-group.html" %}
+
+<p>As well as the design system and component library the site features a large resource section for blog posts, media content and resources, some internationalisation for different content across the clients international markets and extensive custom forms and data capture elements to increase user engagement.</p>
