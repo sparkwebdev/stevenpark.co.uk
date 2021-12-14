@@ -18,14 +18,15 @@
     "socialLinks": {
       "Twitter": "https://twitter.com/sparkwebdev/",
       "Instagram": "https://www.instagram.com/sparkwebdev/",
+      "GitHub": "https://github.com/sparkwebdev/",
       "LinkedIn": "https://www.linkedin.com/in/stevenrobertpark/"
     }
   },
   "global": {
     "siteAlert": "",
     "status": {
-      "current": "I have good availability just now.",
-      "leadtime": "1 week"
+      "current": "I have poor availability just now.",
+      "leadtime": "several months"
     }
   }
 }
