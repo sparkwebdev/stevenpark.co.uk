@@ -41,12 +41,6 @@
       ]
     },
     {
-      "label": "Blog",
-      "url": "/blog/",
-      "description": "tolerate some of my chat",
-      "online": true
-    },
-    {
       "label": "Contact",
       "url": "/contact/",
       "description": "get in touch with me",
