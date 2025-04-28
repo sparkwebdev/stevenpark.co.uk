@@ -1,17 +1,15 @@
-const {dest, src} = require('gulp');
-const imagemin = require('gulp-imagemin');
+const { dest, src } = require('gulp');
 
-// Grabs all images, runs them through imagemin
-// and plops them in the dist folder
-const images = () => {
-  // We have specific configs for jpeg and png files to try
-  // to really pull down asset sizes
+// Use dynamic import() to load gulp-imagemin
+const images = async () => {
+  const imagemin = await import('gulp-imagemin'); // Dynamic import
+
   return src('./src/assets/images/**/*')
     .pipe(
-      imagemin(
+      imagemin.default( // Access the default export
         [
-          imagemin.mozjpeg({quality: 60, progressive: true}),
-          imagemin.optipng({optimizationLevel: 5, interlaced: null})
+          imagemin.mozjpeg({ quality: 60, progressive: true }),
+          imagemin.optipng({ optimizationLevel: 5, interlaced: null })
         ],
         {
           silent: true

@@ -1,3 +1,4 @@
+{% if postList.length > 0 %}
 <ol class="[ posts ] flow">
 {% for post in postList %}
   <li class="[ posts__item ]">
@@ -5,3 +6,8 @@
   </li>
 {% endfor %}
 </ol>
+{% else %}
+<div class="[ posts__empty ] flow">
+  <p>No posts found.</p>
+</div>
+{% endif %}

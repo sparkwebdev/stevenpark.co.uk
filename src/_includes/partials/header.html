@@ -7,9 +7,9 @@
   {% set navAriaLabel = "Primary" %}
   {% set navIncludeHome = true %}
   {% set navListClass = "auto-flex" %}
-{#
+
   {% include "partials/navigation.html" %}
-#}
+
   {% if alert or metadata.global.siteAlert %}
   <aside class="[ site-header__alert ]">
     <p><em><strong>{{ alert or metadata.global.siteAlert }}</strong></em></p>

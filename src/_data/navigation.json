@@ -24,7 +24,7 @@
       "label": "About",
       "url": "/about/",
       "description": "me, my services, values and more",
-      "online": true,
+      "online": false,
       "sub": [
         {
           "label": "Testimonials",
@@ -39,6 +39,12 @@
           "online": true
         }
       ]
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/",
+      "description": "tolerate some of my chat",
+      "online": false
     },
     {
       "label": "Contact",
@@ -64,7 +70,7 @@
       "label": "Prices & Payment Terms",
       "url": "/prices-payment-terms/",
       "description": "",
-      "online": true
+      "online": false
     }
   ],
   "quicklinksAbout": [
@@ -84,7 +90,7 @@
       "label": "Prices & Payment Terms",
       "url": "/about/prices-payment-terms/",
       "description": "",
-      "online": true
+      "online": false
     }
   ],
   "unused": [

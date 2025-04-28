@@ -13,11 +13,7 @@
     "name": "Steven Park",
     "email": "info@stevenpark.co.uk",
     "location": "Glasgow, UK",
-    "telephone": "07799 255 012",
-    "telephoneInternational": "+447799255012",
     "socialLinks": {
-      "Twitter": "https://twitter.com/sparkwebdev/",
-      "Instagram": "https://www.instagram.com/sparkwebdev/",
       "GitHub": "https://github.com/sparkwebdev/",
       "LinkedIn": "https://www.linkedin.com/in/stevenrobertpark/"
     }
@@ -25,8 +21,8 @@
   "global": {
     "siteAlert": "",
     "status": {
-      "current": "I have poor availability just now.",
-      "leadtime": "several months"
+      "current": "I have good availability just now.",
+      "leadtime": "1 to 2 weeks"
     }
   }
 }

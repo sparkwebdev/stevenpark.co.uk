@@ -242,7 +242,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets/img");
   eleventyConfig.addPassthroughCopy("./src/assets/js");
   eleventyConfig.addPassthroughCopy("./src/assets/css");
-  eleventyConfig.addPassthroughCopy("./src/assets/css/fonts");
+  eleventyConfig.addPassthroughCopy("./src/assets/fonts");
 
   // Favicon, PWA, robots, etc
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
@@ -252,8 +252,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/*.ico");
   eleventyConfig.addPassthroughCopy("./src/safari-pinned-tab.svg");
   
-  
-
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
