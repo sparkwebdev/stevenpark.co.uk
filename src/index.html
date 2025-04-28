@@ -1,7 +1,7 @@
 ---
 layout: page
 subtitle: <span class="[ page-header__title ]">Hello.</span> <br />I am a web developer and designer from Glasgow, Scotland.
-description: <strike>Please have a look around and <a href="/contact/">get in touch</a> to see if I can help build a better web for you and your users.</strike><p class="notice">Please note, as I am working on a large project just now, unfortunately I am not currently taking on new work. Please still feel free to <a href="/contact/">get in touch</a>.</p>
+description: Please have a look around and <a href="/contact/">get in touch</a> to see if I can help build a better web for you and your users.
 alert: 
 ---
 {%- if page.url == "/" %}
@@ -9,14 +9,14 @@ alert:
   {%- set navShowDescription = true -%}
   {%- set navAriaLabel = "Primary Extended" %}
   {%- set navClass = "navigation--contextual" %}
-  {# 
+
   {% include "partials/navigation.html" %}
-  #}
+
 {%- endif %}
 
-{# 
 {% set noticeTitle = "Special Offers" %}
 {% set noticeText = "<p>Are you a charity, not-for-profit or similar? Or a new business? <br /><a href=\"/contact/\">Get in touch</a> to find out about special offers and reduced rates.</p>" %}
+
 {% include "partials/notice.html" %}
 
 <section class="[ section ] flow">
@@ -29,7 +29,7 @@ alert:
   {% endfor %}
   <p><a href="/work/" class="[ section__link ]"><strong>Browse full work archive</strong></a></p>
 </section>
-
+{# 
 <section class="[ section ] flow">
   <h2 class="[ section__title ]">Latest Blog</h2>
   {% set postList = collections.blogLatest %}
