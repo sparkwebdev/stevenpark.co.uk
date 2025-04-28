@@ -71,6 +71,11 @@ const linkPreview = (link, callback) => {
 
 module.exports = function(eleventyConfig) {
 
+  // Polyfill for globalThis
+  if (typeof globalThis === 'undefined') {
+    global.globalThis = global;
+  }
+  
   eleventyConfig.setDataDeepMerge(true);
   
   // Plugins
