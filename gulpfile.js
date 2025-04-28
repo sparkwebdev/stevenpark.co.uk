@@ -1,3 +1,8 @@
+// Polyfill for globalThis
+if (typeof globalThis === 'undefined') {
+  global.globalThis = global;
+}
+
 const {parallel, watch} = require('gulp');
 
 // Pull in each task
