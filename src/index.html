@@ -1,26 +1,23 @@
 ---
 layout: page
-subtitle: <span class="[ page-header__title ]">Hello.</span> <br />I am a web developer and designer from Glasgow, Scotland.
+subtitle: <span class="[ page-header__title ]">Hello. <br />I am a web developer and designer from Glasgow, Scotland.
 description: Please have a look around and <a href="/contact/">get in touch</a> to see if I can help build a better web for you and your users.
-alert: 
+alert: This site is being updated, please excuse any erors.
 ---
 {%- if page.url == "/" %}
   {%- set navItems = navigation.primary -%}
   {%- set navShowDescription = true -%}
   {%- set navAriaLabel = "Primary Extended" %}
   {%- set navClass = "navigation--contextual" %}
-
   {% include "partials/navigation.html" %}
-
 {%- endif %}
 
 {% set noticeTitle = "Special Offers" %}
 {% set noticeText = "<p>Are you a charity, not-for-profit or similar? Or a new business? <br /><a href=\"/contact/\">Get in touch</a> to find out about special offers and reduced rates.</p>" %}
-
 {% include "partials/notice.html" %}
 
 <section class="[ section ] flow">
-  <h2 class="[ section__title ]">Latest Work</h2>
+  <h2 class="[ section__title ]">Latest work</h2>
   {% set previewShowImage = true %}
   {% set previewBreakout = true %}
   {% set previewModifier = "preview--work preview--featured" %}
@@ -29,11 +26,10 @@ alert:
   {% endfor %}
   <p><a href="/work/" class="[ section__link ]"><strong>Browse full work archive</strong></a></p>
 </section>
-{# 
+
 <section class="[ section ] flow">
-  <h2 class="[ section__title ]">Latest Blog</h2>
-  {% set postList = collections.blogLatest %}
-  {% include "partials/posts.html" %}
-  <p><a href="{{ '/blog/' | url }}" class="[ section__link ]"><strong>Browse full blog archive</strong></a></p>
-</section> 
-#}
+  <h2><del>From my blog<br /></del> <ins>currently offline, back soon...</ins></h2>
+  {# {% set postList = collections.blog %} #}
+  {# {% include "partials/post-list.html" %} #}
+  {# <p><a href="{{ '/blog/' | url }}" class="[ section__link ]"><strong>Browse full blog archive</strong></a></p> #}
+</section>
