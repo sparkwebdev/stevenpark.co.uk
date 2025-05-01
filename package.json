@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
     "production": "NODE_ENV=production eleventy"
   },
   "keywords": [],
