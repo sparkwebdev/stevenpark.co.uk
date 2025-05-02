@@ -23,4 +23,4 @@ const addTagCollection = (eleventyConfig) => {
   });
 };
 
-module.exports = addTagCollection; 
+export default addTagCollection; 

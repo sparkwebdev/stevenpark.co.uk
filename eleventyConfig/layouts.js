@@ -6,4 +6,4 @@ const configureLayouts = (eleventyConfig) => {
   eleventyConfig.addLayoutAlias("portfolio", "layouts/portfolio.html");
 };
 
-module.exports = configureLayouts; 
+export default configureLayouts; 

@@ -1,11 +1,9 @@
 const configureAssets = (eleventyConfig) => {
-  // Assets
+  // Only passthrough non-Parcel assets
   eleventyConfig.addPassthroughCopy("./src/assets/img");
-  eleventyConfig.addPassthroughCopy("./src/assets/js");
-  eleventyConfig.addPassthroughCopy("./src/assets/css");
   eleventyConfig.addPassthroughCopy("./src/assets/fonts");
 
-  // Favicon, PWA, robots, etc
+  // Site-wide static files
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy('./src/browserconfig.xml');
   eleventyConfig.addPassthroughCopy('./src/site.webmanifest');
@@ -14,4 +12,4 @@ const configureAssets = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("./src/safari-pinned-tab.svg");
 };
 
-module.exports = configureAssets; 
+export default configureAssets;

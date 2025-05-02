@@ -16,4 +16,4 @@ const createCollection = (eleventyConfig, name, globPattern, options = {}) => {
   });
 };
 
-module.exports = createCollection; 
+export default createCollection; 

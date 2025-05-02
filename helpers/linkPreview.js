@@ -1,8 +1,8 @@
-const fs = require("fs");
-const crypto = require("crypto");
-const path = require('path');
-const scrape = require('html-metadata');
-const escape = require('./escape');
+import { existsSync, readFile, writeFile } from "fs";
+import { createHash } from "crypto";
+import { join } from 'path';
+import scrape from 'html-metadata';
+import escape from './escape.js';
 
 const linkPreview = (link, callback) => {
   // Helper function to format links
@@ -25,12 +25,12 @@ const linkPreview = (link, callback) => {
   }
   
   // Hash the link URL (using SHA1) and create a file name from it
-  let hash = crypto.createHash('sha1').update(link).digest('hex');
-  let file = path.join('src/_links', `${hash}.json`);
-  if (fs.existsSync(file)) {
+  let hash = createHash('sha1').update(link).digest('hex');
+  let file = join('src/_links', `${hash}.json`);
+  if (existsSync(file)) {
     // File with cached metadata exists
     console.log(`[linkPreview] Using persisted data for link ${link}.`);
-    fs.readFile(file, (err, data) => {
+    readFile(file, (err, data) => {
       if (err) callback("Reading persisted metadata failed", `<div style="color:#ff0000; font-weight:bold">ERROR: Reading persisted metadata failed</div>`);
       // Parse file as JSON, pass it to the format function to format the link
       callback(null, format(JSON.parse(data.toString('utf-8'))));
@@ -41,11 +41,11 @@ const linkPreview = (link, callback) => {
     scrape(link).then((metadata => {
       if (!metadata) callback ("No metadata", `<div style="color:#ff0000; font-weight:bold">ERROR: Did not receive metadata</div>`);
       // First, store the metadata returned by scrape in the file
-      fs.writeFile(file, JSON.stringify(metadata, null, 2), (err) => { /* Ignore errors, worst case we parse the link again */ });
+      writeFile(file, JSON.stringify(metadata, null, 2), (err) => { /* Ignore errors, worst case we parse the link again */ });
       // Then, format the link
       callback(null, format(metadata)); 
     })).catch(error => console.log(error.message));
   }  
 }
 
-module.exports = linkPreview; 
+export default linkPreview; 

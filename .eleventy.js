@@ -1,14 +1,19 @@
-const pluginRss             = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const readingTime           = require('eleventy-plugin-reading-time');
-const linkPreview           = require('./helpers/linkPreview.js');
-const createCollection      = require('./eleventyConfig/createCollection.js');
-const addFilters            = require('./eleventyConfig/filters.js');
-const addTagCollection      = require('./eleventyConfig/tagCollection.js');
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import readingTime from 'eleventy-plugin-reading-time';
+import linkPreview from './helpers/linkPreview.js';
+import createCollection from './eleventyConfig/createCollection.js';
+import addFilters from './eleventyConfig/filters.js';
+import addTagCollection from './eleventyConfig/tagCollection.js';
+import htmlMinTransform from './src/transforms/html-min-transform.js';
+import configureLayouts from './eleventyConfig/layouts.js';
+import configureMarkdown from './eleventyConfig/markdown.js';
+import configureAssets from './eleventyConfig/assets.js';
+import configureBrowserSync from './eleventyConfig/browserSync.js';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
   
@@ -18,8 +23,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
 
   // Transforms
-  const htmlMinTransform = require('./src/transforms/html-min-transform.js');
-
   if (isProduction) {
     eleventyConfig.addTransform('htmlmin', htmlMinTransform);
   }
@@ -48,19 +51,15 @@ module.exports = function(eleventyConfig) {
   addTagCollection(eleventyConfig);
 
   // Configure layouts
-  const configureLayouts = require('./eleventyConfig/layouts.js');
   configureLayouts(eleventyConfig);
 
   // Configure markdown
-  const configureMarkdown = require('./eleventyConfig/markdown.js');
   configureMarkdown(eleventyConfig);
 
   // Configure assets
-  const configureAssets = require('./eleventyConfig/assets.js');
   configureAssets(eleventyConfig);
 
   // Configure browser-sync
-  const configureBrowserSync = require('./eleventyConfig/browserSync.js');
   configureBrowserSync(eleventyConfig);
   
   return {
@@ -78,4 +77,4 @@ module.exports = function(eleventyConfig) {
     }
   };
 
-};
+}

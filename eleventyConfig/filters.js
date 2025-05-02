@@ -1,6 +1,6 @@
-const CleanCSS = require('clean-css');
-const Terser = require("terser");
-const { DateTime } = require("luxon");
+import CleanCSS from 'clean-css';
+import { minify } from "terser";
+import { DateTime } from "luxon";
 
 const addFilters = (eleventyConfig) => {
   // CSS Minification
@@ -10,7 +10,7 @@ const addFilters = (eleventyConfig) => {
 
   // JS Minification
   eleventyConfig.addFilter("jsmin", function(code) {
-    let minified = Terser.minify(code);
+    let minified = minify(code);
     if( minified.error ) {
       console.log("Terser error: ", minified.error);
       return code;
@@ -68,4 +68,4 @@ const addFilters = (eleventyConfig) => {
   });
 };
 
-module.exports = addFilters; 
+export default addFilters; 

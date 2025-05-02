@@ -1,6 +1,6 @@
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownItAttrs = require("markdown-it-attrs");
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
 
 const configureMarkdown = (eleventyConfig) => {
   let markdownLibrary = markdownIt({
@@ -18,4 +18,4 @@ const configureMarkdown = (eleventyConfig) => {
   eleventyConfig.setLibrary("md", markdownLibrary);
 };
 
-module.exports = configureMarkdown; 
+export default configureMarkdown; 

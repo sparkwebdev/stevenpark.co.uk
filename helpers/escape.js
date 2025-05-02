@@ -8,4 +8,4 @@ const escape = (unsafe) => {
       .replace(/'/g, "&#039;");
 }
 
-module.exports = escape; 
+export default escape; 

@@ -5,7 +5,7 @@ pagination:
   size: 999
   alias: entries
 layout: base
-permalink: /sitemap/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
+permalink: /sitemap{% if pagination.pageNumber > 0 %}-{{ pagination.pageNumber }}{% endif %}.html
 ---
 <ul class="margin-top">
 {%- for entry in entries %}
