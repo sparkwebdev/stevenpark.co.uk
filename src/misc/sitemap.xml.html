@@ -4,11 +4,43 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- for page in collections.all %}
-  {% set absoluteUrl %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endset %}
-  <url>
-    <loc>{{ absoluteUrl }}</loc>
-    <lastmod>{{ page.date | htmlDateString }}</lastmod>
-  </url>
-{%- endfor %}
+  {# Loop through primary navigation #}
+  {% for item in navigation.primary %}
+    {% if item.online %}
+      <url>
+        <loc>{{ item.url | url | absoluteUrl(metadata.url) }}</loc>
+        <changefreq>
+          {%- if item.url == '/' -%}daily{%- elif '/blog' in item.url -%}weekly{%- elif '/work' in item.url -%}monthly{%- else -%}yearly{%- endif -%}
+        </changefreq>
+        <priority>
+          {%- if item.url == '/' -%}1.0{%- elif '/blog' in item.url -%}0.6{%- elif '/work' in item.url -%}0.7{%- else -%}0.5{%- endif -%}
+        </priority>
+      </url>
+      
+      {# Sub-items #}
+      {% if item.sub %}
+        {% for sub in item.sub %}
+          {% if sub.online %}
+            <url>
+              <loc>{{ sub.url | url | absoluteUrl(metadata.url) }}</loc>
+              <changefreq>monthly</changefreq>
+              <priority>0.5</priority>
+            </url>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {# If Work section, include portfolio items #}
+      {% if item.label == "Work" and collections.portfolio %}
+        {% for entry in collections.portfolio %}
+          <url>
+            <loc>{{ entry.url | url | absoluteUrl(metadata.url) }}</loc>
+            <lastmod>{{ entry.date | htmlDateString }}</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.6</priority>
+          </url>
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </urlset>
