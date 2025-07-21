@@ -14,7 +14,7 @@ if (contactForm) {
     })
     .then(res => {
       if (res) {
-        contactForm.parentNode.innerHTML = '<div role="alert"><h2>Message sent</h2><p><strong>Thank you for your enquiry. I will get back to you ASAP.</strong></p></div>';
+        contactForm.parentNode.innerHTML = '<div class="flow" role="alert"><h2>Message sent</h2><p><strong>Thank you for your enquiry. I will get back to you ASAP.</strong></p></div>';
         // if (navigator.vibrate) {
         //   navigator.vibrate(200);
         // }
