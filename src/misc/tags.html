@@ -10,9 +10,9 @@ pagination:
 permalink: /blog/tags/{{ tag | slug }}/
 ---
 <h2>Posts filed under '{{ tag }}'</h2>
-<ol class="[ posts ] flow">
+<ol class="posts flow">
 {% for post in collections[ tag ] | reverse %}
-  <li class="[ posts__item ]">
+  <li class="posts__item">
     {% include "partials/preview-post.html" %}
   </li>
 {% endfor %}

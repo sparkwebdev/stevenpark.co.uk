@@ -1,4 +1,4 @@
-<figure role="group" class="[ image-group image-group--{{ imageGroupModifier }} ]{% if imageGroupModifier == "half" %}} auto-grid{% endif %}" aria-labelledby="image-group-title-{{ imageGroupID }}">
+<figure role="group" class="image-group image-group--{{ imageGroupModifier }}{% if imageGroupModifier == "half" %} auto-grid{% endif %}" aria-labelledby="image-group-title-{{ imageGroupID }}">
   {% if imageGroupModifier != "single" and imageGroupModifier != "half" %}
   <div class="image-group__row-1{% if imageGroupModifier == "row" %} auto-grid{% endif %}">
   {% endif %}
@@ -69,7 +69,7 @@
       {% endif %}
       class="image-group__image-3" alt="" role="presentation" loading="lazy" />
     {% endif %}
-    <figcaption id="image-group-title-{{ imageGroupID }}" class="[ image-group__caption ]">
+    <figcaption id="image-group-title-{{ imageGroupID }}" class="image-group__caption">
       <p>{{ imageGroupItems.alt | safe }}</p>
     </figcaption>
   {% if imageGroupModifier != "single" and imageGroupModifier != "half" %}

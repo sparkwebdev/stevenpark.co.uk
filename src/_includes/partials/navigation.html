@@ -1,5 +1,4 @@
-<nav class="[ navigation
-    {%- if navClass %} {{navClass}}{% endif %} ]"
+<nav class="navigation{%- if navClass %} {{navClass}}{% endif %}"
   {% if navAriaLabel %} aria-label="{{navAriaLabel}}"
   
   {% elseif navTitle %} aria-labelledby="navigation-title-{{ navTitle | slug }}"
@@ -11,7 +10,7 @@
     {% endif %}
     {%- for item in navItems %}
     <li
-      class="[ navigation__item ]"
+      class="navigation__item"
       {%- if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} data-state="active"{% endif -%}
       {%- if (item.url == page.url) and (item.url !== "/") %} aria-current="page"{% endif -%}
     >
@@ -30,7 +29,7 @@
       <ul class="unstyled">
         {%- for item in item.sub %}
           <li
-            class="[ navigation__item ]"
+            class="navigation__item"
             {%- if (item.url == page.url) or ((item.url | urlmatch(page.url)) and item.url !== "/") %} data-state="active"{% endif -%}
             {%- if (item.url == page.url) and (item.url !== "/") %} aria-current="page"{% endif -%}
           >
