@@ -11,7 +11,11 @@
     "prod:parcel": "parcel build './src/assets/scss/common.scss' --dist-dir ./dist/css --no-source-maps",
     "prod:critical": "parcel build './src/assets/scss/critical.scss' --dist-dir ./src/_includes/css --no-source-maps",
     "prod:11ty": "NODE_ENV=production eleventy",
-    "clean": "rimraf dist src/_includes/css/critical.css"
+    "clean": "rimraf dist src/_includes/css/critical.css",
+    "test:vrc": "playwright test tests/vrc/compare-pages.spec.js",
+    "test:vrc:level2": "VRC_LEVEL=2 playwright test tests/vrc/compare-pages.spec.js",
+    "test:vrc:all": "VRC_LEVEL=3 playwright test tests/vrc/compare-pages.spec.js",
+    "test:install": "playwright install chromium"
   },
   "keywords": [],
   "author": {
@@ -38,11 +42,16 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "@playwright/test": "^1.54.1",
     "critical": "^7.2.1",
     "glob": "^11.0.3",
     "npm-run-all": "^4.1.5",
+    "open": "^10.2.0",
     "parcel": "^2.12.0",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
     "rimraf": "^6.0.1",
-    "sass": "^1.72.0"
+    "sass": "^1.72.0",
+    "sharp": "^0.34.3"
   }
 }

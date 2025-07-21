@@ -7,3 +7,13 @@ Thumbs.db
 .env
 .cache
 .parcel-cache
+
+# VRC test results
+tests/vrc/results/
+
+# Playwright reports
+playwright-report/
+test-results/
+
+# Playwright browser binaries and cache
+.playwright/
