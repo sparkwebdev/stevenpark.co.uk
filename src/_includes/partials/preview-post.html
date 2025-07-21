@@ -1,12 +1,12 @@
-<article class="[ preview ]">
+<article class="preview">
   <header>
-    <{{ "h3" if page.url == "/" else "h2" }} class="[ preview__title ]">
+    <{{ "h3" if page.url == "/" else "h2" }} class="preview__title">
       <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title | safe }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     </{{ "h3" if page.url == "/" else "h2" }}>
     {% if post.data.subtitle %}
       <p><strong>{{ post.data.subtitle }}</strong></p>
     {% endif %}
-    <ul class="[ preview__meta ]">
+    <ul class="preview__meta">
       <li>
         <em>Posted on </em><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
         {% if post.data.blogType %}<em>in</em> <a href="/blog/{{ post.data.blogType | slug }}"><strong>{{ post.data.blogType }}</strong></a>{% endif %}
@@ -19,7 +19,7 @@
 
   {% if post.data.tags.length %}
   <footer>
-    <ul class="[ preview__meta ]">
+    <ul class="preview__meta">
       <li>
         <em>Tags:</em>
         {% set comma = joiner() %}

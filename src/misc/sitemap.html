@@ -1,14 +1,57 @@
 ---
 title: Sitemap
-pagination:
-  data: collections.all
-  size: 999
-  alias: entries
 layout: base
-permalink: /sitemap/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
+permalink: /sitemap.html
 ---
-<ul class="margin-top">
-{%- for entry in entries %}
-  <li><a href="{{ entry.url }}">{{ entry.data.title or entry.data.renderData.title or 'Home' }}</a></li>
-{%- endfor %}
-</ul>
+<article class="site-article wrapper flow">
+  <ul class="margin-top">
+    {% for item in navigation.primary %}
+      <li>
+        {% if not item.online %}
+          <del>{{ item.label }}</del>
+          <ins class="visually-hidden"> — currently offline</ins>
+        {% else %}
+          <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endif %}
+
+        {% set isWork = item.label == "Work" %}
+        {% set hasSubItems = item.sub or isWork %}
+
+        {% if hasSubItems %}
+          <ul>
+
+            {# Portfolio collection first under "Work" #}
+            {% if isWork and collections.portfolio %}
+              {% for project in collections.portfolio %}
+                <li>
+                  <a href="{{ project.url }}">
+                    {{ project.data.title or project.fileSlug }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% endif %}
+
+            {# Subnavigation items next #}
+            {% if item.sub %}
+              {% for subitem in item.sub %}
+                <li>
+                  {% if not subitem.online %}
+                    <del>{{ subitem.label }}</del>
+                    <ins class="visually-hidden"> — currently offline</ins>
+                  {% else %}
+                    <a href="{{ subitem.url }}">{{ subitem.label }}</a>
+                    {% if subitem.description %}
+                      <span class="navigation__item-separator"> — </span>
+                      <span class="navigation__item-description">{{ subitem.description }}</span>
+                    {% endif %}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            {% endif %}
+
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</article>

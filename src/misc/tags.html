@@ -10,10 +10,18 @@ pagination:
 permalink: /blog/tags/{{ tag | slug }}/
 ---
 <h2>Posts filed under '{{ tag }}'</h2>
-<ol class="[ posts ] flow">
-{% for post in collections[ tag ] | reverse %}
-  <li class="[ posts__item ]">
-    {% include "partials/preview-post.html" %}
-  </li>
-{% endfor %}
+<ol class="posts flow">
+{% if tag == "all" %}
+  {% for post in collections.posts | reverse %}
+    <li class="posts__item">
+      {% include "partials/preview-post.html" %}
+    </li>
+  {% endfor %}
+{% else %}
+  {% for post in collections[ tag ] | reverse %}
+    <li class="posts__item">
+      {% include "partials/preview-post.html" %}
+    </li>
+  {% endfor %}
+{% endif %}
 </ol>

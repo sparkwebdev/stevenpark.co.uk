@@ -1,10 +1,17 @@
 {
   "name": "stevenpark.co.uk",
   "version": "2.0.0",
-  "main": ".eleventy.js",
+  "type": "module",
   "scripts": {
-    "start": "npx eleventy --serve",
-    "production": "NODE_ENV=production eleventy"
+    "start": "npm-run-all clean --parallel dev:parcel dev:critical dev:11ty",
+    "dev:11ty": "eleventy --serve",
+    "dev:parcel": "parcel watch './src/assets/scss/common.scss' --dist-dir ./dist/css",
+    "dev:critical": "parcel watch './src/assets/scss/critical.scss' --dist-dir ./src/_includes/css",
+    "build": "npm-run-all clean prod:parcel prod:critical prod:11ty",
+    "prod:parcel": "parcel build './src/assets/scss/common.scss' --dist-dir ./dist/css --no-source-maps",
+    "prod:critical": "parcel build './src/assets/scss/critical.scss' --dist-dir ./src/_includes/css --no-source-maps",
+    "prod:11ty": "NODE_ENV=production eleventy",
+    "clean": "rimraf dist src/_includes/css/critical.css"
   },
   "keywords": [],
   "author": {
@@ -20,12 +27,22 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "clean-css": "^5.3.3",
     "eleventy-plugin-reading-time": "^0.0.1",
+    "gorko": "^0.9.1",
     "html-metadata": "^3.0.0",
-    "html-minifier": "^4.0.0",
-    "terser": "^5.39.0",
+    "html-minifier-terser": "^7.2.0",
     "luxon": "^3.6.1",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
-    "markdown-it-attrs": "^4.3.1"
+    "markdown-it-attrs": "^4.3.1",
+    "terser": "^5.39.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "critical": "^7.2.1",
+    "glob": "^11.0.3",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.12.0",
+    "rimraf": "^6.0.1",
+    "sass": "^1.72.0"
   }
 }

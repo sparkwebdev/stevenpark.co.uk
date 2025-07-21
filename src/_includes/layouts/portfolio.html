@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<article class="[ site-article ] wrapper flow">
+<article class="site-article wrapper flow">
 
   {% if screenshots.length or screenshotsMobile.length %}
     {% set headerInclude = "partials/anchor-link.html" %}
@@ -24,7 +24,7 @@ layout: base
   {{ content | safe }}
 
   {% if testimonial -%}
-  <aside class="[ feedback flow ]">
+  <aside class="feedback flow">
     <h3>What the client said:</h3>
     <blockquote>
       {{ testimonial | safe }}
@@ -35,11 +35,11 @@ layout: base
 
 </article>
 
-<aside id="screenshots" class="[ screenshots ]">
+<aside id="screenshots" class="screenshots">
 
   {% if screenshots.length or screenshotsMobile.length -%}
   <figure role="group" class="wrapper flow">
-    <figcaption class="[ screenshots__title ]"><h2>Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></h2></figcaption>
+    <figcaption class="screenshots__title"><h2>Screenshots<span class="visually-hidden"> for {{title}}.{%- if screenshotsAlt %} {{ screenshotsAlt }}{% endif -%}</span></h2></figcaption>
     {% if screenshotsMobile.length and screenshotsMobileFirst -%}
     <div class="auto-grid">
       {% for image in screenshotsMobile %}
@@ -50,7 +50,7 @@ layout: base
         /assets/img/{{image.src}}?nf_resize=fit&amp;w=488 1.5x,
         /assets/img/{{image.src}}?nf_resize=fit&amp;w=652 2x
       "
-      alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image screenshots__image--mobile ]" loading="lazy">
+      alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image screenshots__image--mobile" loading="lazy">
       {% endfor %}
     </div>
     {%- endif %}
@@ -64,7 +64,7 @@ layout: base
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=1077 1077w
         "
         sizes="(max-width: 1076px) 100vw, 1077px"
-        alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image ]" loading="lazy">
+        alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image" loading="lazy">
       {% endfor %}
     {%- endif %}
     {% if screenshotsMobile.length and not screenshotsMobileFirst -%}
@@ -77,7 +77,7 @@ layout: base
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=488 1.5x,
           /assets/img/{{image.src}}?nf_resize=fit&amp;w=652 2x
         "
-        alt="{% if image.alt %}{{image.alt}}{% endif %}" class="[ screenshots__image screenshots__image--mobile ]" loading="lazy">
+        alt="{% if image.alt %}{{image.alt}}{% endif %}" class="screenshots__image screenshots__image--mobile" loading="lazy">
         {% endfor %}
       </div>
     {%- endif %}

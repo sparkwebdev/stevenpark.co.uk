@@ -19,7 +19,7 @@
     line-height: inherit;
     @include media-query('sm') {
       font-size: get-size('700');
-      @include apply-utility('leading', 'tight');
+      line-height: 1.4; // Magic number, deviates from utility values, not sure why
     }
   }
 

@@ -1,14 +1,14 @@
-<header class="[ page-header page-header--blog ]">
+<header class="page-header page-header--blog">
 
-  <p class="[ page-header__category ]"><strong>{{ blogType or 'Blog' | safe }}</strong></p>
-  {% if title %}<h1 class="[ page-header__title ]">{{ title | safe }}</h1>{% endif %}
-  {% if subtitle %}<p class="[ page-header__description ]">{{ subtitle | safe }}</p>{% endif %}
+  <p class="page-header__category"><strong>{{ blogType or 'Blog' | safe }}</strong></p>
+  {% if title %}<h1 class="page-header__title">{{ title | safe }}</h1>{% endif %}
+  {% if subtitle %}<p class="page-header__description">{{ subtitle | safe }}</p>{% endif %}
 
   {% if headerInclude %}
     {% include headerInclude %}
   {%- endif %}
 
-  <ul class="[ preview__meta ]">
+  <ul class="preview__meta">
     <li>
       <em>Posted on </em><time datetime="{{ page.data.date or page.date | htmlDateString }}">{{ page.data.date or page.date | readableDate }}</time>
       {% if page.data.blogType %}<em>in</em> <a href="/blog/{{ page.data.blogType | slug }}"><strong>{{ page.data.blogType }}</strong></a>{% endif %}
