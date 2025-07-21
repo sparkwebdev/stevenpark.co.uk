@@ -5,26 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[build.processing]
-  skip_processing = false
-
-[build.processing.css]
-  bundle = false
-  minify = false
-
-[build.processing.js]
-  bundle = false
-  minify = false
-
-[build.processing.html]
-  pretty_urls = false
-
-# Use Ubuntu 24.04 Noble instead of deprecated Focal
-[build.image]
-  ubuntu = "24.04"
-
 [context.production.environment]
-  NODE_ENV = "production"
   ELEVENTY_ENV = "production"
 
 [[headers]]
