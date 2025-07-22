@@ -1,0 +1,53 @@
+/* Prevent font size inflation */
+:where(html) {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+:where(body, h1, h2, h3, h4, p, figure, blockquote, dl, dd) {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+:where(ul[role="list"], ol[role="list"]) {
+  list-style: none;
+}
+
+/* Set core body defaults */
+:where(body) {
+  min-height: 100vh;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+:where(h1, h2, h3, h4, button, input) {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+:where(h1, h2, h3, h4) {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+:where(a:not([class])) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+:where(img, picture) {
+  max-width: 100%;
+  display: block;
+}
+
+/* Table alignment */
+:where(td) {
+  vertical-align: top;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}

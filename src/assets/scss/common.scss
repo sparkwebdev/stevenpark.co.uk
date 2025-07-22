@@ -48,7 +48,6 @@ h2,
 h3,
 h4 {
   font-weight: 900;
-  @include apply-utility('leading', 'tight');
 }
 
 h1,
