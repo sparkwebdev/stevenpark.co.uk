@@ -6,7 +6,7 @@
   NODE_VERSION = "18"
 
 [context.production.environment]
-    ELEVENTY_ENV = "production"
+  ELEVENTY_ENV = "production"
 
 [[headers]]
     for = "/*"

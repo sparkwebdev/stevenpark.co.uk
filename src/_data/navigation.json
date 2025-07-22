@@ -67,6 +67,12 @@
       "online": true
     },
     {
+      "label": "Release Notes & Credits",
+      "url": "/releases/",
+      "description": "site updates and acknowledgments",
+      "online": true
+    },
+    {
       "label": "Prices & Payment Terms",
       "url": "/prices-payment-terms/",
       "description": "",
@@ -83,6 +89,12 @@
     {
       "label": "FAQs",
       "url": "/about/faqs/",
+      "description": "",
+      "online": true
+    },
+    {
+      "label": "Release Notes & Credits",
+      "url": "/releases/",
       "description": "",
       "online": true
     },

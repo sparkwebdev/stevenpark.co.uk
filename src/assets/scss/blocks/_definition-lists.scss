@@ -1,10 +1,31 @@
-
 dl {
-	dt {
-		font-weight: bold;
-		font-size: 1.15em;
-	}
-	dd {
-		--flow-space: #{get-size('200')};
-	}
+  dt {
+    font-weight: bold;
+    font-size: 1.15em;
+  }
+  dd {
+    --flow-space: #{get-size("200")};
+  }
+}
+
+// Icon legend table-like layout
+.definitions-table {
+  display: grid;
+  grid-template-columns: repeat(2, min-content 1fr);
+  gap: get-size("200") get-size("400");
+  width: fit-content;
+  margin-top: get-size("200");
+
+  @media screen and (min-width: 28rem) {
+    grid-template-columns: repeat(3, min-content 1fr);
+  }
+
+  dt {
+    font-weight: bold;
+    font-size: get-size("400");
+    margin-right: -0.2em;
+  }
+  dd {
+    font-size: get-size("400");
+  }
 }
