@@ -1,0 +1,183 @@
+---
+title: About This Site
+subtitle:
+layout: page
+---
+
+<p>
+  As of mid-2025, this site is currently a work in progress. As I chip away at
+  new features and bug fixes, I'll update the release notes below along with any
+  credits due.
+</p>
+
+<h2>Release Notes</h2>
+
+<aside class="notice measure-long">
+  <h3>Key</h3>
+  <p class="visually-hidden">
+    The following icons are used throughout the release notes to categorize
+    different types of changes:
+  </p>
+
+  <dl
+    class="definitions-table"
+    aria-labelledby="legend-heading"
+    aria-describedby="legend-description"
+  >
+    <dt class="visually-hidden" id="legend-heading">Icon meanings:</dt>
+    <dd class="visually-hidden" id="legend-description">
+      Visual legend for categorizing release note items
+    </dd>
+    <dt>✨</dt>
+    <dd id="icon-feature">New Features</dd>
+    <dt>🔧</dt>
+    <dd id="icon-improvement">Improvements</dd>
+    <dt>🐛</dt>
+    <dd id="icon-bugfix">Bug Fixes</dd>
+    <dt>♿</dt>
+    <dd id="icon-accessibility">Accessibility</dd>
+    <dt>👏</dt>
+    <dd id="icon-credit">Credits</dd>
+    <dt>📝</dt>
+    <dd id="icon-note">Notes</dd>
+  </dl>
+</aside>
+<section
+  aria-labelledby="release-timeline-heading"
+  aria-describedby="icon-legend-description"
+>
+  <h3 id="release-timeline-heading" class="visually-hidden">
+    Release Timeline
+  </h3>
+  <p id="icon-legend-description" class="visually-hidden">
+    Each release entry uses icons from the legend above to categorize changes.
+  </p>
+
+  <article class="flow">
+    <header>
+      <h4><time datetime="2025-07">July '25</time></h4>
+    </header>
+    <ul role="list">
+      <li>
+        <span aria-labelledby="icon-feature" aria-hidden="true">✨</span> Added
+        release notes document
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Modernised font loading strategy
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Reworked CSS reset combining UA+ and Modern CSS Reset
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Streamlined favicons
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Removed bracket ([]) CSS name separators
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Package updates
+      </li>
+      <li>
+        <span aria-labelledby="icon-bugfix" aria-hidden="true">🐛</span> Fix
+        Blog 'all' tag output
+      </li>
+      <li>
+        <span aria-labelledby="icon-bugfix" aria-hidden="true">🐛</span> Update
+        Netlify build image to Ubuntu 24.04 Noble
+      </li>
+    </ul>
+    <footer>
+      <h5>Credits and Notes</h5>
+      <ul role="list">
+        <li>
+          <span aria-labelledby="icon-credit" aria-hidden="true">👏</span>
+          <a href="https://github.com/fokus-dev/uaplus"
+            ><strong>UA+ (User agent plus)</strong> by Manuel Matuzović</a
+          >
+        </li>
+        <li>
+          <span aria-labelledby="icon-credit" aria-hidden="true">👏</span>
+          <a href="https://piccalil.li/blog/a-more-modern-css-reset/"
+            ><strong>A (more) Modern CSS Reset</strong> by Andy Bell</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </article>
+
+  <article class="flow">
+    <header>
+      <h4><time datetime="2025-05">May '25</time></h4>
+    </header>
+    <ul role="list">
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Complete refactor to update packages and move to ES Modules
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Break out eleventy config and helpers, tidy up
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Migrate to Parcel (away from Gulp) for build
+      </li>
+    </ul>
+    <footer>
+      <h5>Credits and Notes</h5>
+      <ul role="list">
+        <li>
+          <span aria-labelledby="icon-note" aria-hidden="true">📝</span> Dropped
+          'http-equiv' IE meta tag.
+        </li>
+      </ul>
+    </footer>
+  </article>
+
+  <article class="flow">
+    <header>
+      <h4><time datetime="2025-04">April '25</time></h4>
+    </header>
+    <ul role="list">
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Move away from LFS by replacing referenced images with actual images
+      </li>
+      <li>
+        <span aria-labelledby="icon-bugfix" aria-hidden="true">🐛</span> Package
+        updates and resulting bugfixes
+      </li>
+      <li>
+        <span aria-labelledby="icon-improvement" aria-hidden="true">🔧</span>
+        Update Netlify build environment to Node 18
+      </li>
+    </ul>
+    <footer>
+      <h5>Credits and Notes</h5>
+      <ul role="list">
+        <li>
+          <span aria-labelledby="icon-note" aria-hidden="true">📝</span>
+          <a
+            href="https://docs.netlify.com/build/git-workflows/large-media/requirements-and-limitations/"
+            >Netlify's Large Media service is deprecated.</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </article>
+</section>
+
+<aside class="notice measure-long">
+  <p>
+    <small
+      >If you notice your work is used here and not properly credited, please
+      <a href="/contact/">get in touch</a> so I can correct the
+      oversight.</small
+    >
+  </p>
+</aside>
