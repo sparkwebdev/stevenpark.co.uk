@@ -1,6 +1,6 @@
 
 <nav class="social-links" aria-label="Social Links">
-  <ul class="unstyled">
+  <ul role="list" class="unstyled">
     {% for title, url in metadata.author.socialLinks %}
     <li>
       <a href="{{url}}"><span class="icon-{{title | classname}}"></span> {{title}}</a>
