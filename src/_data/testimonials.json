@@ -1,138 +1,154 @@
 [
   {
-    "id" : "1",
-    "company" : "",
-    "location" : "Edinburgh",
-    "project" : "",
-    "quote" : "Very easy to work with, a quick, professional service and very pleased with the end product.",
-    "quoteExcerpt" : "Very easy to work with, a quick, professional service and very pleased with the end product."
+    "id": "1",
+    "name": "Amy McCusker",
+    "company": "WeeBox",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p>You were always <em><strong>keen to help us grow</strong></em> and as we were learning, you were <em><strong>patient and thorough</strong></em>. Good relationship that we could come to you as required.</p>"
   },
   {
-    "id" : "2",
-    "company" : "Small Green Spaces",
-    "location" : "Edinburgh",
-    "project" : "",
-    "quote" : "We've been very impressed with your customer service - we always get friendly, prompt replies to our (endless) questions - and the fliers and poster you designed for us are fabulous. We asked you to create a look that was professional and also fitted our ethos of working with community projects...and you did! In fact, your work has been so good that we've had to ask you to finish building our website for us as well. Compared to your designs our website looked a bit drab, and the designer we were using wasn't anywhere near as helpful.",
-    "quoteExcerpt" : "We've been very impressed with your customer service - we always get friendly, prompt replies to our questions."
+    "id": "2",
+    "name": "Scott Ferguson",
+    "company": "e.fundamentals",
+    "location": "London",
+    "project": "",
+    "quoteHtml": "<p>The <em><strong>harmony between design and technical execution was great</strong></em>, unlike dealing with other providers in the past there was no friction or issues that you can normally see between design and tech implementations. On top of that the speed of activity was strong, responsive and no request we had was ever pushed back on. <em><strong>Absolutely delighted with the finished product</strong></em>.</p>"
   },
   {
-    "id" : "3",
-    "company" : "Clarke Cottage Guest House",
-    "location" : "Dunfermline",
-    "project" : "Clarke Cottage",
-    "quote" : "We had good communication with Steven. The end result speaks for itself. We are delighted with the revised web site.",
-    "quoteExcerpt" : "We had good communication with Steven. The end result speaks for itself. We are delighted with the revised web site."
+    "id": "3",
+    "name": "Josi Mathar",
+    "company": "e.fundamentals",
+    "location": "",
+    "project": "",
+    "quoteHtml": "<p>You have a very natural and engaging way of meeting clients' needs. <em><strong>You think on your feet rather than following what's asked</strong></em>. Excellent job, I'll be recommending you to everyone who needs you as their local 'dream team'.</p>"
   },
   {
-    "id" : "4",
-    "company" : "Tootsa MacGingty Ltd",
-    "location" : "Edinburgh / London",
-    "project" : "",
-    "quote" : "All round just brilliant!! Steve Park has been wonderful ...so helpful and quick. I couldn't fault him. Quick, efficient, communicative and helpful! We are v.pleased with the work carried out.",
-    "quoteExcerpt" : "Quick, efficient, communicative and helpful! We are v.pleased with the work carried out."
+    "id": "4",
+    "name": "Gerard McCusker",
+    "company": "K-N Trading",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p>Delighted, a great fit for the business bearing in mind for the stage it was at. It was a <em><strong>very open and honest relationship</strong></em> and you <em><strong>went the extra mile</strong></em> and understood our business needs.</p>"
   },
   {
-    "id" : "5",
-    "company" : "Her Indoors",
-    "location" : "Gullane",
-    "project" : "",
-    "quote" : "Great - very happy. My blog does exactly what I want it to do...I did not have to make any compromises",
-    "quoteExcerpt" : "Great - very happy. My blog does exactly what I want it to do"
+    "id": "5",
+    "name": "Rosy Naylor",
+    "company": "Platform Designs",
+    "location": "Edinburgh",
+    "project": "Forth Valley Art Beat",
+    "quoteHtml": "<p>Steven and I have worked together on numerous projects within the arts sector. Always a pleasure to work with, he is <em><strong>receptive to ideas, reliable and committed</strong></em> to creating a high quality and design focussed finished product. The Forth Valley Art Beat iOS app and responsively designed website both are great products which I am very pleased with.</p>"
   },
   {
-    "id" : "6",
-    "company" : "Digijuice Ltd",
-    "location" : "Glasgow",
-    "project" : "",
-    "quote" : "I've worked with Steven on a few projects now and have always found him to be both knowledgeable and reliable. He's a guy who can meet deadlines with high quality work and I have no hesitation in recommending him.",
-    "quoteExcerpt" : "I've worked with Steven on a few projects now and have always found him to be both knowledgeable and reliable. He's a guy who can meet deadlines with high quality work and I have no hesitation in recommending him."
+    "id": "6",
+    "name": "Emily Reid",
+    "company": "Eco Drama",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p>I liked Steven's friendly and clear approach and I knew where I stood with him from the first point of contact. I really liked his 'to-do' tracker and felt informed at all stages. <em><strong>He met all deadlines</strong></em> specified which was very reassuring. He also ensured everything was covered, made necessary changes, and checked in if anything wasn't right, and this care ensured we were really happy with the finished website.</p><p>I found on a couple of occasions during the meetings that some information about the site was a little hard to understand from a non web designer point of view, but nevertheless, did help get my head around things better.</p><p>Good mannered, pleasant to work with and a very quick worker - we are <em><strong>really happy with our website and we would definitely recommend Steven</strong></em> to other people or companies in future.</p>"
   },
   {
-    "id" : "7",
-    "company" : "Fountainwell",
-    "location" : "Perth",
-    "project" : "International School Meals Day",
-    "quote" : "The project was finished on time and on budget, and the product was of a very high standard. Steven always communicated clearly, concisely and in a timely manner. Anything complex was explained well, and always left the impression that Steven was knowledgable and willing to help. The service promised is what you receive - honest, friendly and professional.",
-    "quoteExcerpt" : "Steven Park is a highly creative, dedicated web design agency that delivers a first-class service, consistently on time and on budget. The service promised is what you receive - honest, friendly and professional."
+    "id": "7",
+    "name": "Chris",
+    "company": "Navigator Partnership",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p><em><strong>Very easy to deal</strong></em> with and understood the project objectives clearly...I honestly couldn't fault you at all and am looking forward to collaborating on several more projects!</p><p>Very pleasant personality and <em><strong>understanding about the project needs</strong></em>. No over complication of anything and communication levels were very high. We are very pleased with the finished product and will have no hesitation in working with you again.</p>"
   },
   {
-    "id" : "8",
-    "company" : "Community Growing Solutions",
-    "location" : "Fife",
-    "project" : "",
-    "quote" : "A first class service that was refreshing. A pleasure to work with and we found somebody who was very laid back and approachable to ideas and suggestions. Steven is only an email or phone call away with an excellent response time and super support.",
-    "quoteExcerpt" : "A first class service that was refreshing. A pleasure to work, very laid back... excellent response time and super support."
+    "id": "8",
+    "name": "Avril Nicol",
+    "company": "Forth Valley Art Beat",
+    "location": "",
+    "project": "Forth Valley Art Beat",
+    "quoteHtml": "<p><em><strong>Delighted with the finished products!</strong></em> Look forward to working with you next year.</p>"
   },
   {
-    "id" : "9",
-    "company" : "Forth Valley Open Studios",
-    "location" : "",
-    "project" : "Forth Valley Open Studios",
-    "quote" : "Delighted with the finished products! Look forward to working with you and next year.",
-    "quoteExcerpt" : "Delighted with the finished products! Look forward to working with you and next year."
+    "id": "9",
+    "name": "Nigel Brown",
+    "company": "BestCities Global Alliance",
+    "location": "Singapore",
+    "project": "",
+    "quoteHtml": "<p>It was efficient working with you&hellip; and we are <em><strong>happy with how the website turned out</strong></em> and the ease for us to edit content moving forward.</p>"
   },
   {
-    "id" : "10",
-    "company" : "Platform Designs",
-    "location" : "Edinburgh",
-    "project" : "Forth Valley Open Studios",
-    "quote" : "Steven and I have worked together on numerous projects within the arts sector. Always a pleasure to work with, he is receptive to ideas, reliable and committed to creating a high quality and design focussed finished product. The Forth Valley Open Studios iOS app and responsively designed website both are great products which I am very pleased with.",
-    "quoteExcerpt" : "Always a pleasure to work with, he is receptive to ideas, reliable and committed to creating a high quality and design focussed finished product."
+    "id": "10",
+    "name": "Jack Taylor",
+    "company": "The Piobaireachd Society",
+    "location": "Aboyne",
+    "project": "",
+    "quoteHtml": "<p><em><strong>Quick responsive relevant communication, technical expertise</strong></em>. Very easy to work with because of friendliness and first class communication.</p>"
   },
   {
-    "id" : "11",
-    "company" : "Eco Drama",
-    "location" : "Glasgow",
-    "project" : "",
-    "quote" : "I liked Steven's friendly and clear approach and I knew where I stood with him from the first point of contact. I really liked his 'to-do' tracker and felt informed at all stages. He met all deadlines specified which was very reassuring. He also ensured everything was covered, made necessary changes, and checked in if anything wasn't right, and this care ensured we were really happy with the finished website.\n\nI found on a couple of occasions during the meetings that some information about the site was a little hard to understand from a non web designer point of view, but nevertheless, did help get my head around things better.\n\nGood mannered, pleasant to work with and a very quick worker - we are really happy with our website and we would definitely recommend Steven to other people or companies in future.",
-    "quoteExcerpt" : "Good mannered, pleasant to work with and a very quick worker - we are really happy with our website and we would definitely recommend Steven to other people or companies in future."
+    "id": "11",
+    "name": "Aaron McIvor",
+    "company": "",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p><em><strong>Excellent communication, worked to tight deadline</strong></em> and responded to numerous requests for lots and lots of changes without a blink of an eye... Very easy going - nothing was a problem - very happy with our new website - looks ace. Really going to make a difference to our business!</p>"
   },
   {
-    "id" : "12",
-    "company" : "",
-    "location" : "Glasgow",
-    "project" : "",
-    "quote" : "Steven showed an excellent understanding of our requirements and was able to take on board our ideas very quickly.\n\nSteven is very professional and diligent in his approach, an excellent communicator with a keen eye for detail.  We are delighted with our website.",
-    "quoteExcerpt" : "Steven is very professional and diligent in his approach, an excellent communicator with a keen eye for detail.  We are delighted with our website."
+    "id": "12",
+    "name": "David Ross",
+    "company": "Digijuice Ltd",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p>I've worked with Steven on a few projects now and have always found him to be both <em><strong>knowledgeable and reliable</strong></em>. He's a guy who can meet deadlines with high quality work and I have no hesitation in recommending him.</p>"
   },
   {
-    "id" : "13",
-    "company" : "RedCo",
-    "location" : "Midlands",
-    "project" : "",
-    "quote" : "Friendly approach and as a non techy you explained everything very well to us. Loved the end product, your translation into what we wanted was spot on.",
-    "quoteExcerpt" : "Friendly approach and as a non techy you explained everything very well to us. Loved the end product, your translation into what we wanted was spot on."
+    "id": "13",
+    "name": "Claire",
+    "company": "",
+    "location": "Midlands",
+    "project": "",
+    "quoteHtml": "<p>Friendly approach and as a non techy you explained everything very well to us. Loved the end product, <em><strong>your translation into what we wanted was spot on</strong></em>.</p>"
   },
   {
-    "id" : "14",
-    "company" : "The Piobaireachd Society",
-    "location" : "Aboyne",
-    "project" : "",
-    "quote" : "Quick responsive relevant communication, technical expertise. Very easy to work with because of friendliness and first class communication.",
-    "quoteExcerpt" : "Quick responsive relevant communication, technical expertise. Very easy to work with because of friendliness and first class communication."
+    "id": "14",
+    "name": "Maria Quinn",
+    "company": "",
+    "location": "Glasgow",
+    "project": "",
+    "quoteHtml": "<p>Steven showed an excellent understanding of our requirements and was able to take on board our ideas very quickly.</p><p>Steven is very professional and diligent in his approach, an <em><strong>excellent communicator with a keen eye for detail</strong></em>. We are delighted with our website.</p>"
   },
   {
-    "id" : "15",
-    "company" : "bpi.visqueen",
-    "location" : "Glasgow",
-    "project" : "",
-    "quote" : "Excellent communication, worked to tight deadline and responded to numerous requests for lots and lots of changes without a blink of an eye... Very easy going - nothing was a problem - very happy with our new website - looks ace. Really going to make a difference to our business!",
-    "quoteExcerpt" : "Excellent communication, worked to tight deadline, very easy going... very happy with our new website - looks ace."
+    "id": "15",
+    "name": "Wayne Roberts",
+    "company": "Community Growing Solutions",
+    "location": "Fife",
+    "project": "",
+    "quoteHtml": "<p>A first class service that was refreshing. <em><strong>A pleasure to work</strong></em> with and we found somebody who was very laid back and approachable to ideas and suggestions. Steven is only an email or phone call away with an <em><strong>excellent response time and super support</strong></em>.</p>"
   },
   {
-    "id" : "16",
-    "company" : "BestCities Global Alliance",
-    "location" : "Singapore",
-    "project" : "",
-    "quote" : "It was efficient working with you… and we are happy with how the website turned out and the ease for us to edit content moving forward.",
-    "quoteExcerpt" : "It was efficient working with you… and we are happy with how the website turned out and the ease for us to edit content moving forward"
+    "id": "16",
+    "name": "Annelie",
+    "company": "Fountainwell",
+    "location": "Perth",
+    "project": "",
+    "quoteHtml": "<p>The project was finished on time and on budget, and the product was of a very high standard. Steven always <em><strong>communicated clearly, concisely and in a timely manner</strong></em>. Anything complex was explained well, and always left the impression that Steven was knowledgable and willing to help. The service promised is what you receive - <em><strong>honest, friendly and professional</strong></em>.</p>"
   },
   {
-    "id" : "17",
-    "company" : "Navigator Partnership",
-    "location" : "Glasgow",
-    "project" : "",
-    "quote" : "Very easy to deal with and understood the project objectives clearly...I honestly couldn't fault you at all and am looking forward to collaborating on several more projects!\n\nVery pleasant personality and understanding about the project needs. No over complication of anything and communication levels were very high. We are very pleased with the finished product and will have no hesitation in working with you again.",
-    "quoteExcerpt" : "Very easy to deal with and understood the project objectives clearly...I honestly couldn't fault you at all and am looking forward to collaborating on several more projects!"
+    "id": "17",
+    "name": "Kate",
+    "company": "Tootsa MacGingty Ltd",
+    "location": "Edinburgh / London",
+    "project": "",
+    "quoteHtml": "<p>All round just brilliant!! Steve Park has been wonderful ...so helpful and quick. I couldn't fault him. <em><strong>Quick, efficient, communicative and helpful!</strong></em> We are v.pleased with the work carried out.</p>"
+  },
+  {
+    "id": "18",
+    "name": "David Neill",
+    "company": "Clarke Cottage Guest House",
+    "location": "Dunfermline",
+    "project": "",
+    "quoteHtml": "<p>We had good communication with Steven. The end result speaks for itself. <em><strong>We are delighted with the revised web site</strong></em>.</p>"
+  },
+  {
+    "id": "19",
+    "name": "Helen Pank",
+    "company": "Small Green Spaces",
+    "location": "Edinburgh",
+    "project": "",
+    "quoteHtml": "<p>We've been <em><strong>very impressed with your customer service</strong></em> - we always get friendly, prompt replies to our (endless) questions - and the fliers and poster you designed for us are fabulous. We asked you to create a look that was professional and also fitted our ethos of working with community projects...and you did! In fact, your work has been so good that we've had to ask you to finish building our website for us as well.</p>"
   }
 ]
