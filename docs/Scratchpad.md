@@ -21,6 +21,7 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 #### Fonts & Typography
 
 - Curated directory of freely-licensed typefaces across serif, sans, display, monospace, and slab categories. [[freefaces.gallery]](https://www.freefaces.gallery/)
+- 16 system font stacks by classification (humanist, geometric, transitional, slab, monospace, etc.) — copy-paste CSS, zero download, no layout shift. [[modernfontstacks.com]](https://modernfontstacks.com/)
 - Independent type foundry with 50+ families — most include at least one free weight, full families on a pay-what-you-want model. [[atipofoundry.com]](https://www.atipofoundry.com/)
 
 #### General
@@ -31,12 +32,17 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 - Eleventy starter with Lightning CSS and Esbuild — practical CSS architecture and lightweight patterns for fast, adaptable sites. [[web-grease]](https://web-grease.netlify.app/)
 - Extremely fast CSS parser, transformer, bundler, and minifier written in Rust — handles vendor prefixing, nesting, and modern syntax transforms. [[lightningcss.dev]](https://lightningcss.dev/)
 - Minimalist classless CSS framework — styles semantic HTML elements directly with no JS dependencies, good for rapid prototyping. [[picocss.com]](https://picocss.com/)
+- Visual CSS layout generator — produces Grid and Flexbox code for common page layout patterns. [[layout.bradwoods.io]](https://layout.bradwoods.io/)
 - Web Components UI library built on vanilla CSS and JS — no build step, HTML-first, pairs well with static site generators. [[kelpui.com]](https://kelpui.com/)
 - Pre-built video/audio player themes using Media Chrome Web Components — copy-paste into any framework, CSS-customisable. Made by Mux. [[player.style]](https://player.style/)
 - Curated collection of reusable CSS animation and transition snippets — copy-paste ready. [[transitions.dev]](https://transitions.dev/)
 - 600+ pure CSS loading animations, single `<div>` only — organised into 40+ categories, copy-paste code. By Temani Afif. [[css-loaders.com]](https://css-loaders.com/)
 - Visual generator for glassmorphism CSS — adjust blur, opacity, and saturation to produce `backdrop-filter` frosted glass effects, copy-paste output. [[ui.glass]](https://ui.glass/generator)
 - Syntax highlighter using TextMate grammars — runs at build time (zero browser runtime), accurate highlighting for 100+ languages and themes. [[shiki.style]](https://shiki.style/)
+
+#### Colour
+
+- Claude Code skill for OKLCH colour management — converts existing colours to OKLCH, generates palettes, checks contrast, handles gamut clamping and fallbacks. Install: `npx skills add jakubkrehel/oklch-skill`, invoke with `/oklch-skill`. [[oklch.fyi]](https://oklch.fyi/skill)
 
 #### Code Quality & Review
 
@@ -52,9 +58,14 @@ A working document for links, ideas and notes. Paste a link (with optional notes
   - **Harry Cresswell's YAML pipeline** — YAML as single source of truth, converted to JSON (Eleventy templates/styleguide) and SCSS (CSS custom properties). More complex but drives a living styleguide page. [[harrycresswell.com]](https://harrycresswell.com/writing/design-tokens-styleguides-eleventy/)
   - **Andy Bell's three-layer semantic architecture** — raw tokens → semantic aliases → component variables. Components reference semantic properties with fallbacks: `var(--button-bg, var(--color-surface-bg))`. Themes only override a handful of variables; his dark theme was 43 lines. [[piccalil.li]](https://piccalil.li/blog/how-were-approaching-theming-with-modern-css/)
   - **Rebuild recommendation:** use Heydon's token management (tokens in `_data`, output via Nunjucks template) + Bell's semantic layering. Evaluate whether Gorko is still needed or can be replaced by this simpler native approach.
+- **Add `text-size-adjust: none` to your CSS reset** — Mobile Safari auto-increases font sizes on portrait→landscape rotation, causing paragraphs to render larger than headings. Three prefixes needed: `-webkit-text-size-adjust` (Safari), `-moz-text-size-adjust` (Firefox Android), `text-size-adjust` (Chromium). Easily missed as it only manifests in landscape mode on a real device. [[kilianvalkhof.com]](https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/)
 - **Modern CSS table styling** — use `color-mix()` for zebra stripes from a single token; scrollable table wrappers need `role="region"`, `aria-labelledby`, and `tabindex="0"` for keyboard access; don't use Grid (breaks native a11y); sticky `<th>` borders need a pseudo-element fix. [[piccalil.li]](https://piccalil.li/blog/styling-tables-the-modern-css-way/)
 - **Claude skill idea: browser support evaluator** — based on Josh Comeau's three-factor framework (fallback experience, your actual browser breakdown, potential harm), a `/browser-support` skill could take a CSS feature name, check caniuse data, and walk through the three factors to give a project-specific recommendation rather than a raw percentage. [[joshwcomeau.com]](https://www.joshwcomeau.com/css/browser-support/)
 - **Always develop on Fast 3G throttling** — keep Chrome DevTools network throttle on Fast 3G to surface loading states, race conditions, and flakiness that are invisible on localhost. Pair with MSW ([msw.io](https://mswjs.io/)) for full control over simulated responses. [[via @kettanaito]](https://x.com/kettanaito/status/1692197084500234716)
+
+### Fun Stuff Tools
+
+- Tiny JS library (3.8kb gzipped) for hand-drawn style annotations — underlines, circles, boxes, highlights, strikethroughs. Animated, customisable, built on RoughJS. [[roughnotation.com]](https://roughnotation.com/)
 
 ### CSS Notes & Ideas — Fun Stuff
 
@@ -77,6 +88,9 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 
 Tools evaluated and set aside for the personal site rebuild — too heavy, too opinionated, or freemium-gated for a lightweight portfolio — but worth reaching for on client work or larger app projects.
 
+- **[Pretext.js](https://pretextjs.dev/)** — JS text measurement and layout engine using Canvas API arithmetic instead of DOM reflow — ~500× faster than `getBoundingClientRect`. Zero dependencies, supports 12+ writing systems including CJK, Arabic, Hebrew, Thai. Overkill for static sites; relevant for data-dense UIs or apps with dynamic/complex text layout.
+- **[COSS UI](https://coss.com/ui)** — 490+ open-source React components built on Base UI. Framework-agnostic styling, designed to be AI-friendly. 10k+ GitHub stars.
+- **[HeroUI](https://heroui.com/)** — Accessible React component library built on React Aria and Tailwind CSS v4. Production-ready, open source.
 - **[Motion](https://motion.dev/)** — production-grade animation library for JS, React, and Vue. Spring physics, scroll-linked animations, layout transitions, gesture handling. Core library is free/MIT; Motion+ (£299 one-time) adds premium components, AI kit, and 400+ examples. Cited as up to 90% smaller than GSAP. Overkill for a personal site but the go-to for client work needing rich animation.
 - **[Web Awesome](https://webawesome.com/docs)** — Web Components UI library by Fonticons (Font Awesome). Framework-agnostic, accessible, CDN-friendly. Freemium: some components (charts, advanced forms) are Pro-only. Evolved from the Shoelace design system. Good fit for client sites or app projects needing a production-grade component library without framework lock-in.
 - **[Sevalla](https://sevalla.com/)** (by Kinsta) — Full-stack hosting platform covering static sites, app hosting, managed databases, and S3-compatible object storage under one roof. Usage-based pricing, 25 data centres, 260+ edge PoPs. Overkill for a static site (Netlify wins there), but worth considering for client projects that need a backend or managed database alongside the frontend.
