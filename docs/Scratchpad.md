@@ -4,19 +4,7 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 
 ---
 
-## Business Process
-
-- Late payment statutory interest is 8% + BoE base rate (B2B); calculate daily rate as annual interest ÷ 365, then issue a new invoice. [[ref]](https://www.gov.uk/late-commercial-payments-interest-debt-recovery/charging-interest-commercial-debt)
-
-## Positioning & Identity
-
-- **"Design Engineer"** is gaining traction but is primarily a design systems / product company term (GitHub, Stripe, Adobe). Risks meaning nothing to SME clients. Lineage: web designer → UI/UX dev → front-end dev → creative technologist → design engineer. [[ref]](https://zeroheight.com/blog/design-engineer/)
-- Alternative titles worth considering: **Creative Technologist**, Design Technologist, UX Engineer — better for signalling dual design+build skills to industry peers.
-- **Front-End Architect** — another option, leans toward the systems/structure side rather than design+build duality.
-- **`[X] Consultant`** pattern — e.g. **Design Systems Consultant**, **Accessibility Consultant**. Narrows to a specific specialism rather than a generalist front-end title; worth weighing against how broad vs. niche the positioning should be.
-- **Creative Director** — skews senior/agency-leadership, more about creative direction and oversight than hands-on design+build; would need track record to back it up credibly.
-- **Digital Designer** — broader, less code-signalling than the front-end/engineer options; reads as design-first, build skills implied rather than stated.
-- **Current title "Freelance Web Developer & Designer"** remains strongest for client-facing use. Consider **Creative Technologist** or **Front-end Developer & Designer** for LinkedIn/peer-facing contexts.
+### Resources
 
 ## Tools & Assets
 
@@ -27,6 +15,7 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 - Curated directory of freely-licensed typefaces across serif, sans, display, monospace, and slab categories. [[freefaces.gallery]](https://www.freefaces.gallery/)
 - 16 system font stacks by classification (humanist, geometric, transitional, slab, monospace, etc.) — copy-paste CSS, zero download, no layout shift. [[modernfontstacks.com]](https://modernfontstacks.com/)
 - Independent type foundry with 50+ families — most include at least one free weight, full families on a pay-what-you-want model. [[atipofoundry.com]](https://www.atipofoundry.com/)
+- **Practical Typography** — Matthew Butterick (MB Type founder, also wrote Typography for Lawyers, built the Pollen publishing software this site runs on). Canonical, still-updated reference (2024 entries visible) covering the actual reasoning behind type choices — font pairing, line length, hierarchy — not just a web-CSS cheat sheet; also covers print/PDF/Word. Worth reading before finalising the font shortlist above, not just cataloguing. [[practicaltypography.com]](https://practicaltypography.com/)
 
 #### General
 
@@ -43,9 +32,9 @@ A working document for links, ideas and notes. Paste a link (with optional notes
 - 600+ pure CSS loading animations, single `<div>` only — organised into 40+ categories, copy-paste code. By Temani Afif. [[css-loaders.com]](https://css-loaders.com/)
 - Visual generator for glassmorphism CSS — adjust blur, opacity, and saturation to produce `backdrop-filter` frosted glass effects, copy-paste output. [[ui.glass]](https://ui.glass/generator)
 - Syntax highlighter using TextMate grammars — runs at build time (zero browser runtime), accurate highlighting for 100+ languages and themes. [[shiki.style]](https://shiki.style/)
-- Lightweight (<5KB) JS library that synthesises interaction sound effects live via the Web Audio API — 17 pre-built cues (hover, press, toggle, etc.) wired up with `data-cuelume-*` attributes, no audio files. [[cuelume]](https://cuelume-site.pages.dev/)
+- Lightweight (`<5KB`) JS library that synthesises interaction sound effects live via the Web Audio API — 17 pre-built cues (hover, press, toggle, etc.) wired up with `data-cuelume-*` attributes, no audio files. [[cuelume]](https://cuelume-site.pages.dev/)
 - Zero-dependency, GPU-accelerated shader library (npm package, React-ready) — image filters (paper texture, glass, water, halftone), logo/brand animations (liquid metal, heatmap), and generative effects (gradients, Perlin/simplex/Voronoi noise, particles). [[paper.design]](https://shaders.paper.design/)
-- **Tachyons** — precompiled utility-first CSS (<14kb, CDN/npm, no build step). Largely dormant as a framework — last real version bump was 4.9.1 in Jan 2018, a v5 rewrite was reverted in 2024, only readme/housekeeping commits since. Superseded by Tailwind for most utility-CSS use cases, but the no-build-step delivery is the one angle still relevant here, fitting `docs/ARCHITECTURE.md`'s build-light stance better than Tailwind's JIT/build requirement. Note dormancy if ever considered, don't treat as an actively maintained option. [[tachyons.io]](https://tachyons.io/)
+- **Tachyons** — precompiled utility-first CSS (`<14kb`, CDN/npm, no build step). Largely dormant as a framework — last real version bump was 4.9.1 in Jan 2018, a v5 rewrite was reverted in 2024, only readme/housekeeping commits since. Superseded by Tailwind for most utility-CSS use cases, but the no-build-step delivery is the one angle still relevant here, fitting `docs/ARCHITECTURE.md`'s build-light stance better than Tailwind's JIT/build requirement. Note dormancy if ever considered, don't treat as an actively maintained option. [[tachyons.io]](https://tachyons.io/)
 
 #### Colour
 
