@@ -20,6 +20,7 @@
     "wcag/h63": "off",
     "unique-landmark": "off",
     "no-implicit-close": "warn",
+    "no-redundant-role": ["error", { "exclude": ["list"] }],
     "element-permitted-content": "warn",
     "no-raw-characters": "warn"
   },
