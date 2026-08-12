@@ -97,3 +97,16 @@ The `navigation.json` `"online"` flag controls whether a nav item is shown. Page
 
 ### Deployment
 Netlify: `npm run build` → publish `dist/`. Node 18. Security headers set globally. Two permanent redirects: `/services` → `/work/services`, `/portfolio` → `/work`.
+
+## Known Issues (Unresolved)
+
+Real bugs, deliberately left unfixed for now because the straightforward fix causes a worse regression. Don't attempt a quick patch without reading the history below.
+
+1. **`<figcaption>` isn't a direct child of `<figure>`** in `image-group.html`'s `"row"`/`"thirds"` variants (affects `bandstands`, `galbani`) — HTML requires `figcaption` to be `figure`'s direct child; it currently sits inside the last `.image-group__row-*` div instead. Unwrapping it breaks `_image-group.scss`'s `"thirds"` caption overlay at `md`, which depends on the caption being a grid item *inside* that row's own `grid-template-rows: 74% auto 8rem` split (grid placement only works on direct children). Tried unifying everything into one grid on `<figure>` itself, but percentage row-tracks on an auto-height container hit a real CSS circular-sizing bug — same values resolved to a 1282px-tall figure in one run and a 2px-collapsed one in another. `position: absolute` on just the caption sidesteps this and works, but trades away the caption being a true grid-flow item — open question whether that's acceptable, or whether the container needs a definite height (`aspect-ratio`) instead. Reverted for now; needs a proper design pass.
+
+## Known Exceptions
+
+Decisions that look like bugs or lint noise but are intentional — don't "fix" these without reading the reasoning first.
+
+- **`role="list"` on `<ul>`/`<ol>` elements** (`tagslist.html`, `portfolio.html`, `page-header--blog.html`, `social-links.html`, `about-this-site.html`) — required, not redundant. `src/assets/scss/resets/more-modern-modified.scss` scopes `list-style: none` to `:where(ul[role="list"], ol[role="list"])`, so removing the attribute both regresses accessibility (Safari/VoiceOver still strips list semantics from a `<ul>` once `list-style: none` is applied — still true as of 2026) and brings back bullet points, since the CSS selector depends on it too. `.htmlvalidate.json`'s `no-redundant-role` rule excludes the `list` role value specifically (`"exclude": ["list"]`) rather than being disabled outright, so it still catches genuinely redundant roles elsewhere (e.g. `role="button"` on a `<button>`).
+- **`role="img"` on meaningful emoji spans** (`about-this-site.html`, release-notes icon legend) — a bare `<span>` has implicit ARIA role `generic`, which prohibits an accessible name entirely, so `aria-labelledby` on one is simply invalid HTML/ARIA (not just unhelpful). `role="img"` makes it a legitimate nameable icon so the `aria-labelledby` reference to the visually-hidden legend (`icon-feature`, `icon-improvement`, etc.) actually works — functionally equivalent to `<img alt="…">`. Only applies to icons that carry real meaning per the legend; purely decorative emoji should stay `aria-hidden="true"` with no label instead.
