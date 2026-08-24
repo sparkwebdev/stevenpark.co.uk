@@ -103,14 +103,14 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 ## Today I Learned (TiL)
 
-**URL:** `/journal/til/` (planned)
+**URL:** `/journal/til/`
 
-**What it is:** A curated knowledge base of surprising, verifiable facts in the style of Tom Whitwell's "52 Things I Learned"—terse, specific, dry wit, often with striking numbers. Each fact has a "learned" date (2025-01-01 onward), category, source, and confidence rating.
+**What it is:** A curated knowledge base of surprising, verifiable facts in the style of Tom Whitwell's "52 Things I Learned"—terse, specific, dry wit, often with striking numbers. Each fact has a "learned" date (discovery date, anchored to publication year), category, source, and confidence rating.
 
 **Data files:**
-- `src/_data/tilCollection.json` (keep entries only — planned)
-- Source: `keep.json` (~60+ curated entries ready to publish)
-- Reference: `reject.json` (~100 entries that didn't make the cut, kept to avoid repeating)
+- `src/_data/tilCollection.json` (live data, 143 entries)
+- Source: `features/til/keep.json` (curated entries)
+- Reference: `features/til/reject.json` (709 rejected entries, kept to avoid repeating similar ideas)
 
 **Structure:**
 - `id` (slug), `date` (YYYY-MM-DD), `title` (under 15 words), `body` (1-3 sentences), `type` (general/web-dev), `category`, `source` (URL), `confidence` (high/medium)
@@ -128,25 +128,25 @@ Data files live in `src/_data/`. Source materials and working files in `features
 **Already covered:** ~60 facts explicitly flagged to avoid repetition (in `portable-research-prompt.md`).
 
 **Current state:**
-- `keep.json`: 143 entries, fully curated and ready to publish (17% of 852 total candidates)
-- `reject.json`: 709 rejected entries, kept as reference to avoid repeating similar ideas
-- Not yet integrated into site
+- Live on site with 143 facts grouped by year (2025, 2026)
+- Facts displayed with type badges (general/web-dev), category tags, optional confidence indicators, source links
+- Page includes attribution to Tom Whitwell's "52 Things I Learned" series
+- Data quality: working in progress (not fact-checked, somewhat curated, will be refined over time)
 
-**Status:** 🔨 In progress
+**Status:** ✅ Live (content quality: 🔨 In progress)
 
 **Still to do:**
-1. Copy keep.json to `src/_data/tilCollection.json`
-2. Create `src/pages/journal/til/index.html` template
-3. Design filtering options (by category, by type, by confidence)
-4. Decide presentation: feed-style list, card grid, or timeline
-5. Update sitemap
-6. Consider: continuous curation workflow (new candidates → review HTML → merge)
+1. Fact-check and refine quality of existing 143 entries
+2. Implement filtering options (by category, by type, by confidence)
+3. Setup continuous curation workflow (new candidates → review → merge into keep.json)
+4. Broaden topic waypoints in curation rubric (currently somewhat restrictive)
 
 **Related files:**
-- `keep.json`: Curated facts ready for publication (143 entries — 17% acceptance rate)
-- `reject.json`: Reference of rejected facts (709 entries — kept to avoid repeating similar ideas)
-- `portable-research-prompt.md`: Detailed curation rubric, style guide, already-covered list, research methodology
-- `scripts/generate_preview.py`: Interactive HTML review tool (takes candidates.json, generates checkboxes for each fact, outputs JSON array of kept IDs to merge back into keep.json)
+- `features/til/keep.json`: Working set of facts (143 entries — 17% acceptance rate from 852 candidates)
+- `features/til/reject.json`: Reference of rejected facts (709 entries — kept to avoid repeating similar ideas)
+- `features/til/portable-research-prompt.md`: Detailed curation rubric, style guide, already-covered list, research methodology
+- `features/til/README.md`: Feature documentation and workflow notes
+- `scripts/generate_preview.py`: Interactive HTML review tool (in CareerHub, takes candidates.json, generates checkboxes for each fact, outputs JSON array of kept IDs to merge back)
 
 ---
 
