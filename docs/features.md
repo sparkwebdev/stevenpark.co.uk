@@ -139,6 +139,23 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 **Avoid:** Passive "new species discovered" press releases; generic space-object-discovery stories; plain "X was named after Y" origin anecdotes.
 
+**Topic waypoints** (pull from these themes):
+- Counterintuitive facts
+- Numbers that stop you
+- "Why doesn't every country have this?"
+- Origin stories for ordinary things
+- Corporate/institutional mischief
+- Policy that actually worked
+- Nature in unexpected places
+- Weird products
+- Industry behind-the-scenes
+- Global cultural practices
+- Web/tech/dev oddities
+- Language & perception
+- Something from today's walk/meal/errand
+- History that turns out to be wrong
+- Accessibility/inclusion quietly working
+
 **Already covered:** ~60 facts explicitly flagged to avoid repetition (in `portable-research-prompt.md`).
 
 **Current state:**
@@ -154,6 +171,9 @@ Data files live in `src/_data/`. Source materials and working files in `features
 2. Implement filtering options (by category, by type, by confidence)
 3. Setup continuous curation workflow (new candidates → review → merge into keep.json)
 4. Broaden topic waypoints in curation rubric (currently somewhat restrictive)
+
+**Stretch goal:**
+- Year-end presentation — collate and present the year's learnings (inspired by Tom Whitwell's annual "52 Things" format)
 
 **Related files:**
 - `features/til/keep.json`: Working set of facts (143 entries — 17% acceptance rate from 852 candidates)
