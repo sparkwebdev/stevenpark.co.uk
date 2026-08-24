@@ -68,6 +68,9 @@ Data files live in `src/_data/`. Source materials and working files in `features
 - **Sort controls** — sort by date, artist, album (currently reverse-chronological only)
 - **Faceted browsing** — genre/media type facet counts
 
+**Stretch goal (future enhancement):**
+- **Record-player-style playback UI** — skeuomorphic vinyl player or album carousel frontend (more playful browsing than grid)
+
 **Still to do:**
 - Locate cover art for 2 remaining CDs (Genaro - *A Safe Passage*, Norken - *Spring In A Small Town*)
 - Optional: consolidate CD and vinyl cover cache schemas (currently separate `data_uri` vs `b64`+`mime`)
