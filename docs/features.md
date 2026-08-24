@@ -74,12 +74,8 @@ Data files live in `src/_data/`. Source materials and working files in `features
 - Optional: implement search/filter/sort features if needed for browsing (deferred pending UX goals)
 
 **Related files:**
-- Source CSV: `/Resources/CareerHub/features/music catalogue/collection.csv`
-- Collection docs: `/Resources/CareerHub/features/music catalogue/collection.md`
-- Original gallery (with search/filters): `/Resources/CareerHub/features/music catalogue/collection.html`
-- Cover art caches: `/Resources/CareerHub/features/music catalogue/cache/` (cd_covers, vinyl_v2_cover_art)
 - Template: `src/pages/journal/music/index.html`
-- Scanner app: `/Desktop/vinyl-scanner/` (separate project for barcode scanning)
+- Scanner app: `/Desktop/vinyl-scanner/` (separate project for barcode scanning, used to build vinyl side)
 
 ---
 
