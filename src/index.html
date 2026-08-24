@@ -1,35 +1,52 @@
 ---
-layout: page
-subtitle: <span class="page-header__title">Hello.</span> <br />I am a web developer and designer from Glasgow, Scotland.
-description: Please have a look around and <a href="/contact/">get in touch</a> to see if I can help build a better web for you and your users.
-alert:
+layout: base
+title: Home
 ---
-{%- if page.url == "/" %}
-  {%- set navItems = navigation.primary -%}
-  {%- set navShowDescription = true -%}
-  {%- set navAriaLabel = "Primary Extended" %}
-  {%- set navClass = "navigation--contextual" %}
-  {% include "partials/navigation.html" %}
-{%- endif %}
+<div class="wrapper flow">
 
-{% set noticeTitle = "Special Offers" %}
-{% set noticeText = "<p>Are you a charity, not-for-profit or similar? Or a new business? <br /><a href=\"/contact/\">Get in touch</a> to find out about special offers and reduced rates.</p>" %}
-{% include "partials/notice.html" %}
+  <p><strong>Hello.</strong></p>
 
-<section class="section flow">
-  <h2 class="section__title">Latest work</h2>
-  {% set previewShowImage = true %}
-  {% set previewBreakout = true %}
-  {% set previewModifier = "preview--work preview--featured" %}
-  {% for item in collections.featuredPortfolio %}
-    {% include "partials/preview.html" %}
-  {% endfor %}
-  <p><a href="/work/" class="section__link"><strong>Browse full work archive</strong></a></p>
-</section>
+  <p><strong>I am a web developer and designer from Glasgow, Scotland.</strong></p>
 
-<section class="section flow">
-  <h2 class="section__title">Latest Blog</h2>
-  {% set postList = collections.blogLatest %}
-  {% include "partials/posts.html" %}
-  <p><a href="{{ '/blog/' | url }}" class="section__link"><strong>Browse full blog archive</strong></a></p>
-</section>
+  <p>I'm <a href="/pitch/"><strong>hoping I can help</strong></a> build a better web for you and your users&hellip;?</p>
+
+  <p>Please have a look around, <a href="/journal/"><strong>get to know me a bit</strong></a> and <a href="/contact/"><strong>get in touch</strong></a> to chat.</p>
+
+</div>
+
+<div class="wrapper flow sitemap-tree" style="margin-top: var(--flow-space, 2rem); border-top: 1px solid var(--color-border, #e0e0e0); padding-top: var(--flow-space, 2rem); font-size: 0.875rem; color: #666;">
+  <h2 style="font-size: 1rem; margin: 0 0 1rem 0;">Site Structure (dev reference)</h2>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li style="margin-bottom: 0.5rem;">
+      <span>📄</span> <a href="/" style="text-decoration: none; color: inherit;">Home</a>
+    </li>
+    <li style="margin-bottom: 0.5rem;">
+      <span>📄</span> <a href="/pitch/" style="text-decoration: none; color: inherit;">The Pitch</a>
+      <ul style="list-style: none; padding-left: 1.5rem; margin: 0.5rem 0 0.5rem 0;">
+        <li style="margin-bottom: 0.25rem;">
+          <span>📄</span> <a href="/pitch/testimonials/" style="text-decoration: none; color: inherit;">Testimonials</a>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 0.5rem;">
+      <span>📄</span> <a href="/journal/" style="text-decoration: none; color: inherit;">Journal</a>
+      <ul style="list-style: none; padding-left: 1.5rem; margin: 0.5rem 0 0.5rem 0;">
+        <li style="margin-bottom: 0.25rem;">
+          <span>📄</span> <a href="/journal/web-dev-articles/" style="text-decoration: none; color: inherit;">Web Dev Articles</a>
+        </li>
+        <li style="margin-bottom: 0.25rem;">
+          <span>📄</span> <a href="/journal/music/" style="text-decoration: none; color: inherit;">Music Collection</a>
+        </li>
+        <li style="margin-bottom: 0.25rem;">
+          <span>📄</span> <a href="/journal/coffee/" style="text-decoration: none; color: inherit;">Coffee Collection</a>
+        </li>
+        <li style="margin-bottom: 0.25rem;">
+          <span>📄</span> <a href="/journal/til/" style="text-decoration: none; color: inherit;">Today I Learned</a>
+        </li>
+      </ul>
+    </li>
+    <li style="margin-bottom: 0.5rem;">
+      <span>📄</span> <a href="/contact/" style="text-decoration: none; color: inherit;">Contact</a>
+    </li>
+  </ul>
+</div>

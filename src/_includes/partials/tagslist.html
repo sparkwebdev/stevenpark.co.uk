@@ -1,8 +1,0 @@
-<ul role="list">
-{% for tag in collections.tagList %}
-  <li>
-  {% set tagUrl %}/blog/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}">{{ tag }}</a>
-  </li>
-{% endfor %}
-</ul>

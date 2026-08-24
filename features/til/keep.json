@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "scotrail-s-peak-fare-experiment-added-6-8",
+    "date": "2025-01-01",
+    "title": "ScotRail's peak-fare experiment added 6.8% more journeys than expected",
+    "body": "Scotland removed time restrictions from ScotRail off-peak fares and got a 6.8% increase in demand under the government's preferred counterfactual. The experiment cost revenue, but the cheap-any-time ticket demonstrably made more people travel by rail.",
+    "type": "general",
+    "category": "Policy that actually worked",
+    "source": "https://www.transport.gov.scot/publication/scotrail-peak-fares-permanent-removal-outline-business-case/the-strategic-case/",
+    "confidence": "high"
+  },
+  {
+    "id": "scottish-libraries-got-450-000-specifically-to-fight",
+    "date": "2025-01-06",
+    "title": "Scottish libraries got £450,000 specifically to fight misinformation",
+    "body": "Scotland's Public Library Improvement Fund allocated £450,000 for 2025/26, with misinformation, democratic participation and family wellbeing among its priorities. Libraries were being funded partly as an antidote to the internet.",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://scottishlibraries.org/public-library-improvement-fund-2025-open/",
+    "confidence": "high"
+  },
+  {
+    "id": "james-joyce-invented-a-100-letter-word-just",
+    "date": "2025-01-07",
+    "title": "James Joyce invented a 100-letter word just to describe a thunderclap",
+    "body": "In the opening paragraph of his notoriously impenetrable 1939 novel Finnegans Wake, Joyce coined the word \"bababadalgharaghtakamminarronnkonnbronntonnerronntuonnthunntrovarrhounawnskawntoohoohoordenenthurnuk.\" It is a composite of the word for \"thunder\" from dozens of different languages, symbolizing the mythical thunderclap that accompanied the biblical fall of Adam and Eve.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.irishtimes.com/culture/books/deciphering-james-joyce-s-100-letter-word-for-thunder-1.3093206",
+    "confidence": "high"
+  },
+  {
+    "id": "glasgow-city-chambers-contains-more-marble-than-the",
+    "date": "2025-01-08",
+    "title": "Glasgow City Chambers contains more marble than the Vatican",
+    "body": "Glasgow's opulent 1888 municipal building boasts three floors of solid Carrera marble staircases and pillars. The local city council officially claims it houses a larger total volume of marble than the headquarters of the Catholic Church.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.beststudenthalls.com/blog/fun-facts-about-glasgow/",
+    "confidence": "medium"
+  },
+  {
+    "id": "akira-s-animation-required-327-unique-colors-50",
+    "date": "2025-01-09",
+    "title": "Akira's animation required 327 unique colors, 50 invented specifically for the film",
+    "body": "Katsuhiro Otomo's 1988 cyberpunk masterpiece demanded an unprecedented level of nighttime shading to achieve the glowing neon look of Neo-Tokyo. The production used 327 distinct hues—a record for animation at the time—including 50 custom-mixed colors that had never existed in any animation studio's palette.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://faroutmagazine.co.uk/akira-katsuhiro-otomo-colour-palette/",
+    "confidence": "high"
+  },
+  {
+    "id": "tokyo-residents-handed-police-a-record-4-5",
+    "date": "2025-01-10",
+    "title": "Tokyo residents handed police a record 4.5 billion yen in lost cash in 2025",
+    "body": "Tokyo's lost-and-found system took in a record ¥4.5 billion (about $30 million) in cash that ordinary citizens turned in to police in 2025 rather than keep, continuing a trend that saw ¥4.4 billion turned in the year before. Under Japanese law, if nobody claims a found item within three months, ownership passes to whoever found and reported it.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://japantoday.com/category/national/record-4.5-billion-yen-in-lost-cash-turned-in-to-tokyo-police-in-2025",
+    "confidence": "high"
+  },
+  {
+    "id": "the-500-mile-email-limit",
+    "date": "2025-01-11",
+    "title": "The 500-Mile Email Limit",
+    "body": "A university statistics department reported their system couldn't send emails further than 500 miles. A sysadmin discovered they had accidentally downgraded their mail server, introducing a three-millisecond timeout that perfectly matched the distance light travels through fiber optic cable in that time.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://irreal.org/blog/?p=13579",
+    "confidence": "high"
+  },
+  {
+    "id": "the-wicker-man-s-motorway-grave",
+    "date": "2025-01-13",
+    "title": "The Wicker Man's Motorway Grave",
+    "body": "The studio executives at British Lion hated the 1973 folk-horror film The Wicker Man so much that they refused to store the 378 rolls of the original uncut negative. The reels were allegedly tossed into a landfill and permanently paved over to form the foundation of the M3 motorway in Surrey.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.theguardian.com/film/2013/jul/02/wicker-man-final-cut",
+    "confidence": "high"
+  },
+  {
+    "id": "monty-python-s-single-scottish-castle",
+    "date": "2025-01-16",
+    "title": "Monty Python's Single Scottish Castle",
+    "body": "After the National Trust of Scotland abruptly revoked permission to film Monty Python and the Holy Grail on their properties, the panicked crew used Doune Castle in Perthshire for almost every single interior and exterior castle shot in the film. They simply shot from drastically different angles and redressed the same rooms to simulate a massive medieval kingdom.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.historicenvironment.scot/visit-a-place/places/doune-castle/history/",
+    "confidence": "high"
+  },
+  {
+    "id": "20-of-all-ships-in-the-world-were",
+    "date": "2025-01-22",
+    "title": "20% of all ships in the world were built on a single Scottish river",
+    "body": "At the height of the industrial shipbuilding boom in the late 19th and early 20th centuries, more than 30,000 vessels were constructed along the River Clyde. This single waterway accounted for a staggering one-fifth of total global shipbuilding output.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.reddit.com/r/glasgow/comments/vw28ip/fun_facts_about_glasgow/",
+    "confidence": "high"
+  },
+  {
+    "id": "prison-phone-companies-hand-jails-up-to-63",
+    "date": "2025-01-25",
+    "title": "Prison phone companies hand jails up to 63% of every call's revenue",
+    "body": "Correctional facilities award exclusive phone contracts to whichever telecom offers the highest \"site commission\" — historically 20% to as much as 63% or more of call revenue — turning phone calls home into a facility funding stream squeezed from inmates' families, according to research compiled by the Fines and Fees Justice Center.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://finesandfeesjusticecenter.org/research-tools/the-price-to-call-home-state-sanctioned-monopolization-in-the-prison-phone-industry/",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-gorbals-vampire-hunt",
+    "date": "2025-01-29",
+    "title": "The Gorbals Vampire Hunt",
+    "body": "In September 1954, Glasgow police were called to the Southern Necropolis where hundreds of local children armed with sharpened sticks and knives were actively hunting a vampire with iron teeth. The mass hysteria was entirely sparked by playground rumors merging local mythology with imported American horror comic books.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.bbc.com/news/uk-scotland-glasgow-west-11381373",
+    "confidence": "high"
+  },
+  {
+    "id": "decaf-coffee-is-created-by-blasting-beans-with",
+    "date": "2025-02-03",
+    "title": "Decaf coffee is created by blasting beans with liquid CO2 at 1,000 PSI",
+    "body": "The supercritical decaffeination process relies on pumping carbon dioxide into a high-pressure chamber at 73 atmospheres (over 1,000 pounds per square inch). At this extreme pressure and 31°C, the gas enters a \"supercritical\" state where it behaves like both a liquid and a gas, dissolving exactly 97% to 99% of the caffeine molecules while leaving the bean's cellulose structure and flavor intact.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://www.compoundchem.com/2018/10/24/decaf/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-single-cult-film-caused-70-severe-injuries",
+    "date": "2025-02-08",
+    "title": "A single cult film caused 70 severe injuries to its cast and crew",
+    "body": "The 1981 film Roar was shot over 11 years on a private ranch populated by 150 untrained lions, tigers, and leopards. The reckless production famously resulted in at least 70 documented maulings, bone fractures, and scalping injuries among the crew, including the director being nearly killed by a lion bite to the throat.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://nypost.com/2015/04/11/the-most-dangerous-movie-ever-made/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-single-family-firm-supplied-nearly-every-laugh",
+    "date": "2025-02-11",
+    "title": "A single family firm supplied nearly every laugh you heard on 1960s TV",
+    "body": "Sound engineer Charley Douglass built a padlocked, organ-like machine called the \"laff box,\" loaded with 320 recorded laughs on 32 tape loops, and for two decades his company was virtually the sole source of canned laughter on American sitcoms — guarded so closely that only his own family knew what was inside it.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://hackaday.com/2025/06/18/just-for-laughs-charlie-douglass-and-the-laugh-track/",
+    "confidence": "high"
+  },
+  {
+    "id": "glasgow-s-horseshoe-bar-is-exactly-104-feet",
+    "date": "2025-02-15",
+    "title": "Glasgow's Horseshoe Bar is exactly 104 feet and 3 inches of continuous Victorian timber",
+    "body": "Unchanged since it was installed in 1884, the ornate, horseshoe-shaped counter in this famous Glasgow pub is officially recognized as the longest continuous bar in Europe. The massive, seamless wooden structure spans 31.7 meters and requires a staff of over a dozen bartenders to manage the perimeter on a busy night.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.glasgowlive.co.uk/news/history/history-horseshoe-bar-glasgow-pubs-15589139",
+    "confidence": "high"
+  },
+  {
+    "id": "the-world-s-shortest-commercial-flight-is-a",
+    "date": "2025-02-19",
+    "title": "The world's shortest commercial flight is a 53-second hop in Scotland",
+    "body": "Loganair operates a daily scheduled commercial flight between the Orkney islands of Westray and Papa Westray, covering a distance of just 1.7 miles. Under ideal wind conditions, the total time in the air is exactly 53 seconds from liftoff to touchdown.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.guinnessworldrecords.com/world-records/shortest-scheduled-flight",
+    "confidence": "high"
+  },
+  {
+    "id": "tarkovsky-s-stalker-was-filmed-in-a-toxic",
+    "date": "2025-02-28",
+    "title": "Tarkovsky's \"Stalker\" was filmed in a toxic wasteland that likely killed the director",
+    "body": "The iconic 1979 Soviet sci-fi film was primarily shot at an abandoned hydroelectric plant near Tallinn, Estonia, surrounded by heavily polluted chemical runoff from a nearby factory. Years later, director Andrei Tarkovsky, his wife, and lead actor Anatoly Solonitsyn all died from the exact same rare bronchial cancer, widely attributed by the crew to their prolonged exposure on the set.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.independent.co.uk/arts-entertainment/films/features/stalker-andrei-tarkovsky-film-death-cinema-soviet-union-a9032541.html",
+    "confidence": "high"
+  },
+  {
+    "id": "the-self-funded-invention-of-tactile-paving",
+    "date": "2025-03-10",
+    "title": "The Self-Funded Invention of Tactile Paving",
+    "body": "Tenji blocks—the textured yellow paving tiles used globally to guide the visually impaired—were invented in 1965 by Japanese engineer Seiichi Miyake. He used his own money to manufacture the first plates to help a close friend who was losing his sight.",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://www.theguardian.com/technology/2019/mar/18/seiichi-miyake-google-doodle-honours-inventor-of-tactile-paving",
+    "confidence": "high"
+  },
+  {
+    "id": "1-of-the-static-on-a-dead-tv",
+    "date": "2025-03-11",
+    "title": "1% of the static on a dead TV channel is leftover radiation from the Big Bang",
+    "body": "When an old analog television is tuned between stations, the flickering \"snow\" on the screen is visual noise from ambient electromagnetic signals. Approximately 1% of that interference is a direct physical manifestation of the Cosmic Microwave Background—the cooling afterglow of the universe's creation 13.8 billion years ago.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://science.nasa.gov/universe/bbang/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-roman-brain-was-naturally-turned-into-glass",
+    "date": "2025-03-12",
+    "title": "A Roman brain was naturally turned into glass",
+    "body": "A victim of the 79 CE eruption of Vesuvius was found with black, glass-like material inside the skull. Chemical analysis showed that the person's brain tissue had undergone vitrification during the eruption.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://www.nationalgeographic.com/history/article/herculaneum-vesuvius-eruption-brain-glass",
+    "confidence": "high"
+  },
+  {
+    "id": "a-single-company-sells-70-of-the-world",
+    "date": "2025-03-16",
+    "title": "A single company sells 70% of the world's brand-name eyewear",
+    "body": "EssilorLuxottica, formed from a merger most shoppers have never heard of, makes and retails around 70% of major-label eyeglasses and sunglasses worldwide through brands like Ray-Ban, Oakley, LensCrafters and Sunglass Hut — meaning frames that cost roughly $4-$15 to manufacture routinely retail for $250 or more.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://startuptalky.com/luxottica-success-story/",
+    "confidence": "medium"
+  },
+  {
+    "id": "ten-crocodiles-were-buried-as-egyptian-mummies",
+    "date": "2025-03-18",
+    "title": "Ten crocodiles were buried as Egyptian mummies",
+    "body": "Archaeologists discovered five nearly complete crocodile skeletons and five isolated heads in an ancient Egyptian tomb. They found evidence that the animals had been buried without the elaborate treatment used on many human mummies.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.nationalgeographic.com/history/article/crocodile-mummies-ancient-egypt",
+    "confidence": "high"
+  },
+  {
+    "id": "david-lynch-spent-18-months-filming-a-single",
+    "date": "2025-03-25",
+    "title": "David Lynch spent 18 months filming a single cut of a door opening",
+    "body": "Production on the 1977 surrealist classic Eraserhead was so severely underfunded that filming stretched sporadically over five years. Because of a massive lapse in financing, there is a sequence where the lead actor opens a door, and the reverse shot of him stepping into the room was filmed exactly a year and a half later.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.criterion.com/current/posts/3283-eraserhead-david-lynchs-bizarre-masterpiece",
+    "confidence": "high"
+  },
+  {
+    "id": "local-hero-s-90-second-telephone-box",
+    "date": "2025-03-26",
+    "title": "Local Hero's 90-Second Telephone Box",
+    "body": "When US studio executives demanded a standard Hollywood kiss ending for Bill Forsyth's 1983 Scottish film Local Hero, Forsyth quietly refused. He compromised by simply locking a single, unbroken wide shot of a ringing red telephone box in a sleepy Scottish coastal village for the film's final 90 seconds.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://film.list.co.uk/article/62255-bill-forsyth-on-local-hero-we-didnt-have-the-right-ending-until-the-last-week-of-shooting/",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-shining-s-international-typing-chore",
+    "date": "2025-04-02",
+    "title": "The Shining's International Typing Chore",
+    "body": "For the iconic scene in The Shining where Wendy discovers Jack's manuscript is just a single repeating sentence, Stanley Kubrick refused to use subtitles for foreign markets. He forced his prop department to physically type entirely different idiomatic translations (e.g., \"Never put off till tomorrow what you can do today\" for Germany) to insert into the various European theatrical cuts.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://unrealitymag.com/the-four-foreign-language-versions-of-the-shinings-all-work-and-no-play/",
+    "confidence": "high"
+  },
+  {
+    "id": "unicode-now-contains-154-998-characters",
+    "date": "2025-04-09",
+    "title": "Unicode now contains 154,998 characters",
+    "body": "Unicode 16.0 added 5,185 characters, taking the standard to 154,998 encoded characters. That included 3,995 Egyptian hieroglyphs and 700-plus symbols from legacy computing.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://unicode.org/versions/Unicode16.0.0/",
+    "confidence": "high"
+  },
+  {
+    "id": "event-horizon-s-transylvanian-salt-mine",
+    "date": "2025-04-15",
+    "title": "Event Horizon's Transylvanian Salt Mine",
+    "body": "The notorious \"Blood Orgy\" sequence in Paul W.S. Anderson's 1997 sci-fi horror Event Horizon was so heavily censored by Paramount that the excised gore footage was put into deep storage. The legendary deleted footage was permanently lost when the abandoned Transylvanian salt mine it was stored in accidentally flooded, destroying the reels.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://collider.com/event-horizon-directors-cut-paul-ws-anderson/",
+    "confidence": "medium"
+  },
+  {
+    "id": "de-beers-sits-on-a-2-billion-stockpile",
+    "date": "2025-04-18",
+    "title": "De Beers sits on a $2 billion stockpile of diamonds it won't sell",
+    "body": "Rather than let prices fall, De Beers has been holding roughly $2 billion worth of unsold natural diamonds — its largest stockpile since the 2008 financial crisis — betting it can dole them out later once demand and prices recover, an echo of the Depression-era hoarding that built the \"diamonds are forever\" myth in the first place.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.businessoffashion.com/news/luxury/de-beers-stockpiles-diamonds/",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-world-s-largest-tire-manufacturer-by-sheer",
+    "date": "2025-04-20",
+    "title": "The world's largest tire manufacturer by sheer volume is Lego",
+    "body": "While automotive giants like Michelin and Goodyear produce around 200 million real tires annually, the Lego Group dwarfs them in physical manufacturing output. The Danish toy company mints over 318 million tiny rubber wheels every single year to keep up with demand for its vehicle building sets.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.guinnessworldrecords.com/world-records/largest-tyre-manufacturer",
+    "confidence": "high"
+  },
+  {
+    "id": "20-of-global-web-traffic-is-secured-by",
+    "date": "2025-04-21",
+    "title": "20% of global web traffic is secured by a wall of 100 lava lamps",
+    "body": "Cybersecurity giant Cloudflare protects roughly one-fifth of all internet requests. To generate truly unpredictable cryptographic keys, the company points a live camera at a wall of 100 continuously flowing lava lamps in their San Francisco lobby, translating the random pixel noise of the heated wax into raw, mathematically unbreakable entropy.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-synth-once-owned-by-aphex-twin-sold",
+    "date": "2025-04-22",
+    "title": "A synth once owned by Aphex Twin sold for over $127,000",
+    "body": "Richard D. James's modified Yamaha GX-1 — a three-manual monster synth from 1973, with fewer than 100 ever built — went to auction in 2025 with a starting price of £99,950. He'd bought it secondhand from a synth that had passed through pop producer Mickie Most's hands, then rewired it with MIDI across all three keyboards.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://edm.com/gear-tech/aphex-twin-rare-synthesizer-on-sale/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-apollo-s-unclimbable-eight-foot-stage",
+    "date": "2025-04-23",
+    "title": "The Apollo's Unclimbable Eight-Foot Stage",
+    "body": "The legendary Glasgow Apollo music venue featured a stage that was built a staggering eight feet high. Venue management intentionally built it to this absurd height purely to prevent the notoriously rowdy, aggressive Scottish audiences from invading the stage and attacking the bands during 1970s punk and rock gigs.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.glasgowlive.co.uk/news/history/glasgow-apollo-memories-legendary-venue-19656847",
+    "confidence": "high"
+  },
+  {
+    "id": "fritz-lang-hired-36-000-human-extras-for",
+    "date": "2025-04-25",
+    "title": "Fritz Lang hired 36,000 human extras for a 1927 silent sci-fi film",
+    "body": "The sheer physical scale of Metropolis remains almost unmatched in cinema history. To depict the subjugated working class of his dystopian megacity, director Fritz Lang employed a staggering 36,000 extras—including 25,000 men, 11,000 women, and 1,100 explicitly bald men—over a grueling 310-day shoot.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.guinnessworldrecords.com/world-records/most-extras-in-a-film",
+    "confidence": "high"
+  },
+  {
+    "id": "the-1814-london-beer-tsunami",
+    "date": "2025-04-27",
+    "title": "The 1814 London Beer Tsunami",
+    "body": "A 22-foot-tall wooden fermentation vat ruptured at the Meux & Co Brewery in London in 1814, causing a domino effect with other vats. A 323,000-gallon tidal wave of fermenting porter burst into the slums of St Giles, leveling two homes and killing eight people.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-London-Beer-Flood-of-1814/",
+    "confidence": "high"
+  },
+  {
+    "id": "labyrinth-s-blind-contact-juggling",
+    "date": "2025-05-03",
+    "title": "Labyrinth's Blind Contact Juggling",
+    "body": "In Jim Henson's 1986 film Labyrinth, David Bowie's character effortlessly manipulates crystal balls over his knuckles. Because Bowie couldn't juggle, professional choreographer Michael Moschen physically hid behind Bowie's cloak, thrusting his own arms blindly through Bowie's armholes to perform the intricate contact juggling completely blind on camera.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://thekidshouldseethis.com/post/the-contact-juggling-of-michael-moschen-in-labyrinth",
+    "confidence": "high"
+  },
+  {
+    "id": "boards-of-canada-padded-an-album-with-silence",
+    "date": "2025-05-04",
+    "title": "Boards of Canada padded an album with silence to hit exactly 66:06",
+    "body": "Leaning into numerology and occult themes, the Scottish duo engineered their 2002 album Geogaddi to have a total runtime of precisely 66 minutes and 6 seconds. To achieve this exact length without ruining the musical flow, the final track \"Magic Window\" consists of exactly 1 minute and 46 seconds of absolute silence.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.vice.com/en/article/warp-25-boards-of-canada/",
+    "confidence": "high"
+  },
+  {
+    "id": "ebay-s-biggest-trick-for-selling-old-junk",
+    "date": "2025-05-05",
+    "title": "eBay's biggest trick for selling old junk is just calling it haunted",
+    "body": "Listing ordinary secondhand dolls, mirrors, shoes and teacups as \"haunted\" has become such a reliable way to inflate resale prices on eBay that the platform now requires sellers to formally label the listings as \"entertainment\" rather than genuine paranormal claims.",
+    "type": "general",
+    "category": "Obscure business doing something lucrative or absurd",
+    "source": "https://www.ad-lister.co.uk/news/the-most-haunted-items-ever-sold-on-ebay/",
+    "confidence": "medium"
+  },
+  {
+    "id": "a-mother-s-brain-permanently-absorbs-and-harbors",
+    "date": "2025-05-09",
+    "title": "A mother's brain permanently absorbs and harbors her baby's DNA",
+    "body": "During pregnancy, fetal cells routinely slip across the placenta and physically embed themselves into the mother's organs. Neurological autopsies have revealed that this \"microchimerism\" means women carry the distinct, living genetic code of their children completely integrated into their own brain tissue for decades after giving birth.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://www.scientificamerican.com/article/fetal-cells-microchimerism/",
+    "confidence": "high"
+  },
+  {
+    "id": "james-bond-s-retroactive-scottish-father",
+    "date": "2025-05-16",
+    "title": "James Bond's Retroactive Scottish Father",
+    "body": "Author Ian Fleming originally envisioned James Bond as a purely English patrician. After seeing Sean Connery's brutal, charismatic performance in the 1962 film Dr. No, Fleming was so impressed he retroactively rewrote Bond's literary backstory in the novel You Only Live Twice to give him a Scottish father from Glencoe.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.scotsman.com/arts-and-culture/books/how-sean-connery-forced-ian-fleming-to-make-james-bond-a-scot-3021110",
+    "confidence": "high"
+  },
+  {
+    "id": "a-300-page-novel-translated-without-the-letter",
+    "date": "2025-05-28",
+    "title": "A 300-Page Novel Translated Without the Letter 'E'",
+    "body": "In 1969, French author Georges Perec wrote a 300-page lipogrammatic novel called La Disparition without ever using the letter 'e'. In 1994, translator Gilbert Adair successfully translated the entire work into English, titled A Void, also entirely omitting the most common letter in the English language.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://themillions.com/2013/05/the-story-of-e-a-void.html",
+    "confidence": "high"
+  },
+  {
+    "id": "withnail-s-single-enforced-shot-of-vodka",
+    "date": "2025-05-29",
+    "title": "Withnail's Single Enforced Shot of Vodka",
+    "body": "Richard E. Grant, who played a voracious, unhinged alcoholic in the 1987 British cult comedy Withnail and I, is actually violently allergic to alcohol and completely teetotal. Director Bruce Robinson forced him to drink one massive measure of vodka before filming simply so Grant would know exactly what inebriation physically felt like.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.telegraph.co.uk/culture/film/starsandstories/3671842/Richard-E-Grant-on-Withnail-and-I.html",
+    "confidence": "high"
+  },
+  {
+    "id": "koala-fingerprints-are-so-remarkably-human-that-they",
+    "date": "2025-05-30",
+    "title": "Koala fingerprints are so remarkably human that they have confused police",
+    "body": "Despite our evolutionary paths diverging 70 million years ago, koalas independently evolved microscopic friction ridges on their fingers to grip eucalyptus branches. Under an electron microscope, their unique whorls and loops are virtually indistinguishable from human fingerprints, occasionally causing confusion at Australian crime scenes.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://www.livescience.com/14007-koalas-human-fingerprints.html",
+    "confidence": "high"
+  },
+  {
+    "id": "the-unintended-triumph-of-the-curb-cut",
+    "date": "2025-06-03",
+    "title": "The Unintended Triumph of the Curb Cut",
+    "body": "In 1972, Kalamazoo, Michigan became the first U.S. city to aggressively install curb cuts at intersections to assist wheelchair users. City planners quickly discovered that the ramps were used vastly more frequently by people pushing strollers, delivery carts, and bicycles, giving birth to the \"Curb Cut Effect.\"",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://ssir.org/articles/entry/the_curb_cut_effect",
+    "confidence": "high"
+  },
+  {
+    "id": "the-uk-s-copper-saving-ring-circuit",
+    "date": "2025-06-05",
+    "title": "The UK's Copper-Saving Ring Circuit",
+    "body": "The massive, unwieldy UK 3-pin plug (BS 1363) was explicitly designed after WWII to conserve a severe national shortage of copper. It allowed postwar housing to be wired in a continuous \"ring circuit,\" which used half the copper of standard radial wiring but forced every individual plug to house its own safety fuse.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.fastcompany.com/3032807/why-england-has-the-best-wall-plugs-on-earth",
+    "confidence": "high"
+  },
+  {
+    "id": "st-kilda-s-anarcho-syndicalist-parliament",
+    "date": "2025-06-09",
+    "title": "St Kilda's Anarcho-Syndicalist Parliament",
+    "body": "Until their total evacuation in 1930, the remote Scottish archipelago of St Kilda operated without any formal government, laws, or currency. Every morning, all the adult men simply stood in a circle in the island's single street to debate and divide the day's tasks, a daily democratic meeting famously called the \"St Kilda Parliament.\"",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.nts.org.uk/visit/places/st-kilda/history",
+    "confidence": "high"
+  },
+  {
+    "id": "sophia-tolstoy-copied-the-500-000-word-war",
+    "date": "2025-06-16",
+    "title": "Sophia Tolstoy copied the 500,000-word \"War and Peace\" by hand 7 times",
+    "body": "Leo Tolstoy's handwriting was so heavily edited, scribbled over, and illegible that publishers couldn't read his drafts. His wife Sophia acted as his primary editor and copyist, transcribing the entire massive Russian manuscript from scratch as many as seven times before it was finally published.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.reddit.com/r/HistoryMemes/comments/1ttmo1r/the_heroine_behind_war_and_peace/",
+    "confidence": "high"
+  },
+  {
+    "id": "wall-street-spent-300-million-to-shave-3",
+    "date": "2025-06-18",
+    "title": "Wall Street spent $300 million to shave 3 milliseconds off internet latency",
+    "body": "In 2010, the financial telecommunications firm Spread Networks laid a perfectly straight, 827-mile fiber optic cable directly through mountains and rivers from Chicago to New York. The massive engineering project existed solely to cut high-frequency trading data transmission times from 16 to 13 milliseconds, giving algorithmic traders a microscopic but hyper-profitable edge.",
+    "type": "web-dev",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.forbes.com/forbes/2010/0927/outfront-netscape-jim-barksdale-daniel-spivey-wall-street-speed-war.html",
+    "confidence": "high"
+  },
+  {
+    "id": "the-highest-physical-point-on-earth-is-not",
+    "date": "2025-06-19",
+    "title": "The highest physical point on Earth is not the summit of Mount Everest",
+    "body": "Because the planet is not a perfect sphere but an oblate spheroid that bulges at the equator, sea level is not uniform. When measured from the absolute center of the Earth rather than from sea level, the peak of Mount Chimborazo in Ecuador pushes exactly 2,072 meters further into space than Mount Everest.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+    "confidence": "high"
+  },
+  {
+    "id": "tokyo-s-trains-got-84-fewer-suicides-after",
+    "date": "2025-06-23",
+    "title": "Tokyo's trains got 84% fewer suicides after one color change",
+    "body": "When East Japan Railway installed blue LED lights above platforms at all 29 stations on the Yamanote loop line in 2009, a study of 71 stations over a decade found suicide attempts dropped 84% at the stations where the lights went in. Nobody is fully sure why blue works — the leading theory is that it disrupts the psychological state of an already-distressed person just long enough.",
+    "type": "general",
+    "category": "Policy that actually worked",
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0165032712005873",
+    "confidence": "high"
+  },
+  {
+    "id": "yamaha-dx7-epiano-preset",
+    "date": "2025-07-02",
+    "title": "One synth preset appears on 61% of 1986's number-one R&B hits",
+    "body": "A 2019 academic study found the Yamaha DX7's factory \"E.PIANO 1\" patch on 39% of Billboard number-one pop singles, 40% of number-one country singles, and 61% of number-one R&B singles in 1986 — a single default setting quietly defining much of what \"sounds like the 80s.\"",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://online.ucpress.edu/jpms/article-abstract/31/3/73/105979/What-Makes-It-Sound-80s-The-Yamaha-DX7-Electric",
+    "confidence": "high"
+  },
+  {
+    "id": "art-authenticators-spot-modern-forgeries-using-nuclear-weapon",
+    "date": "2025-07-08",
+    "title": "Art authenticators spot modern forgeries using nuclear weapon fallout",
+    "body": "To definitively prove a painting is a modern fake, art historians test the canvas for traces of Cesium-137 and Strontium-90. Because these specific radioactive isotopes did not exist in nature prior to the atomic bomb detonations of 1945, their physical presence in the binding oils of a painting proves it cannot possibly be a classical antique.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://physicsworld.com/a/nuclear-fallout-used-to-spot-fake-art/",
+    "confidence": "high"
+  },
+  {
+    "id": "it-is-physically-impossible-for-an-ant-to",
+    "date": "2025-07-10",
+    "title": "It is physically impossible for an ant to die from falling",
+    "body": "Because of their microscopic mass and high surface area, ants have a terminal velocity of roughly 4 miles per hour. Since air resistance mathematically prevents them from falling any faster, an ant dropped from an airplane at 30,000 feet will strike the pavement with the exact same non-lethal impact as one falling off a kitchen table.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://www.physicsforums.com/threads/terminal-velocity-of-an-ant.233519/",
+    "confidence": "high"
+  },
+  {
+    "id": "british-records-can-lose-millions-simply-because-nobody",
+    "date": "2025-07-11",
+    "title": "British records can lose millions simply because nobody wrote down the setlist",
+    "body": "PRS for Music said performances from more than 100,000 UK gigs since 2022 lacked sufficient setlist information for royalties to be assigned cleanly. In 2019 alone, £2.7 million sat unallocated in its “black box”.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.theguardian.com/business/2025/jul/04/songwriters-royalties-uk-gigs-prs-for-music",
+    "confidence": "high"
+  },
+  {
+    "id": "glasgow-became-new-york-for-indiana-jones-because",
+    "date": "2025-07-12",
+    "title": "Glasgow became New York for Indiana Jones because the real thing was inconvenient",
+    "body": "Dial of Destiny used Glasgow streets to double for 1969 New York, while other supposedly “different” locations were built or shot across Scotland, England, Sicily and Morocco. The production deliberately made real locations do the work before adding digital extensions.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://mande.net/btl/crafts/camera/indiana-jones-dial-of-destiny-cinematographer-phedon-papamichael-interview",
+    "confidence": "high"
+  },
+  {
+    "id": "the-absolute-maximum-value-for-a-css-z",
+    "date": "2025-07-15",
+    "title": "The absolute maximum value for a CSS z-index is 2,147,483,647",
+    "body": "Because modern browser engines store the CSS `z-index` property as a 32-bit signed integer, the highest possible layer you can place a web element on is 2,147,483,647. Attempting to assign a higher number will either cap at the limit or, in older browsers, trigger an integer overflow that pushes the element behind everything else.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://stackoverflow.com/questions/491052/minimum-and-maximum-value-of-z-index",
+    "confidence": "high"
+  },
+  {
+    "id": "wombats-independently-evolved-a-mathematical-digestive-tract-to",
+    "date": "2025-07-20",
+    "title": "Wombats independently evolved a mathematical digestive tract to excrete perfect cubes",
+    "body": "Wombats are the only known animals on Earth that produce distinctly cubic feces. Biologists discovered that the final 17% of their intestinal tract contains varying degrees of tissue thickness, acting as a rhythmic physical press that molds the waste into six-sided blocks so they won't roll off the rocks where they mark their territory.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://www.science.org/content/article/how-wombats-poop-cubes",
+    "confidence": "high"
+  },
+  {
+    "id": "crows-are-one-of-the-only-animals-known",
+    "date": "2025-07-28",
+    "title": "Crows are one of the only animals known to mathematically comprehend zero",
+    "body": "In 2021, neurologists studying carrion crows discovered that the birds don't just understand basic counting—they cognitively recognize \"nothing\" as a distinct numerical value. Brain scans showed that crows' neurons process an empty set not as an absence of data, but as a mathematical quantity situated at the beginning of a number line.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://www.scientificamerican.com/article/crows-understand-the-concept-of-zero/",
+    "confidence": "high"
+  },
+  {
+    "id": "in-html-the-color-bgcolor-chucknorris-renders-as",
+    "date": "2025-07-30",
+    "title": "In HTML, the color `bgcolor=\"chucknorris\"` renders as blood red",
+    "body": "Due to legacy error-handling in Netscape Navigator, modern browsers strip non-hexadecimal characters from unrecognized color strings and pad them with zeroes. Parsing the string \"chucknorris\" leaves the letters \"c\" and \"c\", which the browser mathematically converts into the hex code `#C00000`—a vivid shade of red.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://net-informations.com/q/web/chuck.htm",
+    "confidence": "high"
+  },
+  {
+    "id": "a-massive-cosmic-cloud-near-the-center-of",
+    "date": "2025-07-31",
+    "title": "A massive cosmic cloud near the center of the galaxy tastes like raspberries and rum",
+    "body": "Sagittarius B2 is a colossal molecular cloud of gas and dust sitting 26,000 light-years from Earth. Astronomers analyzing its radio frequency signatures discovered it is packed with ethyl formate—the exact chemical compound mathematically responsible for the flavor of raspberries and the smell of rum.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://www.theguardian.com/science/2009/apr/21/space-raspberries-rum-make-up-galaxy",
+    "confidence": "high"
+  },
+  {
+    "id": "mogwai-s-profitable-insult-t-shirts",
+    "date": "2025-08-05",
+    "title": "Mogwai's Profitable Insult T-Shirts",
+    "body": "In 1999, the Scottish post-rock band Mogwai needed money to fund their upcoming tour. Knowing the British music press was obsessed with the Britpop rivalry, they simply printed and sold thousands of t-shirts bearing the stark phrase \"Blur: Are Shite,\" successfully financing their entire tour entirely on spiteful merchandise.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.nme.com/news/music/mogwai-16-1282216",
+    "confidence": "high"
+  },
+  {
+    "id": "the-loudest-recorded-sound-in-history-violently-circled",
+    "date": "2025-08-10",
+    "title": "The loudest recorded sound in history violently circled the globe four times",
+    "body": "When the Krakatoa volcano catastrophically erupted in 1883, the resulting acoustic shockwave was so immense it ruptured the eardrums of sailors 40 miles away. The 310-decibel boom was clearly heard in Australia over 3,000 miles away, and global barographs mathematically recorded the pressure wave lapping the entire Earth four distinct times.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.discovermagazine.com/planet-earth/the-loudest-sound-in-history-was-heard-3-000-miles-away",
+    "confidence": "high"
+  },
+  {
+    "id": "the-tardis-s-scraped-piano-wire",
+    "date": "2025-08-12",
+    "title": "The TARDIS's Scraped Piano Wire",
+    "body": "Brian Hodgson of the BBC Radiophonic Workshop was tasked with creating an audio effect for a machine tearing through the fabric of time and space for Doctor Who. He achieved the iconic, otherworldly groaning sound of the TARDIS materializing by simply dragging his mother's front door key up and down a single exposed piano wire.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.bbc.com/historyofthebbc/100-voices/pioneering-women/women-of-the-workshop/brian-hodgson",
+    "confidence": "high"
+  },
+  {
+    "id": "miss-shilling-s-orifice",
+    "date": "2025-08-14",
+    "title": "Miss Shilling's Orifice",
+    "body": "During the Battle of Britain, early Spitfire engines flooded and completely stalled during sudden negative-G dives, a flaw German pilots exploited to escape. Beatrice Shilling, an engineer at the Royal Aircraft Establishment, fixed this by inventing a 50-cent brass restrictor washer with a precise hole—affectionately named \"Miss Shilling's Orifice\"—which was retrofitted into thousands of RAF planes and slashed engine failures from 38% to 0.4%.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://en.wikipedia.org/wiki/Beatrice_Shilling",
+    "confidence": "high"
+  },
+  {
+    "id": "the-computer-that-landed-apollo-11-on-the",
+    "date": "2025-08-17",
+    "title": "The computer that landed Apollo 11 on the moon had just 4 kilobytes of RAM",
+    "body": "The Apollo Guidance Computer was an absolute engineering marvel of the 1960s, using hand-woven magnetic core memory to safely navigate deep space. However, it operated on a staggering deficit by modern standards, possessing a meager 4 kilobytes of RAM and just 72 kilobytes of permanent ROM storage to execute a lunar landing.",
+    "type": "general",
+    "category": "Web/tech/dev oddities",
+    "source": "https://www.computerweekly.com/feature/Apollo-11-The-computers-that-put-man-on-the-moon",
+    "confidence": "high"
+  },
+  {
+    "id": "the-national-library-of-scotland-now-archives-the",
+    "date": "2025-08-25",
+    "title": "The National Library of Scotland now archives the entire .scot web",
+    "body": "Alongside the other UK legal-deposit libraries, the National Library of Scotland harvests websites across `.uk`, `.scot` and other UK domains. It runs a whole-domain crawl annually and gives Scottish sites particular priority.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://www.nls.uk/guides/publishers/web-harvesting",
+    "confidence": "high"
+  },
+  {
+    "id": "the-cia-spent-20-million-turning-a-cat",
+    "date": "2025-08-28",
+    "title": "The CIA spent $20 million turning a cat into a spy that was instantly hit by a taxi",
+    "body": "In the 1960s, a secretive CIA project dubbed \"Acoustic Kitty\" surgically implanted microphones and radio transmitters into domestic cats to spy on Soviet officials. According to declassified documents, the multi-million-dollar feline agent was released on its very first field test in Washington D.C., where it immediately wandered into the street and was fatally struck by a passing taxi.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://medium.com/exploring-echoes/project-acoustic-kitty-the-cias-20-million-failed-attempt-to-turn-cats-into-spies-5e2f63e9feb7",
+    "confidence": "high"
+  },
+  {
+    "id": "css-breaks-protocol-for-rebecca",
+    "date": "2025-09-05",
+    "title": "CSS Breaks Protocol For Rebecca",
+    "body": "In 2014, the W3C deliberately broke their strict, long-standing color-naming conventions to add a single new named color to the official global CSS specification: `#663399`. The color was officially designated `rebeccapurple` and hardcoded into all web browsers to honor web standards pioneer Eric Meyer’s six-year-old daughter, Rebecca, who died of a brain tumor.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-total-physical-mass-of-earth-s-viruses",
+    "date": "2025-09-06",
+    "title": "The total physical mass of Earth's viruses equals 75 million blue whales",
+    "body": "Virologists estimate there are 10 nonillion (10 followed by 30 zeros) individual viruses on the planet. Even though each virion is unfathomably microscopic, their sheer numerical dominance dictates that their collective physical weight is roughly equivalent to the mass of 75 million fully grown blue whales.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.nationalgeographic.com/science/article/there-are-more-viruses-than-stars-in-the-universe-why-do-only-some-infect-us",
+    "confidence": "medium"
+  },
+  {
+    "id": "dostoevsky-was-reprieved-from-a-firing-squad-execution",
+    "date": "2025-09-09",
+    "title": "Dostoevsky was reprieved from a firing squad execution with seconds to spare",
+    "body": "In 1849, a 28-year-old Fyodor Dostoevsky was sentenced to death for reading banned literature. He was marched into a freezing St. Petersburg square, tied to a pillar, and the firing squad raised their rifles—only for a messenger to dramatically ride in at the absolute last second with a commuted sentence of Siberian hard labor from the Tsar.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.rbth.com/history/328221-dostoevsky-mock-execution",
+    "confidence": "high"
+  },
+  {
+    "id": "expert-screen-reader-users-consume-text-at-over",
+    "date": "2025-09-11",
+    "title": "Expert screen reader users consume text at over 700 words per minute",
+    "body": "While the average sighted person reads visually at around 200 to 250 words per minute, blind professionals who rely on text-to-speech software often compress the audio output to blistering speeds. High-school students comfortably listen at 350–550 WPM, while power users routinely push comprehension beyond 700 WPM.",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://www.perkins.org/resource/reading-rates/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-physical-weight-of-the-entire-global-internet",
+    "date": "2025-09-12",
+    "title": "The physical weight of the entire global internet is roughly 50 grams",
+    "body": "While the hardware infrastructure of the web weighs millions of tons, physicists have calculated the mass of the actual data. If you isolate the combined physical weight of the billions of moving electrons required to store and transmit all the information on the internet, it weighs about as much as a single strawberry.",
+    "type": "web-dev",
+    "category": "Numbers that stop you",
+    "source": "https://tech.slashdot.org/story/25/04/07/1740251/scientists-debate-actual-weight-of-the-internet",
+    "confidence": "medium"
+  },
+  {
+    "id": "ticketmaster-collects-a-fee-on-the-same-ticket",
+    "date": "2025-09-23",
+    "title": "Ticketmaster collects a fee on the same ticket three separate times",
+    "body": "The FTC's 2025 lawsuit against Live Nation and Ticketmaster accuses the company of \"triple dipping\" — charging fees when scalpers first buy tickets, again when Ticketmaster relists those tickets for resale, and a third time when a fan finally buys one. The agency estimates Ticketmaster pocketed $3.7 billion in resale fees between 2019 and 2024 alone.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-sues-live-nation-ticketmaster-engaging-illegal-ticket-resale-tactics-deceiving-artists-consumers",
+    "confidence": "high"
+  },
+  {
+    "id": "the-glasgow-empire-faint",
+    "date": "2025-09-29",
+    "title": "The Glasgow Empire Faint",
+    "body": "The Glasgow Empire Theatre was famously dubbed \"the English comic's graveyard\" because tough Clydeside shipyard workers would brutally heckle or sit in dead silence for visiting London comedians. Faced with a totally unresponsive crowd, young comedian Des O'Connor realized he was bombing so badly that he simply pretended to faint on stage, allowing his crew to drag him off by his ankles.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://medium.com/@AnnetteThomson/glasgow-empire-where-comedians-went-to-die-51d1ec68703a",
+    "confidence": "high"
+  },
+  {
+    "id": "an-average-human-violently-sheds-exactly-500-million",
+    "date": "2025-09-30",
+    "title": "An average human violently sheds exactly 500 million skin cells every day",
+    "body": "The human epidermis is in a continuous, rapid state of decay and regeneration. Dermatological researchers estimate that humans physically shed between 30,000 and 40,000 dead skin cells every single minute, meaning an adult mathematically leaves behind roughly eight pounds of biological dust in their home every year.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.acs.org/pressroom/newsreleases/2012/may/the-gross-science-of-a-sneeze-and-shedding-skin.html",
+    "confidence": "high"
+  },
+  {
+    "id": "amazon-paid-1-billion-just-for-the-crime",
+    "date": "2025-10-01",
+    "title": "Amazon paid $1 billion just for the crime of a confusing cancel button",
+    "body": "The FTC forced Amazon into a $2.5 billion settlement in 2025 over \"dark patterns\" it used to enroll people in Prime and block them from leaving — including cancellation flows so convoluted internally they were nicknamed \"Iliad,\" after Homer's epic. Roughly 35 million US customers qualify for a $51 refund each.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.ftc.gov/news-events/news/press-releases/2025/09/amazon-pay-2-5-billion-settle-ftc-charges-related-amazon-prime-enrollment-cancellation-practices",
+    "confidence": "high"
+  },
+  {
+    "id": "swiss-water-decaf-process",
+    "date": "2025-10-14",
+    "title": "Decaf coffee gets its caffeine pulled out using nothing but water",
+    "body": "The Swiss Water Process, run from a single plant in Vancouver since the 1980s, soaks green beans in water already saturated with every coffee compound except caffeine, so only caffeine molecules migrate out to be filtered through carbon — no solvents, and beans finish about 99.9% caffeine-free.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.swisswater.com/pages/coffee-decaffeination-process",
+    "confidence": "medium"
+  },
+  {
+    "id": "tv-detector-vans-and-local-oscillators",
+    "date": "2025-10-19",
+    "title": "TV Detector Vans and Local Oscillators",
+    "body": "To enforce the mandatory TV license fee in the 1970s, the UK Post Office operated fleets of \"TV Detector Vans\" that drove through residential neighborhoods. These vehicles did not track broadcasting signals; their highly directional antennas were engineered to detect the faint, specific electromagnetic emissions leaking from the local oscillator inside a switched-on cathode-ray tube television.",
+    "type": "general",
+    "category": "Web/tech/dev oddities",
+    "source": "https://en.wikipedia.org/wiki/TV_detector_van",
+    "confidence": "high"
+  },
+  {
+    "id": "wcag-2-1-contrast-math-fails-on-perfectly",
+    "date": "2025-10-25",
+    "title": "WCAG 2.1 contrast math fails on perfectly readable dark mode elements",
+    "body": "The standard mathematical formula for web contrast ratios was designed in the CRT monitor era of the late 1990s. Because the legacy sRGB luminance model fails to mimic how human eyes process spatial frequencies in low light, strict WCAG 2.1 tests frequently fail highly legible white-on-dark-gray text while passing physically painful blue-on-black combinations.",
+    "type": "web-dev",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://github.com/w3c/wcag/issues/695",
+    "confidence": "high"
+  },
+  {
+    "id": "autechre-s-anti-skip-formatting",
+    "date": "2025-10-27",
+    "title": "Autechre's Anti-Skip Formatting",
+    "body": "For their 1999 release EP7, electronic duo Autechre deliberately authored the CD metadata so that the track index markers were hidden in negative time space. This technical manipulation prevented standard CD players from easily skipping directly to specific tracks, forcing listeners to interact with the album as a continuous piece.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://en.wikipedia.org/wiki/EP7",
+    "confidence": "high"
+  },
+  {
+    "id": "the-michelin-guide-was-invented-to-physically-wear",
+    "date": "2025-10-31",
+    "title": "The Michelin Guide was invented to physically wear out tires",
+    "body": "In 1900, there were fewer than 3,000 cars in France. To artificially drive up demand for tires, the Michelin brothers published a free guide of highly rated hotels and restaurants located far away from major cities, mathematically forcing early drivers to burn through their rubber treads on long road trips.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://guide.michelin.com/en/about-us",
+    "confidence": "high"
+  },
+  {
+    "id": "the-us-military-has-permanently-lost-six-nuclear",
+    "date": "2025-11-01",
+    "title": "The US Military has permanently lost six nuclear weapons",
+    "body": "During the Cold War, the Strategic Air Command kept nuclear-armed bombers in the sky 24 hours a day. Through a series of mid-air collisions, accidental payload drops, and plane crashes over the open ocean, the Department of Defense officially acknowledges at least six \"Broken Arrow\" incidents where active nuclear warheads were lost and never recovered.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://nukewatch.org/new-and-updated-item/the-bizarre-mystery-of-the-only-armed-nuke-america-ever-lost/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-heilanman-s-umbrella",
+    "date": "2025-11-03",
+    "title": "The Heilanman's Umbrella",
+    "body": "During the Highland Clearances, thousands of displaced Gaelic-speaking Highlanders moved to Glasgow for work but faced intense discrimination and struggled to find welcoming public spaces. They established a tradition of gathering on weekends under the glass-walled railway bridge of Glasgow Central Station to share news and speak their native language out of the rain, earning the structure the enduring nickname \"The Heilanman's Umbrella.\"",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://en.wikipedia.org/wiki/Heilanman%27s_Umbrella",
+    "confidence": "high"
+  },
+  {
+    "id": "monty-python-s-forced-radio-foley",
+    "date": "2025-11-07",
+    "title": "Monty Python's Forced Radio Foley",
+    "body": "The legendary running joke of knights banging coconut halves together to simulate hoofbeats in Monty Python and the Holy Grail wasn't originally written as a gag. The film's production budget was so completely exhausted that they physically couldn't afford to rent real horses, forcing the actors to awkwardly skip while utilizing a standard BBC radio Foley trick.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.theguardian.com/film/2015/mar/10/monty-python-holy-grail-coconuts-horses",
+    "confidence": "high"
+  },
+  {
+    "id": "the-8x8-pixel-lemming-that-built-gta",
+    "date": "2025-11-14",
+    "title": "The 8x8 Pixel Lemming That Built GTA",
+    "body": "In 1989, Dundee-based programmer Mike Dailly created an 8x8 pixel animation of a tiny character walking and being crushed by a 10-ton weight to test the hardware limits of the Amiga computer. This single animation inspired his studio, DMA Design, to build the puzzle game Lemmings, the massive global profits of which directly funded the studio's next ambitious project: Grand Theft Auto.",
+    "type": "general",
+    "category": "Web/tech/dev oddities",
+    "source": "https://en.wikipedia.org/wiki/Lemmings_(video_game",
+    "confidence": "high"
+  },
+  {
+    "id": "the-forth-bridge-finally-stops-getting-painted",
+    "date": "2025-11-21",
+    "title": "The Forth Bridge Finally Stops Getting Painted",
+    "body": "For over a century, the phrase \"painting the Forth Bridge\" was a British idiom for a never-ending task, as workers had to immediately restart painting the Scottish bridge as soon as they finished. This idiom officially died in 2011 when Network Rail applied 240,000 liters of a specialized glass-flake epoxy coating originally used on North Sea oil rigs, ensuring the bridge wouldn't need a touch-up for 25 years.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.bbc.com/news/uk-scotland-edinburgh-east-fife-14789036",
+    "confidence": "high"
+  },
+  {
+    "id": "every-time-you-shuffle-a-deck-of-cards",
+    "date": "2025-11-24",
+    "title": "Every time you shuffle a deck of cards, you create a sequence never seen in history",
+    "body": "The number of possible permutations in a standard 52-card deck is 52 factorial, a mathematical value roughly equal to an 8 followed by 67 zeros. This number is so astronomically massive that any properly randomized deck is statistically guaranteed to be in a sequence that has never existed before in the history of the universe.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://czep.net/weblog/52cards.html",
+    "confidence": "high"
+  },
+  {
+    "id": "edinburgh-s-visual-time-sync",
+    "date": "2025-11-27",
+    "title": "Edinburgh's Visual Time Sync",
+    "body": "In 1861, Edinburgh installed the One O'Clock Gun at the castle to help ships in the Firth of Forth sync their marine chronometers. Because the speed of sound meant the boom arrived several seconds late over the water, navigators were instructed to completely ignore the sound and instead watch through spyglasses for the exact visual drop of the time ball on the nearby Nelson Monument.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://en.wikipedia.org/wiki/Nelson_Monument,_Edinburgh",
+    "confidence": "high"
+  },
+  {
+    "id": "the-bricked-up-windows-of-daylight-robbery",
+    "date": "2025-12-04",
+    "title": "The Bricked-Up Windows of Daylight Robbery",
+    "body": "In 1696, King William III introduced a deeply unpopular Window Tax across Britain, assessing a property's tax burden based on how many windows it had. To avoid the tax, thousands of property owners simply bricked up their windows—leaving physical scars still visible on historic UK buildings today and contributing to the origin of the phrase \"daylight robbery.\"",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://en.wikipedia.org/wiki/Window_tax",
+    "confidence": "high"
+  },
+  {
+    "id": "http-418-teapot",
+    "date": "2025-12-08",
+    "title": "HTTP has an official status code for a teapot that refuses to brew coffee",
+    "body": "RFC 2324, the \"Hyper Text Coffee Pot Control Protocol,\" was published as an April Fools' joke on April 1, 1998, defining HTTP 418 \"I'm a teapot.\" When developers tried removing it from Node.js in 2017, a \"Save 418\" campaign got it preserved, and the current HTTP spec formally reserves the code so it can never be reassigned real meaning.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418",
+    "confidence": "high"
+  },
+  {
+    "id": "bob-hoskins-agonizing-10-minute-close-up",
+    "date": "2025-12-09",
+    "title": "Bob Hoskins' Agonizing 10-Minute Close-Up",
+    "body": "In the ending of the 1980 British gangster classic The Long Good Friday, Bob Hoskins' character is trapped in a moving car heading to his execution. Director John Mackenzie locked the camera purely on Hoskins' face and made him physically hold a complex, wordless expression of dawning terror for an agonizing ten continuous minutes as the taxi drove across London.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.bfi.org.uk/features/long-good-friday-ending",
+    "confidence": "high"
+  },
+  {
+    "id": "the-itunes-terms-of-service-legally-forbids-users",
+    "date": "2025-12-10",
+    "title": "The iTunes terms of service legally forbids users from building nuclear weapons",
+    "body": "Buried deep in Apple's standard End User License Agreement is a strict export compliance clause. By clicking \"Agree\" to install iTunes or use an Apple OS, users enter a legally binding contract that they will not use the software for \"the development, design, manufacture or production of missiles, or nuclear, chemical or biological weapons.\"",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://q107.com/news/11969823/ongoing-history-daily-more-on-the-itunes-end-user-license-agreement/",
+    "confidence": "high"
+  },
+  {
+    "id": "pistol-shrimp-snap-their-claws-so-fast-they",
+    "date": "2025-12-11",
+    "title": "Pistol shrimp snap their claws so fast they generate localized light",
+    "body": "By snapping its specialized claw shut at 60 miles per hour, the pistol shrimp creates a cavitation bubble that collapses with immense acoustic pressure. For a split second, the collapsing bubble reaches 4,000°C—nearly the temperature of the Sun's surface—and emits a brief, highly concentrated flash of light known as sonoluminescence.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://oceana.org/marine-life/pistol-shrimp/",
+    "confidence": "high"
+  },
+  {
+    "id": "finland-s-baby-box-cut-infant-deaths-from",
+    "date": "2025-12-22",
+    "title": "Finland's baby box cut infant deaths from 65 per 1,000 births to about 2",
+    "body": "Finland started mailing every expectant mother a free box of baby supplies in 1938 — including a mattress that turned the box itself into the infant's first crib — after infant mortality hit roughly 65 deaths per 1,000 live births. Take-up required attending prenatal checkups, and the rate has since fallen to about 2 per 1,000, among the lowest recorded anywhere.",
+    "type": "general",
+    "category": "Policy that actually worked",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9763162/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-acoustic-isolation-of-the-wally-close",
+    "date": "2025-12-23",
+    "title": "The Acoustic Isolation of the Wally Close",
+    "body": "In the late 19th and early 20th centuries, Glasgow tenements were built with \"wally closes\"—stairwells lined shoulder-high with ornate ceramic tiles. While visually beautiful, the Glasgow Corporation mandated these specific tiles so they could be easily hosed down with bleach to stop the rapid spread of cholera and tuberculosis.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.scotsman.com/arts-and-culture/what-is-a-wally-close-1522771",
+    "confidence": "high"
+  },
+  {
+    "id": "joy-division-s-aerosol-can-hi-hat",
+    "date": "2025-12-24",
+    "title": "Joy Division's Aerosol Can Hi-Hat",
+    "body": "Eccentric producer Martin Hannett hated the sound of standard cymbals on Joy Division's 1979 landmark album Unknown Pleasures. To achieve a sterile, alien hiss, he forced drummer Stephen Morris to entirely dismantle his kit and physically spray a can of aerosol cleaning fluid into a microphone on every off-beat instead of hitting a hi-hat.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://faroutmagazine.co.uk/the-story-of-unknown-pleasures/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-wicker-man-s-hidden-firefighter",
+    "date": "2025-12-27",
+    "title": "The Wicker Man's Hidden Firefighter",
+    "body": "For the infamous, terrifying ending of the 1973 British folk-horror The Wicker Man, the massive wooden effigy was genuinely packed with live, terrified farm animals. Because the crew only had one chance to ignite the structure safely on the Scottish coast, the director had an animal handler secretly hidden inside the legs of the burning structure to quickly evacuate the livestock out the back.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.scotsman.com/arts-and-culture/film/the-wicker-man-50-years-on-how-the-cult-classic-was-made-4131551",
+    "confidence": "high"
+  },
+  {
+    "id": "49-of-robbie-williams-s-2025-chart-sales",
+    "date": "2026-01-10",
+    "title": "49% of Robbie Williams's 2025 chart sales came on cassette",
+    "body": "Of the 43,000 combined chart sales for Better Man in the relevant week, 49% were cassette copies. The old format was not merely nostalgic merchandise; it materially affected the album's chart performance.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.officialcharts.com/chart-news/best-selling-cassettes-singles-albums-2025/?utm_source=chatgpt.com",
+    "confidence": "high"
+  },
+  {
+    "id": "the-qwerty-keyboard-layout-was-not-designed-to",
+    "date": "2026-01-12",
+    "title": "The QWERTY keyboard layout was not designed to slow typists down",
+    "body": "A persistent myth claims the QWERTY layout was engineered to hinder fast typing and prevent mechanical jams. In reality, early typewriter inventor Christopher Latham Sholes mathematically analyzed Morse code transcription patterns and physically separated the most commonly paired letters to allow typists to strike consecutive keys much faster without the internal metal arms colliding.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.smithsonianmag.com/arts-culture/fact-of-fiction-the-legend-of-the-qwerty-keyboard-49863249/",
+    "confidence": "high"
+  },
+  {
+    "id": "shipping-container-losses-2025",
+    "date": "2026-01-25",
+    "title": "A single sunken ship caused 43% of a year's lost shipping containers",
+    "body": "In 2025, the shipping industry lost roughly 1,478 containers at sea out of about 280 million transported — just 0.0005% of the total. But the sinking of one vessel, the MSC Elsa 3 off Kochi, India, alone accounted for 640 of them, 43% of the entire year's losses.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://gcaptain.com/container-losses-at-sea-more-than-doubled-in-2025-but-remain-a-tiny-fraction-of-global-trade/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-gulf-stream-s-early-potatoes",
+    "date": "2026-01-27",
+    "title": "The Gulf Stream's Early Potatoes",
+    "body": "Ayrshire, a county on the west coast of Scotland, leverages a massive geographical quirk to dominate the British potato market. Because the soil is uniquely heated by the warm waters of the Gulf Stream pushing in from the Atlantic, farmers there can harvest their \"Ayrshire Earlies\" weeks before any other farm in the UK.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://en.wikipedia.org/wiki/Ayrshire_Earlies",
+    "confidence": "high"
+  },
+  {
+    "id": "terry-gilliam-s-hostage-advertisement",
+    "date": "2026-01-28",
+    "title": "Terry Gilliam's Hostage Advertisement",
+    "body": "When Universal Pictures president Sid Sheinberg refused to release the bleak 1985 dystopian film Brazil without cutting a \"love conquers all\" happy ending, director Terry Gilliam took out a full-page, black-bordered advertisement in Variety magazine. The ad simply read, \"Dear Sid Sheinberg, When are you going to release my film, Brazil?\", an aggressive public shaming that ultimately forced the studio's hand.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.latimes.com/archives/la-xpm-1985-11-20-ca-2169-story.html",
+    "confidence": "high"
+  },
+  {
+    "id": "interop-2025-css-score-jump",
+    "date": "2026-02-10",
+    "title": "Cross-browser CSS agreement jumped from 29% to 97% in a single year",
+    "body": "Interop 2025 tracked 19 CSS focus areas across Chrome, Firefox, and Safari. In January only 29% of its test suite passed identically in all three engines; by December it hit 97%, with Safari alone climbing from a score of 43 to 99.",
+    "type": "web-dev",
+    "category": "Numbers that stop you",
+    "source": "https://web.dev/blog/interop-2025",
+    "confidence": "high"
+  },
+  {
+    "id": "the-bug-that-built-grand-theft-auto",
+    "date": "2026-02-14",
+    "title": "The Bug That Built Grand Theft Auto",
+    "body": "During the development of Race'n'Chase in 1995, Dundee-based studio DMA Design encountered a pathfinding glitch that caused the AI police cars to aggressively try to ram the player off the road rather than pull them over. The developers found the chaotic bug so exhilarating they completely retooled the game around escaping police, renaming it Grand Theft Auto.",
+    "type": "general",
+    "category": "Web/tech/dev oddities",
+    "source": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game",
+    "confidence": "high"
+  },
+  {
+    "id": "autechre-s-musicologist-approved-beats",
+    "date": "2026-02-20",
+    "title": "Autechre's Musicologist-Approved Beats",
+    "body": "To protest the UK's 1994 Criminal Justice Act—which banned raves by outlawing music characterized by a \"succession of repetitive beats\"—electronic duo Autechre released the Anti EP. They mathematically programmed the tracks to never repeat the same rhythmic pattern twice, and stamped a legal disclaimer on the vinyl advising DJs to have a musicologist present to prove their innocence in court.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://en.wikipedia.org/wiki/Anti_EP",
+    "confidence": "high"
+  },
+  {
+    "id": "underworld-s-biggest-chorus-was-a-filler-line",
+    "date": "2026-02-27",
+    "title": "Underworld's biggest chorus was a filler line for a lost lyric",
+    "body": "On \"Born Slippy .NUXX,\" Karl Hyde forgot his place mid-take during a single-pass recording session and filled the gap by repeating \"lager, lager, lager\" — the ad-libbed line became the song's most famous hook and the unofficial anthem of Trainspotting.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.musicradar.com/artists/underworld-born-slippy-repub",
+    "confidence": "medium"
+  },
+  {
+    "id": "a-single-joint-for-the-texas-chain-saw",
+    "date": "2026-03-01",
+    "title": "A Single Joint for the Texas Chain Saw Massacre",
+    "body": "Director Tobe Hooper had virtually no budget to hire voice talent for his 1974 film The Texas Chain Saw Massacre. He successfully hired young, unknown actor John Larroquette to record the film's grave, documentary-style opening narration by paying him entirely with exactly one marijuana joint.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.vanityfair.com/hollywood/2023/10/john-larroquette-texas-chain-saw-massacre",
+    "confidence": "high"
+  },
+  {
+    "id": "melies-1897-film-discovered",
+    "date": "2026-03-02",
+    "title": "A lost 1897 Méliès film with cinema's first robot was found in a Michigan trunk",
+    "body": "\"Gugusse and the Automaton,\" a 45-second Georges Méliès short containing what's likely film's first on-screen robot, was found by a retired teacher going through his great-grandfather's nitrate film collection. The Library of Congress restored and digitized it in 4K, announcing the find in February 2026.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.smithsonianmag.com/smart-news/rare-1897-film-discovered-in-an-old-trunk-in-michigan-features-the-first-on-screen-appearance-of-robot-180988547/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-standard-banana-emits-an-antimatter-particle-exactly",
+    "date": "2026-03-04",
+    "title": "A standard banana emits an antimatter particle exactly once every 75 minutes",
+    "body": "Bananas are naturally rich in potassium, a tiny fraction of which is the radioactive isotope Potassium-40. As this isotope decays over time, it periodically undergoes a rare positron emission, releasing a genuine particle of antimatter (a positron) into the air approximately every hour and fifteen minutes.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://www.symmetrymagazine.org/article/april-2015/ten-things-you-might-not-know-about-antimatter",
+    "confidence": "high"
+  },
+  {
+    "id": "hoover-s-50-million-free-flight-disaster",
+    "date": "2026-03-05",
+    "title": "Hoover's £50 Million Free Flight Disaster",
+    "body": "In 1992, the UK branch of vacuum manufacturer Hoover offered two free round-trip flights to America for anyone who purchased £100 worth of products. They severely underestimated public ruthlessness; over 300,000 people bought cheap vacuums purely for the tickets, costing Hoover £50 million, causing massive executive firings, and entirely destroying their European market dominance.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://thehustle.co/the-worst-sales-promotion-in-history/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-130-jars-of-the-puratos-sourdough-vault",
+    "date": "2026-03-06",
+    "title": "The 130 Jars of the Puratos Sourdough Vault",
+    "body": "The Puratos Sourdough Library in Belgium acts as a massive biological vault, housing over 130 living sourdough starters from around the world in glass jars. To preserve the exact, localized microbiological profile of each strain, the librarians physically import the specific regional flour from each starter's home country to feed them every two months.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://www.puratos.com/commitments/sourdough-library",
+    "confidence": "high"
+  },
+  {
+    "id": "the-wicker-man-was-shot-in-a-freezing",
+    "date": "2026-03-15",
+    "title": "The Wicker Man was shot in a freezing Scottish November dressed as spring",
+    "body": "The 1973 cult film is set in May, but financial pressure forced production into October and November 1972 — so crews glued forty-two plastic apple-blossom trees and fake foliage onto bare branches at each Scottish location, hauling the fake spring around a shoot everyone remembers as \"bloody freezing, and wet.\"",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://medium.com/cathode-ray-tube/the-wicker-man-1973-the-50th-anniversary-restoration-feabd98e8cbd",
+    "confidence": "high"
+  },
+  {
+    "id": "nintendo-was-founded-in-1889-to-manufacture-illegal",
+    "date": "2026-03-24",
+    "title": "Nintendo was founded in 1889 to manufacture illegal gambling cards",
+    "body": "Long before inventing Mario, the Nintendo Koppai company was founded in 19th-century Kyoto to produce Hanafuda playing cards. Because the Japanese government had strictly banned most forms of gambling and standard playing cards, Nintendo dominated the underground market by printing heavily illustrated floral cards that the Yakuza used in illicit gambling parlors.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://gizmodo.com/the-surprisingly-long-history-of-nintendo-1354508412",
+    "confidence": "high"
+  },
+  {
+    "id": "the-scottish-legal-tender-myth",
+    "date": "2026-03-27",
+    "title": "The Scottish Legal Tender Myth",
+    "body": "Despite being heavily circulated and relied upon daily, Scottish banknotes are not legally defined as \"legal tender\" anywhere in the world, not even in Scotland. By strict UK legal definition, they are classified merely as promissory notes—pieces of paper acknowledging a debt by the bank that the recipient voluntarily chooses to accept.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.bankofengland.co.uk/banknotes/scottish-and-northern-ireland-banknotes",
+    "confidence": "high"
+  },
+  {
+    "id": "the-defective-heart-of-the-tr-808",
+    "date": "2026-03-31",
+    "title": "The Defective Heart of the TR-808",
+    "body": "The iconic, booming kick drum of the Roland TR-808 drum machine was an engineering accident caused by a batch of defective 2SC828-R transistors that leaked a specific, unpredictable fizz. When Roland's supplier \"fixed\" their manufacturing process and stopped producing the faulty transistors, Roland physically could not reproduce the 808's signature sound and had to immediately discontinue the machine.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.synthtopia.com/content/2015/08/08/the-story-of-the-roland-tr-808-and-its-defective-transistors/",
+    "confidence": "high"
+  },
+  {
+    "id": "trainspotting-s-most-disgusting-toilet-was-full-of",
+    "date": "2026-04-01",
+    "title": "Trainspotting's most disgusting toilet was full of chocolate",
+    "body": "For \"The Worst Toilet in Scotland\" scene, the crew sawed a toilet in half and rigged a hidden wooden chute so Ewan McGregor could dive through, twisting his legs on camera to fake going round the bend — the filthy-looking contents lining the bowl were made of melted chocolate, chosen so it would smell sweet rather than foul during takes.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.yahoo.com/entertainment/take-a-deep-dive-into-the-famous-toilet-scene-from-trainspotting-191038807.html",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-uk-s-bizarre-2-06-meter-street",
+    "date": "2026-04-02",
+    "title": "The UK's Bizarre 2.06-Meter Street",
+    "body": "Ebenezer Place in Wick, Scotland, is officially recognized by Guinness World Records as the shortest street in the world, measuring exactly 2.06 meters (6 feet 9 inches) long. It contains exactly one address: a single door that leads into the No. 1 Bistro of the Mackay's Hotel.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://en.wikipedia.org/wiki/Ebenezer_Place,_Wick",
+    "confidence": "high"
+  },
+  {
+    "id": "brian-eno-s-macintosh-betrayal",
+    "date": "2026-04-07",
+    "title": "Brian Eno's Macintosh Betrayal",
+    "body": "The iconic 3.25-second startup sound for Microsoft's Windows 95, famously dubbed \"The Microsoft Sound,\" was composed by ambient pioneer Brian Eno. Despite creating the definitive audio signature for the PC era, Eno composed the entire piece on an Apple Macintosh, later stating he had never used a PC in his life because he \"hates them.\"",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://themusicnetwork.com/the-story-behind-brian-enos-windows-95-startup-sound/",
+    "confidence": "high"
+  },
+  {
+    "id": "italy-s-standing-espresso-price-cap",
+    "date": "2026-04-08",
+    "title": "Italy's Standing Espresso Price Cap",
+    "body": "In Italy, the price of a standard espresso (un caffè) consumed while standing at the bar is strictly regulated by local municipal bylaws as a basic human necessity, capping it around €1. If a customer sits down at a table, the cafe is legally allowed to charge a \"coperto\" (service fee) that instantly doubles or triples the price of the exact same shot of coffee.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://www.thelocal.it/20180802/why-coffee-in-italy-is-about-to-get-more-expensive/",
+    "confidence": "high"
+  },
+  {
+    "id": "gravity-causes-human-heads-to-age-slightly-faster",
+    "date": "2026-04-13",
+    "title": "Gravity causes human heads to age slightly faster than human feet",
+    "body": "According to Albert Einstein's theory of general relativity, time moves measurably slower the closer an object is to a massive gravity well. Precision atomic clocks mathematically confirm that because a person's head is physically further from the Earth's core than their feet, their brain ages a few nanoseconds faster over the course of a human lifetime.",
+    "type": "general",
+    "category": "Counterintuitive facts",
+    "source": "https://www.nist.gov/news-events/news/2010/09/nist-pair-aluminum-atomic-clocks-reveal-einsteins-relativity-personal-scale",
+    "confidence": "high"
+  },
+  {
+    "id": "laphroaig-s-prohibition-era-medicine-exemption",
+    "date": "2026-04-14",
+    "title": "Laphroaig's Prohibition-Era Medicine Exemption",
+    "body": "During the 1920s Prohibition in the United States, Laphroaig single malt Scotch was completely legal to import and sell. Distillery owner Ian Hunter successfully convinced American customs officials that the whisky's aggressive, iodine-heavy peat smoke flavor meant it was clearly unfit for recreational drinking and could only logically be used as a medicinal tincture.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://www.laphroaig.com/en/history",
+    "confidence": "high"
+  },
+  {
+    "id": "massive-attack-s-dna-album-encoding",
+    "date": "2026-04-20",
+    "title": "Massive Attack's DNA Album Encoding",
+    "body": "To ensure their landmark 1998 album Mezzanine survived any digital apocalypse, Massive Attack partnered with ETH Zurich in 2018 to translate the album's binary audio files into thousands of strands of synthetic DNA. The entire record is now suspended invisibly inside 5,000 microscopic glass beads sitting at the bottom of a tiny bottle of water.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.wired.com/story/massive-attack-mezzanine-dna/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-48-year-anthrax-quarantine-of-gruinard",
+    "date": "2026-05-02",
+    "title": "The 48-Year Anthrax Quarantine of Gruinard",
+    "body": "During WWII, the UK government exploded a bomb filled with weaponized anthrax on the tiny Scottish island of Gruinard to test biological warfare. The test was so catastrophically effective that it permanently sterilized the soil, forcing the government to quarantine the island for 48 years until they finally decontaminated it in 1990 by soaking the entire island in 280 tonnes of pure formaldehyde.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://en.wikipedia.org/wiki/Gruinard_Island",
+    "confidence": "high"
+  },
+  {
+    "id": "the-permanent-typos-of-the-web",
+    "date": "2026-05-03",
+    "title": "The Permanent Typos of the Web",
+    "body": "The HTTP `Referer` header, which tells a web server where a visitor just came from, is permanently misspelled in the official global internet specifications. Computer scientist Roy Fielding and the other authors missed the typo in the 1990 RFC document, forcing every web developer for the past thirty years to deliberately misspell the word to make their code work.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://en.wikipedia.org/wiki/HTTP_referer",
+    "confidence": "high"
+  },
+  {
+    "id": "a-92-year-old-s-sourdough-starter-traces",
+    "date": "2026-05-04",
+    "title": "A 92-year-old's sourdough starter traces back to 1810 San Francisco",
+    "body": "A starter nicknamed \"Bodie,\" maintained by a 92-year-old woman who bought it from a San Francisco bakery in 1951, was reportedly already 40 years old when that bakery opened in 1850 — putting its lineage of continuous feeding at roughly two centuries.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://livingdough.com/products/233yr-old-verified-heritage-san-francisco-sourdough-starter",
+    "confidence": "medium"
+  },
+  {
+    "id": "prs-collected-1-24-billion-in-2025-and",
+    "date": "2026-05-05",
+    "title": "PRS collected £1.24 billion in 2025 and paid out £1.07 billion",
+    "body": "PRS for Music's 2025 collections reached £1.24 billion and distributions to songwriters, composers and publishers reached £1.07 billion. Live music alone crossed £100 million in collections for the first time in the organisation's more than 110-year history.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.musicbusinessworldwide.com/the-uks-prs-for-music-paid-out-1-41b-to-songwriters-composers-and-publishers-in-2025/",
+    "confidence": "high"
+  },
+  {
+    "id": "28-days-later-s-commuter-rage",
+    "date": "2026-05-08",
+    "title": "28 Days Later's Commuter Rage",
+    "body": "To shoot the haunting, completely deserted shots of central London in the 2002 zombie film 28 Days Later, director Danny Boyle used consumer-grade MiniDV cameras. The crew had a strict 45-minute window at dawn each Sunday, using production assistants, including Boyle's own teenage daughter, to physically blockade enraged morning commuters just off-camera for frantic two-minute intervals.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://www.vice.com/en/article/4wbeem/how-28-days-later-changed-horror-movies",
+    "confidence": "high"
+  },
+  {
+    "id": "the-xbox-adaptive-controller-packaging",
+    "date": "2026-05-14",
+    "title": "The Xbox Adaptive Controller Packaging",
+    "body": "Microsoft designed the Xbox Adaptive Controller specifically for gamers with severe mobility limitations. Recognizing the cruel irony of putting an accessibility device in standard blister packaging, the engineers spent months designing a bespoke cardboard box with large loops and hinges that requires zero teeth, knives, or two-handed pulling to open smoothly.",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://www.theverge.com/2018/7/25/17610018/microsoft-xbox-adaptive-controller-packaging-accessible-design",
+    "confidence": "high"
+  },
+  {
+    "id": "the-2-000-year-old-tree-changes-sex",
+    "date": "2026-05-17",
+    "title": "The 2,000-Year-Old Tree Changes Sex",
+    "body": "The Fortingall Yew in a Scottish churchyard is estimated to be up to 3,000 years old and has been definitively recorded as a \"male\" tree for centuries. In 2015, botanists were stunned to find a single high branch on the ancient tree sprouting bright red berries, indicating that environmental stress had caused that specific limb to undergo a localized sex change to female.",
+    "type": "general",
+    "category": "Nature in unexpected places",
+    "source": "https://www.theguardian.com/environment/2015/nov/02/oldest-tree-in-uk-undergoing-sex-change",
+    "confidence": "high"
+  },
+  {
+    "id": "captcha-s-accidental-free-labor-scheme",
+    "date": "2026-05-21",
+    "title": "CAPTCHA's Accidental Free Labor Scheme",
+    "body": "The reCAPTCHA system, which forces users to identify warped text to prove they are human, was secretly a massive crowdsourced labor extraction scheme. Every time a user successfully solved the two-word puzzle, they were unknowingly performing free OCR transcription for the New York Times archives and Google Books, collectively digitizing over 100 million words a day for free.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://phys.org/news/2008-08-recaptcha-crowdsources-digitization-books.html",
+    "confidence": "high"
+  },
+  {
+    "id": "dostoevsky-wrote-his-gambling-novel-to-escape-a",
+    "date": "2026-06-06",
+    "title": "Dostoevsky wrote his gambling novel to escape a punishing gambling debt",
+    "body": "After running up debts in Wiesbaden roulette rooms, Dostoevsky signed a contract promising a publisher a new novel within a year or forfeiting the rights to his entire body of work for nine years — he beat the deadline by dictating The Gambler to a stenographer in under a month, using the very addiction that ruined him as the plot.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.onlineroulettesites.org.uk/players/fyodor-dostoevsky/",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-read-write-web-that-never-was",
+    "date": "2026-06-12",
+    "title": "The Read/Write Web That Never Was",
+    "body": "Tim Berners-Lee's original WorldWideWeb browser, built on a NeXT computer in 1990, was not just a passive reader. He designed the internet to be inherently editable; clicking a webpage allowed users with server permission to instantly rewrite the underlying HTML code and save it back to the network, a feature deliberately abandoned by later commercial browsers like Netscape.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://webfoundation.org/about/vision/history-of-the-web/",
+    "confidence": "high"
+  },
+  {
+    "id": "captions-mostly-hearing-users",
+    "date": "2026-06-19",
+    "title": "80% of people who turn on captions aren't deaf or hard of hearing",
+    "body": "A Verizon Media/Publicis Media survey of over 5,600 US adults found 80% of caption users have no hearing impairment — they turn on subtitles for noisy commutes, muted phones, or unfamiliar accents. A feature built for accessibility has become the default viewing mode for most people who actually use it.",
+    "type": "general",
+    "category": "Accessibility/inclusion quietly working",
+    "source": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=131860",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-brutal-honesty-of-http-451",
+    "date": "2026-07-01",
+    "title": "The Brutal Honesty of HTTP 451",
+    "body": "While error 404 means \"Not Found,\" the Internet Engineering Task Force approved HTTP status code 451 in 2015 to explicitly indicate \"Unavailable For Legal Reasons.\" It forces ISPs and governments to transparently state when a webpage is being actively censored or geoblocked, naming the code as a direct homage to Ray Bradbury's censorship novel Fahrenheit 451.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451",
+    "confidence": "high"
+  },
+  {
+    "id": "the-forced-standardization-of-the-img-tag",
+    "date": "2026-07-14",
+    "title": "The Forced Standardization of the IMG Tag",
+    "body": "In 1993, a fierce academic debate raged on web mailing lists over how to include graphics in HTML, with purists wanting a complex, generic `<include>` tag for all media. Impatient with the debate, 21-year-old Marc Andreessen simply hardcoded the specific, unapproved `<img>` tag into his new Mosaic browser and shipped it to millions, forcing the W3C to retroactively standardize his rogue code.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://thehistoryoftheweb.com/the-img-tag/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-voder-s-switchboard-virtuosos",
+    "date": "2026-07-16",
+    "title": "The Voder's Switchboard Virtuosos",
+    "body": "At the 1939 New York World's Fair, Bell Labs debuted the Voder, the world's first electronic speech synthesizer. Because the machine required immense physical coordination to operate a massive console of keys and foot pedals, the only people on Earth who could successfully make it speak intelligible English were a group of highly trained female telephone switchboard operators.",
+    "type": "general",
+    "category": "Tech/business/culture outside the US/UK",
+    "source": "https://www.theatlantic.com/technology/archive/2015/06/the-voder-the-first-electronic-synthesizer-of-human-speech/395632/",
+    "confidence": "high"
+  },
+  {
+    "id": "meta-s-own-ai-reportedly-helped-pick-who",
+    "date": "2026-07-19",
+    "title": "Meta's own AI reportedly helped pick who lost their job during 2026 layoffs",
+    "body": "Twenty-six Meta employees sued the company in 2026, alleging it used internal AI systems — keystroke monitoring, token-usage dashboards, and algorithmic performance scores — to select layoff targets, and that the scoring system structurally penalized employees who were on medical or parental leave and couldn't accumulate activity data.",
+    "type": "general",
+    "category": "Corporate/institutional mischief",
+    "source": "https://www.courthousenews.com/meta-employees-sue-over-use-of-ai-in-workforce-reduction/",
+    "confidence": "medium"
+  },
+  {
+    "id": "the-15-bar-espresso-illusion",
+    "date": "2026-07-21",
+    "title": "The 15-Bar Espresso Illusion",
+    "body": "Traditional Italian espresso is optimally extracted at 9 bars of pressure, a standard set by Gaggia's early lever machines. Modern cheap domestic machines boast \"15-bar pumps\" not because it makes better coffee, but because they use off-the-shelf ULKA vibratory pumps that output 15 bars only at a theoretical zero-flow rate, effectively masking poor internal thermal engineering.",
+    "type": "general",
+    "category": "Something from a walk/meal/errand",
+    "source": "https://clivecoffee.com/blogs/learn/9-bar-vs-15-bar-espresso-machines",
+    "confidence": "high"
+  },
+  {
+    "id": "the-70-take-spaghetti-scene",
+    "date": "2026-07-22",
+    "title": "The 70-Take Spaghetti Scene",
+    "body": "For the 1995 thriller Se7en, director David Fincher required actor Bob Mack to play the morbidly obese \"Gluttony\" victim facedown in a bowl of spaghetti. Fincher's absolute obsession with lighting perfection meant Mack had to lie entirely motionless with his head physically submerged in cold pasta sauce for up to ten hours a day while breathing through a tiny hidden plastic tube.",
+    "type": "general",
+    "category": "History that turns out to be wrong",
+    "source": "https://filmschoolrejects.com/33-things-we-learned-from-the-se7en-commentary-99bf94f9eddb/",
+    "confidence": "high"
+  },
+  {
+    "id": "one-piece-of-music-is-scheduled-to-last",
+    "date": "2026-08-06",
+    "title": "One piece of music is scheduled to last 639 years",
+    "body": "John Cage's ORGAN²/ASLSP is being performed in Halberstadt as a 639-year work, running from 2001 until 2640. On 5 August 2026, its 17th sound change took place.",
+    "type": "general",
+    "category": "Industry behind-the-scenes",
+    "source": "https://www.aslsp.org/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-50p-coin-s-reuleaux-geometry",
+    "date": "2026-08-11",
+    "title": "The 50p Coin's Reuleaux Geometry",
+    "body": "The UK's 50-pence piece, introduced in 1969, was the world's first seven-sided coin. It is explicitly engineered as an \"equilateral curve heptagon\" (a Reuleaux polygon), meaning its diameter is exactly identical no matter which angle you measure it from, guaranteeing it rolls perfectly smoothly through mechanical vending machines without jamming.",
+    "type": "general",
+    "category": "Global cultural practices",
+    "source": "https://www.royalmint.com/discover/uk-coins/coin-design-and-specifications/fifty-pence-coin/",
+    "confidence": "high"
+  },
+  {
+    "id": "a-planet-shaped-like-a-lemon-exists-1",
+    "date": "2026-08-13",
+    "title": "A planet shaped like a lemon exists 1,200 light-years away",
+    "body": "WASP-12b is so close to its star that tidal forces distort its atmosphere and shape, producing a markedly elongated, lemon-like appearance. Its year lasts only about 1.1 Earth days.",
+    "type": "general",
+    "category": "Numbers that stop you",
+    "source": "https://www.nasa.gov/universe/exoplanets/wasp-12b-is-losing-its-atmosphere/",
+    "confidence": "high"
+  },
+  {
+    "id": "the-memory-poverty-of-the-c-language",
+    "date": "2026-08-17",
+    "title": "The Memory Poverty of the C Language",
+    "body": "When Dennis Ritchie created the C programming language in 1972 at Bell Labs, computer memory was so prohibitively expensive that he deliberately designed the syntax to be as visually dense and abbreviated as possible. This extreme 1970s hardware constraint is the sole reason why web developers today still type `{` instead of `BEGIN` and `i++` instead of `i = i + 1`.",
+    "type": "web-dev",
+    "category": "Web/tech/dev oddities",
+    "source": "https://en.wikipedia.org/wiki/C_(programming_language",
+    "confidence": "high"
+  }
+]

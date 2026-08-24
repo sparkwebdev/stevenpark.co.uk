@@ -66,6 +66,12 @@ const addFilters = (eleventyConfig) => {
   eleventyConfig.addFilter("menu", function(collection, menu) {
     return collection.filter(item => item.data.menu == menu);
   });
+
+  // Extract year from ISO date string (YYYY-MM-DD)
+  eleventyConfig.addFilter("year", function(dateString) {
+    if (!dateString) return '';
+    return dateString.substring(0, 4);
+  });
 };
 
 export default addFilters; 

@@ -1,5 +1,0 @@
-{
-  "layout": "post",
-  "permalink": "/tutorials/{{page.fileSlug}}/",
-  "blogType": "Tutorials"
-}
