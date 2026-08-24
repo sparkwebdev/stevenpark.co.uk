@@ -42,12 +42,12 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 **URL:** `/journal/music/`
 
-**What it is:** A fully verified inventory of personal CD and vinyl records with cover art, metadata, and filtering by media type (CD/Vinyl).
+**What it is:** A fully verified inventory of personal CD and vinyl records with cover art and metadata. All 314 records physically verified against collection.
 
 **Data files:** 
 - `src/_data/musicCollection.json` (314 records)
-- `src/_data/cd_covers.json` (CD cover art cache)
-- `src/_data/vinyl_covers.json` (vinyl cover art cache)
+- `src/_data/cd_covers.json` (CD cover art cache, 7.0 MB base64 thumbnails)
+- `src/_data/vinyl_covers.json` (vinyl cover art cache, 7.7 MB base64 thumbnails)
 
 **Structure:**
 - Records array with fields: `artist`, `album`, `media_type`, `format`, `catalogue_number`, `barcode`, `label`, `date`, `genre`, `verified`
@@ -56,17 +56,27 @@ Data files live in `src/_data/`. Source materials and working files in `features
 **Current state:**
 - 314 records verified (171 CDs + 143 vinyl)
 - Cover art: 100% vinyl (143/143), 98.8% CDs (169/171)
-- Metadata coverage: dates 93%, genres 88%
-- All records have been physically verified against the collection
+- Metadata coverage: dates 93% (281/303), genres 88% (268/303)
+- All records physically verified; barcode lookups via MusicBrainz, iTunes, Discogs
 
-**Status:** ✅ Production ready
+**Status:** ✅ Production ready (core data)
+
+**Features not yet carried over (from collection.html, available for later):**
+- **Full-text search** — artist, album, catalogue number search
+- **Media type filter** — toggle All/CD/Vinyl (currently displayed as single grid)
+- **Genre filter** — multi-select filter by genre tag
+- **Sort controls** — sort by date, artist, album (currently reverse-chronological only)
+- **Faceted browsing** — genre/media type facet counts
 
 **Still to do:**
 - Locate cover art for 2 remaining CDs (Genaro - *A Safe Passage*, Norken - *Spring In A Small Town*)
-- Optional: consolidate CD and vinyl cover cache schemas (currently separate)
+- Optional: consolidate CD and vinyl cover cache schemas (currently separate `data_uri` vs `b64`+`mime`)
+- Optional: implement search/filter/sort features if needed for browsing (deferred pending UX goals)
 
 **Related files:**
 - Source CSV: `/Resources/CareerHub/features/music catalogue/collection.csv`
+- Collection docs: `/Resources/CareerHub/features/music catalogue/collection.md`
+- Original gallery (with search/filters): `/Resources/CareerHub/features/music catalogue/collection.html`
 - Cover art caches: `/Resources/CareerHub/features/music catalogue/cache/` (cd_covers, vinyl_v2_cover_art)
 - Template: `src/pages/journal/music/index.html`
 - Scanner app: `/Desktop/vinyl-scanner/` (separate project for barcode scanning)
@@ -81,23 +91,28 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 **Data file:** `src/_data/coffeeCollection.json`
 
+**Live source:** `/Users/stevenpark/Library/CloudStorage/Dropbox/Resources/ClaudeHub/lists-and-tastes/coffee-ratings.md` (updated via `log-coffee` skill in Claude Desktop)
+
 **Structure:**
 - `roaster`, `coffee` (name), `list` (precovid/new), `rating` (1-10), `tasting_notes`, `tags` (array), `buy_url`, `logo` (base64 data URI)
 
 **Current state:**
-- 32 records total (Pre-Covid + New)
+- 41 records total (21 Pre-Covid + 20 New)
 - All roaster logos embedded as base64 (fetched live from roaster websites, cropped/auto-brightened for readability)
 - Ratings split into two lists with visual badges to avoid confusion due to sensory differences
 
-**Status:** ✅ Production ready
+**Status:** ✅ Live (with sync pending)
+
+**Open questions:**
+- **Data syncing:** Coffee logging happens live in Claude Desktop (markdown source), but site displays static JSON snapshot. How to keep them in sync? Options: (1) periodic manual export/update, (2) automated script to read markdown and update JSON, (3) generate JSON on-demand at build time. Decision deferred pending workflow clarity.
 
 **Still to do:**
-- None known. Feature is complete and stable.
+- Sync new entries from live markdown source to site data
 
 **Related files:**
-- Source HTML: `/Resources/CareerHub/features/coffee-test/coffee-grid.html` (self-contained original)
-- Notes: `/Resources/CareerHub/features/coffee-test/coffee-notes.md`
+- Live source: `/Resources/ClaudeHub/lists-and-tastes/coffee-ratings.md`
 - Template: `src/pages/journal/coffee/index.html`
+- Log skill: `log-coffee` in Claude Desktop (updates markdown + artifact viewer)
 
 ---
 
