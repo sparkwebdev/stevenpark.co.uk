@@ -10,9 +10,12 @@
       "barcode": "",
       "label": "",
       "date": "1999-10-15",
-      "genre": "Leftfield / IDM",
       "id": "music-001",
-      "coverUrl": "/assets/img/music-covers/music-001.jpg"
+      "coverUrl": "/assets/img/music-covers/music-001.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Two Lone Swordsmen",
@@ -23,9 +26,12 @@
       "barcode": "",
       "label": "",
       "date": "1998-10-19",
-      "genre": "Leftfield / IDM",
       "id": "music-002",
-      "coverUrl": "/assets/img/music-covers/music-002.jpg"
+      "coverUrl": "/assets/img/music-covers/music-002.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "6th Borough Project",
@@ -36,9 +42,12 @@
       "barcode": "823675506123",
       "label": "",
       "date": "2014-03-03",
-      "genre": "deep house, electronic, house",
       "id": "music-003",
-      "coverUrl": "/assets/img/music-covers/music-003.jpg"
+      "coverUrl": "/assets/img/music-covers/music-003.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "6th Borough Project",
@@ -49,9 +58,12 @@
       "barcode": "",
       "label": "",
       "date": "2011-06-06",
-      "genre": "Deep House / Disco",
       "id": "music-004",
-      "coverUrl": "/assets/img/music-covers/music-004.jpg"
+      "coverUrl": "/assets/img/music-covers/music-004.jpg",
+      "genres": [
+        "House",
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "808 State",
@@ -62,9 +74,12 @@
       "barcode": "743216010029",
       "label": "",
       "date": "1998-05-18",
-      "genre": "Acid House / Electronic",
       "id": "music-005",
-      "coverUrl": "/assets/img/music-covers/music-005.jpg"
+      "coverUrl": "/assets/img/music-covers/music-005.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Aerial M",
@@ -75,9 +90,11 @@
       "barcode": "",
       "label": "",
       "date": "1997",
-      "genre": "Post-Rock",
       "id": "music-006",
-      "coverUrl": "/assets/img/music-covers/music-006.jpg"
+      "coverUrl": "/assets/img/music-covers/music-006.jpg",
+      "genres": [
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Aphex Twin",
@@ -88,9 +105,12 @@
       "barcode": "",
       "label": "",
       "date": "2001-10-22",
-      "genre": "IDM / Electronic",
       "id": "music-007",
-      "coverUrl": "/assets/img/music-covers/music-007.jpg"
+      "coverUrl": "/assets/img/music-covers/music-007.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Arthur Russell",
@@ -101,9 +121,12 @@
       "barcode": "5050159816125",
       "label": "",
       "date": "2000-02-13",
-      "genre": "Avant-Garde / Disco / Experimental",
       "id": "music-008",
-      "coverUrl": "/assets/img/music-covers/music-008.jpg"
+      "coverUrl": "/assets/img/music-covers/music-008.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Autechre",
@@ -114,9 +137,13 @@
       "barcode": "",
       "label": "",
       "date": "1998",
-      "genre": "Electronic, Abstract, IDM, Experimental",
       "id": "music-009",
-      "coverUrl": "/assets/img/music-covers/music-009.jpg"
+      "coverUrl": "/assets/img/music-covers/music-009.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Autechre",
@@ -127,9 +154,12 @@
       "barcode": "5016025611324",
       "label": "",
       "date": "2016-11-11",
-      "genre": "ambient, ambient techno, electronic, idm",
       "id": "music-010",
-      "coverUrl": "/assets/img/music-covers/music-010.jpg"
+      "coverUrl": "/assets/img/music-covers/music-010.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Bandulu",
@@ -140,9 +170,11 @@
       "barcode": "0630135472",
       "label": "",
       "date": "1996",
-      "genre": "Techno",
       "id": "music-011",
-      "coverUrl": "/assets/img/music-covers/music-011.jpg"
+      "coverUrl": "/assets/img/music-covers/music-011.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Bandulu",
@@ -153,9 +185,11 @@
       "barcode": "5016557120325",
       "label": "",
       "date": "2025-12-05",
-      "genre": "Techno",
       "id": "music-012",
-      "coverUrl": "/assets/img/music-covers/music-012.jpg"
+      "coverUrl": "/assets/img/music-covers/music-012.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Beastie Boys",
@@ -166,9 +200,11 @@
       "barcode": "724349572324",
       "label": "",
       "date": "1998",
-      "genre": "Hip Hop",
       "id": "music-013",
-      "coverUrl": "/assets/img/music-covers/music-013.jpg"
+      "coverUrl": "/assets/img/music-covers/music-013.jpg",
+      "genres": [
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Beat Connection",
@@ -179,9 +215,12 @@
       "barcode": "",
       "label": "",
       "date": "2012-06-19",
-      "genre": "Indie Pop / Electronic",
       "id": "music-014",
-      "coverUrl": "/assets/img/music-covers/music-014.jpg"
+      "coverUrl": "/assets/img/music-covers/music-014.jpg",
+      "genres": [
+        "Pop",
+        "Electronic"
+      ]
     },
     {
       "artist": "Belle and Sebastian",
@@ -192,9 +231,13 @@
       "barcode": "724384460129",
       "label": "",
       "date": "1996",
-      "genre": "chamber folk, chamber pop, indie pop, indie rock",
       "id": "music-015",
-      "coverUrl": "/assets/img/music-covers/music-015.jpg"
+      "coverUrl": "/assets/img/music-covers/music-015.jpg",
+      "genres": [
+        "Folk",
+        "Pop",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Belle and Sebastian",
@@ -205,9 +248,13 @@
       "barcode": "5027731785070",
       "label": "",
       "date": "1996-06-06",
-      "genre": "chamber pop, indie pop, indie rock, rock",
       "id": "music-016",
-      "coverUrl": "/assets/img/music-covers/music-016.jpg"
+      "coverUrl": "/assets/img/music-covers/music-016.jpg",
+      "genres": [
+        "Pop",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Bibio",
@@ -218,9 +265,9 @@
       "barcode": "",
       "label": "",
       "date": "2009-06-22",
-      "genre": "",
       "id": "music-017",
-      "coverUrl": "/assets/img/music-covers/music-017.jpg"
+      "coverUrl": "/assets/img/music-covers/music-017.jpg",
+      "genres": []
     },
     {
       "artist": "Bibio",
@@ -231,9 +278,9 @@
       "barcode": "",
       "label": "",
       "date": "2011-03-29",
-      "genre": "",
       "id": "music-018",
-      "coverUrl": "/assets/img/music-covers/music-018.jpg"
+      "coverUrl": "/assets/img/music-covers/music-018.jpg",
+      "genres": []
     },
     {
       "artist": "Biosphere",
@@ -244,9 +291,14 @@
       "barcode": "",
       "label": "",
       "date": "2006",
-      "genre": "Electronic, Stage & Screen, Soundtrack, Abstract, Ambient",
       "id": "music-019",
-      "coverUrl": "/assets/img/music-covers/music-019.jpg"
+      "coverUrl": "/assets/img/music-covers/music-019.jpg",
+      "genres": [
+        "Electronic",
+        "Soundtrack",
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Bj\u00f6rk",
@@ -257,9 +309,12 @@
       "barcode": "5016958032920",
       "label": "",
       "date": "1997",
-      "genre": "Art Pop / Electronic",
       "id": "music-020",
-      "coverUrl": "/assets/img/music-covers/music-020.jpg"
+      "coverUrl": "/assets/img/music-covers/music-020.jpg",
+      "genres": [
+        "Art Rock",
+        "Electronic"
+      ]
     },
     {
       "artist": "Black Dog Productions",
@@ -270,9 +325,12 @@
       "barcode": "5021603080126",
       "label": "",
       "date": "1993-03-08",
-      "genre": "IDM / Techno",
       "id": "music-021",
-      "coverUrl": "/assets/img/music-covers/music-021.jpg"
+      "coverUrl": "/assets/img/music-covers/music-021.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Techno"
+      ]
     },
     {
       "artist": "Blackalicious",
@@ -283,9 +341,11 @@
       "barcode": "",
       "label": "",
       "date": "1999-08-30",
-      "genre": "Hip Hop",
       "id": "music-022",
-      "coverUrl": "/assets/img/music-covers/music-022.jpg"
+      "coverUrl": "/assets/img/music-covers/music-022.jpg",
+      "genres": [
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Blondes",
@@ -296,9 +356,11 @@
       "barcode": "",
       "label": "",
       "date": "2012-02-07",
-      "genre": "Electronic / Minimal",
       "id": "music-023",
-      "coverUrl": "/assets/img/music-covers/music-023.jpg"
+      "coverUrl": "/assets/img/music-covers/music-023.jpg",
+      "genres": [
+        "Electronic"
+      ]
     },
     {
       "artist": "Boards of Canada",
@@ -309,9 +371,11 @@
       "barcode": "801061010128",
       "label": "",
       "date": "2002-02-13",
-      "genre": "IDM / Ambient",
       "id": "music-024",
-      "coverUrl": "/assets/img/music-covers/music-024.jpg"
+      "coverUrl": "/assets/img/music-covers/music-024.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Boards of Canada",
@@ -322,9 +386,11 @@
       "barcode": "501061010126",
       "label": "",
       "date": "1998-04-20",
-      "genre": "IDM / Ambient",
       "id": "music-025",
-      "coverUrl": "/assets/img/music-covers/music-025.jpg"
+      "coverUrl": "/assets/img/music-covers/music-025.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Bob Dylan",
@@ -335,9 +401,11 @@
       "barcode": "5030094020825",
       "label": "",
       "date": "1967-03-27",
-      "genre": "Folk Rock",
       "id": "music-026",
-      "coverUrl": "/assets/img/music-covers/music-026.jpg"
+      "coverUrl": "/assets/img/music-covers/music-026.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Brightblack Morning Light",
@@ -348,9 +416,14 @@
       "barcode": "",
       "label": "",
       "date": "2006-06-20",
-      "genre": "dream pop, gospel, indie rock, psychedelic rock",
       "id": "music-027",
-      "coverUrl": "/assets/img/music-covers/music-027.jpg"
+      "coverUrl": "/assets/img/music-covers/music-027.jpg",
+      "genres": [
+        "Pop",
+        "Funk / Soul / Disco",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Caribou",
@@ -361,9 +434,12 @@
       "barcode": "843190000159",
       "label": "",
       "date": "2005-04-18",
-      "genre": "IDM / Electronic",
       "id": "music-028",
-      "coverUrl": "/assets/img/music-covers/music-028.jpg"
+      "coverUrl": "/assets/img/music-covers/music-028.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Carl Cox",
@@ -374,9 +450,13 @@
       "barcode": "",
       "label": "",
       "date": "1998",
-      "genre": "breakbeat, deep house, electronic, garage house",
       "id": "music-029",
-      "coverUrl": "/assets/img/music-covers/music-029.jpg"
+      "coverUrl": "/assets/img/music-covers/music-029.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Carl Craig",
@@ -387,9 +467,11 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "Techno",
       "id": "music-030",
-      "coverUrl": "/assets/img/music-covers/music-030.jpg"
+      "coverUrl": "/assets/img/music-covers/music-030.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Colleen",
@@ -400,9 +482,12 @@
       "barcode": "",
       "label": "",
       "date": "2003-06-30",
-      "genre": "Ambient / Post-Rock",
       "id": "music-031",
-      "coverUrl": "/assets/img/music-covers/music-031.jpg"
+      "coverUrl": "/assets/img/music-covers/music-031.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Colleen",
@@ -413,9 +498,12 @@
       "barcode": "843190000333",
       "label": "",
       "date": "2005-04-23",
-      "genre": "Ambient / Post-Rock",
       "id": "music-032",
-      "coverUrl": "/assets/img/music-covers/music-032.jpg"
+      "coverUrl": "/assets/img/music-covers/music-032.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Cornelius",
@@ -426,9 +514,12 @@
       "barcode": "",
       "label": "",
       "date": "2002-01-22",
-      "genre": "Experimental / Electronic",
       "id": "music-033",
-      "coverUrl": "/assets/img/music-covers/music-033.jpg"
+      "coverUrl": "/assets/img/music-covers/music-033.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "Electronic"
+      ]
     },
     {
       "artist": "Daft Punk",
@@ -439,9 +530,12 @@
       "barcode": "724384260927",
       "label": "",
       "date": "1997-01-20",
-      "genre": "House / Electronic",
       "id": "music-034",
-      "coverUrl": "/assets/img/music-covers/music-034.jpg"
+      "coverUrl": "/assets/img/music-covers/music-034.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Dan Deacon",
@@ -452,9 +546,12 @@
       "barcode": "677517003727",
       "label": "",
       "date": "2007-05-08",
-      "genre": "Electronic / Noise Pop",
       "id": "music-035",
-      "coverUrl": "/assets/img/music-covers/music-035.jpg"
+      "coverUrl": "/assets/img/music-covers/music-035.jpg",
+      "genres": [
+        "Electronic",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Daphni",
@@ -465,9 +562,12 @@
       "barcode": "",
       "label": "",
       "date": "2012-10-08",
-      "genre": "Electronic / Microhouse",
       "id": "music-036",
-      "coverUrl": "/assets/img/music-covers/music-036.jpg"
+      "coverUrl": "/assets/img/music-covers/music-036.jpg",
+      "genres": [
+        "Electronic",
+        "House"
+      ]
     },
     {
       "artist": "Dave Angel",
@@ -478,9 +578,11 @@
       "barcode": "",
       "label": "",
       "date": "1997",
-      "genre": "Techno",
       "id": "music-037",
-      "coverUrl": "/assets/img/music-covers/music-037.jpg"
+      "coverUrl": "/assets/img/music-covers/music-037.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "David Holmes",
@@ -491,9 +593,11 @@
       "barcode": "731453910027",
       "label": "",
       "date": "1997",
-      "genre": "Big Beat / Trip Hop",
       "id": "music-038",
-      "coverUrl": "/assets/img/music-covers/music-038.jpg"
+      "coverUrl": "/assets/img/music-covers/music-038.jpg",
+      "genres": [
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Death In Vegas",
@@ -504,9 +608,14 @@
       "barcode": "",
       "label": "",
       "date": "2005",
-      "genre": "Electronic, Techno, Electro, Electro House, Acid, Minimal",
       "id": "music-039",
-      "coverUrl": "/assets/img/music-covers/music-039.jpg"
+      "coverUrl": "/assets/img/music-covers/music-039.jpg",
+      "genres": [
+        "Electronic",
+        "Techno",
+        "Electro",
+        "House"
+      ]
     },
     {
       "artist": "Devendra Banhart",
@@ -517,9 +626,12 @@
       "barcode": "",
       "label": "",
       "date": "2007-09-24",
-      "genre": "Freak Folk / Indie",
       "id": "music-040",
-      "coverUrl": "/assets/img/music-covers/music-040.jpg"
+      "coverUrl": "/assets/img/music-covers/music-040.jpg",
+      "genres": [
+        "Folk",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Devo",
@@ -530,9 +642,11 @@
       "barcode": "685738217823",
       "label": "",
       "date": "1993",
-      "genre": "New Wave / Synth-Pop",
       "id": "music-041",
-      "coverUrl": "/assets/img/music-covers/music-041.jpg"
+      "coverUrl": "/assets/img/music-covers/music-041.jpg",
+      "genres": [
+        "Synth-Pop / New Wave"
+      ]
     },
     {
       "artist": "Dimlite",
@@ -543,9 +657,14 @@
       "barcode": "",
       "label": "",
       "date": "2010-05-04",
-      "genre": "broken beat, electronic, experimental, hip hop",
       "id": "music-042",
-      "coverUrl": "/assets/img/music-covers/music-042.jpg"
+      "coverUrl": "/assets/img/music-covers/music-042.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Experimental / Leftfield",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Dirty Three",
@@ -556,9 +675,11 @@
       "barcode": "",
       "label": "",
       "date": "2005-10-11",
-      "genre": "Post-Rock",
       "id": "music-043",
-      "coverUrl": "/assets/img/music-covers/music-043.jpg"
+      "coverUrl": "/assets/img/music-covers/music-043.jpg",
+      "genres": [
+        "Post-Rock"
+      ]
     },
     {
       "artist": "DJ Shadow",
@@ -569,9 +690,12 @@
       "barcode": "731454060721",
       "label": "",
       "date": "1996-11-19",
-      "genre": "electronic, electronica, experimental hip hop, hip hop",
       "id": "music-044",
-      "coverUrl": "/assets/img/music-covers/music-044.jpg"
+      "coverUrl": "/assets/img/music-covers/music-044.jpg",
+      "genres": [
+        "Electronic",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Felix Da Housecat",
@@ -582,9 +706,12 @@
       "barcode": "5414165005020",
       "label": "",
       "date": "1995-01-01",
-      "genre": "Electroclash / House",
       "id": "music-045",
-      "coverUrl": "/assets/img/music-covers/music-045.jpg"
+      "coverUrl": "/assets/img/music-covers/music-045.jpg",
+      "genres": [
+        "Synth-Pop / New Wave",
+        "House"
+      ]
     },
     {
       "artist": "Fennesz + Sakamoto",
@@ -595,9 +722,12 @@
       "barcode": "",
       "label": "",
       "date": "2011",
-      "genre": "Ambient / Modern Classical",
       "id": "music-046",
-      "coverUrl": "/assets/img/music-covers/music-046.jpg"
+      "coverUrl": "/assets/img/music-covers/music-046.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Classical"
+      ]
     },
     {
       "artist": "Four Tet",
@@ -608,9 +738,11 @@
       "barcode": "",
       "label": "",
       "date": "2001-05-01",
-      "genre": "Folktronica / IDM",
       "id": "music-047",
-      "coverUrl": "/assets/img/music-covers/music-047.jpg"
+      "coverUrl": "/assets/img/music-covers/music-047.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Four Tet",
@@ -621,9 +753,11 @@
       "barcode": "",
       "label": "",
       "date": "2003-05-03",
-      "genre": "Folktronica / IDM",
       "id": "music-048",
-      "coverUrl": "/assets/img/music-covers/music-048.jpg"
+      "coverUrl": "/assets/img/music-covers/music-048.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Frank Black",
@@ -634,9 +768,12 @@
       "barcode": "5014436400926",
       "label": "",
       "date": "1993",
-      "genre": "indie rock, rock",
       "id": "music-049",
-      "coverUrl": "/assets/img/music-covers/music-049.jpg"
+      "coverUrl": "/assets/img/music-covers/music-049.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Frank Black",
@@ -647,9 +784,12 @@
       "barcode": "5014436300424",
       "label": "",
       "date": "1994-05-24",
-      "genre": "indie rock, rock",
       "id": "music-050",
-      "coverUrl": "/assets/img/music-covers/music-050.jpg"
+      "coverUrl": "/assets/img/music-covers/music-050.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Frank Black and the Catholics",
@@ -660,9 +800,13 @@
       "barcode": "",
       "label": "",
       "date": "2000",
-      "genre": "alternative rock, indie rock, rock",
       "id": "music-051",
-      "coverUrl": "/assets/img/music-covers/music-051.jpg"
+      "coverUrl": "/assets/img/music-covers/music-051.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Fran\u00e7ois K",
@@ -673,9 +817,12 @@
       "barcode": "",
       "label": "",
       "date": "2000",
-      "genre": "House / Techno",
       "id": "music-052",
-      "coverUrl": "/assets/img/music-covers/music-052.jpg"
+      "coverUrl": "/assets/img/music-covers/music-052.jpg",
+      "genres": [
+        "House",
+        "Techno"
+      ]
     },
     {
       "artist": "Galaxy 2 Galaxy",
@@ -686,9 +833,12 @@
       "barcode": "087947300103",
       "label": "",
       "date": "1993",
-      "genre": "electronic, techno",
       "id": "music-053",
-      "coverUrl": "/assets/img/music-covers/music-053.jpg"
+      "coverUrl": "/assets/img/music-covers/music-053.jpg",
+      "genres": [
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "Genaro",
@@ -699,9 +849,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-054",
-      "coverUrl": null
+      "coverUrl": null,
+      "genres": []
     },
     {
       "artist": "Gregor Tresher",
@@ -712,9 +862,11 @@
       "barcode": "",
       "label": "",
       "date": "2011-09-12",
-      "genre": "Techno",
       "id": "music-055",
-      "coverUrl": "/assets/img/music-covers/music-055.jpg"
+      "coverUrl": "/assets/img/music-covers/music-055.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Guano Padano",
@@ -725,9 +877,12 @@
       "barcode": "",
       "label": "",
       "date": "2009",
-      "genre": "Post-Rock / Instrumental",
       "id": "music-056",
-      "coverUrl": "/assets/img/music-covers/music-056.jpg"
+      "coverUrl": "/assets/img/music-covers/music-056.jpg",
+      "genres": [
+        "Post-Rock",
+        "Jazz"
+      ]
     },
     {
       "artist": "Hood",
@@ -738,9 +893,12 @@
       "barcode": "",
       "label": "",
       "date": "2001-11-12",
-      "genre": "Post-Rock / Indie",
       "id": "music-057",
-      "coverUrl": "/assets/img/music-covers/music-057.jpg"
+      "coverUrl": "/assets/img/music-covers/music-057.jpg",
+      "genres": [
+        "Post-Rock",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Hypercity Force",
@@ -751,9 +909,11 @@
       "barcode": "",
       "label": "",
       "date": "2001",
-      "genre": "Electronic",
       "id": "music-058",
-      "coverUrl": "/assets/img/music-covers/music-058.jpg"
+      "coverUrl": "/assets/img/music-covers/music-058.jpg",
+      "genres": [
+        "Electronic"
+      ]
     },
     {
       "artist": "Jape",
@@ -764,9 +924,12 @@
       "barcode": "",
       "label": "",
       "date": "2011-09-30",
-      "genre": "Indie Rock / Electronic",
       "id": "music-059",
-      "coverUrl": "/assets/img/music-covers/music-059.jpg"
+      "coverUrl": "/assets/img/music-covers/music-059.jpg",
+      "genres": [
+        "Indie Rock",
+        "Electronic"
+      ]
     },
     {
       "artist": "Jeff Mills",
@@ -777,9 +940,11 @@
       "barcode": "5020083012627",
       "label": "",
       "date": "1998",
-      "genre": "Techno",
       "id": "music-060",
-      "coverUrl": "/assets/img/music-covers/music-060.jpg"
+      "coverUrl": "/assets/img/music-covers/music-060.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "John Frusciante",
@@ -790,9 +955,12 @@
       "barcode": "",
       "label": "",
       "date": "2012",
-      "genre": "Avant-Garde / Electronic",
       "id": "music-061",
-      "coverUrl": "/assets/img/music-covers/music-061.jpg"
+      "coverUrl": "/assets/img/music-covers/music-061.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "Electronic"
+      ]
     },
     {
       "artist": "John Renbourn",
@@ -803,9 +971,11 @@
       "barcode": "5016073714725",
       "label": "",
       "date": "1996-01-01",
-      "genre": "Folk",
       "id": "music-062",
-      "coverUrl": "/assets/img/music-covers/music-062.jpg"
+      "coverUrl": "/assets/img/music-covers/music-062.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Kashmere Stage Band",
@@ -816,9 +986,11 @@
       "barcode": "659457508524",
       "label": "",
       "date": "2006-07-25",
-      "genre": "Funk / Soul",
       "id": "music-063",
-      "coverUrl": "/assets/img/music-covers/music-063.jpg"
+      "coverUrl": "/assets/img/music-covers/music-063.jpg",
+      "genres": [
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Kid Loco",
@@ -829,9 +1001,11 @@
       "barcode": "",
       "label": "",
       "date": "1999",
-      "genre": "Trip Hop / Downtempo",
       "id": "music-064",
-      "coverUrl": "/assets/img/music-covers/music-064.jpg"
+      "coverUrl": "/assets/img/music-covers/music-064.jpg",
+      "genres": [
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Konx-Om-Pax",
@@ -842,9 +1016,12 @@
       "barcode": "",
       "label": "",
       "date": "2021-07-19",
-      "genre": "ambient, electronic, rave",
       "id": "music-065",
-      "coverUrl": "/assets/img/music-covers/music-065.jpg"
+      "coverUrl": "/assets/img/music-covers/music-065.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Konx-Om-Pax",
@@ -855,9 +1032,12 @@
       "barcode": "",
       "label": "",
       "date": "2021-10-04",
-      "genre": "ambient, electronic, rave",
       "id": "music-066",
-      "coverUrl": "/assets/img/music-covers/music-066.jpg"
+      "coverUrl": "/assets/img/music-covers/music-066.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Konx-Om-Pax",
@@ -868,9 +1048,12 @@
       "barcode": "",
       "label": "",
       "date": "2012-07-23",
-      "genre": "electronic, illbient",
       "id": "music-067",
-      "coverUrl": "/assets/img/music-covers/music-067.jpg"
+      "coverUrl": "/assets/img/music-covers/music-067.jpg",
+      "genres": [
+        "Electronic",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Laurent Garnier",
@@ -881,9 +1064,14 @@
       "barcode": "5413356854329",
       "label": "",
       "date": "1997-04",
-      "genre": "downtempo, electro, electronic, house",
       "id": "music-068",
-      "coverUrl": "/assets/img/music-covers/music-068.jpg"
+      "coverUrl": "/assets/img/music-covers/music-068.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electro",
+        "Electronic",
+        "House"
+      ]
     },
     {
       "artist": "Laurent Garnier",
@@ -894,9 +1082,13 @@
       "barcode": "5413356841220",
       "label": "",
       "date": "1996",
-      "genre": "deep house, electronic, house, techno",
       "id": "music-069",
-      "coverUrl": "/assets/img/music-covers/music-069.jpg"
+      "coverUrl": "/assets/img/music-covers/music-069.jpg",
+      "genres": [
+        "House",
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "Leftfield",
@@ -907,9 +1099,12 @@
       "barcode": "5099747418525",
       "label": "",
       "date": "1995-10-03",
-      "genre": "breaks, downtempo, electronic, electronica",
       "id": "music-070",
-      "coverUrl": "/assets/img/music-covers/music-070.jpg"
+      "coverUrl": "/assets/img/music-covers/music-070.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic"
+      ]
     },
     {
       "artist": "Leftfield",
@@ -920,9 +1115,13 @@
       "barcode": "5099748852724",
       "label": "",
       "date": "1999",
-      "genre": "breakbeat, downtempo, electro, electronic",
       "id": "music-071",
-      "coverUrl": "/assets/img/music-covers/music-071.jpg"
+      "coverUrl": "/assets/img/music-covers/music-071.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electro",
+        "Electronic"
+      ]
     },
     {
       "artist": "LFO",
@@ -933,9 +1132,12 @@
       "barcode": "3383005920267",
       "label": "",
       "date": "1991",
-      "genre": "Techno / IDM",
       "id": "music-072",
-      "coverUrl": "/assets/img/music-covers/music-072.jpg"
+      "coverUrl": "/assets/img/music-covers/music-072.jpg",
+      "genres": [
+        "Techno",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Luke Slater",
@@ -946,9 +1148,11 @@
       "barcode": "5016025682034",
       "label": "",
       "date": "1997",
-      "genre": "Techno",
       "id": "music-073",
-      "coverUrl": "/assets/img/music-covers/music-073.jpg"
+      "coverUrl": "/assets/img/music-covers/music-073.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Maddkatt Courtship",
@@ -959,9 +1163,12 @@
       "barcode": "022924300021",
       "label": "",
       "date": "1999-01-01",
-      "genre": "House / Techno",
       "id": "music-074",
-      "coverUrl": "/assets/img/music-covers/music-074.jpg"
+      "coverUrl": "/assets/img/music-covers/music-074.jpg",
+      "genres": [
+        "House",
+        "Techno"
+      ]
     },
     {
       "artist": "Malcolm Middleton",
@@ -972,9 +1179,11 @@
       "barcode": "5024545259919",
       "label": "",
       "date": "2005",
-      "genre": "Indie Rock",
       "id": "music-075",
-      "coverUrl": "/assets/img/music-covers/music-075.jpg"
+      "coverUrl": "/assets/img/music-covers/music-075.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -985,9 +1194,13 @@
       "barcode": "",
       "label": "",
       "date": "2004",
-      "genre": "alternative rock, indie rock, rock",
       "id": "music-076",
-      "coverUrl": "/assets/img/music-covers/music-076.jpg"
+      "coverUrl": "/assets/img/music-covers/music-076.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -998,9 +1211,12 @@
       "barcode": "014431046926",
       "label": "",
       "date": "1999-03-16",
-      "genre": "alternative rock, rock",
       "id": "music-077",
-      "coverUrl": "/assets/img/music-covers/music-077.jpg"
+      "coverUrl": "/assets/img/music-covers/music-077.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -1011,9 +1227,12 @@
       "barcode": "",
       "label": "",
       "date": "1987",
-      "genre": "alternative rock, rock",
       "id": "music-078",
-      "coverUrl": "/assets/img/music-covers/music-078.jpg"
+      "coverUrl": "/assets/img/music-covers/music-078.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -1024,9 +1243,12 @@
       "barcode": "014431046827",
       "label": "",
       "date": "1986-08",
-      "genre": "alternative rock, psychedelic rock, rock",
       "id": "music-079",
-      "coverUrl": "/assets/img/music-covers/music-079.jpg"
+      "coverUrl": "/assets/img/music-covers/music-079.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -1037,9 +1259,12 @@
       "barcode": "014431064821",
       "label": "",
       "date": "1994-01-25",
-      "genre": "alternative rock, rock",
       "id": "music-080",
-      "coverUrl": "/assets/img/music-covers/music-080.jpg"
+      "coverUrl": "/assets/img/music-covers/music-080.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Meat Puppets",
@@ -1050,9 +1275,12 @@
       "barcode": "014431047329",
       "label": "",
       "date": "1990",
-      "genre": "alternative rock, rock",
       "id": "music-081",
-      "coverUrl": "/assets/img/music-covers/music-081.jpg"
+      "coverUrl": "/assets/img/music-covers/music-081.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Neil Young",
@@ -1063,9 +1291,12 @@
       "barcode": "093624893523",
       "label": "",
       "date": "2004-11-16",
-      "genre": "Folk Rock / Country Rock",
       "id": "music-082",
-      "coverUrl": "/assets/img/music-covers/music-082.jpg"
+      "coverUrl": "/assets/img/music-covers/music-082.jpg",
+      "genres": [
+        "Folk",
+        "Rock"
+      ]
     },
     {
       "artist": "Neil Young",
@@ -1076,9 +1307,11 @@
       "barcode": "",
       "label": "",
       "date": "2007-03-09",
-      "genre": "Folk Rock",
       "id": "music-083",
-      "coverUrl": "/assets/img/music-covers/music-083.jpg"
+      "coverUrl": "/assets/img/music-covers/music-083.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Neil Young",
@@ -1089,9 +1322,11 @@
       "barcode": "",
       "label": "",
       "date": "2008-12-02",
-      "genre": "Folk Rock",
       "id": "music-084",
-      "coverUrl": "/assets/img/music-covers/music-084.jpg"
+      "coverUrl": "/assets/img/music-covers/music-084.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Neil Young & Crazy Horse",
@@ -1102,9 +1337,12 @@
       "barcode": "",
       "label": "",
       "date": "2006",
-      "genre": "Hard Rock / Folk Rock",
       "id": "music-085",
-      "coverUrl": "/assets/img/music-covers/music-085.jpg"
+      "coverUrl": "/assets/img/music-covers/music-085.jpg",
+      "genres": [
+        "Rock",
+        "Folk"
+      ]
     },
     {
       "artist": "Nick Drake",
@@ -1115,9 +1353,11 @@
       "barcode": "042284600521",
       "label": "",
       "date": "2003-05-06",
-      "genre": "baroque pop, british folk rock, chamber folk, contemporary folk",
       "id": "music-086",
-      "coverUrl": "/assets/img/music-covers/music-086.jpg"
+      "coverUrl": "/assets/img/music-covers/music-086.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Nick Drake",
@@ -1128,9 +1368,11 @@
       "barcode": "042284291521",
       "label": "",
       "date": "1989",
-      "genre": "british folk rock, chamber folk, contemporary folk, folk",
       "id": "music-087",
-      "coverUrl": "/assets/img/music-covers/music-087.jpg"
+      "coverUrl": "/assets/img/music-covers/music-087.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Nick Drake",
@@ -1141,9 +1383,11 @@
       "barcode": "042284292320",
       "label": "",
       "date": "1992-05-08",
-      "genre": "contemporary folk, folk, folk pop, singer-songwriter",
       "id": "music-088",
-      "coverUrl": "/assets/img/music-covers/music-088.jpg"
+      "coverUrl": "/assets/img/music-covers/music-088.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Norken",
@@ -1154,9 +1398,12 @@
       "barcode": "0795984115658",
       "label": "",
       "date": "",
-      "genre": "Deep House / IDM",
       "id": "music-089",
-      "coverUrl": null
+      "coverUrl": null,
+      "genres": [
+        "House",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Optimo",
@@ -1167,9 +1414,12 @@
       "barcode": "",
       "label": "",
       "date": "2007",
-      "genre": "Electronic / Club",
       "id": "music-090",
-      "coverUrl": "/assets/img/music-covers/music-090.jpg"
+      "coverUrl": "/assets/img/music-covers/music-090.jpg",
+      "genres": [
+        "Electronic",
+        "House"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1180,9 +1430,12 @@
       "barcode": "082876300024",
       "label": "",
       "date": "1996",
-      "genre": "Leftfield / Ambient Techno",
       "id": "music-091",
-      "coverUrl": "/assets/img/music-covers/music-091.jpg"
+      "coverUrl": "/assets/img/music-covers/music-091.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1193,9 +1446,12 @@
       "barcode": "082838620023",
       "label": "",
       "date": "1993",
-      "genre": "Techno / Electronic",
       "id": "music-092",
-      "coverUrl": "/assets/img/music-covers/music-092.jpg"
+      "coverUrl": "/assets/img/music-covers/music-092.jpg",
+      "genres": [
+        "Techno",
+        "Electronic"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1206,9 +1462,12 @@
       "barcode": "",
       "label": "",
       "date": "1991",
-      "genre": "Techno / Electronic",
       "id": "music-093",
-      "coverUrl": "/assets/img/music-covers/music-093.jpg"
+      "coverUrl": "/assets/img/music-covers/music-093.jpg",
+      "genres": [
+        "Techno",
+        "Electronic"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1219,9 +1478,11 @@
       "barcode": "",
       "label": "",
       "date": "1997",
-      "genre": "Electronic",
       "id": "music-094",
-      "coverUrl": "/assets/img/music-covers/music-094.jpg"
+      "coverUrl": "/assets/img/music-covers/music-094.jpg",
+      "genres": [
+        "Electronic"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1232,9 +1493,12 @@
       "barcode": "082853620023",
       "label": "",
       "date": "1994-08-23",
-      "genre": "Techno / IDM",
       "id": "music-095",
-      "coverUrl": "/assets/img/music-covers/music-095.jpg"
+      "coverUrl": "/assets/img/music-covers/music-095.jpg",
+      "genres": [
+        "Techno",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1245,9 +1509,12 @@
       "barcode": "",
       "label": "",
       "date": "1999",
-      "genre": "Electronic / Techno",
       "id": "music-096",
-      "coverUrl": "/assets/img/music-covers/music-096.jpg"
+      "coverUrl": "/assets/img/music-covers/music-096.jpg",
+      "genres": [
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "Orbital",
@@ -1258,9 +1525,12 @@
       "barcode": "0927461902",
       "label": "",
       "date": "2002",
-      "genre": "Techno / Electronic",
       "id": "music-097",
-      "coverUrl": "/assets/img/music-covers/music-097.jpg"
+      "coverUrl": "/assets/img/music-covers/music-097.jpg",
+      "genres": [
+        "Techno",
+        "Electronic"
+      ]
     },
     {
       "artist": "Penguin Prison",
@@ -1271,9 +1541,12 @@
       "barcode": "",
       "label": "",
       "date": "2011",
-      "genre": "Synth-Pop / Nu-Disco",
       "id": "music-098",
-      "coverUrl": "/assets/img/music-covers/music-098.jpg"
+      "coverUrl": "/assets/img/music-covers/music-098.jpg",
+      "genres": [
+        "Synth-Pop / New Wave",
+        "House"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1284,9 +1557,13 @@
       "barcode": "5014436001024",
       "label": "",
       "date": "1990",
-      "genre": "alternative rock, indie rock, post-punk, rock",
       "id": "music-099",
-      "coverUrl": "/assets/img/music-covers/music-099.jpg"
+      "coverUrl": "/assets/img/music-covers/music-099.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1297,9 +1574,12 @@
       "barcode": "075596129626",
       "label": "",
       "date": "1992",
-      "genre": "alternative rock, cowpunk, indie rock, noise pop",
       "id": "music-100",
-      "coverUrl": "/assets/img/music-covers/music-100.jpg"
+      "coverUrl": "/assets/img/music-covers/music-100.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1310,9 +1590,13 @@
       "barcode": "5014436701122",
       "label": "",
       "date": "1997",
-      "genre": "alternative rock, indie rock, noise pop, rock",
       "id": "music-101",
-      "coverUrl": "/assets/img/music-covers/music-101.jpg"
+      "coverUrl": "/assets/img/music-covers/music-101.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1323,9 +1607,13 @@
       "barcode": "5014436905025",
       "label": "",
       "date": "2008",
-      "genre": "alternative rock, indie rock, post-hardcore, rock",
       "id": "music-102",
-      "coverUrl": "/assets/img/music-covers/music-102.jpg"
+      "coverUrl": "/assets/img/music-covers/music-102.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1336,9 +1624,13 @@
       "barcode": "652637801323",
       "label": "",
       "date": "1998-07-14",
-      "genre": "alternative rock, indie rock, rock",
       "id": "music-103",
-      "coverUrl": "/assets/img/music-covers/music-103.jpg"
+      "coverUrl": "/assets/img/music-covers/music-103.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1349,9 +1641,12 @@
       "barcode": "652637210323",
       "label": "",
       "date": "1988",
-      "genre": "alternative rock, indie rock, noise rock, post-hardcore",
       "id": "music-104",
-      "coverUrl": "/assets/img/music-covers/music-104.jpg"
+      "coverUrl": "/assets/img/music-covers/music-104.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Pixies",
@@ -1362,9 +1657,13 @@
       "barcode": "5014436101427",
       "label": "",
       "date": "2013-08-27",
-      "genre": "alternative rock, indie rock, noise pop, pop",
       "id": "music-105",
-      "coverUrl": "/assets/img/music-covers/music-105.jpg"
+      "coverUrl": "/assets/img/music-covers/music-105.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Pop"
+      ]
     },
     {
       "artist": "Plaid",
@@ -1375,9 +1674,12 @@
       "barcode": "",
       "label": "",
       "date": "2000",
-      "genre": "IDM / Electronic",
       "id": "music-106",
-      "coverUrl": "/assets/img/music-covers/music-106.jpg"
+      "coverUrl": "/assets/img/music-covers/music-106.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Portishead",
@@ -1388,9 +1690,11 @@
       "barcode": "042282852229",
       "label": "",
       "date": "1994",
-      "genre": "Trip Hop",
       "id": "music-107",
-      "coverUrl": "/assets/img/music-covers/music-107.jpg"
+      "coverUrl": "/assets/img/music-covers/music-107.jpg",
+      "genres": [
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Primus",
@@ -1401,9 +1705,11 @@
       "barcode": "",
       "label": "",
       "date": "1997",
-      "genre": "Alternative Metal / Funk Metal",
       "id": "music-108",
-      "coverUrl": "/assets/img/music-covers/music-108.jpg"
+      "coverUrl": "/assets/img/music-covers/music-108.jpg",
+      "genres": [
+        "Alternative Rock"
+      ]
     },
     {
       "artist": "R.E.M.",
@@ -1414,9 +1720,11 @@
       "barcode": "93624574020",
       "label": "",
       "date": "1994",
-      "genre": "Alternative Rock",
       "id": "music-109",
-      "coverUrl": "/assets/img/music-covers/music-109.jpg"
+      "coverUrl": "/assets/img/music-covers/music-109.jpg",
+      "genres": [
+        "Alternative Rock"
+      ]
     },
     {
       "artist": "R.E.M.",
@@ -1427,9 +1735,11 @@
       "barcode": "93624632029",
       "label": "",
       "date": "1996",
-      "genre": "Alternative Rock",
       "id": "music-110",
-      "coverUrl": "/assets/img/music-covers/music-110.jpg"
+      "coverUrl": "/assets/img/music-covers/music-110.jpg",
+      "genres": [
+        "Alternative Rock"
+      ]
     },
     {
       "artist": "Radioactive Man",
@@ -1440,9 +1750,12 @@
       "barcode": "",
       "label": "",
       "date": "2003",
-      "genre": "Electro / Techno",
       "id": "music-111",
-      "coverUrl": "/assets/img/music-covers/music-111.jpg"
+      "coverUrl": "/assets/img/music-covers/music-111.jpg",
+      "genres": [
+        "Electro",
+        "Techno"
+      ]
     },
     {
       "artist": "Radiohead",
@@ -1453,9 +1766,12 @@
       "barcode": "724352775323",
       "label": "",
       "date": "2000",
-      "genre": "Experimental Rock / Electronic",
       "id": "music-112",
-      "coverUrl": "/assets/img/music-covers/music-112.jpg"
+      "coverUrl": "/assets/img/music-covers/music-112.jpg",
+      "genres": [
+        "Rock",
+        "Electronic"
+      ]
     },
     {
       "artist": "Radiohead",
@@ -1466,9 +1782,11 @@
       "barcode": "724385522925",
       "label": "",
       "date": "1997",
-      "genre": "Alternative Rock",
       "id": "music-113",
-      "coverUrl": "/assets/img/music-covers/music-113.jpg"
+      "coverUrl": "/assets/img/music-covers/music-113.jpg",
+      "genres": [
+        "Alternative Rock"
+      ]
     },
     {
       "artist": "Richard Swift",
@@ -1479,9 +1797,12 @@
       "barcode": "",
       "label": "",
       "date": "2008",
-      "genre": "Indie Rock / Singer-Songwriter",
       "id": "music-114",
-      "coverUrl": "/assets/img/music-covers/music-114.jpg"
+      "coverUrl": "/assets/img/music-covers/music-114.jpg",
+      "genres": [
+        "Indie Rock",
+        "Folk"
+      ]
     },
     {
       "artist": "Richie Hawtin",
@@ -1492,9 +1813,11 @@
       "barcode": "",
       "label": "",
       "date": "2002",
-      "genre": "Minimal Techno",
       "id": "music-115",
-      "coverUrl": "/assets/img/music-covers/music-115.jpg"
+      "coverUrl": "/assets/img/music-covers/music-115.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Richie Hawtin",
@@ -1505,9 +1828,11 @@
       "barcode": "",
       "label": "",
       "date": "2005",
-      "genre": "Minimal Techno",
       "id": "music-116",
-      "coverUrl": "/assets/img/music-covers/music-116.jpg"
+      "coverUrl": "/assets/img/music-covers/music-116.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Richie Hawtin",
@@ -1518,9 +1843,11 @@
       "barcode": "",
       "label": "",
       "date": "1999",
-      "genre": "Techno",
       "id": "music-117",
-      "coverUrl": "/assets/img/music-covers/music-117.jpg"
+      "coverUrl": "/assets/img/music-covers/music-117.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Richie Hawtin / Mixmag",
@@ -1531,9 +1858,11 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "Techno",
       "id": "music-118",
-      "coverUrl": "/assets/img/music-covers/music-118.jpg"
+      "coverUrl": "/assets/img/music-covers/music-118.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Roni Size / Reprazent",
@@ -1544,9 +1873,11 @@
       "barcode": "731453493322",
       "label": "",
       "date": "1997",
-      "genre": "Drum and Bass",
       "id": "music-119",
-      "coverUrl": "/assets/img/music-covers/music-119.jpg"
+      "coverUrl": "/assets/img/music-covers/music-119.jpg",
+      "genres": [
+        "Drum and Bass / Dubstep"
+      ]
     },
     {
       "artist": "Sebadoh",
@@ -1557,9 +1888,11 @@
       "barcode": "",
       "label": "",
       "date": "1994",
-      "genre": "Indie Rock",
       "id": "music-120",
-      "coverUrl": "/assets/img/music-covers/music-120.jpg"
+      "coverUrl": "/assets/img/music-covers/music-120.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Shlomi Aber",
@@ -1570,9 +1903,11 @@
       "barcode": "678414901024",
       "label": "",
       "date": "2010",
-      "genre": "Techno",
       "id": "music-121",
-      "coverUrl": "/assets/img/music-covers/music-121.jpg"
+      "coverUrl": "/assets/img/music-covers/music-121.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Spank Rock",
@@ -1583,9 +1918,12 @@
       "barcode": "",
       "label": "",
       "date": "2007",
-      "genre": "Baltimore Club / Hip Hop",
       "id": "music-122",
-      "coverUrl": "/assets/img/music-covers/music-122.jpg"
+      "coverUrl": "/assets/img/music-covers/music-122.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Sparrow and the Workshop",
@@ -1596,9 +1934,11 @@
       "barcode": "5060156910887",
       "label": "",
       "date": "2011",
-      "genre": "Indie Rock",
       "id": "music-123",
-      "coverUrl": "/assets/img/music-covers/music-123.jpg"
+      "coverUrl": "/assets/img/music-covers/music-123.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "STRFCKR",
@@ -1609,9 +1949,11 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "Synth-Pop",
       "id": "music-124",
-      "coverUrl": "/assets/img/music-covers/music-124.jpg"
+      "coverUrl": "/assets/img/music-covers/music-124.jpg",
+      "genres": [
+        "Synth-Pop / New Wave"
+      ]
     },
     {
       "artist": "Stephen Malkmus & The Jicks",
@@ -1622,9 +1964,11 @@
       "barcode": "",
       "label": "",
       "date": "2003",
-      "genre": "Indie Rock",
       "id": "music-125",
-      "coverUrl": "/assets/img/music-covers/music-125.jpg"
+      "coverUrl": "/assets/img/music-covers/music-125.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Steve Poindexter",
@@ -1635,9 +1979,12 @@
       "barcode": "",
       "label": "",
       "date": "2002-01-01",
-      "genre": "Chicago House / Techno",
       "id": "music-126",
-      "coverUrl": "/assets/img/music-covers/music-126.jpg"
+      "coverUrl": "/assets/img/music-covers/music-126.jpg",
+      "genres": [
+        "House",
+        "Techno"
+      ]
     },
     {
       "artist": "Susumu Yokota",
@@ -1648,9 +1995,12 @@
       "barcode": "666017005829",
       "label": "",
       "date": "1998",
-      "genre": "Ambient / Downtempo",
       "id": "music-127",
-      "coverUrl": "/assets/img/music-covers/music-127.jpg"
+      "coverUrl": "/assets/img/music-covers/music-127.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Susumu Yokota",
@@ -1661,9 +2011,12 @@
       "barcode": "",
       "label": "",
       "date": "2002",
-      "genre": "Ambient / Electronic",
       "id": "music-128",
-      "coverUrl": "/assets/img/music-covers/music-128.jpg"
+      "coverUrl": "/assets/img/music-covers/music-128.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Talkingmakesnosense",
@@ -1674,9 +2027,12 @@
       "barcode": "",
       "label": "",
       "date": "2011-09",
-      "genre": "ambient, electronic",
       "id": "music-129",
-      "coverUrl": "/assets/img/music-covers/music-129.jpg"
+      "coverUrl": "/assets/img/music-covers/music-129.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Tara Jane O'Neil",
@@ -1687,9 +2043,12 @@
       "barcode": "042282848420",
       "label": "",
       "date": "2000",
-      "genre": "Indie Rock / Folk",
       "id": "music-130",
-      "coverUrl": "/assets/img/music-covers/music-130.jpg"
+      "coverUrl": "/assets/img/music-covers/music-130.jpg",
+      "genres": [
+        "Indie Rock",
+        "Folk"
+      ]
     },
     {
       "artist": "Tara Jane O'Neil",
@@ -1700,9 +2059,12 @@
       "barcode": "",
       "label": "",
       "date": "2007",
-      "genre": "Folk / Post-Rock",
       "id": "music-131",
-      "coverUrl": "/assets/img/music-covers/music-131.jpg"
+      "coverUrl": "/assets/img/music-covers/music-131.jpg",
+      "genres": [
+        "Folk",
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Tara Jane O'Neil",
@@ -1713,9 +2075,12 @@
       "barcode": "",
       "label": "",
       "date": "2004",
-      "genre": "Indie Rock / Slowcore",
       "id": "music-132",
-      "coverUrl": "/assets/img/music-covers/music-132.jpg"
+      "coverUrl": "/assets/img/music-covers/music-132.jpg",
+      "genres": [
+        "Indie Rock",
+        "Post-Rock"
+      ]
     },
     {
       "artist": "The Album Leaf",
@@ -1726,9 +2091,12 @@
       "barcode": "666017038124",
       "label": "",
       "date": "2004",
-      "genre": "Post-Rock / Ambient",
       "id": "music-133",
-      "coverUrl": "/assets/img/music-covers/music-133.jpg"
+      "coverUrl": "/assets/img/music-covers/music-133.jpg",
+      "genres": [
+        "Post-Rock",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Beta Band",
@@ -1739,9 +2107,12 @@
       "barcode": "",
       "label": "",
       "date": "2001-06-26",
-      "genre": "Indie Rock / Electronic",
       "id": "music-134",
-      "coverUrl": "/assets/img/music-covers/music-134.jpg"
+      "coverUrl": "/assets/img/music-covers/music-134.jpg",
+      "genres": [
+        "Indie Rock",
+        "Electronic"
+      ]
     },
     {
       "artist": "The Beta Band",
@@ -1752,9 +2123,12 @@
       "barcode": "724384728526",
       "label": "",
       "date": "1998-09-28",
-      "genre": "Indie Rock / Trip Hop",
       "id": "music-135",
-      "coverUrl": "/assets/img/music-covers/music-135.jpg"
+      "coverUrl": "/assets/img/music-covers/music-135.jpg",
+      "genres": [
+        "Indie Rock",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "The Black Dog",
@@ -1765,9 +2139,11 @@
       "barcode": "",
       "label": "",
       "date": "1995-10-16",
-      "genre": "IDM / Ambient Techno",
       "id": "music-136",
-      "coverUrl": "/assets/img/music-covers/music-136.jpg"
+      "coverUrl": "/assets/img/music-covers/music-136.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Candles",
@@ -1778,9 +2154,11 @@
       "barcode": "",
       "label": "",
       "date": "2013-07-08",
-      "genre": "Indie Rock",
       "id": "music-137",
-      "coverUrl": "/assets/img/music-covers/music-137.jpg"
+      "coverUrl": "/assets/img/music-covers/music-137.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -1791,9 +2169,12 @@
       "barcode": "5033197019925",
       "label": "",
       "date": "1996",
-      "genre": "IDM / Electronic",
       "id": "music-138",
-      "coverUrl": "/assets/img/music-covers/music-138.jpg"
+      "coverUrl": "/assets/img/music-covers/music-138.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -1804,9 +2185,11 @@
       "barcode": "724384038724",
       "label": "",
       "date": "1994",
-      "genre": "IDM / Ambient",
       "id": "music-139",
-      "coverUrl": "/assets/img/music-covers/music-139.jpg"
+      "coverUrl": "/assets/img/music-covers/music-139.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -1817,9 +2200,11 @@
       "barcode": "724384338725",
       "label": "",
       "date": "1994",
-      "genre": "IDM / Ambient",
       "id": "music-140",
-      "coverUrl": "/assets/img/music-covers/music-140.jpg"
+      "coverUrl": "/assets/img/music-covers/music-140.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -1830,9 +2215,11 @@
       "barcode": "",
       "label": "",
       "date": "1994",
-      "genre": "IDM / Ambient",
       "id": "music-141",
-      "coverUrl": "/assets/img/music-covers/music-141.jpg"
+      "coverUrl": "/assets/img/music-covers/music-141.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -1843,9 +2230,11 @@
       "barcode": "724389381726",
       "label": "",
       "date": "1996",
-      "genre": "Ambient / IDM",
       "id": "music-142",
-      "coverUrl": "/assets/img/music-covers/music-142.jpg"
+      "coverUrl": "/assets/img/music-covers/music-142.jpg",
+      "genres": [
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "The Pharcyde",
@@ -1856,9 +2245,11 @@
       "barcode": "075679222220",
       "label": "",
       "date": "1992",
-      "genre": "Hip Hop",
       "id": "music-143",
-      "coverUrl": "/assets/img/music-covers/music-143.jpg"
+      "coverUrl": "/assets/img/music-covers/music-143.jpg",
+      "genres": [
+        "Hip Hop"
+      ]
     },
     {
       "artist": "The Sabres of Paradise",
@@ -1869,9 +2260,13 @@
       "barcode": "",
       "label": "",
       "date": "1994",
-      "genre": "Techno / Dub / Electronic",
       "id": "music-144",
-      "coverUrl": "/assets/img/music-covers/music-144.jpg"
+      "coverUrl": "/assets/img/music-covers/music-144.jpg",
+      "genres": [
+        "Techno",
+        "Reggae / Dub",
+        "Electronic"
+      ]
     },
     {
       "artist": "The Smiths",
@@ -1882,9 +2277,11 @@
       "barcode": "",
       "label": "",
       "date": "2001",
-      "genre": "Indie Rock",
       "id": "music-145",
-      "coverUrl": "/assets/img/music-covers/music-145.jpg"
+      "coverUrl": "/assets/img/music-covers/music-145.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "The Wedding Present",
@@ -1895,9 +2292,11 @@
       "barcode": "743218966226",
       "label": "",
       "date": "1991",
-      "genre": "Indie Rock",
       "id": "music-146",
-      "coverUrl": "/assets/img/music-covers/music-146.jpg"
+      "coverUrl": "/assets/img/music-covers/music-146.jpg",
+      "genres": [
+        "Indie Rock"
+      ]
     },
     {
       "artist": "The Whitest Boy Alive",
@@ -1908,9 +2307,12 @@
       "barcode": "",
       "label": "",
       "date": "2006",
-      "genre": "Indie Pop / Electronic",
       "id": "music-147",
-      "coverUrl": "/assets/img/music-covers/music-147.jpg"
+      "coverUrl": "/assets/img/music-covers/music-147.jpg",
+      "genres": [
+        "Pop",
+        "Electronic"
+      ]
     },
     {
       "artist": "Thee Madkatt Courtship",
@@ -1921,9 +2323,12 @@
       "barcode": "",
       "label": "",
       "date": "1995",
-      "genre": "House / Electronic",
       "id": "music-148",
-      "coverUrl": "/assets/img/music-covers/music-148.jpg"
+      "coverUrl": "/assets/img/music-covers/music-148.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Tortoise",
@@ -1934,9 +2339,11 @@
       "barcode": "",
       "label": "",
       "date": "1994",
-      "genre": "Post-Rock",
       "id": "music-149",
-      "coverUrl": "/assets/img/music-covers/music-149.jpg"
+      "coverUrl": "/assets/img/music-covers/music-149.jpg",
+      "genres": [
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Tortoise",
@@ -1947,9 +2354,11 @@
       "barcode": "",
       "label": "",
       "date": "2001",
-      "genre": "Post-Rock",
       "id": "music-150",
-      "coverUrl": "/assets/img/music-covers/music-150.jpg"
+      "coverUrl": "/assets/img/music-covers/music-150.jpg",
+      "genres": [
+        "Post-Rock"
+      ]
     },
     {
       "artist": "Tussle",
@@ -1960,9 +2369,12 @@
       "barcode": "",
       "label": "",
       "date": "2012",
-      "genre": "Experimental / Electronic",
       "id": "music-151",
-      "coverUrl": "/assets/img/music-covers/music-151.jpg"
+      "coverUrl": "/assets/img/music-covers/music-151.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "Electronic"
+      ]
     },
     {
       "artist": "Two Lone Swordsmen",
@@ -1973,9 +2385,12 @@
       "barcode": "",
       "label": "",
       "date": "2000",
-      "genre": "Leftfield / IDM",
       "id": "music-152",
-      "coverUrl": "/assets/img/music-covers/music-152.jpg"
+      "coverUrl": "/assets/img/music-covers/music-152.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Underground Resistance",
@@ -1986,9 +2401,11 @@
       "barcode": "",
       "label": "",
       "date": "1998",
-      "genre": "Detroit Techno",
       "id": "music-153",
-      "coverUrl": "/assets/img/music-covers/music-153.jpg"
+      "coverUrl": "/assets/img/music-covers/music-153.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Underworld",
@@ -1999,9 +2416,12 @@
       "barcode": "638812713728",
       "label": "",
       "date": "2002",
-      "genre": "Progressive House / Electronic",
       "id": "music-154",
-      "coverUrl": "/assets/img/music-covers/music-154.jpg"
+      "coverUrl": "/assets/img/music-covers/music-154.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Underworld",
@@ -2012,9 +2432,12 @@
       "barcode": "",
       "label": "",
       "date": "1999",
-      "genre": "Progressive House / Electronic",
       "id": "music-155",
-      "coverUrl": "/assets/img/music-covers/music-155.jpg"
+      "coverUrl": "/assets/img/music-covers/music-155.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Underworld",
@@ -2025,9 +2448,12 @@
       "barcode": "",
       "label": "",
       "date": "1994",
-      "genre": "Progressive House / Electronic",
       "id": "music-156",
-      "coverUrl": "/assets/img/music-covers/music-156.jpg"
+      "coverUrl": "/assets/img/music-covers/music-156.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Underworld",
@@ -2038,9 +2464,12 @@
       "barcode": "",
       "label": "",
       "date": "2000",
-      "genre": "Progressive House / Electronic",
       "id": "music-157",
-      "coverUrl": "/assets/img/music-covers/music-157.jpg"
+      "coverUrl": "/assets/img/music-covers/music-157.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Underworld",
@@ -2051,9 +2480,12 @@
       "barcode": "",
       "label": "",
       "date": "1996",
-      "genre": "Progressive House / Electronic",
       "id": "music-158",
-      "coverUrl": "/assets/img/music-covers/music-158.jpg"
+      "coverUrl": "/assets/img/music-covers/music-158.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2064,9 +2496,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-159",
-      "coverUrl": "/assets/img/music-covers/music-159.jpg"
+      "coverUrl": "/assets/img/music-covers/music-159.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -2077,9 +2509,11 @@
       "barcode": "769233163328",
       "label": "",
       "date": "1973",
-      "genre": "Cumbia / Latin",
       "id": "music-160",
-      "coverUrl": "/assets/img/music-covers/music-160.jpg"
+      "coverUrl": "/assets/img/music-covers/music-160.jpg",
+      "genres": [
+        "Blues / Roots / World"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2090,9 +2524,13 @@
       "barcode": "",
       "label": "",
       "date": "2004-11-01",
-      "genre": "disco, electronic, experimental, leftfield",
       "id": "music-161",
-      "coverUrl": "/assets/img/music-covers/music-161.jpg"
+      "coverUrl": "/assets/img/music-covers/music-161.jpg",
+      "genres": [
+        "Funk / Soul / Disco",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2103,9 +2541,12 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "Disco / House",
       "id": "music-162",
-      "coverUrl": "/assets/img/music-covers/music-162.jpg"
+      "coverUrl": "/assets/img/music-covers/music-162.jpg",
+      "genres": [
+        "Funk / Soul / Disco",
+        "House"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2116,9 +2557,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-163",
-      "coverUrl": "/assets/img/music-covers/music-163.jpg"
+      "coverUrl": "/assets/img/music-covers/music-163.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -2129,9 +2570,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-164",
-      "coverUrl": "/assets/img/music-covers/music-164.jpg"
+      "coverUrl": "/assets/img/music-covers/music-164.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -2142,9 +2583,11 @@
       "barcode": "",
       "label": "",
       "date": "2012",
-      "genre": "disco",
       "id": "music-165",
-      "coverUrl": "/assets/img/music-covers/music-165.jpg"
+      "coverUrl": "/assets/img/music-covers/music-165.jpg",
+      "genres": [
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2155,9 +2598,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-166",
-      "coverUrl": "/assets/img/music-covers/music-166.jpg"
+      "coverUrl": "/assets/img/music-covers/music-166.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists / Axis Records",
@@ -2168,9 +2611,11 @@
       "barcode": "5021620912820",
       "label": "",
       "date": "1997",
-      "genre": "Techno",
       "id": "music-167",
-      "coverUrl": "/assets/img/music-covers/music-167.jpg"
+      "coverUrl": "/assets/img/music-covers/music-167.jpg",
+      "genres": [
+        "Techno"
+      ]
     },
     {
       "artist": "Vinyl Williams",
@@ -2181,9 +2626,9 @@
       "barcode": "",
       "label": "",
       "date": "2012-11-12",
-      "genre": "",
       "id": "music-168",
-      "coverUrl": "/assets/img/music-covers/music-168.jpg"
+      "coverUrl": "/assets/img/music-covers/music-168.jpg",
+      "genres": []
     },
     {
       "artist": "X-Press 2",
@@ -2194,9 +2639,12 @@
       "barcode": "",
       "label": "",
       "date": "2012",
-      "genre": "House / Electronic",
       "id": "music-169",
-      "coverUrl": "/assets/img/music-covers/music-169.jpg"
+      "coverUrl": "/assets/img/music-covers/music-169.jpg",
+      "genres": [
+        "House",
+        "Electronic"
+      ]
     },
     {
       "artist": "Massive Attack",
@@ -2207,9 +2655,11 @@
       "barcode": "077778622826",
       "label": "",
       "date": "1991",
-      "genre": "Trip Hop",
       "id": "music-170",
-      "coverUrl": "/assets/img/music-covers/music-170.jpg"
+      "coverUrl": "/assets/img/music-covers/music-170.jpg",
+      "genres": [
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Jeff Mills",
@@ -2220,9 +2670,12 @@
       "barcode": "",
       "label": "",
       "date": "2004",
-      "genre": "Techno / House",
       "id": "music-171",
-      "coverUrl": "/assets/img/music-covers/music-171.jpg"
+      "coverUrl": "/assets/img/music-covers/music-171.jpg",
+      "genres": [
+        "Techno",
+        "House"
+      ]
     },
     {
       "artist": "James Holden",
@@ -2233,9 +2686,12 @@
       "barcode": "5051083131124",
       "label": "Border Community Recordings",
       "date": "2018-01-25",
-      "genre": "ambient, drone, electronic, progressive electronic",
       "id": "music-172",
-      "coverUrl": "/assets/img/music-covers/music-172.jpg"
+      "coverUrl": "/assets/img/music-covers/music-172.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic"
+      ]
     },
     {
       "artist": "Gabriel Garzon-Montano",
@@ -2246,9 +2702,9 @@
       "barcode": "0659457238117",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-173",
-      "coverUrl": "/assets/img/music-covers/music-173.jpg"
+      "coverUrl": "/assets/img/music-covers/music-173.jpg",
+      "genres": []
     },
     {
       "artist": "Inventions",
@@ -2259,9 +2715,14 @@
       "barcode": "0656605324814",
       "label": "Bella Union",
       "date": "2015-03-15",
-      "genre": "ambient, avant-garde, classical, electronic",
       "id": "music-174",
-      "coverUrl": "/assets/img/music-covers/music-174.jpg"
+      "coverUrl": "/assets/img/music-covers/music-174.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Experimental / Leftfield",
+        "Classical",
+        "Electronic"
+      ]
     },
     {
       "artist": "Penny Penny",
@@ -2272,9 +2733,11 @@
       "barcode": "5060384612751",
       "label": "Awesome Tapes From Africa",
       "date": "1994",
-      "genre": "tsonga disco",
       "id": "music-175",
-      "coverUrl": "/assets/img/music-covers/music-175.jpg"
+      "coverUrl": "/assets/img/music-covers/music-175.jpg",
+      "genres": [
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Space Dimension Controller",
@@ -2285,9 +2748,12 @@
       "barcode": "5054429005189",
       "label": "",
       "date": "2016-05-27",
-      "genre": "electronic, idm",
       "id": "music-176",
-      "coverUrl": "/assets/img/music-covers/music-176.jpg"
+      "coverUrl": "/assets/img/music-covers/music-176.jpg",
+      "genres": [
+        "Electronic",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Nozinja",
@@ -2298,9 +2764,12 @@
       "barcode": "0801061025212",
       "label": "Warp",
       "date": "2015-06-01",
-      "genre": "electro, electronic",
       "id": "music-177",
-      "coverUrl": "/assets/img/music-covers/music-177.jpg"
+      "coverUrl": "/assets/img/music-covers/music-177.jpg",
+      "genres": [
+        "Electro",
+        "Electronic"
+      ]
     },
     {
       "artist": "Rustie",
@@ -2311,9 +2780,13 @@
       "barcode": "0801061930011",
       "label": "Warp",
       "date": "2010-10-04",
-      "genre": "electro, electronic, experimental, glitch",
       "id": "music-178",
-      "coverUrl": "/assets/img/music-covers/music-178.jpg"
+      "coverUrl": "/assets/img/music-covers/music-178.jpg",
+      "genres": [
+        "Electro",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Ital",
@@ -2324,9 +2797,9 @@
       "barcode": "5055300330765",
       "label": "Planet Mu",
       "date": "2012-11-05",
-      "genre": "",
       "id": "music-179",
-      "coverUrl": "/assets/img/music-covers/music-179.jpg"
+      "coverUrl": "/assets/img/music-covers/music-179.jpg",
+      "genres": []
     },
     {
       "artist": "Actress",
@@ -2337,9 +2810,13 @@
       "barcode": "5054429007541",
       "label": "",
       "date": "2017-04-14",
-      "genre": "electronic, experimental, techno",
       "id": "music-180",
-      "coverUrl": "/assets/img/music-covers/music-180.jpg"
+      "coverUrl": "/assets/img/music-covers/music-180.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "Techno"
+      ]
     },
     {
       "artist": "Aphex Twin",
@@ -2350,9 +2827,13 @@
       "barcode": "0801061004316",
       "label": "",
       "date": "1996-11-04",
-      "genre": "drill and bass, electronic, electronica, experimental",
       "id": "music-181",
-      "coverUrl": "/assets/img/music-covers/music-181.jpg"
+      "coverUrl": "/assets/img/music-covers/music-181.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Seven Davis Jr",
@@ -2363,9 +2844,14 @@
       "barcode": "5054429001921",
       "label": "",
       "date": "2015-07-24",
-      "genre": "downtempo, electronic, funk, hip hop",
       "id": "music-182",
-      "coverUrl": "/assets/img/music-covers/music-182.jpg"
+      "coverUrl": "/assets/img/music-covers/music-182.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Funk / Soul / Disco",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "John Cale",
@@ -2376,9 +2862,13 @@
       "barcode": "5034202304661",
       "label": "",
       "date": "2011-09-19",
-      "genre": "alternative rock, electronic, rock",
       "id": "music-183",
-      "coverUrl": "/assets/img/music-covers/music-183.jpg"
+      "coverUrl": "/assets/img/music-covers/music-183.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Electronic",
+        "Rock"
+      ]
     },
     {
       "artist": "Don Harper",
@@ -2389,9 +2879,13 @@
       "barcode": "0934334401281",
       "label": "Dual Planet",
       "date": "2014",
-      "genre": "Electronic, Stage & Screen, Abstract, Leftfield, Musique Concr\u00e8te",
       "id": "music-184",
-      "coverUrl": "/assets/img/music-covers/music-184.jpg"
+      "coverUrl": "/assets/img/music-covers/music-184.jpg",
+      "genres": [
+        "Electronic",
+        "Soundtrack",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Fleetwood Mac",
@@ -2402,9 +2896,13 @@
       "barcode": "0093624979357",
       "label": "",
       "date": "1977",
-      "genre": "blues, blues rock, classic rock, folk pop",
       "id": "music-185",
-      "coverUrl": "/assets/img/music-covers/music-185.jpg"
+      "coverUrl": "/assets/img/music-covers/music-185.jpg",
+      "genres": [
+        "Blues / Roots / World",
+        "Rock",
+        "Folk"
+      ]
     },
     {
       "artist": "Howie B",
@@ -2415,9 +2913,12 @@
       "barcode": "5050954295217",
       "label": "HB Recordings",
       "date": "2014",
-      "genre": "downtempo, electronic, trip hop",
       "id": "music-186",
-      "coverUrl": "/assets/img/music-covers/music-186.jpg"
+      "coverUrl": "/assets/img/music-covers/music-186.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic"
+      ]
     },
     {
       "artist": "Motion Graphics",
@@ -2428,9 +2929,11 @@
       "barcode": "0887828023219",
       "label": "",
       "date": "2016-08-26",
-      "genre": "electronic",
       "id": "music-187",
-      "coverUrl": "/assets/img/music-covers/music-187.jpg"
+      "coverUrl": "/assets/img/music-covers/music-187.jpg",
+      "genres": [
+        "Electronic"
+      ]
     },
     {
       "artist": "Martin Carthy",
@@ -2441,9 +2944,11 @@
       "barcode": "0714822201506",
       "label": "Topic Records",
       "date": "1965",
-      "genre": "folk",
       "id": "music-188",
-      "coverUrl": "/assets/img/music-covers/music-188.jpg"
+      "coverUrl": "/assets/img/music-covers/music-188.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Liquid Liquid",
@@ -2454,9 +2959,14 @@
       "barcode": "5034202203414",
       "label": "Domino",
       "date": "2008-05-19",
-      "genre": "breaks, disco, dub, leftfield",
       "id": "music-189",
-      "coverUrl": "/assets/img/music-covers/music-189.jpg"
+      "coverUrl": "/assets/img/music-covers/music-189.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Funk / Soul / Disco",
+        "Reggae / Dub",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Suicide",
@@ -2467,9 +2977,14 @@
       "barcode": "4050538664423",
       "label": "",
       "date": "1988",
-      "genre": "electronic, experimental, new wave, rock",
       "id": "music-190",
-      "coverUrl": "/assets/img/music-covers/music-190.jpg"
+      "coverUrl": "/assets/img/music-covers/music-190.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "Synth-Pop / New Wave",
+        "Rock"
+      ]
     },
     {
       "artist": "Tim Key",
@@ -2480,9 +2995,11 @@
       "barcode": "5014797902367",
       "label": "",
       "date": "2020-08-29",
-      "genre": "comedy, non-music, poetry, spoken word",
       "id": "music-191",
-      "coverUrl": "/assets/img/music-covers/music-191.jpg"
+      "coverUrl": "/assets/img/music-covers/music-191.jpg",
+      "genres": [
+        "Spoken Word / Other"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2493,9 +3010,11 @@
       "barcode": "5014797896925",
       "label": "",
       "date": "2018",
-      "genre": "Funk / Soul, Soul",
       "id": "music-192",
-      "coverUrl": "/assets/img/music-covers/music-192.jpg"
+      "coverUrl": "/assets/img/music-covers/music-192.jpg",
+      "genres": [
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Nirvana",
@@ -2506,9 +3025,13 @@
       "barcode": "0720642472712",
       "label": "",
       "date": "1994-11-01",
-      "genre": "acoustic rock, alternative rock, folk rock, grunge",
       "id": "music-193",
-      "coverUrl": "/assets/img/music-covers/music-193.jpg"
+      "coverUrl": "/assets/img/music-covers/music-193.jpg",
+      "genres": [
+        "Rock",
+        "Alternative Rock",
+        "Folk"
+      ]
     },
     {
       "artist": "Can",
@@ -2519,9 +3042,13 @@
       "barcode": "5414939958113",
       "label": "",
       "date": "2017-06-16",
-      "genre": "electronic, krautrock, rock",
       "id": "music-194",
-      "coverUrl": "/assets/img/music-covers/music-194.jpg"
+      "coverUrl": "/assets/img/music-covers/music-194.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "Rock"
+      ]
     },
     {
       "artist": "Pulp",
@@ -2532,9 +3059,12 @@
       "barcode": "0602577226748",
       "label": "",
       "date": "1994",
-      "genre": "alternative rock, britpop, glam rock, neo-psychedelia",
       "id": "music-195",
-      "coverUrl": "/assets/img/music-covers/music-195.jpg"
+      "coverUrl": "/assets/img/music-covers/music-195.jpg",
+      "genres": [
+        "Alternative Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Peter Broderick",
@@ -2545,9 +3075,12 @@
       "barcode": "5414939918728",
       "label": "",
       "date": "2015-04-27",
-      "genre": "indie folk, rock",
       "id": "music-196",
-      "coverUrl": "/assets/img/music-covers/music-196.jpg"
+      "coverUrl": "/assets/img/music-covers/music-196.jpg",
+      "genres": [
+        "Folk",
+        "Rock"
+      ]
     },
     {
       "artist": "La Priest",
@@ -2558,9 +3091,12 @@
       "barcode": "0887828034437",
       "label": "",
       "date": "2015-06-29",
-      "genre": "experimental rock, indie rock",
       "id": "music-197",
-      "coverUrl": "/assets/img/music-covers/music-197.jpg"
+      "coverUrl": "/assets/img/music-covers/music-197.jpg",
+      "genres": [
+        "Rock",
+        "Indie Rock"
+      ]
     },
     {
       "artist": "Soulsavers",
@@ -2571,9 +3107,13 @@
       "barcode": "5414939931369",
       "label": "",
       "date": "2015-12-04",
-      "genre": "downtempo, electronic, modern classical",
       "id": "music-198",
-      "coverUrl": "/assets/img/music-covers/music-198.jpg"
+      "coverUrl": "/assets/img/music-covers/music-198.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Classical"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2584,9 +3124,12 @@
       "barcode": "5013428032220",
       "label": "",
       "date": "1989",
-      "genre": "Folk, World, & Country, Folk",
       "id": "music-199",
-      "coverUrl": "/assets/img/music-covers/music-199.jpg"
+      "coverUrl": "/assets/img/music-covers/music-199.jpg",
+      "genres": [
+        "Folk",
+        "Blues / Roots / World"
+      ]
     },
     {
       "artist": "Nick Drake",
@@ -2597,9 +3140,11 @@
       "barcode": "0602517456976",
       "label": "",
       "date": "1992-05-08",
-      "genre": "contemporary folk, folk, folk pop, singer-songwriter",
       "id": "music-200",
-      "coverUrl": "/assets/img/music-covers/music-200.jpg"
+      "coverUrl": "/assets/img/music-covers/music-200.jpg",
+      "genres": [
+        "Folk"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -2610,9 +3155,11 @@
       "barcode": "4050538768671",
       "label": "",
       "date": "2022-08-05",
-      "genre": "reggae, ska",
       "id": "music-201",
-      "coverUrl": "/assets/img/music-covers/music-201.jpg"
+      "coverUrl": "/assets/img/music-covers/music-201.jpg",
+      "genres": [
+        "Reggae / Dub"
+      ]
     },
     {
       "artist": "Rustie",
@@ -2623,9 +3170,12 @@
       "barcode": "0801061025311",
       "label": "Warp",
       "date": "2014-08-27",
-      "genre": "electro, electronic",
       "id": "music-202",
-      "coverUrl": "/assets/img/music-covers/music-202.jpg"
+      "coverUrl": "/assets/img/music-covers/music-202.jpg",
+      "genres": [
+        "Electro",
+        "Electronic"
+      ]
     },
     {
       "artist": "RONiiA",
@@ -2636,9 +3186,14 @@
       "barcode": "0789577735415",
       "label": "",
       "date": "2014-12-08",
-      "genre": "electronic, pop, rock, synth-pop",
       "id": "music-203",
-      "coverUrl": "/assets/img/music-covers/music-203.jpg"
+      "coverUrl": "/assets/img/music-covers/music-203.jpg",
+      "genres": [
+        "Electronic",
+        "Pop",
+        "Rock",
+        "Synth-Pop / New Wave"
+      ]
     },
     {
       "artist": "Hooton Tennis Club",
@@ -2649,9 +3204,12 @@
       "barcode": "5414939926112",
       "label": "",
       "date": "2015",
-      "genre": "indie rock, rock",
       "id": "music-204",
-      "coverUrl": "/assets/img/music-covers/music-204.jpg"
+      "coverUrl": "/assets/img/music-covers/music-204.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Guy Bernard",
@@ -2662,9 +3220,12 @@
       "barcode": "0889397381301",
       "label": "",
       "date": "2016",
-      "genre": "Non-Music, Stage & Screen, Soundtrack, Score, Monolog",
       "id": "music-205",
-      "coverUrl": "/assets/img/music-covers/music-205.jpg"
+      "coverUrl": "/assets/img/music-covers/music-205.jpg",
+      "genres": [
+        "Spoken Word / Other",
+        "Soundtrack"
+      ]
     },
     {
       "artist": "Various Artists / Soundtrack",
@@ -2675,9 +3236,14 @@
       "barcode": "0602557032697",
       "label": "",
       "date": "2017",
-      "genre": "ambient, classical, electronic, industrial",
       "id": "music-206",
-      "coverUrl": "/assets/img/music-covers/music-206.jpg"
+      "coverUrl": "/assets/img/music-covers/music-206.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Classical",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Alexis Taylor",
@@ -2688,9 +3254,9 @@
       "barcode": "0887828040339",
       "label": "",
       "date": "2018-04-20",
-      "genre": "",
       "id": "music-207",
-      "coverUrl": "/assets/img/music-covers/music-207.jpg"
+      "coverUrl": "/assets/img/music-covers/music-207.jpg",
+      "genres": []
     },
     {
       "artist": "Yair Elazar Glotman",
@@ -2701,9 +3267,13 @@
       "barcode": "5065002003997",
       "label": "Subtext Recordings",
       "date": "2012-10-15",
-      "genre": "electro, electronic, hard trance, hardstyle",
       "id": "music-208",
-      "coverUrl": "/assets/img/music-covers/music-208.jpg"
+      "coverUrl": "/assets/img/music-covers/music-208.jpg",
+      "genres": [
+        "Electro",
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "Quilt",
@@ -2714,9 +3284,9 @@
       "barcode": "0184923109917",
       "label": "",
       "date": "2011",
-      "genre": "",
       "id": "music-209",
-      "coverUrl": "/assets/img/music-covers/music-209.jpg"
+      "coverUrl": "/assets/img/music-covers/music-209.jpg",
+      "genres": []
     },
     {
       "artist": "Machinedrum",
@@ -2727,9 +3297,13 @@
       "barcode": "5054429005523",
       "label": "Ninja Tune",
       "date": "2016-09-30",
-      "genre": "electronic, juke, pop",
       "id": "music-210",
-      "coverUrl": "/assets/img/music-covers/music-210.jpg"
+      "coverUrl": "/assets/img/music-covers/music-210.jpg",
+      "genres": [
+        "Electronic",
+        "Downtempo / Trip Hop",
+        "Pop"
+      ]
     },
     {
       "artist": "Ital",
@@ -2740,9 +3314,9 @@
       "barcode": "5055300329493",
       "label": "Planet Mu",
       "date": "2012-02-13",
-      "genre": "",
       "id": "music-211",
-      "coverUrl": "/assets/img/music-covers/music-211.jpg"
+      "coverUrl": "/assets/img/music-covers/music-211.jpg",
+      "genres": []
     },
     {
       "artist": "Darkstar",
@@ -2753,9 +3327,13 @@
       "barcode": "0801061025816",
       "label": "Warp",
       "date": "2015-09-25",
-      "genre": "downtempo, electronic, synth-pop",
       "id": "music-212",
-      "coverUrl": "/assets/img/music-covers/music-212.jpg"
+      "coverUrl": "/assets/img/music-covers/music-212.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Synth-Pop / New Wave"
+      ]
     },
     {
       "artist": "Slugabed",
@@ -2766,9 +3344,9 @@
       "barcode": "5021392713168",
       "label": "Ninja Tune",
       "date": "2012-04-09",
-      "genre": "",
       "id": "music-213",
-      "coverUrl": "/assets/img/music-covers/music-213.jpg"
+      "coverUrl": "/assets/img/music-covers/music-213.jpg",
+      "genres": []
     },
     {
       "artist": "Jib Kidder",
@@ -2779,9 +3357,13 @@
       "barcode": "0887833004111",
       "label": "",
       "date": "2015-01-26",
-      "genre": "electronic, experimental, lo-fi, pop",
       "id": "music-214",
-      "coverUrl": "/assets/img/music-covers/music-214.jpg"
+      "coverUrl": "/assets/img/music-covers/music-214.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "Pop"
+      ]
     },
     {
       "artist": "Gravenhurst",
@@ -2792,9 +3374,9 @@
       "barcode": "0801061026110",
       "label": "Warp",
       "date": "2014-12-01",
-      "genre": "",
       "id": "music-215",
-      "coverUrl": "/assets/img/music-covers/music-215.jpg"
+      "coverUrl": "/assets/img/music-covers/music-215.jpg",
+      "genres": []
     },
     {
       "artist": "Certain Creatures",
@@ -2805,9 +3387,14 @@
       "barcode": "0083351279141",
       "label": "",
       "date": "2015",
-      "genre": "Electronic, Techno, Industrial, Experimental, Synth-pop, Darkwave",
       "id": "music-216",
-      "coverUrl": "/assets/img/music-covers/music-216.jpg"
+      "coverUrl": "/assets/img/music-covers/music-216.jpg",
+      "genres": [
+        "Electronic",
+        "Techno",
+        "Experimental / Leftfield",
+        "Synth-Pop / New Wave"
+      ]
     },
     {
       "artist": "DJ Nervoso",
@@ -2818,9 +3405,9 @@
       "barcode": "0634457739710",
       "label": "Principe Discos",
       "date": "2016-10-28",
-      "genre": "",
       "id": "music-217",
-      "coverUrl": "/assets/img/music-covers/music-217.jpg"
+      "coverUrl": "/assets/img/music-covers/music-217.jpg",
+      "genres": []
     },
     {
       "artist": "Submerged vs Bill Laswell",
@@ -2831,9 +3418,12 @@
       "barcode": "0708527004685",
       "label": "",
       "date": "2016-04-29",
-      "genre": "dub, electronic",
       "id": "music-218",
-      "coverUrl": "/assets/img/music-covers/music-218.jpg"
+      "coverUrl": "/assets/img/music-covers/music-218.jpg",
+      "genres": [
+        "Reggae / Dub",
+        "Electronic"
+      ]
     },
     {
       "artist": "Powell",
@@ -2844,9 +3434,12 @@
       "barcode": "5056321612229",
       "label": "",
       "date": "2020-05-13",
-      "genre": "classical, electronic",
       "id": "music-219",
-      "coverUrl": "/assets/img/music-covers/music-219.jpg"
+      "coverUrl": "/assets/img/music-covers/music-219.jpg",
+      "genres": [
+        "Classical",
+        "Electronic"
+      ]
     },
     {
       "artist": "Wen",
@@ -2857,9 +3450,12 @@
       "barcode": "5054429132519",
       "label": "",
       "date": "2018-07-06",
-      "genre": "electronic, grime",
       "id": "music-220",
-      "coverUrl": "/assets/img/music-covers/music-220.jpg"
+      "coverUrl": "/assets/img/music-covers/music-220.jpg",
+      "genres": [
+        "Electronic",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "The Memory Band",
@@ -2870,9 +3466,12 @@
       "barcode": "5024545767810",
       "label": "Static Caravan",
       "date": "2016-11-25",
-      "genre": "electronic, neofolk",
       "id": "music-221",
-      "coverUrl": "/assets/img/music-covers/music-221.jpg"
+      "coverUrl": "/assets/img/music-covers/music-221.jpg",
+      "genres": [
+        "Electronic",
+        "Folk"
+      ]
     },
     {
       "artist": "Lee Bannon",
@@ -2883,9 +3482,13 @@
       "barcode": "5054429001563",
       "label": "Ninja Tune",
       "date": "2015-07-10",
-      "genre": "ambient, electronic, hip hop",
       "id": "music-222",
-      "coverUrl": "/assets/img/music-covers/music-222.jpg"
+      "coverUrl": "/assets/img/music-covers/music-222.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Fay",
@@ -2896,9 +3499,13 @@
       "barcode": "0880319840913",
       "label": "",
       "date": "2017",
-      "genre": "Electronic, Leftfield, Bass Music",
       "id": "music-223",
-      "coverUrl": "/assets/img/music-covers/music-223.jpg"
+      "coverUrl": "/assets/img/music-covers/music-223.jpg",
+      "genres": [
+        "Electronic",
+        "Experimental / Leftfield",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Seb Wildblood",
@@ -2909,9 +3516,14 @@
       "barcode": "4050538154160",
       "label": "",
       "date": "2015",
-      "genre": "Electronic, House, Techno, Downtempo",
       "id": "music-224",
-      "coverUrl": "/assets/img/music-covers/music-224.jpg"
+      "coverUrl": "/assets/img/music-covers/music-224.jpg",
+      "genres": [
+        "Electronic",
+        "House",
+        "Techno",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Nathan Fake",
@@ -2922,9 +3534,12 @@
       "barcode": "5051083065634",
       "label": "Ninja Tune",
       "date": "2017-03-10",
-      "genre": "electronic, techno",
       "id": "music-225",
-      "coverUrl": "/assets/img/music-covers/music-225.jpg"
+      "coverUrl": "/assets/img/music-covers/music-225.jpg",
+      "genres": [
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "Cheatahs",
@@ -2935,9 +3550,12 @@
       "barcode": "5055036214384",
       "label": "",
       "date": "2015-06-15",
-      "genre": "indie rock, rock, shoegaze",
       "id": "music-226",
-      "coverUrl": "/assets/img/music-covers/music-226.jpg"
+      "coverUrl": "/assets/img/music-covers/music-226.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Chocolat",
@@ -2948,9 +3566,11 @@
       "barcode": "0857387005308",
       "label": "",
       "date": "2016-11-11",
-      "genre": "rock",
       "id": "music-227",
-      "coverUrl": "/assets/img/music-covers/music-227.jpg"
+      "coverUrl": "/assets/img/music-covers/music-227.jpg",
+      "genres": [
+        "Rock"
+      ]
     },
     {
       "artist": "Bok Bok",
@@ -2961,9 +3581,13 @@
       "barcode": "5060384610054",
       "label": "Night Slugs",
       "date": "2014-05-26",
-      "genre": "electronic, grime, hip hop",
       "id": "music-228",
-      "coverUrl": "/assets/img/music-covers/music-228.jpg"
+      "coverUrl": "/assets/img/music-covers/music-228.jpg",
+      "genres": [
+        "Electronic",
+        "Downtempo / Trip Hop",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Kelly Willis & Bruce Robison",
@@ -2974,9 +3598,12 @@
       "barcode": "0748252256034",
       "label": "",
       "date": "2014-06-20",
-      "genre": "country, folk",
       "id": "music-229",
-      "coverUrl": "/assets/img/music-covers/music-229.jpg"
+      "coverUrl": "/assets/img/music-covers/music-229.jpg",
+      "genres": [
+        "Blues / Roots / World",
+        "Folk"
+      ]
     },
     {
       "artist": "Letherette",
@@ -2987,9 +3614,14 @@
       "barcode": "5054429005981",
       "label": "",
       "date": "2016-11-25",
-      "genre": "deep house, electro, electronic, hip hop",
       "id": "music-230",
-      "coverUrl": "/assets/img/music-covers/music-230.jpg"
+      "coverUrl": "/assets/img/music-covers/music-230.jpg",
+      "genres": [
+        "House",
+        "Electro",
+        "Electronic",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Schluss",
@@ -3000,9 +3632,9 @@
       "barcode": "0880319911217",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-231",
-      "coverUrl": "/assets/img/music-covers/music-231.jpg"
+      "coverUrl": "/assets/img/music-covers/music-231.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -3013,9 +3645,14 @@
       "barcode": "5024545930818",
       "label": "Swim",
       "date": "2021",
-      "genre": "Electronic, Rock, Experimental, Post Rock",
       "id": "music-232",
-      "coverUrl": "/assets/img/music-covers/music-232.jpg"
+      "coverUrl": "/assets/img/music-covers/music-232.jpg",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Experimental / Leftfield",
+        "Post-Rock"
+      ]
     },
     {
       "artist": "The Future Sound of London",
@@ -3026,9 +3663,12 @@
       "barcode": "0602557787078",
       "label": "",
       "date": "1994",
-      "genre": "ambient, ambient techno, chillout, downtempo",
       "id": "music-233",
-      "coverUrl": "/assets/img/music-covers/music-233.jpg"
+      "coverUrl": "/assets/img/music-covers/music-233.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Downtempo / Trip Hop"
+      ]
     },
     {
       "artist": "Oneohtrix Point Never",
@@ -3039,9 +3679,13 @@
       "barcode": "0801061106218",
       "label": "Warp",
       "date": "2019-11-15",
-      "genre": "ambient, electronic, experimental, glitch",
       "id": "music-234",
-      "coverUrl": "/assets/img/music-covers/music-234.jpg"
+      "coverUrl": "/assets/img/music-covers/music-234.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Aphex Twin",
@@ -3052,9 +3696,12 @@
       "barcode": "0801061942311",
       "label": "",
       "date": "2018-09-14",
-      "genre": "idm, techno",
       "id": "music-235",
-      "coverUrl": "/assets/img/music-covers/music-235.jpg"
+      "coverUrl": "/assets/img/music-covers/music-235.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Techno"
+      ]
     },
     {
       "artist": "Bibio",
@@ -3065,9 +3712,14 @@
       "barcode": "0801061105617",
       "label": "Warp",
       "date": "2019-11-15",
-      "genre": "ambient, electronic, experimental, folk rock",
       "id": "music-236",
-      "coverUrl": "/assets/img/music-covers/music-236.jpg"
+      "coverUrl": "/assets/img/music-covers/music-236.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Electronic",
+        "Experimental / Leftfield",
+        "Folk"
+      ]
     },
     {
       "artist": "Peaking Lights",
@@ -3078,9 +3730,13 @@
       "barcode": "5055453701115",
       "label": "",
       "date": "2012-06-18",
-      "genre": "dub, electronic, experimental, lo-fi",
       "id": "music-237",
-      "coverUrl": "/assets/img/music-covers/music-237.jpg"
+      "coverUrl": "/assets/img/music-covers/music-237.jpg",
+      "genres": [
+        "Reggae / Dub",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Peaking Lights",
@@ -3091,9 +3747,14 @@
       "barcode": "0887833003336",
       "label": "",
       "date": "2014-10-07",
-      "genre": "downtempo, electro, electronic, indie pop",
       "id": "music-238",
-      "coverUrl": "/assets/img/music-covers/music-238.jpg"
+      "coverUrl": "/assets/img/music-covers/music-238.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electro",
+        "Electronic",
+        "Pop"
+      ]
     },
     {
       "artist": "Slugabed",
@@ -3104,9 +3765,9 @@
       "barcode": "5053760048589",
       "label": "Activia Benz",
       "date": "",
-      "genre": "",
       "id": "music-239",
-      "coverUrl": "/assets/img/music-covers/music-239.jpg"
+      "coverUrl": "/assets/img/music-covers/music-239.jpg",
+      "genres": []
     },
     {
       "artist": "David Holmes & Brian Irvine",
@@ -3117,9 +3778,11 @@
       "barcode": "5056321620859",
       "label": "",
       "date": "2019",
-      "genre": "Stage & Screen, Soundtrack, Score",
       "id": "music-240",
-      "coverUrl": "/assets/img/music-covers/music-240.jpg"
+      "coverUrl": "/assets/img/music-covers/music-240.jpg",
+      "genres": [
+        "Soundtrack"
+      ]
     },
     {
       "artist": "Roots Manuva",
@@ -3130,9 +3793,12 @@
       "barcode": "5054429004083",
       "label": "Big Dada",
       "date": "2016-04-16",
-      "genre": "hip hop, instrumental",
       "id": "music-241",
-      "coverUrl": "/assets/img/music-covers/music-241.jpg"
+      "coverUrl": "/assets/img/music-covers/music-241.jpg",
+      "genres": [
+        "Hip Hop",
+        "Jazz"
+      ]
     },
     {
       "artist": "Sinead O'Brien",
@@ -3143,9 +3809,12 @@
       "barcode": "5053760086499",
       "label": "",
       "date": "2022-06-10",
-      "genre": "post-punk, rock",
       "id": "music-242",
-      "coverUrl": "/assets/img/music-covers/music-242.jpg"
+      "coverUrl": "/assets/img/music-covers/music-242.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Stereolab",
@@ -3156,9 +3825,16 @@
       "barcode": "5060384616070",
       "label": "",
       "date": "1996",
-      "genre": "Electronic, Rock, Pop, Indie Rock, Post Rock, Krautrock",
       "id": "music-243",
-      "coverUrl": "/assets/img/music-covers/music-243.jpg"
+      "coverUrl": "/assets/img/music-covers/music-243.jpg",
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop",
+        "Indie Rock",
+        "Post-Rock",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Your Friend",
@@ -3169,9 +3845,9 @@
       "barcode": "0887828034215",
       "label": "",
       "date": "2016-01-29",
-      "genre": "",
       "id": "music-244",
-      "coverUrl": "/assets/img/music-covers/music-244.jpg"
+      "coverUrl": "/assets/img/music-covers/music-244.jpg",
+      "genres": []
     },
     {
       "artist": "Flight of the Conchords",
@@ -3182,9 +3858,14 @@
       "barcode": "0098787080018",
       "label": "",
       "date": "2018-04-08",
-      "genre": "comedy, electronic, hip hop, pop",
       "id": "music-245",
-      "coverUrl": "/assets/img/music-covers/music-245.jpg"
+      "coverUrl": "/assets/img/music-covers/music-245.jpg",
+      "genres": [
+        "Spoken Word / Other",
+        "Electronic",
+        "Hip Hop",
+        "Pop"
+      ]
     },
     {
       "artist": "Lee \"Scratch\" Perry",
@@ -3195,9 +3876,11 @@
       "barcode": "4050538781748",
       "label": "",
       "date": "2022-08-26",
-      "genre": "dub, reggae, rocksteady, roots reggae",
       "id": "music-246",
-      "coverUrl": "/assets/img/music-covers/music-246.jpg"
+      "coverUrl": "/assets/img/music-covers/music-246.jpg",
+      "genres": [
+        "Reggae / Dub"
+      ]
     },
     {
       "artist": "The Beatles",
@@ -3208,9 +3891,13 @@
       "barcode": "0602577915123",
       "label": "",
       "date": "1983-05-21",
-      "genre": "ambient, art pop, art rock, beat music",
       "id": "music-247",
-      "coverUrl": "/assets/img/music-covers/music-247.jpg"
+      "coverUrl": "/assets/img/music-covers/music-247.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Art Rock",
+        "Electronic"
+      ]
     },
     {
       "artist": "UMFANG",
@@ -3221,9 +3908,12 @@
       "barcode": "5054429118377",
       "label": "",
       "date": "2017-06-16",
-      "genre": "electronic, minimal techno, techno",
       "id": "music-248",
-      "coverUrl": "/assets/img/music-covers/music-248.jpg"
+      "coverUrl": "/assets/img/music-covers/music-248.jpg",
+      "genres": [
+        "Electronic",
+        "Techno"
+      ]
     },
     {
       "artist": "RAC",
@@ -3234,9 +3924,11 @@
       "barcode": "5054429119206",
       "label": "",
       "date": "2017-07-14",
-      "genre": "electronic",
       "id": "music-249",
-      "coverUrl": "/assets/img/music-covers/music-249.jpg"
+      "coverUrl": "/assets/img/music-covers/music-249.jpg",
+      "genres": [
+        "Electronic"
+      ]
     },
     {
       "artist": "Dexter Gordon",
@@ -3247,9 +3939,9 @@
       "barcode": "",
       "label": "Blue Note",
       "date": "",
-      "genre": "",
       "id": "music-250",
-      "coverUrl": "/assets/img/music-covers/music-250.jpg"
+      "coverUrl": "/assets/img/music-covers/music-250.jpg",
+      "genres": []
     },
     {
       "artist": "Eric Dolphy",
@@ -3260,9 +3952,12 @@
       "barcode": "",
       "label": "Blue Note",
       "date": "1994-10-26",
-      "genre": "avant-garde, avant-garde jazz, instrumental, jazz",
       "id": "music-251",
-      "coverUrl": "/assets/img/music-covers/music-251.jpg"
+      "coverUrl": "/assets/img/music-covers/music-251.jpg",
+      "genres": [
+        "Experimental / Leftfield",
+        "Jazz"
+      ]
     },
     {
       "artist": "Wayne Shorter",
@@ -3273,9 +3968,11 @@
       "barcode": "",
       "label": "Blue Note",
       "date": "2013-10-23",
-      "genre": "jazz, post-bop",
       "id": "music-252",
-      "coverUrl": "/assets/img/music-covers/music-252.jpg"
+      "coverUrl": "/assets/img/music-covers/music-252.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Stan Getz & Joao Gilberto",
@@ -3286,9 +3983,12 @@
       "barcode": "",
       "label": "Verve",
       "date": "2011",
-      "genre": "bossa nova, cool jazz, jazz, latin",
       "id": "music-253",
-      "coverUrl": "/assets/img/music-covers/music-253.jpg"
+      "coverUrl": "/assets/img/music-covers/music-253.jpg",
+      "genres": [
+        "Jazz",
+        "Blues / Roots / World"
+      ]
     },
     {
       "artist": "Art Blakey and the Jazz Messengers",
@@ -3299,9 +3999,11 @@
       "barcode": "",
       "label": "Columbia",
       "date": "2005",
-      "genre": "afro-cuban jazz, hard bop, jazz",
       "id": "music-254",
-      "coverUrl": "/assets/img/music-covers/music-254.jpg"
+      "coverUrl": "/assets/img/music-covers/music-254.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Ella Fitzgerald & Louis Armstrong",
@@ -3312,9 +4014,11 @@
       "barcode": "",
       "label": "Verve",
       "date": "2005",
-      "genre": "jazz, smooth jazz, vocal jazz",
       "id": "music-255",
-      "coverUrl": "/assets/img/music-covers/music-255.jpg"
+      "coverUrl": "/assets/img/music-covers/music-255.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Bill Evans",
@@ -3325,9 +4029,11 @@
       "barcode": "",
       "label": "Verve",
       "date": "2012-07-25",
-      "genre": "jazz",
       "id": "music-256",
-      "coverUrl": "/assets/img/music-covers/music-256.jpg"
+      "coverUrl": "/assets/img/music-covers/music-256.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Duke Ellington, Charles Mingus, Max Roach",
@@ -3338,9 +4044,11 @@
       "barcode": "",
       "label": "",
       "date": "1980",
-      "genre": "hard bop, jazz, post-bop",
       "id": "music-257",
-      "coverUrl": "/assets/img/music-covers/music-257.jpg"
+      "coverUrl": "/assets/img/music-covers/music-257.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "The Gerry Mulligan Quartet",
@@ -3351,9 +4059,11 @@
       "barcode": "",
       "label": "Columbia",
       "date": "1959",
-      "genre": "cool jazz, jazz",
       "id": "music-258",
-      "coverUrl": "/assets/img/music-covers/music-258.jpg"
+      "coverUrl": "/assets/img/music-covers/music-258.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Miles Davis",
@@ -3364,9 +4074,11 @@
       "barcode": "",
       "label": "Columbia",
       "date": "1960-08",
-      "genre": "contemporary jazz, cool jazz, jazz, modal jazz",
       "id": "music-259",
-      "coverUrl": "/assets/img/music-covers/music-259.jpg"
+      "coverUrl": "/assets/img/music-covers/music-259.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Cannonball Adderley",
@@ -3377,9 +4089,11 @@
       "barcode": "",
       "label": "Blue Note",
       "date": "1958",
-      "genre": "bebop, cool jazz, hard bop, instrumental",
       "id": "music-260",
-      "coverUrl": "/assets/img/music-covers/music-260.jpg"
+      "coverUrl": "/assets/img/music-covers/music-260.jpg",
+      "genres": [
+        "Jazz"
+      ]
     },
     {
       "artist": "Orange Juice",
@@ -3390,9 +4104,12 @@
       "barcode": "0887830005111",
       "label": "Domino",
       "date": "2014-02-03",
-      "genre": "post-punk, rock",
       "id": "music-261",
-      "coverUrl": "/assets/img/music-covers/music-261.jpg"
+      "coverUrl": "/assets/img/music-covers/music-261.jpg",
+      "genres": [
+        "Indie Rock",
+        "Rock"
+      ]
     },
     {
       "artist": "Slugabed",
@@ -3403,9 +4120,9 @@
       "barcode": "5021392716183",
       "label": "Ninja Tune (ZEN181)",
       "date": "2012-05-07",
-      "genre": "",
       "id": "music-262",
-      "coverUrl": "/assets/img/music-covers/music-262.jpg"
+      "coverUrl": "/assets/img/music-covers/music-262.jpg",
+      "genres": []
     },
     {
       "artist": "Slava",
@@ -3416,9 +4133,9 @@
       "barcode": "0184923202410",
       "label": "",
       "date": "2013-04-23",
-      "genre": "",
       "id": "music-263",
-      "coverUrl": "/assets/img/music-covers/music-263.jpg"
+      "coverUrl": "/assets/img/music-covers/music-263.jpg",
+      "genres": []
     },
     {
       "artist": "Kate Bush",
@@ -3429,9 +4146,13 @@
       "barcode": "0190295593872",
       "label": "",
       "date": "1982",
-      "genre": "Rock, Art Rock, Pop Rock",
       "id": "music-264",
-      "coverUrl": "/assets/img/music-covers/music-264.jpg"
+      "coverUrl": "/assets/img/music-covers/music-264.jpg",
+      "genres": [
+        "Rock",
+        "Art Rock",
+        "Pop"
+      ]
     },
     {
       "artist": "Kate Bush",
@@ -3442,9 +4163,13 @@
       "barcode": "0190295593889",
       "label": "",
       "date": "1980",
-      "genre": "Rock, Pop, Pop Rock, Art Rock",
       "id": "music-265",
-      "coverUrl": "/assets/img/music-covers/music-265.jpg"
+      "coverUrl": "/assets/img/music-covers/music-265.jpg",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Art Rock"
+      ]
     },
     {
       "artist": "Kate Bush",
@@ -3455,9 +4180,13 @@
       "barcode": "0190295593896",
       "label": "",
       "date": "1978",
-      "genre": "Rock, Pop, Art Rock, Pop Rock, Ballad",
       "id": "music-266",
-      "coverUrl": "/assets/img/music-covers/music-266.jpg"
+      "coverUrl": "/assets/img/music-covers/music-266.jpg",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Art Rock"
+      ]
     },
     {
       "artist": "Kate Bush",
@@ -3468,9 +4197,12 @@
       "barcode": "0190295593919",
       "label": "",
       "date": "1994",
-      "genre": "art pop, art rock, avant-garde, leftfield",
       "id": "music-267",
-      "coverUrl": "/assets/img/music-covers/music-267.jpg"
+      "coverUrl": "/assets/img/music-covers/music-267.jpg",
+      "genres": [
+        "Art Rock",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Ash Koosha",
@@ -3481,9 +4213,14 @@
       "barcode": "5054429004151",
       "label": "Ninja Tune",
       "date": "2016-04-01",
-      "genre": "broken beat, dubstep, electronic, industrial",
       "id": "music-268",
-      "coverUrl": "/assets/img/music-covers/music-268.jpg"
+      "coverUrl": "/assets/img/music-covers/music-268.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Drum and Bass / Dubstep",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "The Seshen",
@@ -3494,9 +4231,9 @@
       "barcode": "",
       "label": "",
       "date": "2016-10-14",
-      "genre": "",
       "id": "music-269",
-      "coverUrl": "/assets/img/music-covers/music-269.jpg"
+      "coverUrl": "/assets/img/music-covers/music-269.jpg",
+      "genres": []
     },
     {
       "artist": "Le Groupe Apollo",
@@ -3507,9 +4244,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-270",
-      "coverUrl": "/assets/img/music-covers/music-270.jpg"
+      "coverUrl": "/assets/img/music-covers/music-270.jpg",
+      "genres": []
     },
     {
       "artist": "Ulrich Schnauss",
@@ -3520,9 +4257,14 @@
       "barcode": "",
       "label": "",
       "date": "2013-02-12",
-      "genre": "ambient, downtempo, electronic, experimental",
       "id": "music-271",
-      "coverUrl": "/assets/img/music-covers/music-271.jpg"
+      "coverUrl": "/assets/img/music-covers/music-271.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Tre Mission",
@@ -3533,9 +4275,12 @@
       "barcode": "",
       "label": "",
       "date": "2014-08-11",
-      "genre": "grime, hip hop",
       "id": "music-272",
-      "coverUrl": "/assets/img/music-covers/music-272.jpg"
+      "coverUrl": "/assets/img/music-covers/music-272.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Hip Hop"
+      ]
     },
     {
       "artist": "Chapelier Fou",
@@ -3546,9 +4291,14 @@
       "barcode": "",
       "label": "",
       "date": "2012-03",
-      "genre": "classical, electro, electronic, pop",
       "id": "music-273",
-      "coverUrl": "/assets/img/music-covers/music-273.jpg"
+      "coverUrl": "/assets/img/music-covers/music-273.jpg",
+      "genres": [
+        "Classical",
+        "Electro",
+        "Electronic",
+        "Pop"
+      ]
     },
     {
       "artist": "Herva",
@@ -3559,9 +4309,14 @@
       "barcode": "",
       "label": "",
       "date": "2015-12",
-      "genre": "breakbeat, electronic, experimental, idm",
       "id": "music-274",
-      "coverUrl": "/assets/img/music-covers/music-274.jpg"
+      "coverUrl": "/assets/img/music-covers/music-274.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Experimental / Leftfield",
+        "IDM / Ambient"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -3572,9 +4327,9 @@
       "barcode": "",
       "label": "Brownswood Recordings",
       "date": "",
-      "genre": "",
       "id": "music-275",
-      "coverUrl": "/assets/img/music-covers/music-275.jpg"
+      "coverUrl": "/assets/img/music-covers/music-275.jpg",
+      "genres": []
     },
     {
       "artist": "Kutmah",
@@ -3585,9 +4340,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-276",
-      "coverUrl": "/assets/img/music-covers/music-276.jpg"
+      "coverUrl": "/assets/img/music-covers/music-276.jpg",
+      "genres": []
     },
     {
       "artist": "El Ten Eleven",
@@ -3598,9 +4353,9 @@
       "barcode": "",
       "label": "",
       "date": "2020-09-18",
-      "genre": "",
       "id": "music-277",
-      "coverUrl": "/assets/img/music-covers/music-277.jpg"
+      "coverUrl": "/assets/img/music-covers/music-277.jpg",
+      "genres": []
     },
     {
       "artist": "Ami Shavit",
@@ -3611,9 +4366,9 @@
       "barcode": "",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-278",
-      "coverUrl": "/assets/img/music-covers/music-278.jpg"
+      "coverUrl": "/assets/img/music-covers/music-278.jpg",
+      "genres": []
     },
     {
       "artist": "Jay Daniel",
@@ -3624,9 +4379,14 @@
       "barcode": "",
       "label": "",
       "date": "2016",
-      "genre": "breaks, deep house, detroit techno, electronic",
       "id": "music-279",
-      "coverUrl": "/assets/img/music-covers/music-279.jpg"
+      "coverUrl": "/assets/img/music-covers/music-279.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "House",
+        "Techno",
+        "Electronic"
+      ]
     },
     {
       "artist": "Flying Saucer Attack",
@@ -3637,9 +4397,14 @@
       "barcode": "",
       "label": "",
       "date": "1997-10-13",
-      "genre": "ambient, downtempo, electronic, experimental",
       "id": "music-280",
-      "coverUrl": "/assets/img/music-covers/music-280.jpg"
+      "coverUrl": "/assets/img/music-covers/music-280.jpg",
+      "genres": [
+        "IDM / Ambient",
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Golden Teacher",
@@ -3650,9 +4415,13 @@
       "barcode": "",
       "label": "",
       "date": "2017-11-03",
-      "genre": "dancehall, disco, dub, electronic",
       "id": "music-281",
-      "coverUrl": "/assets/img/music-covers/music-281.jpg"
+      "coverUrl": "/assets/img/music-covers/music-281.jpg",
+      "genres": [
+        "Reggae / Dub",
+        "Funk / Soul / Disco",
+        "Electronic"
+      ]
     },
     {
       "artist": "Stefan Grossman",
@@ -3663,9 +4432,13 @@
       "barcode": "",
       "label": "",
       "date": "1973",
-      "genre": "Blues, Folk, World, & Country, Acoustic",
       "id": "music-282",
-      "coverUrl": "/assets/img/music-covers/music-282.jpg"
+      "coverUrl": "/assets/img/music-covers/music-282.jpg",
+      "genres": [
+        "Blues / Roots / World",
+        "Folk",
+        "Spoken Word / Other"
+      ]
     },
     {
       "artist": "Stefan Grossman",
@@ -3676,9 +4449,11 @@
       "barcode": "",
       "label": "",
       "date": "1974",
-      "genre": "Blues, Delta Blues, Country Blues, Texas Blues",
       "id": "music-283",
-      "coverUrl": "/assets/img/music-covers/music-283.jpg"
+      "coverUrl": "/assets/img/music-covers/music-283.jpg",
+      "genres": [
+        "Blues / Roots / World"
+      ]
     },
     {
       "artist": "Various Artists",
@@ -3689,9 +4464,12 @@
       "barcode": "",
       "label": "",
       "date": "2012",
-      "genre": "Hip Hop, Funk / Soul, DJ Battle Tool, Funk",
       "id": "music-284",
-      "coverUrl": "/assets/img/music-covers/music-284.jpg"
+      "coverUrl": "/assets/img/music-covers/music-284.jpg",
+      "genres": [
+        "Hip Hop",
+        "Funk / Soul / Disco"
+      ]
     },
     {
       "artist": "Electric Light Orchestra",
@@ -3702,9 +4480,13 @@
       "barcode": "",
       "label": "",
       "date": "2001-06-11",
-      "genre": "art rock, disco, pop rock, progressive pop",
       "id": "music-285",
-      "coverUrl": "/assets/img/music-covers/music-285.jpg"
+      "coverUrl": "/assets/img/music-covers/music-285.jpg",
+      "genres": [
+        "Art Rock",
+        "Funk / Soul / Disco",
+        "Pop"
+      ]
     },
     {
       "artist": "Carpenters",
@@ -3715,9 +4497,11 @@
       "barcode": "",
       "label": "",
       "date": "1986",
-      "genre": "country pop, pop, pop rock, soft rock",
       "id": "music-286",
-      "coverUrl": "/assets/img/music-covers/music-286.jpg"
+      "coverUrl": "/assets/img/music-covers/music-286.jpg",
+      "genres": [
+        "Pop"
+      ]
     },
     {
       "artist": "Essaie Pas",
@@ -3728,9 +4512,13 @@
       "barcode": "5414939934308",
       "label": "",
       "date": "2016",
-      "genre": "ebm, electro, electronic, synth-pop",
       "id": "music-287",
-      "coverUrl": "/assets/img/music-covers/music-287.jpg"
+      "coverUrl": "/assets/img/music-covers/music-287.jpg",
+      "genres": [
+        "Synth-Pop / New Wave",
+        "Electro",
+        "Electronic"
+      ]
     },
     {
       "artist": "Hieroglyphic Being",
@@ -3741,9 +4529,9 @@
       "barcode": "LPNHE339930222",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-288",
-      "coverUrl": "/assets/img/music-covers/music-288.jpg"
+      "coverUrl": "/assets/img/music-covers/music-288.jpg",
+      "genres": []
     },
     {
       "artist": "Graham Dunning",
@@ -3754,9 +4542,13 @@
       "barcode": "LPNHE324245576",
       "label": "",
       "date": "2018",
-      "genre": "Electronic, Techno, Abstract",
       "id": "music-289",
-      "coverUrl": "/assets/img/music-covers/music-289.jpg"
+      "coverUrl": "/assets/img/music-covers/music-289.jpg",
+      "genres": [
+        "Electronic",
+        "Techno",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Becoming Real",
@@ -3767,9 +4559,9 @@
       "barcode": "5414939922220",
       "label": "",
       "date": "2015-05",
-      "genre": "",
       "id": "music-290",
-      "coverUrl": "/assets/img/music-covers/music-290.jpg"
+      "coverUrl": "/assets/img/music-covers/music-290.jpg",
+      "genres": []
     },
     {
       "artist": "Bryce Hackford",
@@ -3780,9 +4572,16 @@
       "barcode": "5060091553408",
       "label": "",
       "date": "2013",
-      "genre": "Electronic, House, Synth-pop, Ambient, Experimental, Techno",
       "id": "music-291",
-      "coverUrl": "/assets/img/music-covers/music-291.jpg"
+      "coverUrl": "/assets/img/music-covers/music-291.jpg",
+      "genres": [
+        "Electronic",
+        "House",
+        "Synth-Pop / New Wave",
+        "IDM / Ambient",
+        "Experimental / Leftfield",
+        "Techno"
+      ]
     },
     {
       "artist": "Stephen Steinbrink",
@@ -3793,9 +4592,12 @@
       "barcode": "5060168040756",
       "label": "",
       "date": "2013-10-29",
-      "genre": "indie pop, pop, rock",
       "id": "music-292",
-      "coverUrl": "/assets/img/music-covers/music-292.jpg"
+      "coverUrl": "/assets/img/music-covers/music-292.jpg",
+      "genres": [
+        "Pop",
+        "Rock"
+      ]
     },
     {
       "artist": "Normal Nada",
@@ -3806,9 +4608,9 @@
       "barcode": "0634457711716",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-293",
-      "coverUrl": "/assets/img/music-covers/music-293.jpg"
+      "coverUrl": "/assets/img/music-covers/music-293.jpg",
+      "genres": []
     },
     {
       "artist": "DEFCE",
@@ -3819,9 +4621,9 @@
       "barcode": "708527003039",
       "label": "Ohm Resistance",
       "date": "",
-      "genre": "",
       "id": "music-294",
-      "coverUrl": "/assets/img/music-covers/music-294.jpg"
+      "coverUrl": "/assets/img/music-covers/music-294.jpg",
+      "genres": []
     },
     {
       "artist": "Indri\u00f0i",
@@ -3832,9 +4634,14 @@
       "barcode": "",
       "label": "",
       "date": "2016",
-      "genre": "Electronic, Folk, World, & Country, Experimental",
       "id": "music-295",
-      "coverUrl": "/assets/img/music-covers/music-295.jpg"
+      "coverUrl": "/assets/img/music-covers/music-295.jpg",
+      "genres": [
+        "Electronic",
+        "Folk",
+        "Blues / Roots / World",
+        "Experimental / Leftfield"
+      ]
     },
     {
       "artist": "Otis Redding",
@@ -3845,9 +4652,9 @@
       "barcode": "",
       "label": "",
       "date": "1984",
-      "genre": "",
       "id": "music-296",
-      "coverUrl": "/assets/img/music-covers/music-296.jpg"
+      "coverUrl": "/assets/img/music-covers/music-296.jpg",
+      "genres": []
     },
     {
       "artist": "Bob Marley and the Wailers",
@@ -3858,9 +4665,13 @@
       "barcode": "",
       "label": "",
       "date": "1984",
-      "genre": "jamaican ska, reggae, reggae-pop, rock",
       "id": "music-297",
-      "coverUrl": "/assets/img/music-covers/music-297.jpg"
+      "coverUrl": "/assets/img/music-covers/music-297.jpg",
+      "genres": [
+        "Reggae / Dub",
+        "Pop",
+        "Rock"
+      ]
     },
     {
       "artist": "James Taylor",
@@ -3871,9 +4682,12 @@
       "barcode": "",
       "label": "",
       "date": "1990",
-      "genre": "folk, folk pop, rock, singer-songwriter",
       "id": "music-298",
-      "coverUrl": "/assets/img/music-covers/music-298.jpg"
+      "coverUrl": "/assets/img/music-covers/music-298.jpg",
+      "genres": [
+        "Folk",
+        "Rock"
+      ]
     },
     {
       "artist": "Cristobal Tapia De Veer",
@@ -3884,9 +4698,12 @@
       "barcode": "",
       "label": "",
       "date": "2017",
-      "genre": "Electronic, Soundtrack",
       "id": "music-299",
-      "coverUrl": "/assets/img/music-covers/music-299.jpg"
+      "coverUrl": "/assets/img/music-covers/music-299.jpg",
+      "genres": [
+        "Electronic",
+        "Soundtrack"
+      ]
     },
     {
       "artist": "Koreatown Oddity",
@@ -3897,9 +4714,9 @@
       "barcode": "",
       "label": "",
       "date": "2017-01-13",
-      "genre": "",
       "id": "music-300",
-      "coverUrl": "/assets/img/music-covers/music-300.jpg"
+      "coverUrl": "/assets/img/music-covers/music-300.jpg",
+      "genres": []
     },
     {
       "artist": "The Beatles",
@@ -3910,9 +4727,14 @@
       "barcode": "",
       "label": "",
       "date": "2009-09-09",
-      "genre": "art rock, beat music, blues rock, classic rock",
       "id": "music-301",
-      "coverUrl": "/assets/img/music-covers/music-301.jpg"
+      "coverUrl": "/assets/img/music-covers/music-301.jpg",
+      "genres": [
+        "Art Rock",
+        "Electronic",
+        "Blues / Roots / World",
+        "Rock"
+      ]
     },
     {
       "artist": "Romare",
@@ -3923,9 +4745,13 @@
       "barcode": "",
       "label": "Ninja Tune",
       "date": "2016-11-11",
-      "genre": "breakbeat, downtempo, electronic, house",
       "id": "music-302",
-      "coverUrl": "/assets/img/music-covers/music-302.jpg"
+      "coverUrl": "/assets/img/music-covers/music-302.jpg",
+      "genres": [
+        "Downtempo / Trip Hop",
+        "Electronic",
+        "House"
+      ]
     },
     {
       "artist": "The Black Dog",
@@ -3936,9 +4762,9 @@
       "barcode": "5056614705768",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-303",
-      "coverUrl": "/assets/img/music-covers/music-303.jpg"
+      "coverUrl": "/assets/img/music-covers/music-303.jpg",
+      "genres": []
     },
     {
       "artist": "Underworld",
@@ -3949,9 +4775,9 @@
       "barcode": "0602577853401",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-304",
-      "coverUrl": "/assets/img/music-covers/music-304.jpg"
+      "coverUrl": "/assets/img/music-covers/music-304.jpg",
+      "genres": []
     },
     {
       "artist": "Kate Bush",
@@ -3962,9 +4788,9 @@
       "barcode": "0190295593865",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-305",
-      "coverUrl": "/assets/img/music-covers/music-305.jpg"
+      "coverUrl": "/assets/img/music-covers/music-305.jpg",
+      "genres": []
     },
     {
       "artist": "Kate Bush",
@@ -3975,9 +4801,9 @@
       "barcode": "0190295593834",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-306",
-      "coverUrl": "/assets/img/music-covers/music-306.jpg"
+      "coverUrl": "/assets/img/music-covers/music-306.jpg",
+      "genres": []
     },
     {
       "artist": "Kate Bush",
@@ -3988,9 +4814,9 @@
       "barcode": "0190295593841",
       "label": "",
       "date": "",
-      "genre": "",
       "id": "music-307",
-      "coverUrl": "/assets/img/music-covers/music-307.jpg"
+      "coverUrl": "/assets/img/music-covers/music-307.jpg",
+      "genres": []
     },
     {
       "artist": "Johnny Cash",
@@ -4001,9 +4827,9 @@
       "barcode": "",
       "label": "Hallmark Records",
       "date": "",
-      "genre": "",
       "id": "music-308",
-      "coverUrl": "/assets/img/music-covers/music-308.jpg"
+      "coverUrl": "/assets/img/music-covers/music-308.jpg",
+      "genres": []
     },
     {
       "artist": "Mike Oldfield",
@@ -4014,9 +4840,9 @@
       "barcode": "",
       "label": "Virgin Records",
       "date": "1973",
-      "genre": "",
       "id": "music-309",
-      "coverUrl": "/assets/img/music-covers/music-309.jpg"
+      "coverUrl": "/assets/img/music-covers/music-309.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -4027,9 +4853,9 @@
       "barcode": "",
       "label": "RSO Records",
       "date": "",
-      "genre": "",
       "id": "music-310",
-      "coverUrl": "/assets/img/music-covers/music-310.jpg"
+      "coverUrl": "/assets/img/music-covers/music-310.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -4040,9 +4866,9 @@
       "barcode": "",
       "label": "Decca",
       "date": "",
-      "genre": "",
       "id": "music-311",
-      "coverUrl": "/assets/img/music-covers/music-311.jpg"
+      "coverUrl": "/assets/img/music-covers/music-311.jpg",
+      "genres": []
     },
     {
       "artist": "Various Artists",
@@ -4053,9 +4879,9 @@
       "barcode": "",
       "label": "Kicking Mule Records",
       "date": "1975",
-      "genre": "",
       "id": "music-312",
-      "coverUrl": "/assets/img/music-covers/music-312.jpg"
+      "coverUrl": "/assets/img/music-covers/music-312.jpg",
+      "genres": []
     },
     {
       "artist": "Johnny Cash",
@@ -4066,9 +4892,9 @@
       "barcode": "",
       "label": "Hallmark Records",
       "date": "",
-      "genre": "",
       "id": "music-313",
-      "coverUrl": "/assets/img/music-covers/music-313.jpg"
+      "coverUrl": "/assets/img/music-covers/music-313.jpg",
+      "genres": []
     },
     {
       "artist": "Johnny Cash",
@@ -4079,9 +4905,9 @@
       "barcode": "",
       "label": "CBS Records",
       "date": "",
-      "genre": "",
       "id": "music-314",
-      "coverUrl": "/assets/img/music-covers/music-314.jpg"
+      "coverUrl": "/assets/img/music-covers/music-314.jpg",
+      "genres": []
     }
   ]
 }
