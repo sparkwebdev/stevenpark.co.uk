@@ -46,25 +46,29 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 **Data files:** 
 - `src/_data/musicCollection.json` (314 records)
-- `src/_data/cd_covers.json` (CD cover art cache, 7.0 MB base64 thumbnails)
-- `src/_data/vinyl_covers.json` (vinyl cover art cache, 7.7 MB base64 thumbnails)
+- Cover art now cached at `src/assets/img/music-covers/{id}.jpg` (312/314), referenced by `coverUrl`
+- `src/_data/cd_covers.json` / `src/_data/vinyl_covers.json` — deleted (superseded by cached files above)
 
 **Structure:**
-- Records array with fields: `artist`, `album`, `media_type`, `format`, `catalogue_number`, `barcode`, `label`, `date`, `genre`, `verified`
-- Cover art: base64-encoded thumbnails (CD covers use `data_uri`, vinyl covers use `b64` + `mime`)
+- Records array with fields: `id` (array order — meaningful, this is physical shelf order, the intended default sort), `artist`, `album`, `media_type`, `format`, `catalogue_number`, `barcode`, `label`, `date`, `genres` (array, consolidated taxonomy — see below), `coverUrl`
+- Reference standard: MusicBrainz Release schema (the open-data equivalent of Open Library for music) — see `docs/data-structures.md`
 
 **Current state:**
 - 314 records verified (171 CDs + 143 vinyl)
-- Cover art: 100% vinyl (143/143), 98.8% CDs (169/171)
-- Metadata coverage: dates 93% (281/303), genres 88% (268/303)
+- Cover art: cached locally, 312/314 (2 records — Genaro, Norken — have no cover in any source)
+- Genres: consolidated from 154 raw free-text words down to 23 fixed buckets, stored as an array per record (186 records have 2+ genres, 82 have exactly 1, 46 have none) — see `docs/data-structures.md` for the full taxonomy
+- Barcode: 177/314 (after promoting `barcode_draft` values into `barcode`)
+- `catalogue_number_draft` and `verified` fields dropped (no data value — always empty / always true)
 - All records physically verified; barcode lookups via MusicBrainz, iTunes, Discogs
 
 **Status:** ✅ Production ready (core data)
 
+**Planned feature — Listen on your platform:** a per-record launcher letting a visitor open the album on their streaming platform of choice (Spotify/Apple Music/Tidal/YouTube Music/etc). Mechanism: resolve at click-time via a link-resolution service (e.g. Odesli/song.link) using an open identifier — `barcode` (UPC, present on 177/314 records) works today with no new data; ISRC/MusicBrainz ID would extend coverage to the rest and to track-level resolution. Not yet built — see `docs/data-structures.md` for the reasoning.
+
 **Features not yet carried over (from collection.html, available for later):**
 - **Full-text search** — artist, album, catalogue number search
 - **Media type filter** — toggle All/CD/Vinyl (currently displayed as single grid)
-- **Genre filter** — multi-select filter by genre tag
+- **Genre filter** — multi-select filter by the new consolidated `genres` taxonomy
 - **Sort controls** — sort by date, artist, album (currently reverse-chronological only)
 - **Faceted browsing** — genre/media type facet counts
 
@@ -73,8 +77,8 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 **Still to do:**
 - Locate cover art for 2 remaining CDs (Genaro - *A Safe Passage*, Norken - *Spring In A Small Town*)
-- Optional: consolidate CD and vinyl cover cache schemas (currently separate `data_uri` vs `b64`+`mime`)
 - Optional: implement search/filter/sort features if needed for browsing (deferred pending UX goals)
+- Build "Listen on your platform" launcher (see above)
 
 **Related files:**
 - Template: `src/pages/journal/music/index.html`
@@ -191,12 +195,65 @@ Data files live in `src/_data/`. Source materials and working files in `features
 
 ---
 
+## Beer Collection
+
+**URL:** `/journal/beer/` *(planned)*
+
+**What it is:** Personal log of beers checked in on Untappd with ratings and metadata.
+
+**Data file:** `src/_data/beerCollection.json`
+
+**Current state:**
+- 179 beers with full metadata (name, brewery, style, ABV, IBU, ratings, checkin dates)
+- 179/179 beers have HD image URLs hotlinked from Untappd CDN (converted from small to HD format)
+
+**Status:** ✅ Data ready (template pending)
+
+**Still to do:**
+- Create `/journal/beer/` template page to display collection
+- Consider sorting/filtering options (by style, ABV, rating, etc.)
+
+**Related files:**
+- Data: `src/_data/beerCollection.json`
+- Template: *(to be created)*
+
+---
+
+## Books / Bookshelf
+
+**URL:** `/journal/books/`
+
+**What it is:** Reading log of books and audiobooks with ratings and notes.
+
+**Data file:** `src/_data/bookCollection.json`
+
+**Current state:**
+- 27 entries (15 physical books + 12 audiobooks)
+- Grouped by year read (2023–2025)
+- Ratings included where available; notes for some entries
+
+**Status:** ✅ Live (basic)
+
+**Still to do:**
+- Fetch and embed cover art (OpenLibrary API)
+- Add book metadata (ISBN, publication year, genre tags)
+- Implement search/filter by year, rating, or format
+- Link to purchase/borrow URLs
+
+**Related files:**
+- Data: `src/_data/bookCollection.json`
+- Template: `src/pages/journal/books/index.html`
+
+---
+
 ## Summary by Status
 
 | Feature | Status | URL | Data file | Notes |
 |---------|--------|-----|-----------|-------|
 | Web Dev Articles | ⚠️ Not ready | `/journal/web-dev-articles/` | `webDevArticles.json` | Awaiting Maybe pile curation |
 | Music Collection | ✅ Ready | `/journal/music/` | `musicCollection.json` + covers | 2 missing CD covers |
-| Coffee Collection | ✅ Ready | `/journal/coffee/` | `coffeeCollection.json` | Complete |
+| Coffee Collection | ⚠️ Partial | `/journal/coffee/` | `coffeeCollection.json` | Logos missing — need re-fetch |
+| Beer Collection | 🔨 In progress | *(no URL yet)* | `beerCollection.json` | Data complete, template needed |
+| Books / Bookshelf | ✅ Live | `/journal/books/` | `bookCollection.json` | Basic version live, cover art pending |
 | Testimonials | ✅ Ready | `/pitch/testimonials/` | `testimonials.json` | Future: gather new ones |
-| Today I Learned | 🔨 In progress | `/journal/til/` | (planned) | Source data ready, needs integration |
+| Today I Learned | 🔨 In progress | `/journal/til/` | `tilCollection.json` | Live but content quality in progress |
