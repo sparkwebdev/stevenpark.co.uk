@@ -1,0 +1,341 @@
+{
+  "keep": [
+    {
+      "title": "Code Guide by @mdo",
+      "author": {
+        "@type": "Person",
+        "name": "codeguide.co"
+      },
+      "url": "https://codeguide.co",
+      "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS.",
+      "image": "/assets/img/webdev-article-covers/code-guide-by-mdo.png"
+    },
+    {
+      "title": "The failed promise of Web Components",
+      "author": {
+        "@type": "Person",
+        "name": "Lea Verou"
+      },
+      "url": "https://lea.verou.me/2020/09/the-failed-promise-of-web-components/"
+    },
+    {
+      "title": "The Economics of the Front-End",
+      "author": {
+        "@type": "Person",
+        "name": "Jim Nielsen"
+      },
+      "url": "https://blog.jim-nielsen.com/2020/economics-of-the-front-end/"
+    },
+    {
+      "title": "How screen readers navigate data tables",
+      "author": {
+        "@type": "Person",
+        "name": "L\u00e9onie Watson"
+      },
+      "url": "https://tink.uk/how-screen-readers-navigate-data-tables/"
+    },
+    {
+      "title": "The Fastest Google Fonts",
+      "author": {
+        "@type": "Person",
+        "name": "CSS Wizardry (Harry Roberts)"
+      },
+      "url": "https://csswizardry.com/2020/05/the-fastest-google-fonts/",
+      "description": "Google Fonts is fast. Now it\u2019s faster. Much faster."
+    },
+    {
+      "title": "Custom bullets with CSS ::marker",
+      "author": {
+        "@type": "Person",
+        "name": "web.dev"
+      },
+      "url": "https://web.dev/css-marker-pseudo-element/",
+      "description": "It is now trivial to customize the color, size or type of number or bullet when using a <ul> or <ol>."
+    },
+    {
+      "title": "What is the Value of Browser Diversity?",
+      "author": {
+        "@type": "Person",
+        "name": "Dave Rupert"
+      },
+      "url": "https://daverupert.com/2022/11/browser-diversity/"
+    },
+    {
+      "title": "Thinking About Power Usage and Websites",
+      "author": {
+        "@type": "Person",
+        "name": "CSS-Tricks"
+      },
+      "url": "https://css-tricks.com/thinking-about-power-usage-and-websites/",
+      "description": "Gerry McGovern asked if I had any insight into energy consumption and websites. He has a book, after all, about the digital costs on the planet. He was",
+      "image": "/assets/img/webdev-article-covers/thinking-about-power-usage-and-websites.png"
+    },
+    {
+      "title": "An alt Decision Tree",
+      "author": {
+        "@type": "Person",
+        "name": "W3C WAI"
+      },
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/"
+    },
+    {
+      "title": "Writing even more CSS with Accessibility in Mind",
+      "author": {
+        "@type": "Person",
+        "name": "Manuel Matuzovi\u0107"
+      },
+      "url": "https://www.matuzo.at/blog/writing-even-more-css-with-accessibility-in-mind-progressive-enhancement/",
+      "description": "Progressive enhancement is amazing. Building websites layer by layer allows for a cleaner separation of concerns, which makes the website more accessible.",
+      "image": "/assets/img/webdev-article-covers/writing-even-more-css-with-accessibility-in-mind.jpg"
+    },
+    {
+      "title": "Tools should not only be for experts",
+      "author": {
+        "@type": "Person",
+        "name": "Christian Heilmann"
+      },
+      "url": "https://christianheilmann.com/2020/09/15/tools-should-not-only-be-for-experts-they-should-turn-us-into-them/"
+    },
+    {
+      "title": "PDF: Still Unfit for Human Consumption, 20 Years Later",
+      "author": {
+        "@type": "Person",
+        "name": "NN Group"
+      },
+      "url": "https://www.nngroup.com/articles/pdf-unfit-for-human-consumption/",
+      "description": "Research spanning 20 years proves PDFs are problematic for online reading. Yet they\u2019re still prevalent and users continue to get lost in them. They\u2019re unpleasant to read and navigate and remain unfit for digital-content display.",
+      "image": "/assets/img/webdev-article-covers/pdf-still-unfit-for-human-consumption-20-years-later.png"
+    },
+    {
+      "title": "How I Structure My CSS (for Now)",
+      "author": {
+        "@type": "Person",
+        "name": "Matthias Ott"
+      },
+      "url": "https://matthiasott.com/notes/how-i-structure-my-css",
+      "description": "Matthias Ott is an independent user experience designer and developer from Stuttgart, Germany. Besides design practice he teaches Interface Prototyping at the Muthesius Academy of Fine Arts and Design, Kiel."
+    },
+    {
+      "title": "The Whimsical Web",
+      "author": {
+        "@type": "Person",
+        "name": "whimsical.club"
+      },
+      "url": "https://whimsical.club/",
+      "description": "A curated list of sites with an extra bit of fun.",
+      "image": "/assets/img/webdev-article-covers/the-whimsical-web.jpg"
+    },
+    {
+      "title": "Accessible Web Animation: The WCAG on Animation Explained",
+      "author": {
+        "@type": "Person",
+        "name": "CSS-Tricks"
+      },
+      "url": "https://css-tricks.com/accessible-web-animation-the-wcag-on-animation-explained/",
+      "description": "It\u2019s true, web animation can be accessible! Sometimes it just takes a little extra effort to make sure that it is. There are strategic things we can do to",
+      "image": "/assets/img/webdev-article-covers/accessible-web-animation-the-wcag-on-animation-explained.png"
+    },
+    {
+      "title": "The trouble with mailto email links",
+      "author": {
+        "@type": "Person",
+        "name": "Adam Silver"
+      },
+      "url": "https://adamsilver.io/articles/the-trouble-with-mailto-email-links-and-what-to-do-instead/",
+      "description": "Mailto links are everywhere and yet browsers and operating systems don\u2019t make them easy to use. Learn why that is and what we did about it when we launched Frankly, a joint venture helping teams create clear, accessible and user-centred digital products."
+    }
+  ],
+  "maybe": [
+    {
+      "title": "Why CSS Logical Properties Aren't Ready for Use",
+      "author": {
+        "@type": "Person",
+        "name": "Elad Shechter"
+      },
+      "url": "https://medium.com/@elad/why-css-logical-properties-arent-ready-for-use-c102925a5cba",
+      "description": "The new CSS logical properties module is one of the most important developments to have come to CSS in recent years. This module enables\u2026",
+      "image": "/assets/img/webdev-article-covers/why-css-logical-properties-aren-t-ready-for-use.png",
+      "keywords": [
+        "CSS",
+        "Web Development",
+        "Front End Development",
+        "Programming",
+        "HTML"
+      ],
+      "notes": "Outdated technically but a useful historical waypoint"
+    },
+    {
+      "title": "All design projects should start in a Google Doc",
+      "author": {
+        "@type": "Person",
+        "name": "UX Collective"
+      },
+      "url": "https://uxdesign.cc/all-design-projects-should-start-in-a-google-doc-20ad24f75a8c",
+      "description": "Most designers jump into their UI tools too quickly.",
+      "image": "/assets/img/webdev-article-covers/all-design-projects-should-start-in-a-google-doc.png",
+      "keywords": [
+        "Design",
+        "Product Design",
+        "Writing",
+        "UX",
+        "Ts"
+      ],
+      "notes": "Principle holds; not exclusively web-dev"
+    },
+    {
+      "title": "Web Brutalism, Seamfulness, and Notion",
+      "author": {
+        "@type": "Person",
+        "name": "Viget"
+      },
+      "url": "https://www.viget.com/articles/web-brutalism-seamfulness-and-notion/",
+      "description": "How a tool for sensemaking reconciles two distinct software design ideologies.",
+      "image": "/assets/img/webdev-article-covers/web-brutalism-seamfulness-and-notion.jpg",
+      "notes": "Good design thinking, slightly moment-in-time"
+    },
+    {
+      "title": "The tangled webs we weave",
+      "author": {
+        "@type": "Person",
+        "name": "Dave Rupert"
+      },
+      "url": "https://daverupert.com/2020/09/tangled-webs/",
+      "description": "Another reflection on modern web development",
+      "notes": "On the complexity of modern web development tooling"
+    },
+    {
+      "title": "How to Use AVIF",
+      "author": {
+        "@type": "Person",
+        "name": "reachlightspeed.com"
+      },
+      "url": "https://reachlightspeed.com/blog/using-the-new-high-performance-avif-image-format-on-the-web-today/",
+      "description": "Start using next-gen .avif images today progressively with the <picture> element. The format is ~50% smaller in size compared to JPEG, and ~20% smaller than WebP.",
+      "image": "/assets/img/webdev-article-covers/how-to-use-avif.jpg",
+      "notes": "AVIF is now table stakes; more reference than gold"
+    },
+    {
+      "title": "Accordion Icons: Which Signifiers Work Best?",
+      "author": {
+        "@type": "Person",
+        "name": "NN Group"
+      },
+      "url": "https://www.nngroup.com/articles/accordion-icons/",
+      "description": "The caret icon most clearly indicated to users that it would open an accordion in place, rather than linking directly to a new page.",
+      "image": "/assets/img/webdev-article-covers/accordion-icons-which-signifiers-work-best.png",
+      "notes": "Good UX research; very specific"
+    },
+    {
+      "title": "Getting the Most Out of Variable Fonts on Google Fonts",
+      "author": {
+        "@type": "Person",
+        "name": "CSS-Tricks"
+      },
+      "url": "https://css-tricks.com/getting-the-most-out-of-variable-fonts-on-google-fonts/",
+      "description": "I have spent the past several years working (alongside a bunch of super talented people) on a font family called Recursive Sans & Mono, and it just",
+      "image": "/assets/img/webdev-article-covers/getting-the-most-out-of-variable-fonts-on-google-fonts.png",
+      "notes": "Still valid; tutorial rather than essay"
+    },
+    {
+      "title": "Style Stage",
+      "author": {
+        "@type": "Person",
+        "name": "Modern CSS Solutions"
+      },
+      "url": "https://stylestage.dev/",
+      "description": "A modern CSS showcase styled by community contributions. Maintained by Stephanie Eckles (@5t3ph) of ModernCSS.dev.",
+      "notes": "Resource/project rather than article"
+    },
+    {
+      "title": "Stop Using React",
+      "author": {
+        "@type": "Person",
+        "name": "DEV.to"
+      },
+      "url": "https://dev.to/ender_minyard/why-you-should-stop-using-react-g7c",
+      "description": "I thought I simply didn't understand React. I taught myself React and I still wish I could go back in...",
+      "notes": "Aged reasonably; DEV.to provenance is a mark against"
+    },
+    {
+      "title": "Blue People Illustrations, or How to Kill a Brand",
+      "author": {
+        "@type": "Person",
+        "name": "Aleksandr Hovhannisyan"
+      },
+      "url": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/",
+      "description": "There's a recent trend in web design of using illustrations of blue, generic, faceless people. And it's killing brands.",
+      "image": "/assets/img/webdev-article-covers/blue-people-illustrations-or-how-to-kill-a-brand.png",
+      "notes": "Sharp commentary on generic SVG illustration trends and brand identity"
+    },
+    {
+      "title": "I made my website 28ms faster with content-visibility",
+      "author": {
+        "@type": "Person",
+        "name": "daily-dev-tips"
+      },
+      "url": "https://daily-dev-tips.com/posts/i-made-my-website-28-ms-faster-with-content-visibility/",
+      "description": "The page was not found, sorry for that",
+      "image": "/assets/img/webdev-article-covers/i-made-my-website-28ms-faster-with-content-visibility.png",
+      "notes": "Still valid; very narrow scope"
+    },
+    {
+      "title": "How Klarna works",
+      "author": {
+        "@type": "Person",
+        "name": "Built for Mars"
+      },
+      "url": "https://builtformars.co.uk/how-klarna-works/",
+      "notes": "Good UX teardown format; product-specific"
+    },
+    {
+      "title": "Dark Ages of the Web",
+      "author": {
+        "@type": "Person",
+        "name": "Pavel Laptev"
+      },
+      "url": "https://gigazine.net/gsc_news/en/20200706-dark-ages-of-the-web/",
+      "description": "The history of the Internet itself can be traced back to the 1970s, but it is said that the Internet generally spread around 1994-1995. Dark Ages of the Web (the dark age of the Web), which is a collection of websites that were created in the early days of the Internet, has been published, and you can look back on the evolutionary process of the Internet.  Dark Ages of the Web  https://pavellaptev.github.io/web-dark-ages/  When you display Dark Ages of the Web, a GIF animation with a strong punch is placed from the beginning.    In addition, the site description is written in the form of a parody of the opening crawl familiar in the Star Wars series.    First of all, from the change in resolution. As of 2015, full HD resolution of 1920 x 1080 pixels was widespread, and at the time of article creation, 4K resolution of 3840 x 2160 pixels was gradually accepted.    However, in 1997, the SVGA resolution of 800 x 600 pixels was commonplace. The resolution is much lower than it is now and even the aspect ratio of the screen is different. Unlike modern times, there are few web fonts, and it was often done to effectively display text while combining JavaScript and Flash in a narrow screen.    When creating a website in HTML, table tags were often used to create layouts. Dark Ages of the Web demonstrates a layout that is actually built using tables.   The word ' Web 2.0 ', which appeared in the middle of 2000, almost disappeared in 2020. Web 2.0 was originally advocated by Tim O&#39;Reilly , the founder of computer-related technical book publisher O&#39;Reilly , and says, 'Anyone can freely send information by using interactive and fluid Web.' It means, but in the modern SNS, it has become a common concept.    A tag cloud that visualizes the frequency distribution of keyword metadata was often used as a function installed in websites and blogs that recommend Web 2.0.    In addition, Adobe Flash Player, which will be distributed and updated as of December 30, 2020, was able to play Flash format videos on the web. Flash format video content became the most exciting around 2000, and a large number of works were produced not only overseas but also in Japan, creating many net memes such as ' Hatten ar din ', ' Koi no Mai Ahi ', ' Miko Miko Nurse '. It was    The guestbook is for people who visit the website to write their names and comments, and in some cases, the interaction between the website administrator and the viewer was created through the guestbook. In Japan, there was also a \u201cKiriban culture\u201d that celebrated those who stepped on the numbers at the visitor counter.    GIF animation was used to add some flair or novelty to a static website. In addition, some websites were designed with a BGM function that automatically plays MIDI files or changing the shape of the mouse pointer.    In addition, the 'past heritage' of the website UI is introduced, so if you are interested, please check it yourself.",
+      "image": "/assets/img/webdev-article-covers/dark-ages-of-the-web.png",
+      "notes": "A nostalgic retrospective on early web design (also at https://pavellaptev.github.io/web-dark-ages/)"
+    },
+    {
+      "title": "Accessibility Testing is like Making Coffee",
+      "author": {
+        "@type": "Person",
+        "name": "Madalyn Parker"
+      },
+      "url": "https://madalyn.dev/blog/a11y-testing-coffee/",
+      "description": "Some Background I had the privilege of creating course material to teach accessibility testing for work this past quarter. I agonized over\u2026",
+      "notes": "Accessibility testing tools broken down by analogy to coffee-making methods"
+    },
+    {
+      "title": "Component Driven User Interfaces",
+      "author": {
+        "@type": "Person",
+        "name": "Component Driven"
+      },
+      "url": "https://www.componentdriven.org/",
+      "description": "How modularity is transforming design and frontend development",
+      "image": "/assets/img/webdev-article-covers/component-driven-user-interfaces.jpg",
+      "notes": "Foundational resource on component-driven development methodology"
+    },
+    {
+      "title": "Everything I know about UX Research, I learnt from cats",
+      "author": {
+        "@type": "Person",
+        "name": "UX Collective"
+      },
+      "url": "https://uxdesign.cc/everything-i-know-about-ux-research-i-learnt-from-cats-c62a27870d58",
+      "description": "In User Experience design, it\u2019s easy to think of \u2018users\u2019 as a faceless group of humans. To combat that we use \u2018personas\u2019 as a shorthand to\u2026",
+      "image": "/assets/img/webdev-article-covers/everything-i-know-about-ux-research-i-learnt-from-cats.png",
+      "keywords": [
+        "UX Design",
+        "UX Research",
+        "Cats",
+        "User Experience",
+        "Product Design"
+      ],
+      "notes": "Gimmicky title, lightweight \u2014 borderline"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+---
+layout: base
+title: Frequently Asked Questions
+permalink: /supplementary-pages/faqs/
+---
+<div class="wrapper flow">
+  <h1>Frequently Asked Questions</h1>
+
+  <dl>
+    {% for faq in faqs %}
+      <dt>{{ faq.question }}</dt>
+      <dd>{{ faq.answerHtml | safe }}</dd>
+    {% endfor %}
+  </dl>
+</div>

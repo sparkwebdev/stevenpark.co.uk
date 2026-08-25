@@ -1,0 +1,221 @@
+---
+layout: base
+title: Client Input Form — Feedback / Testimonials
+permalink: /contact/feedback/
+---
+<div class="wrapper flow">
+  <h1>Client Input Form — Feedback / Testimonials</h1>
+
+  <form class="client-form">
+    <fieldset>
+      <legend>Your Details</legend>
+
+      <div class="form-group">
+        <label for="organisation">Name of organisation:</label>
+        <input type="text" id="organisation" name="organisation" />
+      </div>
+
+      <div class="form-group">
+        <label for="job_completed">Job completed:</label>
+        <input type="text" id="job_completed" name="job_completed" />
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend>Feedback Questions</legend>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Were you satisfied that the work was carried out to your specification?">Were you satisfied that the work was carried out to your specification?</div>
+        <div>
+          <input type="radio" id="satisfied_yes" name="satisfied_work" value="yes" />
+          <label for="satisfied_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="satisfied_no" name="satisfied_work" value="no" />
+          <label for="satisfied_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="satisfied_somewhat" name="satisfied_work" value="somewhat" />
+          <label for="satisfied_somewhat" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Somewhat</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Was the work carried out within the given timescale?">Was the work carried out within the given timescale?</div>
+        <div>
+          <input type="radio" id="timescale_yes" name="timescale_work" value="yes" />
+          <label for="timescale_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="timescale_no" name="timescale_work" value="no" />
+          <label for="timescale_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="timescale_somewhat" name="timescale_work" value="somewhat" />
+          <label for="timescale_somewhat" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Somewhat</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Would you recommend our company to others?">Would you recommend our company to others?</div>
+        <div>
+          <input type="radio" id="recommend_yes" name="recommend_company" value="yes" />
+          <label for="recommend_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="recommend_no" name="recommend_company" value="no" />
+          <label for="recommend_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="recommend_maybe" name="recommend_company" value="maybe" />
+          <label for="recommend_maybe" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Maybe</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Would you be happy for us to display the work as part of our marketing?">Would you be happy for us to display the work as part of our marketing?</div>
+        <div>
+          <input type="radio" id="display_yes" name="display_marketing" value="yes" />
+          <label for="display_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="display_no" name="display_marketing" value="no" />
+          <label for="display_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="display_maybe" name="display_marketing" value="maybe" />
+          <label for="display_maybe" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Maybe</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Would you be happy for us to send you some business cards for you to pass to others?">Would you be happy for us to send you some business cards for you to pass to others?</div>
+        <div>
+          <input type="radio" id="cards_yes" name="send_cards" value="yes" />
+          <label for="cards_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="cards_no" name="send_cards" value="no" />
+          <label for="cards_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="cards_maybe" name="send_cards" value="maybe" />
+          <label for="cards_maybe" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Maybe</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Any comments?</label>
+        <textarea id="comments" name="comments" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Would you consider us in the future for other work?">Would you consider us in the future for other work?</div>
+        <div>
+          <input type="radio" id="future_yes" name="future_work_consideration" value="yes" />
+          <label for="future_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="future_no" name="future_work_consideration" value="no" />
+          <label for="future_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="future_maybe" name="future_work_consideration" value="maybe" />
+          <label for="future_maybe" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Maybe</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-bottom: 0.5rem;" role="group" aria-label="Would you be happy for us to contact you in the future to see if we can offer other services?">Would you be happy for us to contact you in the future to see if we can offer other services?</div>
+        <div>
+          <input type="radio" id="contact_yes" name="future_contact" value="yes" />
+          <label for="contact_yes" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="contact_no" name="future_contact" value="no" />
+          <label for="contact_no" style="display: inline; margin-left: 0.5rem; font-weight: normal;">No</label>
+        </div>
+        <div>
+          <input type="radio" id="contact_maybe" name="future_contact" value="maybe" />
+          <label for="contact_maybe" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Maybe</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div>
+          <input type="checkbox" id="add_matrix" name="add_matrix" />
+          <label for="add_matrix" style="display: inline; margin-left: 0.5rem;">Add to client matrix</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="form-group" style="margin-top: 2rem;">
+      <button type="submit">Submit Form</button>
+    </div>
+
+  </form>
+
+  <style>
+    .client-form {
+      max-width: 50rem;
+      font-size: 1rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+    }
+
+    fieldset {
+      border: none;
+      padding: 0;
+      margin-bottom: 2rem;
+    }
+
+    fieldset legend {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+
+</div>

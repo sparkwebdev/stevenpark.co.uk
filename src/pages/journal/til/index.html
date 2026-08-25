@@ -8,10 +8,10 @@ permalink: /journal/til/
   <p><em>Bite-sized learnings and curiosities, logged regularly.</em></p>
 
   {% set currentYear = null %}
-  {% set sortedFacts = tilCollection | sort(attribute='date') | reverse %}
+  {% set sortedFacts = tilCollection | sort(attribute='datePublished') | reverse %}
 
   {% for fact in sortedFacts %}
-    {% set factYear = fact.date | year %}
+    {% set factYear = fact.datePublished | year %}
 
     {% if factYear != currentYear %}
       {% if currentYear != null %}</div></div>{% endif %}
@@ -22,21 +22,19 @@ permalink: /journal/til/
     {% endif %}
 
     <div style="padding: 1.5rem; border-left: 4px solid #ccc; background: #fafafa;">
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
-        <small style="background: #e0e0e0; padding: 0.25rem 0.75rem; border-radius: 3px; font-size: 0.8em;">{{ fact.type }}</small>
-        {% if fact.category %}
-          <small style="background: #f0f0f0; padding: 0.25rem 0.75rem; border-radius: 3px; font-size: 0.8em; color: #666;">{{ fact.category }}</small>
-        {% endif %}
-        {% if fact.confidence == 'medium' %}
-          <small style="background: #fff3cd; padding: 0.25rem 0.75rem; border-radius: 3px; font-size: 0.8em; color: #856404;">medium confidence</small>
-        {% endif %}
-      </div>
+      {% if fact.keywords %}
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+          {% for kw in fact.keywords %}
+            <small style="background: #f0f0f0; padding: 0.25rem 0.75rem; border-radius: 3px; font-size: 0.8em; color: #666;">{{ kw }}</small>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-      <h3 style="font-size: 1.1em; margin: 0.5rem 0;">{{ fact.title }}</h3>
-      <p style="color: #333; margin: 0.75rem 0;">{{ fact.body }}</p>
+      <h3 style="font-size: 1.1em; margin: 0.5rem 0;">{{ fact.headline }}</h3>
+      <p style="color: #333; margin: 0.75rem 0;">{{ fact.description }}</p>
 
-      {% if fact.source %}
-        <a href="{{ fact.source }}" target="_blank" rel="noopener" style="font-size: 0.9em; color: #0066cc;">source ↗</a>
+      {% if fact.citation %}
+        <a href="{{ fact.citation }}" target="_blank" rel="noopener" style="font-size: 0.9em; color: #0066cc;">source ↗</a>
       {% endif %}
     </div>
   {% endfor %}

@@ -1,7 +1,7 @@
 {
-  "title": "Steven Park | Web Design & Development, Glasgow, Scotland",
+  "title": "Steven Park | Web Development and Design, Glasgow, Scotland",
   "url": "https://stevenpark.co.uk",
-  "description": "Independent web developer and designer from Glasgow, Scotland",
+  "description": "Web developer and designer from Glasgow, Scotland",
   "feed": {
     "subtitle": "Steven Park",
     "filename": "feed.xml",
@@ -12,7 +12,7 @@
   "author": {
     "name": "Steven Park",
     "email": "info@stevenpark.co.uk",
-    "location": "Glasgow, UK",
+    "location": "Glasgow, Scotland",
     "socialLinks": {
       "GitHub": "https://github.com/sparkwebdev/",
       "LinkedIn": "https://www.linkedin.com/in/stevenrobertpark/"

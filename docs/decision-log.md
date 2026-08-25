@@ -68,3 +68,50 @@ Cache third-party media locally under `src/assets/img/{collection}/` rather than
 **Ruled out:** embedding base64 directly in the data file — `vinyl_covers.json`/`cd_covers.json` already do this and it's the one existing pattern that goes against this policy (bloats the JSON, can't be cached/served efficiently, hard to diff). Not migrating those retroactively right now, but flagged as a future cleanup.
 
 Applied immediately to `bookCollection.json`: 19 cover images downloaded from Open Library and cached under `src/assets/img/book-covers/`.
+
+### Schema.org as the primary reference standard (turning point)
+*Decided: August 2026*
+
+Revised approach to reference standards across `src/_data/` collections. Earlier decisions (Open Library for books, MusicBrainz for music) picked a different "best in class" open **database/API** per collection. That conflated two different things: an open *data source* (a specific organization's app, whose schema reflects their own needs — nested, relational, sometimes awkward for a flat personal JSON file) versus an open *cataloguing standard* (deliberately designed for interoperable description of content, independent of any one app).
+
+**New approach:** `schema.org` (maintained by Google/Microsoft/Yahoo/Yandex — open, free, non-proprietary, extremely well-documented and adopted) is the primary reference standard for *shape and vocabulary* across nearly every collection, since it's purpose-built for exactly this — a website describing its own catalogued content — and comes with a concrete practical payoff (structured data / rich search results) that Open Library/MusicBrainz alone don't offer.
+
+Domain-specific standards remain layered underneath schema.org, not replaced by it — they cover identifiers and ratings schema.org doesn't define:
+- Books: ISBN (ISO 2108) — already adopted
+- Music: ISRC/ISWC (recording/work identifiers), Open Library-equivalent role now played by MusicBrainz only as a *data source*, not the schema
+- Beer: BJCP Style Guidelines (style classification)
+- Coffee: SCA Cupping Protocol / Q Grading (rating methodology)
+- Photography (not yet built): EXIF (ISO, embedded capture metadata), IPTC Photo Metadata (captions/keywords/copyright)
+
+**Schema.org type per collection:**
+
+| Collection | Schema.org type |
+|---|---|
+| `bookCollection.json` | `Book` |
+| `musicCollection.json` | `MusicRelease` |
+| `beerCollection.json` / `coffeeCollection.json` | `Product` |
+| `randomThoughts.json` | `SocialMediaPosting` |
+| `tilCollection.json` / `webDevArticles.json` | `Article` |
+| `testimonials.json` | `Review` |
+| `photographyCatalogue.json` (not yet built) | `Photograph` / `ImageObject` |
+
+**Audit findings before any data changes were made** (see `docs/data-structures.md` for full detail): no data loss identified anywhere. The one structural cost that recurs across nearly every collection is that schema.org expects "who made this" fields (`author`, `byArtist`, `brand`, `recordLabel`) as Person/Organization **objects**, while ours are flat strings — a wrap, not a deletion, but touches most records if pursued for full literal conformance. `musicCollection.json`'s `catalogNumber` and array-valued `genre` already match schema.org's `MusicRelease` exactly with zero changes needed. Fields with no schema.org equivalent (personal ratings, reading/workflow status, `abv`/`ibu`) stay as custom fields alongside the schema.org-aligned ones, not replaced.
+
+**Not yet implemented** — this is the audited plan, pending decision on how far to take literal conformance (rename-only vs. full object-shape reconformance) before any collection is actually migrated.
+
+**Update:** full literal conformance was subsequently confirmed as the standing policy (not just documented mapping) — see "Rating/review fields remodeled to schema.org Review/Rating" below for the first collections actually migrated under this policy.
+
+### Rating/review fields remodeled to schema.org Review/Rating
+*Decided: August 2026*
+
+Following the schema.org turning-point decision above, migrated `bookCollection.json`, `coffeeCollection.json`, and `beerCollection.json`'s personal rating fields into nested schema.org `Review`/`Rating` objects (`review.reviewRating`, `review.reviewBody`) rather than flat numeric fields with an implied, undocumented scale (books/coffee were 0–10, beer was 0–5 — nowhere previously stated). `review` is explicit `null` for unrated items, matching this repo's existing null convention.
+
+**Coffee's `tasting_notes`→`description` split:** initially assumed to be Steven's own review text and slotted into `review.reviewBody`. Checked the live source (`ClaudeHub/lists-and-tastes/coffee-ratings.md`) and found it's a roaster-published product descriptor column, sitting alongside Origin/Roast/Process/URL — not personal review text. Corrected to map to `description` instead, independent of whether a rating exists. Worth recording since it corrected a wrong initial assumption during design — a reminder to check provenance before assuming a text field is personal commentary.
+
+**Coffee's `list` (precovid/new) dropped**, replaced by `review.datePublished` — the correct schema.org home for "when," matching the same shape used for books/coffee ratings elsewhere.
+
+**Beer's `globalRating` dropped entirely, not migrated to `AggregateRating`** — this was Untappd's third-party community-average rating, not Steven's own opinion. Schema.org has a distinct, correct type for exactly this case (`AggregateRating`, for multi-rater averages, vs. `Review` for a single opinion), but the decision was to exclude it from this site's data altogether rather than store it under the "correct" type — not our data, not wanted here. No `AggregateRating` appears anywhere in this site's schema as a result; this is deliberate, not an oversight to fix later.
+
+`musicCollection.json` has no rating field (N/A, nothing to migrate). `testimonials.json` explicitly out of scope — it's a review *of* Steven (client is author, Steven is subject), the opposite direction from these personal media-rating collections; `Review` fits both conceptually but the authorship direction is different, so treated as a separate future task, not folded into this one.
+
+No data loss confirmed for what was kept: pre/post migration counts of non-null rating/notes/description values match exactly across all three collections.

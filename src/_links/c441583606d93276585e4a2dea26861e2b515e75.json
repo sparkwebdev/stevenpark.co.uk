@@ -1,0 +1,53 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico"
+      }
+    ],
+    "author": "Dave Rupert",
+    "canonical": "https://daverupert.com/",
+    "description": "The personal blog of Dave Rupert, web developer and podcaster from Austin, TX.",
+    "title": "The Homepage of Dave Rupert - daverupert.com",
+    "lang": "en-us"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "author": {
+      "@type": "Person",
+      "name": "Dave Rupert"
+    },
+    "description": "The personal blog of Dave Rupert, web developer and podcaster from Austin, TX.",
+    "headline": "The Homepage of Dave Rupert",
+    "name": "Dave Rupert",
+    "publisher": {
+      "@type": "Organization",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://daverupert.com/images/global/newshammericon.png"
+      },
+      "name": "Dave Rupert"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/dave-rupert",
+      "https://github.com/davatron5000",
+      "https://mastodon.social/davatron5000",
+      "https://bsky.app/profile/davatron5000.bsky.social"
+    ],
+    "url": "https://daverupert.com/"
+  },
+  "openGraph": {
+    "title": "The Homepage of Dave Rupert",
+    "locale": "en_US",
+    "description": "The personal blog of Dave Rupert, web developer and podcaster from Austin, TX.",
+    "url": "https://daverupert.com/",
+    "site_name": "daverupert.com",
+    "type": "website"
+  },
+  "twitter": {
+    "description": "The personal blog of Dave Rupert, web developer and podcaster from Austin, TX.",
+    "card": "summary",
+    "title": "The Homepage of Dave Rupert"
+  }
+}

@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npm-run-all clean --parallel dev:parcel dev:critical dev:11ty",
     "dev:11ty": "eleventy --serve",
-    "dev:parcel": "parcel watch './src/assets/scss/common.scss' --dist-dir ./dist/css",
-    "dev:critical": "parcel watch './src/assets/scss/critical.scss' --dist-dir ./src/_includes/css",
+    "dev:parcel": "PARCEL_WATCHER_BACKEND=brute-force parcel watch './src/assets/scss/common.scss' --dist-dir ./dist/css",
+    "dev:critical": "PARCEL_WATCHER_BACKEND=brute-force parcel watch './src/assets/scss/critical.scss' --dist-dir ./src/_includes/css",
     "build": "npm-run-all clean prod:parcel prod:critical prod:11ty validate:html",
     "validate:html": "html-validate 'dist/**/*.html'",
     "prod:parcel": "parcel build './src/assets/scss/common.scss' --dist-dir ./dist/css --no-source-maps",

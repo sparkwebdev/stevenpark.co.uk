@@ -1,0 +1,74 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/assets/images/favicons/favicon-180.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/assets/images/favicons/favicon-16.png",
+        "sizes": "16x16"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-32.png",
+        "sizes": "32x32"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-57.png",
+        "sizes": "57x57"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-76.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-96.png",
+        "sizes": "96x96"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-128.png",
+        "sizes": "128x128"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-192.png",
+        "sizes": "192x192"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-228.png",
+        "sizes": "228x228"
+      }
+    ],
+    "author": "Aleksandr Hovhannisyan",
+    "canonical": "https://www.aleksandrhovhannisyan.com/",
+    "description": "Dev tutorials, thoughts on software development, and the occasional essay.",
+    "title": "Aleksandr Hovhannisyan",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "image": "",
+    "jobTitle": "Software Developer",
+    "name": "Aleksandr Hovhannisyan",
+    "sameAs": [
+      "https://bsky.app/profile/aleksandrhovhannisyan.com",
+      "https://codepen.io/AleksandrHovhannisyan/",
+      "https://buymeacoffee.com/hovhadovah",
+      "https://github.com/AleksandrHovhannisyan",
+      "https://www.linkedin.com/in/aleksandrhovhannisyan/"
+    ]
+  },
+  "openGraph": {
+    "title": "Aleksandr Hovhannisyan",
+    "description": "Dev tutorials, thoughts on software development, and the occasional essay.",
+    "url": "https://www.aleksandrhovhannisyan.com/",
+    "type": "website",
+    "locale": "en_US"
+  },
+  "twitter": {
+    "card": "summary",
+    "title": "Aleksandr Hovhannisyan",
+    "description": "Dev tutorials, thoughts on software development, and the occasional essay."
+  }
+}

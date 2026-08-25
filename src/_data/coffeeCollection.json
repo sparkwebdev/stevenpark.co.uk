@@ -1,0 +1,1169 @@
+{
+  "total": 41,
+  "records": [
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Notes Coffee Roasters"
+      },
+      "coffee": "Blackwall Estate Espresso",
+      "description": "Chocolate, caramel, orange",
+      "tags": [
+        "Brazil/Ethiopia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/notes-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 9,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-07-04"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://notescoffee.shop/products/blackwall-estate-espresso"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Caravan Coffee Roasters"
+      },
+      "coffee": "The Daily",
+      "description": "Dark chocolate, peanut brittle, baking spice",
+      "tags": [
+        "S. America/C. America/Asia",
+        "Medium roast",
+        "Mixed"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-08-01"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://caravanandco.com/products/daily"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Volcano Coffee Works"
+      },
+      "coffee": "The Mount Blend",
+      "description": "Milk chocolate, caramel, red grapes",
+      "tags": [
+        "Brazil/El Salvador/Colombia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/volcano-coffee-works.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 9,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-08-31"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://volcanocoffeeworks.com/products/the-mount-blend"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Small Batch Coffee Roasters"
+      },
+      "coffee": "Brazil Araponga",
+      "description": "Berry, toffee",
+      "tags": [
+        "Brazil",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "/assets/img/coffee-logos/small-batch-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-09-27"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.smallbatchcoffeeroasters.co.uk/products/brazil-araponga"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Edge Coffee (Edgcumbes)"
+      },
+      "coffee": "Rainforest Alliance",
+      "description": "Blackberry, cacao nib, caramel",
+      "tags": [
+        "El Salvador/Brazil",
+        "Dark roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/edge-coffee-edgcumbes.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-10-25"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.beanz.com/en-gb/coffee/roasters/edge/rainforest-alliance-006400v0055"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Ozone Coffee Roasters"
+      },
+      "coffee": "El Yalcon Sugarcane Decaf",
+      "description": "Milk chocolate, orange, brown sugar",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Sugarcane decaf"
+      ],
+      "logo": "/assets/img/coffee-logos/ozone-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-11-22"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ozonecoffee.co.uk/products/colombia-el-yalcon-decaf"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Redemption Roasters"
+      },
+      "coffee": "The Block",
+      "description": "Milk chocolate, caramel, hazelnut, raisin",
+      "tags": [
+        "Brazil/Colombia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/redemption-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2025-12-19"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://redemptionroasters.com/products/the-block"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Kickback Coffee"
+      },
+      "coffee": "Colombia - Popayan Reserve",
+      "description": "Chocolate, caramel, rich body",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/kickback-coffee.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-01-20"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://kickbackcoffee.co.uk/products/colombia-popayan-reserve"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Dear Green Coffee Roasters"
+      },
+      "coffee": "Honduras - Abeja - Organic",
+      "description": "Tropical, spiced rum, agave",
+      "tags": [
+        "Honduras",
+        "Medium roast",
+        "Honey"
+      ],
+      "logo": "/assets/img/coffee-logos/dear-green-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 9,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-02-13"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.deargreencoffee.com/products/speciality-coffee-honduras-honey-process"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Dear Green Coffee Roasters"
+      },
+      "coffee": "Colombia - Meseta de Popayan",
+      "description": "Stone fruit, praline, caramel",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/dear-green-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-03-17"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.deargreencoffee.com/pages/colombia-washed"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Grind"
+      },
+      "coffee": "Decaf Blend",
+      "description": "Chocolate, orange, raisin, brown sugar",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Sugarcane decaf"
+      ],
+      "logo": "/assets/img/coffee-logos/grind.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-04-13"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://grind.co.uk/products/beanandground"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Volcano Coffee Works"
+      },
+      "coffee": "Firehouse Blend",
+      "description": "Chocolate orange, cinnamon, berries",
+      "tags": [
+        "Brazil/Colombia/Tanzania",
+        "Dark roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/volcano-coffee-works.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 4,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-05-08"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://volcanocoffeeworks.com/products/firehouse-blend"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Grind"
+      },
+      "coffee": "Light Blend",
+      "description": "Fruity, bright, balanced",
+      "tags": [
+        "Light roast"
+      ],
+      "logo": "/assets/img/coffee-logos/grind.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-06-05"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://grind.co.uk/products/beanandground"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Workshop Coffee"
+      },
+      "coffee": "Evergreen",
+      "description": "Dates, raisins, greengages, warm spice",
+      "tags": [
+        "Medium roast"
+      ],
+      "logo": "/assets/img/coffee-logos/workshop-coffee.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-03"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://workshopcoffee.com/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Old Spike Roastery"
+      },
+      "coffee": "Arnhem Blend",
+      "description": "Caramel, orange chocolate, figs",
+      "tags": [
+        "Medium roast",
+        "Mixed"
+      ],
+      "logo": "",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://oldspikeroastery.com/products/arnhem-blend"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Neighbourhood Coffee Roasters"
+      },
+      "coffee": "Espresso Yourself House Espresso",
+      "description": "Dark chocolate, toffee, caramel, milk chocolate",
+      "tags": [
+        "Brazil/Mexico",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.neighbourhoodcoffee.co.uk/product/espresso-yourself-coffee-beans/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Dear Green Coffee Roasters"
+      },
+      "coffee": "The Goosedubbs Blend",
+      "description": "Milk chocolate, plum, pecan, cocoa",
+      "tags": [
+        "Medium roast",
+        "Mixed"
+      ],
+      "logo": "/assets/img/coffee-logos/dear-green-coffee-roasters.png",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.deargreencoffee.com/products/the-goosedubbs"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Caravan Coffee Roasters"
+      },
+      "coffee": "No Boundaries",
+      "description": "Brown sugar, raspberry, vanilla, nougat",
+      "tags": [
+        "Nicaragua/Honduras",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://caravanandco.com/collections/coffee"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Kickback Coffee"
+      },
+      "coffee": "The Explorer",
+      "description": "Milk chocolate, stone fruit, pecan",
+      "tags": [
+        "Nicaragua/Colombia/Honduras",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/kickback-coffee.png",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://kickbackcoffee.co.uk/products/espresso-blend"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Redemption Roasters"
+      },
+      "coffee": "The Yard",
+      "description": "Pear, red apple, apricot, caramel",
+      "tags": [
+        "Colombia/Rwanda",
+        "Light-Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/redemption-roasters.png",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://redemptionroasters.com/products/the-yard"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Small Batch Coffee Roasters"
+      },
+      "coffee": "Kenya PB Kiruga",
+      "description": "Berry, toffee \u2014 intensely flavoured (peaberry)",
+      "tags": [
+        "Kenya",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/small-batch-coffee-roasters.png",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.beanz.com/en-gb/coffee/roasters/small-batch/kenya-pb-kiruga-00740139"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Rave Coffee"
+      },
+      "coffee": "No 343 Tanzania Tarime Natural",
+      "description": "Raspberry jam, vanilla, shortbread",
+      "tags": [
+        "Tanzania",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-05"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ravecoffee.co.uk/products/tanzania-tarime-natural-n-343"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Rave Coffee"
+      },
+      "coffee": "No 319 Brazil Sertaozinho Lot 574",
+      "description": "Chocolate, hazelnut, molasses, digestive biscuit",
+      "tags": [
+        "Brazil",
+        "Dark roast",
+        "Natural"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-08"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://ravecoffee.co.uk/products/brazil-sertaozinho-lot-574-n-319"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Bailies Coffee Roasters"
+      },
+      "coffee": "Ethiopia Hunkute",
+      "description": "Peach, jasmine, apricot, marshmallow",
+      "tags": [
+        "Ethiopia",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 4,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-13"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.bailiescoffee.com/products/ethiopia-hunkute-1kg"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Routes Coffee"
+      },
+      "coffee": "End of the Road",
+      "description": "Chocolate, hazelnut",
+      "tags": [
+        "Colombia/Brazil",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/routes-coffee.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 3,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-16"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://routescoffee.co.uk/product/end-of-the-road/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Lidl"
+      },
+      "coffee": "Italian Roast",
+      "tags": [
+        "Dark roast",
+        "Supermarket blend"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-15"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Origin Coffee Roasters"
+      },
+      "coffee": "Das Almas",
+      "description": "Bold, rich, high sweetness, mellow acidity",
+      "tags": [
+        "Brazil",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "/assets/img/coffee-logos/origin-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-22"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.origincoffee.co.uk/products/das-almas"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Origin Coffee Roasters"
+      },
+      "coffee": "Pathfinder",
+      "description": "Jammy sweetness, vibrant acidity, berry",
+      "tags": [
+        "Seasonal",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/origin-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-21"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.origincoffee.co.uk/products/pathfinder"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Origin Coffee Roasters"
+      },
+      "coffee": "Santa Barbara",
+      "description": "Softly fruit-forward, clean, refined",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "/assets/img/coffee-logos/origin-coffee-roasters.png",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.origincoffee.co.uk/products/santa-barbara"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "River Coffee Roasters"
+      },
+      "coffee": "Rio Brilhante",
+      "description": "Rich, complex aromatic compounds, deep fruit",
+      "tags": [
+        "Brazil",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "/assets/img/coffee-logos/river-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-27"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.rivercoffeeroasters.com/products/fazenda-rio-brilhante-brazil"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "River Coffee Roasters"
+      },
+      "coffee": "La Laja Decaf",
+      "description": "Milk chocolate, lemon, red berry",
+      "tags": [
+        "Mexico",
+        "Medium roast",
+        "Mountain Water decaf"
+      ],
+      "logo": "/assets/img/coffee-logos/river-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-29"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.rivercoffeeroasters.com/products/lalajamwdecaf"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "River Coffee Roasters"
+      },
+      "coffee": "Joselito Caraujulca",
+      "tags": [],
+      "logo": "/assets/img/coffee-logos/river-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-30"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.rivercoffeeroasters.com/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "River Coffee Roasters"
+      },
+      "coffee": "Joel Marin",
+      "tags": [],
+      "logo": "/assets/img/coffee-logos/river-coffee-roasters.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-08-03"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.rivercoffeeroasters.com/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Caravan Coffee Roasters"
+      },
+      "coffee": "Kisinga Natural",
+      "tags": [
+        "Uganda",
+        "Medium roast",
+        "Natural"
+      ],
+      "logo": "",
+      "review": null,
+      "offers": {
+        "@type": "Offer",
+        "url": "https://caravanandco.com/pages/kisinga-natural"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Grind"
+      },
+      "coffee": "Light Blend",
+      "description": "Fruity, bright, balanced",
+      "tags": [
+        "Light roast"
+      ],
+      "logo": "/assets/img/coffee-logos/grind.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-08-07"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://grind.co.uk/products/beanandground"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Morrisons"
+      },
+      "coffee": "The Best Fair Trade Guatemalan Ground Coffee",
+      "description": "Smoke & spice, rich",
+      "tags": [
+        "Guatemala",
+        "Medium roast"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 3,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-07"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://groceries.morrisons.com/products/Morrisons-The-Best-Fair-Trade-Guatemalan-Ground-Coffee-227g/108560405"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Morrisons"
+      },
+      "coffee": "The Best Colombian Coffee Beans",
+      "description": "Chocolate, caramel",
+      "tags": [
+        "Colombia",
+        "Medium roast"
+      ],
+      "logo": "",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 2,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-07"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://groceries.morrisons.com/products/morrisons-the-best-columbian-coffee-beans-227g/108321279"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Ride and Grind"
+      },
+      "coffee": "Electric Decaf",
+      "description": "Clementine, candied lemon, caramel",
+      "tags": [
+        "Colombia",
+        "Medium roast",
+        "Sugarcane Decaf"
+      ],
+      "logo": "/assets/img/coffee-logos/ride-and-grind.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-29"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.ridegrind.com/product/electric-decaf/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Routes Coffee"
+      },
+      "coffee": "#83 Zambia",
+      "tags": [
+        "Zambia"
+      ],
+      "logo": "/assets/img/coffee-logos/routes-coffee.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-29"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://routescoffee.co.uk/product/zambia/"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Grind"
+      },
+      "coffee": "House Blend",
+      "description": "Milk chocolate, almond, caramel",
+      "tags": [
+        "Brazil/India",
+        "Medium roast"
+      ],
+      "logo": "/assets/img/coffee-logos/grind.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-07-29"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://grind.co.uk/products/beanandground"
+      }
+    },
+    {
+      "roaster": {
+        "@type": "Brand",
+        "name": "Lomond Coffee"
+      },
+      "coffee": "Rise - Monte Cristo",
+      "description": "Chocolate, apple, caramel",
+      "tags": [
+        "Guatemala",
+        "Medium roast",
+        "Washed"
+      ],
+      "logo": "/assets/img/coffee-logos/lomond-coffee.png",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "datePublished": "2026-08-05"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://lomondcoffee.co.uk/products/rise-monte-cristo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+---
+layout: base
+title: Client Input Form — Project Overview
+permalink: /contact/project-overview/
+---
+<div class="wrapper flow">
+  <h1>Client Input Form — Project Overview</h1>
+
+  <form class="client-form">
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" />
+    </div>
+
+    <p>Client input is the foundation of successful projects. This survey will help you articulate, identify, and agree upon the overall goals of your project, including specific questions regarding message, audience, content, look and feel, and functionality.</p>
+
+    <p><em>All questions are optional but please fill in as much as you can.</em></p>
+
+    <hr />
+
+    <fieldset>
+      <legend>Contact Details</legend>
+
+      <div class="form-group">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" />
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address/Location:</label>
+        <input type="text" id="address" name="address" />
+      </div>
+
+      <div class="form-group">
+        <label for="primary_contact">Primary Contact / Role:</label>
+        <input type="text" id="primary_contact" name="primary_contact" />
+      </div>
+
+      <div class="form-group">
+        <label for="primary_email">Email:</label>
+        <input type="email" id="primary_email" name="primary_email" />
+      </div>
+
+      <div class="form-group">
+        <label for="primary_phone">Telephone:</label>
+        <input type="tel" id="primary_phone" name="primary_phone" />
+      </div>
+
+      <hr style="margin: 2rem 0;" />
+
+      <div class="form-group">
+        <label for="secondary_contact">Secondary Contact / Role:</label>
+        <input type="text" id="secondary_contact" name="secondary_contact" />
+      </div>
+
+      <div class="form-group">
+        <label for="secondary_email">Email:</label>
+        <input type="email" id="secondary_email" name="secondary_email" />
+      </div>
+
+      <div class="form-group">
+        <label for="secondary_phone">Telephone:</label>
+        <input type="tel" id="secondary_phone" name="secondary_phone" />
+      </div>
+
+      <hr style="margin: 2rem 0;" />
+
+      <div class="form-group">
+        <label for="technical_contact">Technical Contact / Role:</label>
+        <input type="text" id="technical_contact" name="technical_contact" />
+      </div>
+
+      <div class="form-group">
+        <label for="technical_email">Email:</label>
+        <input type="email" id="technical_email" name="technical_email" />
+      </div>
+
+      <div class="form-group">
+        <label for="technical_phone">Telephone:</label>
+        <input type="tel" id="technical_phone" name="technical_phone" />
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend>Your Company</legend>
+
+      <div class="form-group">
+        <label for="about_company">Can you tell us a little bit about your company?<br />
+        <span style="font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal;">(e.g. sector, history, size, mission statement)</span></label>
+        <textarea id="about_company" name="about_company" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="about_customers">Can you tell us a little bit about your customers/users?<br />
+        <span style="font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal;">(e.g. age, gender, occupation, income)</span></label>
+        <textarea id="about_customers" name="about_customers" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="company_notes">Notes:</label>
+        <textarea id="company_notes" name="company_notes" rows="4"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend>The Project</legend>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem;" role="group" aria-label="What type of project is this?">What type of project is this?</div>
+        <div>
+          <input type="checkbox" id="project_new_website" name="project_type" value="new_website" />
+          <label for="project_new_website" style="display: inline; margin-left: 0.5rem; font-weight: normal;">New Website</label>
+        </div>
+        <div>
+          <input type="checkbox" id="project_redesign" name="project_type" value="redesign" />
+          <label for="project_redesign" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Website Redesign</label>
+        </div>
+        <div>
+          <input type="checkbox" id="project_mobile" name="project_type" value="mobile_app" />
+          <label for="project_mobile" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Mobile App</label>
+        </div>
+        <div>
+          <input type="checkbox" id="project_branding" name="project_type" value="branding" />
+          <label for="project_branding" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Branding</label>
+        </div>
+        <div style="margin-top: 0.5rem;">
+          <input type="checkbox" id="project_other" name="project_type" value="other" />
+          <label for="project_other" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Other:</label>
+          <input type="text" name="project_other_text" style="width: 200px; margin-left: 0.5rem;" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="about_project">Can you tell us a little bit about the project?<br />
+        <span style="font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal;">(What are the reasons for commissioning this work? What are your business objectives? Short and long-term goals?)</span></label>
+        <textarea id="about_project" name="about_project" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="project_notes">Notes:</label>
+        <textarea id="project_notes" name="project_notes" rows="4"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend>Timescale</legend>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem;" role="group" aria-label="What is the desired timescale?">What is the desired timescale?</div>
+        <div>
+          <input type="checkbox" id="timescale_urgent" name="timescale" value="urgent" />
+          <label for="timescale_urgent" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Urgent</label>
+        </div>
+        <div>
+          <input type="checkbox" id="timescale_month" name="timescale" value="this_month" />
+          <label for="timescale_month" style="display: inline; margin-left: 0.5rem; font-weight: normal;">This month</label>
+        </div>
+        <div>
+          <input type="checkbox" id="timescale_2_3" name="timescale" value="2_3_months" />
+          <label for="timescale_2_3" style="display: inline; margin-left: 0.5rem; font-weight: normal;">2–3 months</label>
+        </div>
+        <div>
+          <input type="checkbox" id="timescale_3_9" name="timescale" value="3_9_months" />
+          <label for="timescale_3_9" style="display: inline; margin-left: 0.5rem; font-weight: normal;">3–9 months</label>
+        </div>
+        <div style="margin-top: 0.5rem;">
+          <input type="checkbox" id="timescale_other" name="timescale" value="other" />
+          <label for="timescale_other" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Other:</label>
+          <input type="text" name="timescale_other_text" style="width: 200px; margin-left: 0.5rem;" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="milestones">Are there any milestones to be aware of?<br />
+        <span style="font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal;">(e.g. product launch date, trade show)</span></label>
+        <textarea id="milestones" name="milestones" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend>Budget</legend>
+
+      <div class="form-group">
+        <div style="font-weight: bold; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem;" role="group" aria-label="Do you have a budget in mind?">Do you have a budget in mind?</div>
+        <div>
+          <input type="checkbox" id="budget_2000" name="budget" value="less_2000" />
+          <label for="budget_2000" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Less than £2,000</label>
+        </div>
+        <div>
+          <input type="checkbox" id="budget_2001_3500" name="budget" value="2001_3500" />
+          <label for="budget_2001_3500" style="display: inline; margin-left: 0.5rem; font-weight: normal;">£2,001 to £3,500</label>
+        </div>
+        <div>
+          <input type="checkbox" id="budget_3501_5000" name="budget" value="3501_5000" />
+          <label for="budget_3501_5000" style="display: inline; margin-left: 0.5rem; font-weight: normal;">£3,501 to £5,000</label>
+        </div>
+        <div>
+          <input type="checkbox" id="budget_5001_10000" name="budget" value="5001_10000" />
+          <label for="budget_5001_10000" style="display: inline; margin-left: 0.5rem; font-weight: normal;">£5,001 to £10,000</label>
+        </div>
+        <div>
+          <input type="checkbox" id="budget_over_10000" name="budget" value="over_10000" />
+          <label for="budget_over_10000" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Over £10,000</label>
+        </div>
+        <div style="margin-top: 0.5rem;">
+          <input type="checkbox" id="budget_other" name="budget" value="other" />
+          <label for="budget_other" style="display: inline; margin-left: 0.5rem; font-weight: normal;">Other:</label>
+          <input type="text" name="budget_other_text" style="width: 200px; margin-left: 0.5rem;" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="budget_notes">Notes:</label>
+        <textarea id="budget_notes" name="budget_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <div class="form-group" style="margin-top: 2rem;">
+      <button type="submit">Submit Form</button>
+    </div>
+
+  </form>
+
+  <style>
+    .client-form {
+      max-width: 50rem;
+      font-size: 1rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group input[type="date"],
+    .form-group textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+    }
+
+    fieldset {
+      border: none;
+      padding: 0;
+      margin-bottom: 2rem;
+    }
+
+    fieldset legend {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+
+</div>

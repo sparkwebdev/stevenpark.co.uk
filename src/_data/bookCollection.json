@@ -1,0 +1,800 @@
+{
+  "books": [
+    {
+      "id": "book-001",
+      "type": "book",
+      "title": "The Satsuma Complex",
+      "author": {
+        "@type": "Person",
+        "name": "Bob Mortimer"
+      },
+      "coverUrl": "/assets/img/book-covers/book-001.jpg",
+      "publishYear": 2022,
+      "openLibraryKey": "/works/OL28623585W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL39559587M",
+      "isbn": "9781398523647",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-002",
+      "type": "book",
+      "title": "Jews Don't Count",
+      "author": {
+        "@type": "Person",
+        "name": "David Baddiel"
+      },
+      "coverUrl": "/assets/img/book-covers/book-002.jpg",
+      "publishYear": 2021,
+      "openLibraryKey": "/works/OL24312113W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL35259733M",
+      "isbn": "9780008530198",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-003",
+      "type": "book",
+      "title": "I'm Glad My Mom Died",
+      "author": {
+        "@type": "Person",
+        "name": "Jennette McCurdy"
+      },
+      "coverUrl": "/assets/img/book-covers/book-003.jpg",
+      "publishYear": 2022,
+      "openLibraryKey": "/works/OL26663382W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL61211641M",
+      "isbn": "9789000387823",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-004",
+      "type": "book",
+      "title": "The Assault on Truth",
+      "author": {
+        "@type": "Person",
+        "name": "Peter Oborne"
+      },
+      "coverUrl": null,
+      "publishYear": null,
+      "openLibraryKey": "/works/OL28625631W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL39273029M",
+      "isbn": "9781398523388",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-005",
+      "type": "book",
+      "title": "Trust the Plan",
+      "author": {
+        "@type": "Person",
+        "name": "Will Sommer"
+      },
+      "coverUrl": "/assets/img/book-covers/book-005.jpg",
+      "publishYear": 2022,
+      "openLibraryKey": "/works/OL26341549W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL38322037M",
+      "isbn": "9780008466770",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-006",
+      "type": "book",
+      "title": "The Subtle Art of Not Giving a F**k",
+      "author": {
+        "@type": "Person",
+        "name": "Mark Manson"
+      },
+      "coverUrl": "/assets/img/book-covers/book-006.jpg",
+      "publishYear": 2016,
+      "openLibraryKey": "/works/OL17590212W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL47316340M",
+      "isbn": "9789390351589",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-007",
+      "type": "book",
+      "title": "Beastie Boys Book",
+      "author": {
+        "@type": "Person",
+        "name": "Michael Diamond & Adam Horovitz"
+      },
+      "coverUrl": null,
+      "publishYear": 2018,
+      "openLibraryKey": "/works/OL21187892W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL44185712M",
+      "isbn": "9780571308064",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-008",
+      "type": "book",
+      "title": "Alan Partridge: Big Beacon",
+      "author": {
+        "@type": "Person",
+        "name": "Steve Coogan"
+      },
+      "coverUrl": null,
+      "publishYear": null,
+      "openLibraryKey": "/works/OL37832210W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": null,
+      "isbn": null,
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-009",
+      "type": "book",
+      "title": "Taxtopia",
+      "author": {
+        "@type": "Person",
+        "name": "The Rebel Accountant"
+      },
+      "coverUrl": "/assets/img/book-covers/book-009.jpg",
+      "publishYear": 2023,
+      "openLibraryKey": "/works/OL28024085W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2023-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2023-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL46578340M",
+      "isbn": "9781800960893",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-010",
+      "type": "book",
+      "title": "Born a Crime",
+      "author": {
+        "@type": "Person",
+        "name": "Trevor Noah"
+      },
+      "coverUrl": "/assets/img/book-covers/book-010.jpg",
+      "publishYear": 2016,
+      "openLibraryKey": "/works/OL17824318W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7.5,
+          "bestRating": 10,
+          "worstRating": 0
+        },
+        "reviewBody": "Separate ghettos for blacks, coloured, whites \u2014 one road in/out, easy to bomb. Non-whites allowed into town to work. Laws against interracial relationships. Cab driver didn't want to hit a 'white' child \u2014 mixed-race people treated better. As mixed you eventually have to choose a side. Coloureds don't know who they are, black folk do. The black tax \u2014 success means supporting family. Chinese/Japanese recategorisation. Hair pencil test. Hitler a common name \u2014 lack of South African education on the Third Reich; Hitler not seen as the most evil from their perspective. Pooh demon story. Cat on football pitch story. Deaf dog story. Black people \u2014 dogs don't play fetch. Black people, no Santa."
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL32998655M",
+      "isbn": "9788417059125",
+      "bookFormat": "https://schema.org/Hardcover"
+    },
+    {
+      "id": "book-011",
+      "type": "book",
+      "title": "The Descent of Man",
+      "author": {
+        "@type": "Person",
+        "name": "Grayson Perry"
+      },
+      "coverUrl": "/assets/img/book-covers/book-011.jpg",
+      "publishYear": 2016,
+      "openLibraryKey": "/works/OL17710835W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL27966571M",
+      "isbn": "9780241236277",
+      "bookFormat": "https://schema.org/Hardcover"
+    },
+    {
+      "id": "book-012",
+      "type": "book",
+      "title": "I Am Dogboy",
+      "author": {
+        "@type": "Person",
+        "name": "Karl Hyde"
+      },
+      "coverUrl": "/assets/img/book-covers/book-012.jpg",
+      "publishYear": 2016,
+      "openLibraryKey": "/works/OL21123566W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL28593440M",
+      "isbn": "9780571328659",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-013",
+      "type": "book",
+      "title": "The News: A User's Manual",
+      "author": {
+        "@type": "Person",
+        "name": "Alain de Botton"
+      },
+      "coverUrl": "/assets/img/book-covers/book-013.jpg",
+      "publishYear": null,
+      "openLibraryKey": "/works/OL19706784W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 6.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL26919953M",
+      "isbn": "9780307379122",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-014",
+      "type": "book",
+      "title": "Travels with Asterix",
+      "author": {
+        "@type": "Person",
+        "name": "Goscinny & Uderzo"
+      },
+      "coverUrl": null,
+      "publishYear": 1984,
+      "openLibraryKey": "/works/OL33234144W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL10619144M",
+      "isbn": "9780340348703",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-015",
+      "type": "book",
+      "title": "Fahrenheit 451",
+      "author": {
+        "@type": "Person",
+        "name": "Ray Bradbury"
+      },
+      "coverUrl": "/assets/img/book-covers/book-015.jpg",
+      "publishYear": 1953,
+      "openLibraryKey": "/works/OL103123W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL62233363M",
+      "isbn": "9788525057501",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-016",
+      "type": "book",
+      "title": "This Is Going to Hurt",
+      "author": {
+        "@type": "Person",
+        "name": "Adam Kay"
+      },
+      "coverUrl": "/assets/img/book-covers/book-016.jpg",
+      "publishYear": 2017,
+      "openLibraryKey": "/works/OL19752167W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL44911677M",
+      "isbn": "9789669820662",
+      "bookFormat": "https://schema.org/Hardcover"
+    },
+    {
+      "id": "book-017",
+      "type": "book",
+      "title": "Nomad",
+      "author": {
+        "@type": "Person",
+        "name": "Alan Partridge"
+      },
+      "coverUrl": null,
+      "publishYear": 2018,
+      "openLibraryKey": "/works/OL21328959W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL28887743M",
+      "isbn": "9781409156710",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-018",
+      "type": "book",
+      "title": "Humble Pi",
+      "author": {
+        "@type": "Person",
+        "name": "Matt Parker"
+      },
+      "coverUrl": "/assets/img/book-covers/book-018.jpg",
+      "publishYear": 2019,
+      "openLibraryKey": "/works/OL20646270W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL35412085M",
+      "isbn": "9786254435133",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-019",
+      "type": "book",
+      "title": "The Golden Mole",
+      "author": {
+        "@type": "Person",
+        "name": "Katherine Rundell"
+      },
+      "coverUrl": "/assets/img/book-covers/book-019.jpg",
+      "publishYear": 2022,
+      "openLibraryKey": "/works/OL27409311W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2024-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 7.5,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2024-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL37329845M",
+      "isbn": "9780571362493",
+      "bookFormat": "https://schema.org/Paperback"
+    },
+    {
+      "id": "book-020",
+      "type": "audiobook",
+      "title": "Minority Rule",
+      "author": {
+        "@type": "Person",
+        "name": "Ash Sarkar"
+      },
+      "coverUrl": "/assets/img/book-covers/book-020.jpg",
+      "publishYear": 2025,
+      "openLibraryKey": "/works/OL42408881W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 8,
+          "bestRating": 10,
+          "worstRating": 0
+        }
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL57855210M",
+      "isbn": "9781526648303",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-021",
+      "type": "audiobook",
+      "title": "Hermit",
+      "author": {
+        "@type": "Person",
+        "name": "Chris McQueer"
+      },
+      "coverUrl": null,
+      "publishYear": 2025,
+      "openLibraryKey": "/works/OL42413782W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL57547510M",
+      "isbn": "9781035409815",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-022",
+      "type": "audiobook",
+      "title": "Yardsticks for Failure",
+      "author": {
+        "@type": "Person",
+        "name": "Ivo Graham"
+      },
+      "coverUrl": null,
+      "publishYear": 2024,
+      "openLibraryKey": "/works/OL38015640W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL51588966M",
+      "isbn": "9781035411306",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-023",
+      "type": "audiobook",
+      "title": "I, Partridge: We Need to Talk About Alan",
+      "author": {
+        "@type": "Person",
+        "name": "Steve Coogan"
+      },
+      "coverUrl": "/assets/img/book-covers/book-023.jpg",
+      "publishYear": null,
+      "openLibraryKey": "/works/OL18165024W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL26643746M",
+      "isbn": "9780007449170",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-024",
+      "type": "audiobook",
+      "title": "I Love You, Byeee",
+      "author": {
+        "@type": "Person",
+        "name": "Adam Buxton"
+      },
+      "coverUrl": null,
+      "publishYear": 2025,
+      "openLibraryKey": "/works/OL42405303W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL57545886M",
+      "isbn": "9780008466992",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-025",
+      "type": "audiobook",
+      "title": "Easily Distracted",
+      "author": {
+        "@type": "Person",
+        "name": "Steve Coogan"
+      },
+      "coverUrl": "/assets/img/book-covers/book-025.jpg",
+      "publishYear": 2015,
+      "openLibraryKey": "/works/OL20306714W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL28606166M",
+      "isbn": "9780099585930",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    },
+    {
+      "id": "book-026",
+      "type": "audiobook",
+      "title": "Strong Female Character",
+      "author": {
+        "@type": "Person",
+        "name": "Fern Brady"
+      },
+      "coverUrl": "/assets/img/book-covers/book-026.jpg",
+      "publishYear": 2023,
+      "openLibraryKey": "/works/OL26354339W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL60027166M",
+      "isbn": "9781914240461",
+      "bookFormat": "https://schema.org/EBook"
+    },
+    {
+      "id": "book-027",
+      "type": "audiobook",
+      "title": "Good Pop, Bad Pop",
+      "author": {
+        "@type": "Person",
+        "name": "Jarvis Cocker"
+      },
+      "coverUrl": "/assets/img/book-covers/book-027.jpg",
+      "publishYear": 2022,
+      "openLibraryKey": "/works/OL25778840W",
+      "review": {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Steven Park"
+        },
+        "datePublished": "2025-01-01"
+      },
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z",
+      "editionKey": "/books/OL50528166M",
+      "isbn": "9781473599086",
+      "bookFormat": "https://schema.org/AudiobookFormat"
+    }
+  ]
+}

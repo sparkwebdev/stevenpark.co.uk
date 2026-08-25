@@ -72,6 +72,37 @@ const addFilters = (eleventyConfig) => {
     if (!dateString) return '';
     return dateString.substring(0, 4);
   });
+
+  // Filter an array of objects to items where key === value
+  eleventyConfig.addFilter("whereEquals", function(array, key, value) {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => item[key] === value);
+  });
+
+  // Resolve a dotted path (e.g. "review.reviewRating") against an object
+  const getPath = (obj, path) => path.split('.').reduce((acc, part) => (acc == null ? acc : acc[part]), obj);
+
+  // Filter an array of objects to items missing/falsy a given key (supports dotted paths)
+  eleventyConfig.addFilter("whereMissing", function(array, key) {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => !getPath(item, key));
+  });
+
+  // Look up a value from a schema.org additionalProperty (PropertyValue) array by name
+  eleventyConfig.addFilter("propValue", function(properties, name) {
+    if (!Array.isArray(properties)) return null;
+    const match = properties.find(p => p.name === name);
+    return match ? match.value : null;
+  });
+
+  // Filter an array of objects to items whose additionalProperty array lacks a given PropertyValue name
+  eleventyConfig.addFilter("whereMissingProp", function(array, propsKey, name) {
+    if (!Array.isArray(array)) return [];
+    return array.filter(item => {
+      const props = getPath(item, propsKey);
+      return !Array.isArray(props) || !props.some(p => p.name === name);
+    });
+  });
 };
 
 export default addFilters; 

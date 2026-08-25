@@ -1,0 +1,47 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ],
+    "canonical": "https://daily-dev-tips.com/404/",
+    "description": "The page was not found, sorry for that",
+    "title": "Sorry, could not help you with that one",
+    "lang": "en"
+  },
+  "openGraph": {
+    "site_name": "Daily Dev Tips",
+    "title": "Sorry, could not help you with that one",
+    "type": "website",
+    "url": "https://daily-dev-tips.com/404/",
+    "description": "The page was not found, sorry for that",
+    "image": {
+      "url": "https://daily-dev-tips.com/images/fallback.png",
+      "alt": "page image for daily dev tips"
+    }
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Sorry, could not help you with that one",
+    "creator": "@DailyDevTips1",
+    "description": "The page was not found, sorry for that",
+    "image": {
+      "url": "https://daily-dev-tips.com/images/fallback.png",
+      "alt": "Page image for Daily Dev Tips"
+    }
+  }
+}

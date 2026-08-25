@@ -1,0 +1,82 @@
+{
+  "general": {
+    "appleTouchIcons": [
+      {
+        "href": "/assets/images/favicons/favicon-180.png"
+      }
+    ],
+    "icons": [
+      {
+        "href": "/assets/images/favicons/favicon-16.png",
+        "sizes": "16x16"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-32.png",
+        "sizes": "32x32"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-57.png",
+        "sizes": "57x57"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-76.png",
+        "sizes": "76x76"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-96.png",
+        "sizes": "96x96"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-128.png",
+        "sizes": "128x128"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-192.png",
+        "sizes": "192x192"
+      },
+      {
+        "href": "/assets/images/favicons/favicon-228.png",
+        "sizes": "228x228"
+      }
+    ],
+    "author": "Aleksandr Hovhannisyan",
+    "canonical": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/",
+    "description": "There’s a recent trend in web design of using illustrations of blue, generic, faceless people. And it’s killing brands.",
+    "title": "Blue People Illustrations, or How to Kill a Brand | Aleksandr Hovhannisyan",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/"
+    },
+    "headline": "Blue People Illustrations, or How to Kill a Brand",
+    "description": "There's a recent trend in web design of using illustrations of blue, generic, faceless people. And it's killing brands.",
+    "image": [
+      "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/P7qvozVrMB-1280.png"
+    ],
+    "datePublished": "2020-08-29T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Aleksandr Hovhannisyan"
+    }
+  },
+  "openGraph": {
+    "title": "Blue People Illustrations, or How to Kill a Brand | Aleksandr Hovhannisyan",
+    "image": {
+      "url": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/P7qvozVrMB-1280.png"
+    },
+    "description": "There's a recent trend in web design of using illustrations of blue, generic, faceless people. And it's killing brands.",
+    "url": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/",
+    "type": "article",
+    "locale": "en_US"
+  },
+  "twitter": {
+    "card": "summary",
+    "title": "Blue People Illustrations, or How to Kill a Brand | Aleksandr Hovhannisyan",
+    "description": "There's a recent trend in web design of using illustrations of blue, generic, faceless people. And it's killing brands.",
+    "image": "https://www.aleksandrhovhannisyan.com/blog/blue-people-illustrations/P7qvozVrMB-1280.png"
+  }
+}

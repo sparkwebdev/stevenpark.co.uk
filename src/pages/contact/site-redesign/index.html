@@ -1,0 +1,1145 @@
+---
+layout: base
+title: Client Input Form — Site Redesign
+permalink: /contact/site-redesign/
+---
+<div class="wrapper flow">
+  <h1>Client Input Form — Site Redesign</h1>
+
+  <form class="client-form" style="max-width: 50rem;">
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" />
+    </div>
+
+    <p><em>All questions are optional but please fill in as much as you can.</em></p>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Domains, Hosting &amp; Email</h2></legend>
+
+      <div class="form-group">
+        <label for="current_domains">Current domain URL(s):</label>
+        <input type="text" id="current_domains" name="current_domains" />
+      </div>
+
+      <div class="form-group">
+        <label for="final_domains">Final domain URL(s):</label>
+        <input type="text" id="final_domains" name="final_domains" />
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you own the final domain URL(s)?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="domain_yes" name="domain_own" value="yes" />
+            <label for="domain_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="domain_no" name="domain_own" value="no" />
+            <label for="domain_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="domain_not_sure" name="domain_own" value="not_sure" />
+            <label for="domain_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you require hosting?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="hosting_yes" name="require_hosting" value="yes" />
+            <label for="hosting_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="hosting_no" name="require_hosting" value="no" />
+            <label for="hosting_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="hosting_not_sure" name="require_hosting" value="not_sure" />
+            <label for="hosting_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you have current hosting details?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="hosting_details_yes" name="have_hosting_details" value="yes" />
+            <label for="hosting_details_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="hosting_details_no" name="have_hosting_details" value="no" />
+            <label for="hosting_details_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="hosting_details_not_sure" name="have_hosting_details" value="not_sure" />
+            <label for="hosting_details_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="site_size">Current site size (GB):</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="site_size" name="site_size" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="site_size_not_sure" name="site_size_not_sure" />
+            <label for="site_size_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="monthly_visitors">Monthly visitors (approx):</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="monthly_visitors" name="monthly_visitors" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="visitors_not_sure" name="visitors_not_sure" />
+            <label for="visitors_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="current_hosting_budget">Current hosting budget:</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="current_hosting_budget" name="current_hosting_budget" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="current_hosting_not_sure" name="current_hosting_not_sure" />
+            <label for="current_hosting_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="future_hosting_budget">Future hosting budget:</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="future_hosting_budget" name="future_hosting_budget" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="future_hosting_not_sure" name="future_hosting_not_sure" />
+            <label for="future_hosting_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you require email accounts?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="email_accounts_yes" name="require_email_accounts" value="yes" />
+            <label for="email_accounts_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="email_accounts_no" name="require_email_accounts" value="no" />
+            <label for="email_accounts_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="email_accounts_not_sure" name="require_email_accounts" value="not_sure" />
+            <label for="email_accounts_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email_accounts">Email accounts required:</label>
+        <textarea id="email_accounts" name="email_accounts" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="domain_notes">Notes:</label>
+        <textarea id="domain_notes" name="domain_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Content Management System</h2></legend>
+
+      <div class="form-group">
+        <label for="current_site_built">How is the current site built?
+          <span style="display: block; font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal; margin-top: 0.25rem;">(e.g. Static HTML, WordPress, Drupal)</span>
+        </label>
+        <textarea id="current_site_built" name="current_site_built" rows="2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">How will the new site be built?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="new_site_wordpress" name="new_site_cms" value="wordpress" />
+            <label for="new_site_wordpress" style="display: inline; margin-left: 0.5rem;">WordPress</label>
+          </div>
+          <div>
+            <input type="radio" id="new_site_other" name="new_site_cms" value="other" />
+            <label for="new_site_other" style="display: inline; margin-left: 0.5rem;">Other:</label>
+            <input type="text" name="new_site_cms_other" style="width: 40%; margin-left: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Are you familiar with WordPress?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="wordpress_yes" name="wordpress_familiar" value="yes" />
+            <label for="wordpress_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="wordpress_somewhat" name="wordpress_familiar" value="somewhat" />
+            <label for="wordpress_somewhat" style="display: inline; margin-left: 0.5rem;">Somewhat</label>
+          </div>
+          <div>
+            <input type="radio" id="wordpress_no" name="wordpress_familiar" value="no" />
+            <label for="wordpress_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Current Site</h2></legend>
+
+      <div class="form-group">
+        <label for="like_current">What do you like about your current site?</label>
+        <textarea id="like_current" name="like_current" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="dislike_current">What don't you like about your current site?</label>
+        <textarea id="dislike_current" name="dislike_current" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you have user feedback data for the site?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="feedback_yes" name="user_feedback_data" value="yes" />
+            <label for="feedback_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="feedback_no" name="user_feedback_data" value="no" />
+            <label for="feedback_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="feedback_not_sure" name="user_feedback_data" value="not_sure" />
+            <label for="feedback_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="current_site_notes">Notes:</label>
+        <textarea id="current_site_notes" name="current_site_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">New Site</h2></legend>
+
+      <div class="form-group">
+        <label for="business_goals">Primary business goal(s) of the new site:
+          <span style="display: block; font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal; margin-top: 0.25rem;">(e.g. promote the company, increase bookings)</span>
+        </label>
+        <textarea id="business_goals" name="business_goals" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="primary_actions">Primary user action(s):
+          <span style="display: block; font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal; margin-top: 0.25rem;">(e.g. find information, make a booking, purchase a product)</span>
+        </label>
+        <textarea id="primary_actions" name="primary_actions" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="secondary_actions">Secondary user action(s):</label>
+        <textarea id="secondary_actions" name="secondary_actions" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="new_site_notes">Notes:</label>
+        <textarea id="new_site_notes" name="new_site_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Site Structure</h2></legend>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">How best describes your site structure? <span style="font-weight: normal; font-style: italic;">(choose all that apply)</span></legend>
+        <div class="checkbox-group">
+          <div>
+            <input type="checkbox" id="structure_happy" name="site_structure" value="happy" />
+            <label for="structure_happy" style="display: inline; margin-left: 0.5rem;">We are happy with it, as is</label>
+          </div>
+          <div>
+            <input type="checkbox" id="structure_radical" name="site_structure" value="radical" />
+            <label for="structure_radical" style="display: inline; margin-left: 0.5rem;">We plan a radical restructure</label>
+          </div>
+          <div>
+            <input type="checkbox" id="structure_changes" name="site_structure" value="changes" />
+            <label for="structure_changes" style="display: inline; margin-left: 0.5rem;">We require some changes</label>
+          </div>
+          <div>
+            <input type="checkbox" id="structure_open" name="site_structure" value="open" />
+            <label for="structure_open" style="display: inline; margin-left: 0.5rem;">We are open to suggestions</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Current main pages/sections: <span style="font-style: italic;">(tick to retain, cross to remove, note changes)</span></label>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem;">
+          <thead>
+            <tr style="border-bottom: 1px solid #ccc;">
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Page</th>
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">URL</th>
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Keep?</th>
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="text" name="page_name_1" style="width: 100%; border: none; padding: 0;" value="Home" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_url_1" style="width: 100%; border: none; padding: 0;" value="/index.html" /></td>
+              <td style="padding: 0.5rem;"><input type="checkbox" name="page_keep_1" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_notes_1" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="text" name="page_name_2" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_url_2" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="checkbox" name="page_keep_2" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_notes_2" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="text" name="page_name_3" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_url_3" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="checkbox" name="page_keep_3" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_notes_3" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="text" name="page_name_4" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_url_4" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="checkbox" name="page_keep_4" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_notes_4" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr>
+              <td style="padding: 0.5rem;"><input type="text" name="page_name_5" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_url_5" style="width: 100%; border: none; padding: 0;" /></td>
+              <td style="padding: 0.5rem;"><input type="checkbox" name="page_keep_5" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="page_notes_5" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="form-group">
+        <label for="new_pages">New pages/sections to add:</label>
+        <textarea id="new_pages" name="new_pages" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Site Content</h2></legend>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">How best describes your current copy? <span style="font-weight: normal; font-style: italic;">(choose all that apply)</span></legend>
+        <div class="checkbox-group">
+          <div>
+            <input type="checkbox" id="copy_happy" name="copy_description" value="happy" />
+            <label for="copy_happy" style="display: inline; margin-left: 0.5rem;">We are happy with it, as is</label>
+          </div>
+          <div>
+            <input type="checkbox" id="copy_some" name="copy_description" value="some" />
+            <label for="copy_some" style="display: inline; margin-left: 0.5rem;">We wish to change some of it</label>
+          </div>
+          <div>
+            <input type="checkbox" id="copy_most" name="copy_description" value="most" />
+            <label for="copy_most" style="display: inline; margin-left: 0.5rem;">We wish to change most/all of it</label>
+          </div>
+          <div>
+            <input type="checkbox" id="copy_reduce" name="copy_description" value="reduce" />
+            <label for="copy_reduce" style="display: inline; margin-left: 0.5rem;">We wish to reduce/consolidate it</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Who will be responsible for final copy?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="copy_ourselves" name="copy_responsibility" value="ourselves" />
+            <label for="copy_ourselves" style="display: inline; margin-left: 0.5rem;">We will write it all ourselves</label>
+          </div>
+          <div>
+            <input type="radio" id="copy_collaborative" name="copy_responsibility" value="collaborative" />
+            <label for="copy_collaborative" style="display: inline; margin-left: 0.5rem;">We are looking for collaborative input</label>
+          </div>
+          <div>
+            <input type="radio" id="copy_written" name="copy_responsibility" value="written" />
+            <label for="copy_written" style="display: inline; margin-left: 0.5rem;">We require it to be written for us</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Is the final site copy ready?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="copy_ready_yes" name="copy_ready" value="yes" />
+            <label for="copy_ready_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="copy_ready_somewhat" name="copy_ready" value="somewhat" />
+            <label for="copy_ready_somewhat" style="display: inline; margin-left: 0.5rem;">Somewhat</label>
+          </div>
+          <div>
+            <input type="radio" id="copy_ready_no" name="copy_ready" value="no" />
+            <label for="copy_ready_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="publishing_workflow">Publishing workflow for new content:
+          <span style="display: block; font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal; margin-top: 0.25rem;">(e.g. is content reviewed/edited/approved before going live?)</span>
+        </label>
+        <textarea id="publishing_workflow" name="publishing_workflow" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="content_notes">Notes:</label>
+        <textarea id="content_notes" name="content_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Site Content — Ecommerce</h2></legend>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Does the site require ecommerce?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="ecommerce_yes" name="require_ecommerce" value="yes" />
+            <label for="ecommerce_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="ecommerce_no" name="require_ecommerce" value="no" />
+            <label for="ecommerce_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="ecommerce_not_sure" name="require_ecommerce" value="not_sure" />
+            <label for="ecommerce_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>No. of products (approx) & No. of categories (approx):</label>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <input type="text" name="num_products" placeholder="Products" />
+          <input type="text" name="num_categories" placeholder="Categories" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you require ecommerce migration?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="migration_yes" name="ecommerce_migration" value="yes" />
+            <label for="migration_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="migration_no" name="ecommerce_migration" value="no" />
+            <label for="migration_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="migration_not_sure" name="ecommerce_migration" value="not_sure" />
+            <label for="migration_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="payment_methods">Payment methods required:
+          <span style="display: block; font-size: 0.875rem; color: #666; font-style: italic; font-weight: normal; margin-top: 0.25rem;">(e.g. PayPal, Stripe, credit cards)</span>
+        </label>
+        <input type="text" id="payment_methods" name="payment_methods" />
+      </div>
+
+      <div class="form-group">
+        <label for="countries_locales">Countries/locales:</label>
+        <input type="text" id="countries_locales" name="countries_locales" />
+      </div>
+
+      <div class="form-group">
+        <label for="currencies">Currencies:</label>
+        <input type="text" id="currencies" name="currencies" />
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Ecommerce features required:</legend>
+        <div class="checkbox-group">
+          <div>
+            <input type="checkbox" id="feature_coupons" name="ecommerce_features" value="coupons" />
+            <label for="feature_coupons" style="display: inline; margin-left: 0.5rem;">Coupons/Discounts</label>
+          </div>
+          <div>
+            <input type="checkbox" id="feature_checkout" name="ecommerce_features" value="checkout" />
+            <label for="feature_checkout" style="display: inline; margin-left: 0.5rem;">Single page checkout</label>
+          </div>
+          <div>
+            <input type="checkbox" id="feature_other" name="ecommerce_features" value="other" />
+            <label for="feature_other" style="display: inline; margin-left: 0.5rem;">Other:</label>
+            <input type="text" name="ecommerce_features_other" style="width: 40%; margin-left: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ecommerce_notes">Notes:</label>
+        <textarea id="ecommerce_notes" name="ecommerce_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Site Design</h2></legend>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">How best describes your current design?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="design_happy" name="current_design" value="happy" />
+            <label for="design_happy" style="display: inline; margin-left: 0.5rem;">We are happy with it, as is</label>
+          </div>
+          <div>
+            <input type="radio" id="design_tweak" name="current_design" value="tweak" />
+            <label for="design_tweak" style="display: inline; margin-left: 0.5rem;">We wish it to be tweaked</label>
+          </div>
+          <div>
+            <input type="radio" id="design_redesign" name="current_design" value="redesign" />
+            <label for="design_redesign" style="display: inline; margin-left: 0.5rem;">We require a complete redesign</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Look and feel: <span style="font-weight: normal; font-style: italic;">(choose all that apply)</span></legend>
+        <div class="checkbox-group">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div>
+              <input type="checkbox" id="feel_modern" name="look_feel" value="modern" />
+              <label for="feel_modern" style="display: inline; margin-left: 0.5rem;">Modern</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_traditional" name="look_feel" value="traditional" />
+              <label for="feel_traditional" style="display: inline; margin-left: 0.5rem;">Traditional</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_fun" name="look_feel" value="fun" />
+              <label for="feel_fun" style="display: inline; margin-left: 0.5rem;">Fun</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_playful" name="look_feel" value="playful" />
+              <label for="feel_playful" style="display: inline; margin-left: 0.5rem;">Playful</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_corporate" name="look_feel" value="corporate" />
+              <label for="feel_corporate" style="display: inline; margin-left: 0.5rem;">Corporate</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_warm" name="look_feel" value="warm" />
+              <label for="feel_warm" style="display: inline; margin-left: 0.5rem;">Warm</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_minimal" name="look_feel" value="minimal" />
+              <label for="feel_minimal" style="display: inline; margin-left: 0.5rem;">Minimal</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_edgy" name="look_feel" value="edgy" />
+              <label for="feel_edgy" style="display: inline; margin-left: 0.5rem;">Edgy</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_serious" name="look_feel" value="serious" />
+              <label for="feel_serious" style="display: inline; margin-left: 0.5rem;">Serious</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_natural" name="look_feel" value="natural" />
+              <label for="feel_natural" style="display: inline; margin-left: 0.5rem;">Natural</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_muted" name="look_feel" value="muted" />
+              <label for="feel_muted" style="display: inline; margin-left: 0.5rem;">Muted</label>
+            </div>
+            <div>
+              <input type="checkbox" id="feel_bold" name="look_feel" value="bold" />
+              <label for="feel_bold" style="display: inline; margin-left: 0.5rem;">Bold</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="lookandfeel_notes">Additional look/feel notes:</label>
+        <textarea id="lookandfeel_notes" name="lookandfeel_notes" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Branding requirements:</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="branding_guidelines" name="branding_requirements" value="guidelines" />
+            <label for="branding_guidelines" style="display: inline; margin-left: 0.5rem;">Brand guidelines must be adhered to</label>
+          </div>
+          <div>
+            <input type="radio" id="branding_existing" name="branding_requirements" value="existing" />
+            <label for="branding_existing" style="display: inline; margin-left: 0.5rem;">We have existing colours, logo etc</label>
+          </div>
+          <div>
+            <input type="radio" id="branding_new" name="branding_requirements" value="new" />
+            <label for="branding_new" style="display: inline; margin-left: 0.5rem;">We require completely new branding</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Can you supply branding guidelines/assets?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="branding_supply_yes" name="supply_branding" value="yes" />
+            <label for="branding_supply_yes" style="display: inline; margin-left: 0.5rem;">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="branding_supply_no" name="supply_branding" value="no" />
+            <label for="branding_supply_no" style="display: inline; margin-left: 0.5rem;">No</label>
+          </div>
+          <div>
+            <input type="radio" id="branding_supply_not_sure" name="supply_branding" value="not_sure" />
+            <label for="branding_supply_not_sure" style="display: inline; margin-left: 0.5rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="branding_details">Details:</label>
+        <textarea id="branding_details" name="branding_details" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="design_notes">Notes:</label>
+        <textarea id="design_notes" name="design_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Competitor Analysis</h2></legend>
+
+      <div class="form-group">
+        <label>Websites you admire and what you like about them:</label>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem;">
+          <thead>
+            <tr style="border-bottom: 1px solid #ccc;">
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Site</th>
+              <th style="text-align: left; padding: 0.5rem; font-weight: bold;">What you like</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="url" name="competitor_site_1" style="width: 100%; border: none; padding: 0;" placeholder="https://example.com" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="competitor_like_1" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="url" name="competitor_site_2" style="width: 100%; border: none; padding: 0;" placeholder="https://example.com" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="competitor_like_2" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+              <td style="padding: 0.5rem;"><input type="url" name="competitor_site_3" style="width: 100%; border: none; padding: 0;" placeholder="https://example.com" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="competitor_like_3" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+            <tr>
+              <td style="padding: 0.5rem;"><input type="url" name="competitor_site_4" style="width: 100%; border: none; padding: 0;" placeholder="https://example.com" /></td>
+              <td style="padding: 0.5rem;"><input type="text" name="competitor_like_4" style="width: 100%; border: none; padding: 0;" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="form-group">
+        <label for="competitor_notes">Notes:</label>
+        <textarea id="competitor_notes" name="competitor_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Additional Features</h2></legend>
+
+      <table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem;">
+        <thead>
+          <tr style="border-bottom: 1px solid #ccc;">
+            <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Feature</th>
+            <th style="text-align: left; padding: 0.5rem; font-weight: bold;">Required?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Newsletter subscription</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="newsletter_yes" name="feature_newsletter" value="yes" />
+                  <label for="newsletter_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="newsletter_no" name="feature_newsletter" value="no" />
+                  <label for="newsletter_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="newsletter_not_sure" name="feature_newsletter" value="not_sure" />
+                  <label for="newsletter_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Social media integration</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="social_yes" name="feature_social" value="yes" />
+                  <label for="social_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="social_no" name="feature_social" value="no" />
+                  <label for="social_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="social_not_sure" name="feature_social" value="not_sure" />
+                  <label for="social_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Contact form</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="contact_yes" name="feature_contact" value="yes" />
+                  <label for="contact_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="contact_no" name="feature_contact" value="no" />
+                  <label for="contact_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="contact_not_sure" name="feature_contact" value="not_sure" />
+                  <label for="contact_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Analytics</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="analytics_yes" name="feature_analytics" value="yes" />
+                  <label for="analytics_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="analytics_no" name="feature_analytics" value="no" />
+                  <label for="analytics_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="analytics_not_sure" name="feature_analytics" value="not_sure" />
+                  <label for="analytics_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Search functionality</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="search_yes" name="feature_search" value="yes" />
+                  <label for="search_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="search_no" name="feature_search" value="no" />
+                  <label for="search_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="search_not_sure" name="feature_search" value="not_sure" />
+                  <label for="search_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Site membership</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="membership_yes" name="feature_membership" value="yes" />
+                  <label for="membership_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="membership_no" name="feature_membership" value="no" />
+                  <label for="membership_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="membership_not_sure" name="feature_membership" value="not_sure" />
+                  <label for="membership_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">User comments</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="comments_yes" name="feature_comments" value="yes" />
+                  <label for="comments_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="comments_no" name="feature_comments" value="no" />
+                  <label for="comments_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="comments_not_sure" name="feature_comments" value="not_sure" />
+                  <label for="comments_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">User testing</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="testing_yes" name="feature_testing" value="yes" />
+                  <label for="testing_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="testing_no" name="feature_testing" value="no" />
+                  <label for="testing_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="testing_not_sure" name="feature_testing" value="not_sure" />
+                  <label for="testing_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">User discussion forum</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="forum_yes" name="feature_forum" value="yes" />
+                  <label for="forum_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="forum_no" name="feature_forum" value="no" />
+                  <label for="forum_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="forum_not_sure" name="feature_forum" value="not_sure" />
+                  <label for="forum_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">RSS feed</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="rss_yes" name="feature_rss" value="yes" />
+                  <label for="rss_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="rss_no" name="feature_rss" value="no" />
+                  <label for="rss_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="rss_not_sure" name="feature_rss" value="not_sure" />
+                  <label for="rss_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Multi-language</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="multilang_yes" name="feature_multilang" value="yes" />
+                  <label for="multilang_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="multilang_no" name="feature_multilang" value="no" />
+                  <label for="multilang_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="multilang_not_sure" name="feature_multilang" value="not_sure" />
+                  <label for="multilang_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">Copywriting/proofing</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="copy_yes" name="feature_copy" value="yes" />
+                  <label for="copy_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="copy_no" name="feature_copy" value="no" />
+                  <label for="copy_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="copy_not_sure" name="feature_copy" value="not_sure" />
+                  <label for="copy_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">On-location photography</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="photo_yes" name="feature_photo" value="yes" />
+                  <label for="photo_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="photo_no" name="feature_photo" value="no" />
+                  <label for="photo_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="photo_not_sure" name="feature_photo" value="not_sure" />
+                  <label for="photo_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e0e0e0;">
+            <td style="padding: 0.5rem;">On-location filming</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="filming_yes" name="feature_filming" value="yes" />
+                  <label for="filming_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="filming_no" name="feature_filming" value="no" />
+                  <label for="filming_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="filming_not_sure" name="feature_filming" value="not_sure" />
+                  <label for="filming_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0.5rem;">Promotional video/animation</td>
+            <td style="padding: 0.5rem;">
+              <div class="radio-group" style="display: flex; gap: 0.5rem; margin: 0;">
+                <div>
+                  <input type="radio" id="promo_yes" name="feature_promo" value="yes" />
+                  <label for="promo_yes" style="display: inline; margin-left: 0.25rem;">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="promo_no" name="feature_promo" value="no" />
+                  <label for="promo_no" style="display: inline; margin-left: 0.25rem;">No</label>
+                </div>
+                <div>
+                  <input type="radio" id="promo_not_sure" name="feature_promo" value="not_sure" />
+                  <label for="promo_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="form-group" style="margin-top: 1.5rem;">
+        <label for="features_notes">Notes:</label>
+        <textarea id="features_notes" name="features_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">SEO &amp; Marketing</h2></legend>
+
+      <div class="form-group">
+        <legend style="font-weight: bold;">Do you have a keyword strategy?</legend>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="keywords_no_require" name="keyword_strategy" value="no_require" />
+            <label for="keywords_no_require" style="display: inline; margin-left: 0.5rem;">No, it's not something we require</label>
+          </div>
+          <div>
+            <input type="radio" id="keywords_discuss" name="keyword_strategy" value="discuss" />
+            <label for="keywords_discuss" style="display: inline; margin-left: 0.5rem;">No, but we would like to discuss</label>
+          </div>
+          <div>
+            <input type="radio" id="keywords_yes" name="keyword_strategy" value="yes" />
+            <label for="keywords_yes" style="display: inline; margin-left: 0.5rem;">Yes, we currently target:</label>
+            <input type="text" name="keywords_target" style="width: 50%; margin-left: 0.5rem;" />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="marketing_budget">Monthly marketing budget:</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="marketing_budget" name="marketing_budget" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="marketing_not_sure" name="marketing_not_sure" />
+            <label for="marketing_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="marketing_strategy">Marketing strategy to promote the new site:</label>
+        <textarea id="marketing_strategy" name="marketing_strategy" rows="4"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Site Maintenance</h2></legend>
+
+      <div class="form-group">
+        <label for="maintenance_responsible">Who will be responsible for site updates?</label>
+        <textarea id="maintenance_responsible" name="maintenance_responsible" rows="2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="maintenance_training">What kind of training do they require?</label>
+        <textarea id="maintenance_training" name="maintenance_training" rows="2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="maintenance_budget">Monthly maintenance budget:</label>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <input type="text" id="maintenance_budget" name="maintenance_budget" style="flex: 1;" />
+          <div>
+            <input type="checkbox" id="maintenance_not_sure" name="maintenance_not_sure" />
+            <label for="maintenance_not_sure" style="display: inline; margin-left: 0.25rem;">Not sure</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="maintenance_notes">Notes:</label>
+        <textarea id="maintenance_notes" name="maintenance_notes" rows="3"></textarea>
+      </div>
+    </fieldset>
+
+    <hr />
+
+    <fieldset>
+      <legend><h2 style="margin-top: 0;">Additional Notes</h2></legend>
+
+      <div class="form-group">
+        <textarea name="additional_notes" rows="5" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 1rem;"></textarea>
+      </div>
+    </fieldset>
+
+    <div class="form-group" style="margin-top: 2rem;">
+      <button type="submit">Submit Form</button>
+    </div>
+
+    <p style="margin-top: 2rem; font-size: 0.875rem; color: #666;"><em>Thanks for your time. Please save and return this document.</em></p>
+
+  </form>
+
+</div>
+
+<style>
+  .client-form {
+    font-size: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="url"],
+  .form-group input[type="date"],
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .checkbox-group,
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .checkbox-group input[type="checkbox"],
+  .radio-group input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+</style>

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is your availability? When can you start?",
+    "answerHtml": "<p>Current status pulled dynamically. Lead time approximately 1&ndash;2 weeks.</p>"
+  },
+  {
+    "question": "Do you have any references/testimonials?",
+    "answerHtml": "<p>Yes &mdash; see testimonials page.</p>"
+  },
+  {
+    "question": "How much does a website cost / What do you charge / What are your payment terms?",
+    "answerHtml": "<p>See prices and payment terms page. Fixed budget or bulk/ongoing work &mdash; get in touch. Discounts for charities, not-for-profits and new businesses.</p>"
+  },
+  {
+    "question": "Do you offer ongoing support?",
+    "answerHtml": "<p>Yes, regular ongoing support at reduced rates &mdash; see example prices.</p>"
+  },
+  {
+    "question": "What tools/technologies do you use?",
+    "answerHtml": "<p>See Tools I Use page.</p>"
+  },
+  {
+    "question": "What is your response time?",
+    "answerHtml": "<p>24&ndash;48 hours for all support requests, often same day.</p>"
+  },
+  {
+    "question": "Can I host my WordPress site on my own servers or with another hosting company?",
+    "answerHtml": "<p>Yes &mdash; once finished you're free to host anywhere. I'll never lock you out.</p>"
+  },
+  {
+    "question": "Do you offer hosting or email services?",
+    "answerHtml": "<p>Not usually &mdash; I'll help you source reliable hosting and get your site live.</p>"
+  },
+  {
+    "question": "Can you recommend any hosting providers?",
+    "answerHtml": "<p>For WordPress: Flywheel, Kinsta, WP Engine. Pay a bit more for decent hosting.</p>"
+  }
+]

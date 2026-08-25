@@ -1,0 +1,15 @@
+---
+layout: base
+title: Testimonials
+permalink: /pitch/testimonials/
+---
+<div class="wrapper flow">
+  <h1>Testimonials</h1>
+
+  {% for testimonial in testimonials %}
+    <blockquote class="testimonial">
+      {{ testimonial.text | safe }}
+      <footer>— <strong>{{ testimonial.creator.name }}</strong>{% if testimonial.creator.worksFor %}, {{ testimonial.creator.worksFor.name }}{% endif %}</footer>
+    </blockquote>
+  {% endfor %}
+</div>

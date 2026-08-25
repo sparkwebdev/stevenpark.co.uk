@@ -1,22 +1,54 @@
 {
   "primary": [
     {
-      "label": "Work",
-      "url": "/work/",
+      "label": "The Pitch",
+      "url": "/the-pitch/",
       "description": "view my portfolio and discover how I work",
       "online": true,
       "sub": [
         {
-          "label": "Services",
-          "url": "/work/services/",
+          "label": "Testimonials",
+          "url": "/the-pitch/testimonials/",
           "description": "",
           "online": true
         },
         {
-          "label": "Tools I Use",
-          "url": "/work/tools/",
+          "label": "Case Studies",
+          "url": "/the-pitch/case-studies/",
           "description": "",
-          "online": true
+          "online": true,
+          "sub": [
+            {
+              "label": "Zotefoams",
+              "url": "/the-pitch/case-studies/zotefoams/",
+              "description": "",
+              "online": true
+            },
+            {
+              "label": "Walksy",
+              "url": "/the-pitch/case-studies/walksy/",
+              "description": "",
+              "online": true
+            },
+            {
+              "label": "FW Medical",
+              "url": "/the-pitch/case-studies/fw-medical/",
+              "description": "",
+              "online": true
+            },
+            {
+              "label": "Scottish Enterprise",
+              "url": "/the-pitch/case-studies/scottish-enterprise/",
+              "description": "",
+              "online": true
+            },
+            {
+              "label": "Archive",
+              "url": "/the-pitch/case-studies/archive/",
+              "description": "",
+              "online": true
+            }
+          ]
         }
       ]
     },
@@ -26,12 +58,6 @@
       "description": "me, my services, values and more",
       "online": true,
       "sub": [
-        {
-          "label": "Testimonials",
-          "url": "/about/testimonials/",
-          "description": "",
-          "online": true
-        },
         {
           "label": "FAQs",
           "url": "/about/faqs/",
@@ -47,10 +73,110 @@
       "online": true
     },
     {
+      "label": "Journal",
+      "url": "/journal/",
+      "description": "collections, logs, and observations",
+      "online": true,
+      "sub": [
+        {
+          "label": "Currently / Now",
+          "url": "/journal/currently/",
+          "description": "happening now — current items from catalogues",
+          "online": true
+        },
+        {
+          "label": "Random Thoughts",
+          "url": "/journal/random-thoughts/",
+          "description": "micro-posts and observations",
+          "online": true
+        },
+        {
+          "label": "Bookshelf",
+          "url": "/journal/bookshelf/",
+          "description": "reading log",
+          "online": true
+        },
+        {
+          "label": "Beer Collection",
+          "url": "/journal/beer/",
+          "description": "Untappd log with ratings",
+          "online": true
+        },
+        {
+          "label": "Coffee Collection",
+          "url": "/journal/coffee/",
+          "description": "espresso ratings",
+          "online": true
+        },
+        {
+          "label": "Music Collection",
+          "url": "/journal/music/",
+          "description": "CDs and vinyl",
+          "online": true
+        },
+        {
+          "label": "Today I Learned",
+          "url": "/journal/til/",
+          "description": "bite-sized facts",
+          "online": true
+        },
+        {
+          "label": "Web Dev Articles",
+          "url": "/journal/web-dev-articles/",
+          "description": "curated reads",
+          "online": true
+        },
+        {
+          "label": "Photography Catalogue",
+          "url": "/journal/photography/",
+          "description": "ongoing photo sorting project",
+          "online": true
+        }
+      ]
+    },
+    {
       "label": "Contact",
       "url": "/contact/",
       "description": "get in touch with me",
-      "online": true
+      "online": true,
+      "sub": [
+        {
+          "label": "Project Overview Form",
+          "url": "/contact/project-overview/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Site Redesign Form",
+          "url": "/contact/site-redesign/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Branding Form",
+          "url": "/contact/branding/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Feedback Form",
+          "url": "/contact/feedback/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Website Content Form",
+          "url": "/contact/website-content/",
+          "description": "",
+          "online": true
+        },
+        {
+          "label": "Discount Application Form",
+          "url": "/contact/discount-application/",
+          "description": "",
+          "online": true
+        }
+      ]
     }
   ],
   "support": [

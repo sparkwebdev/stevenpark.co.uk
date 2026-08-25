@@ -1,0 +1,52 @@
+{
+  "thoughts": [
+    {
+      "id": "thought-001",
+      "datePublished": "2026-08-24",
+      "articleBody": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "keywords": []
+    },
+    {
+      "id": "thought-002",
+      "datePublished": "2026-08-22",
+      "articleBody": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "keywords": []
+    },
+    {
+      "id": "thought-003",
+      "datePublished": "2026-08-20",
+      "articleBody": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "keywords": []
+    },
+    {
+      "id": "thought-004",
+      "datePublished": "2026-08-18",
+      "articleBody": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "keywords": []
+    },
+    {
+      "id": "thought-005",
+      "datePublished": "2026-08-16",
+      "articleBody": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "keywords": []
+    },
+    {
+      "id": "thought-006",
+      "datePublished": "2026-08-14",
+      "articleBody": "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "keywords": []
+    },
+    {
+      "id": "thought-007",
+      "datePublished": "2026-08-12",
+      "articleBody": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.",
+      "keywords": []
+    },
+    {
+      "id": "thought-008",
+      "datePublished": "2026-08-10",
+      "articleBody": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "keywords": []
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+---
+layout: base
+title: Data Audit
+permalink: /internal/data-audit/
+---
+<div class="wrapper flow">
+  <h1>Data Audit</h1>
+  <p><em>Field completeness counts per collection. Not linked from navigation — internal reference for data cleansing, see docs/data-structures.md. Not a list of every gap, just counts so it stays scannable.</em></p>
+
+  {% set books = bookCollection.books %}
+  {% set total = books.length %}
+
+  {% set missingCover = books | whereMissing('coverUrl') %}
+  {% set missingIsbn = books | whereMissing('isbn') %}
+  {% set missingEditionKey = books | whereMissing('editionKey') %}
+  {% set missingDatePublished = books | whereMissing('review.datePublished') %}
+  {% set missingRating = books | whereMissing('review.reviewRating') %}
+  {% set missingNotes = books | whereMissing('review.reviewBody') %}
+  {% set missingPublishYear = books | whereMissing('publishYear') %}
+
+  <h2>bookCollection.json ({{ total }} entries)</h2>
+
+  <h3>Missing fields</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Missing</th>
+        <th>Present</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>coverUrl</td>
+        <td>{{ missingCover.length }}</td>
+        <td>{{ total - missingCover.length }}</td>
+      </tr>
+      <tr>
+        <td>isbn</td>
+        <td>{{ missingIsbn.length }}</td>
+        <td>{{ total - missingIsbn.length }}</td>
+      </tr>
+      <tr>
+        <td>editionKey</td>
+        <td>{{ missingEditionKey.length }}</td>
+        <td>{{ total - missingEditionKey.length }}</td>
+      </tr>
+      <tr>
+        <td>review.datePublished</td>
+        <td>{{ missingDatePublished.length }}</td>
+        <td>{{ total - missingDatePublished.length }}</td>
+      </tr>
+      <tr>
+        <td>review.reviewRating</td>
+        <td>{{ missingRating.length }}</td>
+        <td>{{ total - missingRating.length }}</td>
+      </tr>
+      <tr>
+        <td>review.reviewBody</td>
+        <td>{{ missingNotes.length }}</td>
+        <td>{{ total - missingNotes.length }}</td>
+      </tr>
+      <tr>
+        <td>publishYear</td>
+        <td>{{ missingPublishYear.length }}</td>
+        <td>{{ total - missingPublishYear.length }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  {% set records = musicCollection.records %}
+  {% set total = records.length %}
+  {% set missingCover = records | whereMissing('coverUrl') %}
+  {% set missingBarcode = records | whereMissing('barcode') %}
+  {% set missingLabel = records | whereMissing('label') %}
+  {% set missingCatNumber = records | whereMissing('catalogue_number') %}
+  {% set missingGenres = records | whereMissing('genres') %}
+
+  <h2>musicCollection.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>coverUrl</td><td>{{ missingCover.length }}</td><td>{{ total - missingCover.length }}</td></tr>
+      <tr><td>barcode</td><td>{{ missingBarcode.length }}</td><td>{{ total - missingBarcode.length }}</td></tr>
+      <tr><td>label</td><td>{{ missingLabel.length }}</td><td>{{ total - missingLabel.length }}</td></tr>
+      <tr><td>catalogue_number</td><td>{{ missingCatNumber.length }}</td><td>{{ total - missingCatNumber.length }}</td></tr>
+      <tr><td>genres</td><td>{{ missingGenres.length }}</td><td>{{ total - missingGenres.length }}</td></tr>
+    </tbody>
+  </table>
+
+  {% set beers = beerCollection.beers %}
+  {% set total = beers.length %}
+  {% set missingReview = beers | whereMissing('review') %}
+  {% set missingImage = beers | whereMissing('imageUrl') %}
+  {% set missingAbv = beers | whereMissingProp('additionalProperty', 'ABV') %}
+  {% set missingIbu = beers | whereMissingProp('additionalProperty', 'IBU') %}
+
+  <h2>beerCollection.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>review (unrated)</td><td>{{ missingReview.length }}</td><td>{{ total - missingReview.length }}</td></tr>
+      <tr><td>imageUrl</td><td>{{ missingImage.length }}</td><td>{{ total - missingImage.length }}</td></tr>
+      <tr><td>additionalProperty: ABV</td><td>{{ missingAbv.length }}</td><td>{{ total - missingAbv.length }}</td></tr>
+      <tr><td>additionalProperty: IBU</td><td>{{ missingIbu.length }}</td><td>{{ total - missingIbu.length }}</td></tr>
+    </tbody>
+  </table>
+
+  {% set records = coffeeCollection.records %}
+  {% set total = records.length %}
+  {% set missingReview = records | whereMissing('review') %}
+  {% set missingDescription = records | whereMissing('description') %}
+  {% set missingLogo = records | whereMissing('logo') %}
+  {% set missingOffers = records | whereMissing('offers') %}
+
+  <h2>coffeeCollection.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>review (unrated)</td><td>{{ missingReview.length }}</td><td>{{ total - missingReview.length }}</td></tr>
+      <tr><td>description</td><td>{{ missingDescription.length }}</td><td>{{ total - missingDescription.length }}</td></tr>
+      <tr><td>logo</td><td>{{ missingLogo.length }}</td><td>{{ total - missingLogo.length }}</td></tr>
+      <tr><td>offers</td><td>{{ missingOffers.length }}</td><td>{{ total - missingOffers.length }}</td></tr>
+    </tbody>
+  </table>
+
+  {% set facts = tilCollection %}
+  {% set total = facts.length %}
+  {% set missingCitation = facts | whereMissing('citation') %}
+  {% set missingKeywords = facts | whereMissing('keywords') %}
+
+  <h2>tilCollection.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>citation</td><td>{{ missingCitation.length }}</td><td>{{ total - missingCitation.length }}</td></tr>
+      <tr><td>keywords</td><td>{{ missingKeywords.length }}</td><td>{{ total - missingKeywords.length }}</td></tr>
+    </tbody>
+  </table>
+
+  {% set thoughts = randomThoughts.thoughts %}
+  {% set total = thoughts.length %}
+  {% set missingKeywords = thoughts | whereMissing('keywords') %}
+
+  <h2>randomThoughts.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>keywords</td><td>{{ missingKeywords.length }}</td><td>{{ total - missingKeywords.length }}</td></tr>
+    </tbody>
+  </table>
+  <p><em>Note: <code>keywords</code> "present" here just means the array exists (even if empty) — all 8 entries currently have empty placeholder content, this isn't tracking real keyword data yet.</em></p>
+
+  {% set articles = webDevArticles.keep | list %}
+  {% set articles = (articles.concat(webDevArticles.maybe)) %}
+  {% set total = articles.length %}
+  {% set missingDescription = articles | whereMissing('description') %}
+  {% set missingImage = articles | whereMissing('image') %}
+  {% set missingKeywords = articles | whereMissing('keywords') %}
+
+  <h2>webDevArticles.json ({{ total }} entries, keep + maybe)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>description</td><td>{{ missingDescription.length }}</td><td>{{ total - missingDescription.length }}</td></tr>
+      <tr><td>image</td><td>{{ missingImage.length }}</td><td>{{ total - missingImage.length }}</td></tr>
+      <tr><td>keywords</td><td>{{ missingKeywords.length }}</td><td>{{ total - missingKeywords.length }}</td></tr>
+    </tbody>
+  </table>
+
+  {% set items = testimonials %}
+  {% set total = items.length %}
+  {% set missingAddress = items | whereMissing('creator.worksFor.address') %}
+
+  <h2>testimonials.json ({{ total }} entries)</h2>
+  <h3>Missing fields</h3>
+  <table>
+    <thead><tr><th>Field</th><th>Missing</th><th>Present</th></tr></thead>
+    <tbody>
+      <tr><td>creator.worksFor.address</td><td>{{ missingAddress.length }}</td><td>{{ total - missingAddress.length }}</td></tr>
+    </tbody>
+  </table>
+
+  <p><em>photographyCatalogue.json not audited here — not built yet, see docs/data-structures.md for the speculative future mapping.</em></p>
+</div>

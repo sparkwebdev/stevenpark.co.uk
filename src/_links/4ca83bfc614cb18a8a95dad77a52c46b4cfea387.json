@@ -1,0 +1,34 @@
+{
+  "general": {
+    "icons": [
+      {
+        "href": "/favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "href": "/code-guide.svg",
+        "type": "image/svg+xml"
+      }
+    ],
+    "canonical": "https://codeguide.co",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS",
+    "title": "\n      Code Guide by @mdo\n    ",
+    "lang": "en"
+  },
+  "openGraph": {
+    "image": {
+      "url": "https://raw.githubusercontent.com/mdo/code-guide/gh-pages/code-guide-social.png",
+      "width": "2000",
+      "height": "1000"
+    },
+    "title": "Code Guide",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "creator": "@mdo",
+    "title": "Code Guide",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS.",
+    "image": "https://raw.githubusercontent.com/mdo/code-guide/gh-pages/code-guide-social.png"
+  }
+}

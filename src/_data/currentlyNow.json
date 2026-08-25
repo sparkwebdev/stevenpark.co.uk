@@ -1,0 +1,31 @@
+{
+  "currentlyNow": {
+    "description": "Thinking about / priorities / working on. A 'happening now' view of the Lifestream — individual items from the broader catalogues surfaced here. e.g. the Music collection catalogue exists as a full archive, but 'currently listening' is surfaced in Currently / Now. Or Bookshelf is a catalogue of past reading, but the latest book surfaces here.",
+    "items": [
+      {
+        "id": "current-002",
+        "type": "music",
+        "title": "TBD",
+        "subtitle": "Currently Spinning",
+        "status": "in-progress",
+        "source": null
+      },
+      {
+        "id": "current-003",
+        "type": "coffee",
+        "title": "TBD",
+        "subtitle": "Currently Tasting",
+        "status": "in-progress",
+        "source": null
+      },
+      {
+        "id": "current-004",
+        "type": "thought",
+        "title": "TBD",
+        "subtitle": "On My Mind",
+        "status": "in-progress",
+        "source": null
+      }
+    ]
+  }
+}

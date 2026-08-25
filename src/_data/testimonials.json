@@ -1,154 +1,130 @@
 [
   {
     "id": "1",
-    "name": "Amy McCusker",
-    "company": "WeeBox",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p>You were always <em><strong>keen to help us grow</strong></em> and as we were learning, you were <em><strong>patient and thorough</strong></em>. Good relationship that we could come to you as required.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Rosy Naylor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Art Walk Projects / Platform Designs",
+        "address": "Edinburgh"
+      }
+    },
+    "text": "<p><em><strong>Receptive to ideas, reliable and committed</strong></em> to creating a high quality and design focussed finished product.</p>"
   },
   {
     "id": "2",
-    "name": "Scott Ferguson",
-    "company": "e.fundamentals",
-    "location": "London",
-    "project": "",
-    "quoteHtml": "<p>The <em><strong>harmony between design and technical execution was great</strong></em>, unlike dealing with other providers in the past there was no friction or issues that you can normally see between design and tech implementations. On top of that the speed of activity was strong, responsive and no request we had was ever pushed back on. <em><strong>Absolutely delighted with the finished product</strong></em>.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Aaron McIvor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Zotefoams",
+        "address": "Glasgow"
+      }
+    },
+    "text": "<p><em><strong>Excellent communication, worked to tight deadline</strong></em>&hellip; really going to make a difference to our business!</p>"
   },
   {
     "id": "3",
-    "name": "Josi Mathar",
-    "company": "e.fundamentals",
-    "location": "",
-    "project": "",
-    "quoteHtml": "<p>You have a very natural and engaging way of meeting clients' needs. <em><strong>You think on your feet rather than following what's asked</strong></em>. Excellent job, I'll be recommending you to everyone who needs you as their local 'dream team'.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Scott Ferguson",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "e.fundamentals",
+        "address": "London"
+      }
+    },
+    "text": "<p><em><strong>Harmony between design and technical execution was great</strong></em>&hellip; Absolutely delighted with the finished product.</p>"
   },
   {
     "id": "4",
-    "name": "Gerard McCusker",
-    "company": "K-N Trading",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p>Delighted, a great fit for the business bearing in mind for the stage it was at. It was a <em><strong>very open and honest relationship</strong></em> and you <em><strong>went the extra mile</strong></em> and understood our business needs.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Josi Mathar",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "e.fundamentals"
+      }
+    },
+    "text": "<p><em><strong>You think on your feet rather than following what's asked</strong></em>.</p>"
   },
   {
     "id": "5",
-    "name": "Rosy Naylor",
-    "company": "Platform Designs",
-    "location": "Edinburgh",
-    "project": "Forth Valley Art Beat",
-    "quoteHtml": "<p>Steven and I have worked together on numerous projects within the arts sector. Always a pleasure to work with, he is <em><strong>receptive to ideas, reliable and committed</strong></em> to creating a high quality and design focussed finished product. The Forth Valley Art Beat iOS app and responsively designed website both are great products which I am very pleased with.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Amy McCusker",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "WeeBox",
+        "address": "Glasgow"
+      }
+    },
+    "text": "<p><em><strong>Keen to help us grow</strong></em>&hellip; patient and thorough.</p>"
   },
   {
     "id": "6",
-    "name": "Emily Reid",
-    "company": "Eco Drama",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p>I liked Steven's friendly and clear approach and I knew where I stood with him from the first point of contact. I really liked his 'to-do' tracker and felt informed at all stages. <em><strong>He met all deadlines</strong></em> specified which was very reassuring. He also ensured everything was covered, made necessary changes, and checked in if anything wasn't right, and this care ensured we were really happy with the finished website.</p><p>I found on a couple of occasions during the meetings that some information about the site was a little hard to understand from a non web designer point of view, but nevertheless, did help get my head around things better.</p><p>Good mannered, pleasant to work with and a very quick worker - we are <em><strong>really happy with our website and we would definitely recommend Steven</strong></em> to other people or companies in future.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Gerard McCusker",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "K-N Trading",
+        "address": "Glasgow"
+      }
+    },
+    "text": "<p><em><strong>Very open and honest relationship</strong></em>&hellip; went the extra mile.</p>"
   },
   {
     "id": "7",
-    "name": "Chris",
-    "company": "Navigator Partnership",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p><em><strong>Very easy to deal</strong></em> with and understood the project objectives clearly...I honestly couldn't fault you at all and am looking forward to collaborating on several more projects!</p><p>Very pleasant personality and <em><strong>understanding about the project needs</strong></em>. No over complication of anything and communication levels were very high. We are very pleased with the finished product and will have no hesitation in working with you again.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Emily Reid",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Eco Drama",
+        "address": "Glasgow"
+      }
+    },
+    "text": "<p><em><strong>He met all deadlines</strong></em>&hellip; really happy with our website and we would definitely recommend Steven.</p>"
   },
   {
     "id": "8",
-    "name": "Avril Nicol",
-    "company": "Forth Valley Art Beat",
-    "location": "",
-    "project": "Forth Valley Art Beat",
-    "quoteHtml": "<p><em><strong>Delighted with the finished products!</strong></em> Look forward to working with you next year.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Chris",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Navigator Partnership",
+        "address": "Glasgow"
+      }
+    },
+    "text": "<p><em><strong>Very easy to deal with</strong></em>&hellip; understanding about the project needs.</p>"
   },
   {
     "id": "9",
-    "name": "Nigel Brown",
-    "company": "BestCities Global Alliance",
-    "location": "Singapore",
-    "project": "",
-    "quoteHtml": "<p>It was efficient working with you&hellip; and we are <em><strong>happy with how the website turned out</strong></em> and the ease for us to edit content moving forward.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Avril Nicol",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Forth Valley Art Beat"
+      }
+    },
+    "text": "<p><em><strong>Delighted with the finished products!</strong></em></p>"
   },
   {
     "id": "10",
-    "name": "Jack Taylor",
-    "company": "The Piobaireachd Society",
-    "location": "Aboyne",
-    "project": "",
-    "quoteHtml": "<p><em><strong>Quick responsive relevant communication, technical expertise</strong></em>. Very easy to work with because of friendliness and first class communication.</p>"
-  },
-  {
-    "id": "11",
-    "name": "Aaron McIvor",
-    "company": "",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p><em><strong>Excellent communication, worked to tight deadline</strong></em> and responded to numerous requests for lots and lots of changes without a blink of an eye... Very easy going - nothing was a problem - very happy with our new website - looks ace. Really going to make a difference to our business!</p>"
-  },
-  {
-    "id": "12",
-    "name": "David Ross",
-    "company": "Digijuice Ltd",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p>I've worked with Steven on a few projects now and have always found him to be both <em><strong>knowledgeable and reliable</strong></em>. He's a guy who can meet deadlines with high quality work and I have no hesitation in recommending him.</p>"
-  },
-  {
-    "id": "13",
-    "name": "Claire",
-    "company": "",
-    "location": "Midlands",
-    "project": "",
-    "quoteHtml": "<p>Friendly approach and as a non techy you explained everything very well to us. Loved the end product, <em><strong>your translation into what we wanted was spot on</strong></em>.</p>"
-  },
-  {
-    "id": "14",
-    "name": "Maria Quinn",
-    "company": "",
-    "location": "Glasgow",
-    "project": "",
-    "quoteHtml": "<p>Steven showed an excellent understanding of our requirements and was able to take on board our ideas very quickly.</p><p>Steven is very professional and diligent in his approach, an <em><strong>excellent communicator with a keen eye for detail</strong></em>. We are delighted with our website.</p>"
-  },
-  {
-    "id": "15",
-    "name": "Wayne Roberts",
-    "company": "Community Growing Solutions",
-    "location": "Fife",
-    "project": "",
-    "quoteHtml": "<p>A first class service that was refreshing. <em><strong>A pleasure to work</strong></em> with and we found somebody who was very laid back and approachable to ideas and suggestions. Steven is only an email or phone call away with an <em><strong>excellent response time and super support</strong></em>.</p>"
-  },
-  {
-    "id": "16",
-    "name": "Annelie",
-    "company": "Fountainwell",
-    "location": "Perth",
-    "project": "",
-    "quoteHtml": "<p>The project was finished on time and on budget, and the product was of a very high standard. Steven always <em><strong>communicated clearly, concisely and in a timely manner</strong></em>. Anything complex was explained well, and always left the impression that Steven was knowledgable and willing to help. The service promised is what you receive - <em><strong>honest, friendly and professional</strong></em>.</p>"
-  },
-  {
-    "id": "17",
-    "name": "Kate",
-    "company": "Tootsa MacGingty Ltd",
-    "location": "Edinburgh / London",
-    "project": "",
-    "quoteHtml": "<p>All round just brilliant!! Steve Park has been wonderful ...so helpful and quick. I couldn't fault him. <em><strong>Quick, efficient, communicative and helpful!</strong></em> We are v.pleased with the work carried out.</p>"
-  },
-  {
-    "id": "18",
-    "name": "David Neill",
-    "company": "Clarke Cottage Guest House",
-    "location": "Dunfermline",
-    "project": "",
-    "quoteHtml": "<p>We had good communication with Steven. The end result speaks for itself. <em><strong>We are delighted with the revised web site</strong></em>.</p>"
-  },
-  {
-    "id": "19",
-    "name": "Helen Pank",
-    "company": "Small Green Spaces",
-    "location": "Edinburgh",
-    "project": "",
-    "quoteHtml": "<p>We've been <em><strong>very impressed with your customer service</strong></em> - we always get friendly, prompt replies to our (endless) questions - and the fliers and poster you designed for us are fabulous. We asked you to create a look that was professional and also fitted our ethos of working with community projects...and you did! In fact, your work has been so good that we've had to ask you to finish building our website for us as well.</p>"
+    "creator": {
+      "@type": "Person",
+      "name": "Nigel Brown",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "BestCities Global Alliance",
+        "address": "Singapore"
+      }
+    },
+    "text": "<p><em><strong>Happy with how the website turned out</strong></em>.</p>"
   }
 ]
