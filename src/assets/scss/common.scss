@@ -140,5 +140,20 @@ em > strong {
     list-style: disc;
     padding-left: get-size('600');
   }
-  
 }
+
+// ============================================================
+// TEMPORARY — content build-out testing sizing (added 2026-09-02).
+// Shrinks body copy and headings so review pages are more compact
+// while scaffolding the rebuild. Not a real design decision — remove
+// this whole block once the build-out settles and headings get their
+// proper sizing.
+// ============================================================
+body {
+  font-size: 14px;
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.15rem; }
+h4, h5, h6 { font-size: 1rem; }

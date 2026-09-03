@@ -1,0 +1,95 @@
+---
+layout: base
+title: Currently Watching
+permalink: /lifestream/watching/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/lifestream/">Back to Lifestream</a>
+  </nav>
+
+  <h1>Currently Watching</h1>
+  <p><em>Movie/TV watch history and watchlist, imported from Trakt. {{ watchCollection.watched.length }} watched, {{ watchCollection.watchlist.length }} on the watchlist.</em></p>
+
+  <div style="margin-bottom: 2rem;">
+    <label style="display: inline-block; margin-right: 2rem;">
+      <input type="checkbox" id="filterRated8plus"> Rated 8+
+    </label>
+    <label style="display: inline-block; margin-right: 2rem;">
+      <input type="checkbox" id="filterMovies"> Movies only
+    </label>
+    <label style="display: inline-block;">
+      <input type="checkbox" id="filterShows"> Shows only
+    </label>
+  </div>
+
+  <h2>Watched ({{ watchCollection.watched.length }})</h2>
+  <div id="collection-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+    {% for item in watchCollection.watched %}
+      <div class="watch-record" data-type="{{ item.type }}" data-rating="{{ item.review.reviewRating.ratingValue if item.review and item.review.reviewRating else '' }}" style="padding: 1rem; border: 1px solid #ddd; border-radius: 4px; background: #fafafa; display: flex; flex-direction: column;">
+        {% if item.image %}
+          <img src="{{ item.image }}" alt="{{ item.name }}" style="width: 100%; aspect-ratio: 2/3; object-fit: cover; margin-bottom: 0.75rem; border-radius: 4px;">
+        {% endif %}
+
+        <div style="flex-grow: 1;">
+          <strong style="display: block; font-size: 0.9em;">
+            {% if item.sameAs %}<a href="{{ item.sameAs }}" target="_blank" rel="noopener" style="color: inherit;">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+          </strong>
+          <small style="color: #666; display: block;">{{ item.datePublished }} · {{ item.type }}</small>
+        </div>
+
+        <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid #ddd;">
+          {% if item.review and item.review.reviewRating %}
+            <strong style="font-size: 1.1em;">{{ item.review.reviewRating.ratingValue }}/{{ item.review.reviewRating.bestRating }}</strong>
+          {% else %}
+            <small style="color: #999;">unrated</small>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h2 style="margin-top: 3rem;">Watchlist ({{ watchCollection.watchlist.length }})</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 1rem;">
+    {% for item in watchCollection.watchlist %}
+      <div style="padding: 1rem; border: 1px solid #ddd; border-radius: 4px; background: #fafafa;">
+        {% if item.image %}
+          <img src="{{ item.image }}" alt="{{ item.name }}" style="width: 100%; aspect-ratio: 2/3; object-fit: cover; margin-bottom: 0.75rem; border-radius: 4px;">
+        {% endif %}
+        <strong style="display: block; font-size: 0.9em;">
+          {% if item.sameAs %}<a href="{{ item.sameAs }}" target="_blank" rel="noopener" style="color: inherit;">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+        </strong>
+        <small style="color: #666; display: block;">{{ item.datePublished }} · {{ item.type }}</small>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    const filterRated8plus = document.getElementById('filterRated8plus');
+    const filterMovies = document.getElementById('filterMovies');
+    const filterShows = document.getElementById('filterShows');
+
+    function updateFilter() {
+      const show8plus = filterRated8plus.checked;
+      const moviesOnly = filterMovies.checked;
+      const showsOnly = filterShows.checked;
+      const records = document.querySelectorAll('.watch-record');
+
+      records.forEach(record => {
+        const rating = parseFloat(record.dataset.rating);
+        const type = record.dataset.type;
+
+        let visible = true;
+        if (show8plus && !(rating >= 8)) visible = false;
+        if (moviesOnly && type !== 'movie') visible = false;
+        if (showsOnly && type !== 'show') visible = false;
+
+        record.style.display = visible ? 'flex' : 'none';
+      });
+    }
+
+    filterRated8plus.addEventListener('change', updateFilter);
+    filterMovies.addEventListener('change', updateFilter);
+    filterShows.addEventListener('change', updateFilter);
+  </script>
+</div>

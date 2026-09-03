@@ -11,44 +11,6 @@
           "url": "/the-pitch/testimonials/",
           "description": "",
           "online": true
-        },
-        {
-          "label": "Case Studies",
-          "url": "/the-pitch/case-studies/",
-          "description": "",
-          "online": true,
-          "sub": [
-            {
-              "label": "Zotefoams",
-              "url": "/the-pitch/case-studies/zotefoams/",
-              "description": "",
-              "online": true
-            },
-            {
-              "label": "Walksy",
-              "url": "/the-pitch/case-studies/walksy/",
-              "description": "",
-              "online": true
-            },
-            {
-              "label": "FW Medical",
-              "url": "/the-pitch/case-studies/fw-medical/",
-              "description": "",
-              "online": true
-            },
-            {
-              "label": "Scottish Enterprise",
-              "url": "/the-pitch/case-studies/scottish-enterprise/",
-              "description": "",
-              "online": true
-            },
-            {
-              "label": "Archive",
-              "url": "/the-pitch/case-studies/archive/",
-              "description": "",
-              "online": true
-            }
-          ]
         }
       ]
     },
@@ -73,6 +35,124 @@
       "online": true
     },
     {
+      "label": "Lifestream",
+      "url": "/lifestream/",
+      "description": "work-in-progress URL scaffold, will replace Journal",
+      "online": false,
+      "sub": [
+        {
+          "label": "Work",
+          "url": "/lifestream/work/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Projects",
+          "url": "/lifestream/projects/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Travel",
+          "url": "/lifestream/travel/",
+          "description": "",
+          "online": false,
+          "sub": [
+            {
+              "label": "Barcelona",
+              "url": "/lifestream/travel/barcelona/",
+              "description": "",
+              "online": false
+            },
+            {
+              "label": "Gouves",
+              "url": "/lifestream/travel/gouves/",
+              "description": "",
+              "online": false
+            },
+            {
+              "label": "London",
+              "url": "/lifestream/travel/london/",
+              "description": "",
+              "online": false
+            },
+            {
+              "label": "Porto",
+              "url": "/lifestream/travel/porto/",
+              "description": "",
+              "online": false
+            },
+            {
+              "label": "Prague",
+              "url": "/lifestream/travel/prague/",
+              "description": "",
+              "online": false
+            },
+            {
+              "label": "Split, Croatia",
+              "url": "/lifestream/travel/split-croatia/",
+              "description": "",
+              "online": false
+            }
+          ]
+        },
+        {
+          "label": "Thoughts",
+          "url": "/lifestream/thoughts/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Coffee",
+          "url": "/lifestream/coffee/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Beer",
+          "url": "/lifestream/beer/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Music Collection",
+          "url": "/lifestream/music-collection/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Reading",
+          "url": "/lifestream/reading/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Photography",
+          "url": "/lifestream/photography/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Web Dev",
+          "url": "/lifestream/web-dev/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Currently Streaming",
+          "url": "/lifestream/listening/",
+          "description": "",
+          "online": false
+        },
+        {
+          "label": "Currently Watching",
+          "url": "/lifestream/watching/",
+          "description": "",
+          "online": false
+        }
+      ]
+    },
+    {
       "label": "Journal",
       "url": "/journal/",
       "description": "collections, logs, and observations",
@@ -85,51 +165,9 @@
           "online": true
         },
         {
-          "label": "Random Thoughts",
-          "url": "/journal/random-thoughts/",
-          "description": "micro-posts and observations",
-          "online": true
-        },
-        {
-          "label": "Bookshelf",
-          "url": "/journal/bookshelf/",
-          "description": "reading log",
-          "online": true
-        },
-        {
-          "label": "Beer Collection",
-          "url": "/journal/beer/",
-          "description": "Untappd log with ratings",
-          "online": true
-        },
-        {
-          "label": "Coffee Collection",
-          "url": "/journal/coffee/",
-          "description": "espresso ratings",
-          "online": true
-        },
-        {
-          "label": "Music Collection",
-          "url": "/journal/music/",
-          "description": "CDs and vinyl",
-          "online": true
-        },
-        {
-          "label": "Today I Learned",
-          "url": "/journal/til/",
-          "description": "bite-sized facts",
-          "online": true
-        },
-        {
           "label": "Web Dev Articles",
           "url": "/journal/web-dev-articles/",
           "description": "curated reads",
-          "online": true
-        },
-        {
-          "label": "Photography Catalogue",
-          "url": "/journal/photography/",
-          "description": "ongoing photo sorting project",
           "online": true
         }
       ]

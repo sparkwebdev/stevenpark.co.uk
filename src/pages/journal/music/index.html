@@ -20,12 +20,12 @@ permalink: /journal/music/
     {% for record in musicCollection.records %}
       <div class="collection-record" data-media="{{ record.media_type }}" style="text-align: center;">
         {% if record.coverUrl %}
-          <img src="{{ record.coverUrl }}" alt="{{ record.artist }} - {{ record.album }}" style="width: 100%; aspect-ratio: 1; object-fit: cover; margin-bottom: 0.5rem; border-radius: 4px;">
+          <img src="{{ record.coverUrl }}" alt="{{ record.byArtist.name }} - {{ record.album }}" style="width: 100%; aspect-ratio: 1; object-fit: cover; margin-bottom: 0.5rem; border-radius: 4px;">
         {% else %}
           <div style="width: 100%; aspect-ratio: 1; background: #e8e8e8; margin-bottom: 0.5rem; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #999;">No cover</div>
         {% endif %}
         <div style="font-size: 0.875rem;">
-          <strong style="display: block; line-height: 1.2;">{{ record.artist }}</strong>
+          <strong style="display: block; line-height: 1.2;">{{ record.byArtist.name }}</strong>
           <em style="display: block; line-height: 1.2; color: #666;">{{ record.album }}</em>
           {% if record.date %}
             <small style="color: #999;">{{ record.date | slice(-4) }}</small>

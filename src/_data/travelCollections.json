@@ -1,0 +1,134 @@
+{
+  "barcelona": {
+    "@type": "ImageGallery",
+    "name": "Barcelona",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-12.jpg",
+        "caption": "Barcelona placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-13.jpg",
+        "caption": "Barcelona placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-14.jpg",
+        "caption": "Barcelona placeholder photo 3"
+      }
+    ]
+  },
+  "gouves": {
+    "@type": "ImageGallery",
+    "name": "Gouves",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-15.jpg",
+        "caption": "Gouves placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-16.jpg",
+        "caption": "Gouves placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-17.jpg",
+        "caption": "Gouves placeholder photo 3"
+      }
+    ]
+  },
+  "london": {
+    "@type": "ImageGallery",
+    "name": "London",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-18.jpg",
+        "caption": "London placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-19.jpg",
+        "caption": "London placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-20.jpg",
+        "caption": "London placeholder photo 3"
+      }
+    ]
+  },
+  "porto": {
+    "@type": "ImageGallery",
+    "name": "Porto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-21.jpg",
+        "caption": "Porto placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-22.jpg",
+        "caption": "Porto placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-23.jpg",
+        "caption": "Porto placeholder photo 3"
+      }
+    ]
+  },
+  "prague": {
+    "@type": "ImageGallery",
+    "name": "Prague",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-24.jpg",
+        "caption": "Prague placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-25.jpg",
+        "caption": "Prague placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-26.jpg",
+        "caption": "Prague placeholder photo 3"
+      }
+    ]
+  },
+  "split-croatia": {
+    "@type": "ImageGallery",
+    "name": "Split, Croatia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "photos": [
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-27.jpg",
+        "caption": "Split, Croatia placeholder photo 1"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-28.jpg",
+        "caption": "Split, Croatia placeholder photo 2"
+      },
+      {
+        "@type": "Photograph",
+        "contentUrl": "/assets/img/placeholders/placeholder-29.jpg",
+        "caption": "Split, Croatia placeholder photo 3"
+      }
+    ]
+  }
+}

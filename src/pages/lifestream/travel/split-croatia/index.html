@@ -1,0 +1,17 @@
+---
+layout: base
+title: Split, Croatia
+permalink: /lifestream/travel/split-croatia/
+---
+{% from "partials/photo-grid.html" import photoGrid %}
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/lifestream/travel/">Back to Travel</a>
+  </nav>
+
+  <h1>Split, Croatia</h1>
+
+  <p>{{ travelCollections["split-croatia"].description }}</p>
+
+  {{ photoGrid(travelCollections["split-croatia"].photos, "split-croatia", 12) }}
+</div>

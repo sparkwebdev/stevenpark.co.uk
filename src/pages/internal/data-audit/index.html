@@ -72,9 +72,9 @@ permalink: /internal/data-audit/
   {% set total = records.length %}
   {% set missingCover = records | whereMissing('coverUrl') %}
   {% set missingBarcode = records | whereMissing('barcode') %}
-  {% set missingLabel = records | whereMissing('label') %}
-  {% set missingCatNumber = records | whereMissing('catalogue_number') %}
-  {% set missingGenres = records | whereMissing('genres') %}
+  {% set missingLabel = records | whereMissing('recordLabel') %}
+  {% set missingCatNumber = records | whereMissing('catalogNumber') %}
+  {% set missingGenres = records | whereMissing('genre') %}
 
   <h2>musicCollection.json ({{ total }} entries)</h2>
   <h3>Missing fields</h3>
@@ -83,9 +83,9 @@ permalink: /internal/data-audit/
     <tbody>
       <tr><td>coverUrl</td><td>{{ missingCover.length }}</td><td>{{ total - missingCover.length }}</td></tr>
       <tr><td>barcode</td><td>{{ missingBarcode.length }}</td><td>{{ total - missingBarcode.length }}</td></tr>
-      <tr><td>label</td><td>{{ missingLabel.length }}</td><td>{{ total - missingLabel.length }}</td></tr>
-      <tr><td>catalogue_number</td><td>{{ missingCatNumber.length }}</td><td>{{ total - missingCatNumber.length }}</td></tr>
-      <tr><td>genres</td><td>{{ missingGenres.length }}</td><td>{{ total - missingGenres.length }}</td></tr>
+      <tr><td>recordLabel</td><td>{{ missingLabel.length }}</td><td>{{ total - missingLabel.length }}</td></tr>
+      <tr><td>catalogNumber</td><td>{{ missingCatNumber.length }}</td><td>{{ total - missingCatNumber.length }}</td></tr>
+      <tr><td>genre</td><td>{{ missingGenres.length }}</td><td>{{ total - missingGenres.length }}</td></tr>
     </tbody>
   </table>
 

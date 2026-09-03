@@ -1,0 +1,122 @@
+{#
+  Reusable photo grid + pagination + lightbox.
+  Usage: {% from "partials/photo-grid.html" import photoGrid %}
+         {{ photoGrid(photos, "favourites", 12) }}
+
+  - photos: array of { contentUrl, caption }
+  - gridId: unique string per call site (used to scope element ids/JS)
+  - perPage: photos shown per page before Prev/Next kicks in (default 12)
+
+  Grid is square-cropped and responsive. Clicking a photo opens a lightbox
+  that navigates the *entire* photo array, independent of which page is
+  currently visible. Pagination and lightbox nav are both plain vanilla JS,
+  self-contained per instance (matches this rebuild's inline style/script
+  precedent — no shared app.js/Sass wiring exists yet to build on).
+#}
+{% macro photoGrid(photos, gridId, perPage=12) %}
+<div class="photo-grid" id="grid-{{ gridId }}" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+  {% for photo in photos %}
+    <button type="button" class="photo-grid__item" data-index="{{ loop.index0 }}" aria-label="Open photo {{ loop.index }} of {{ photos.length }}" style="padding: 0; border: none; background: none; cursor: pointer; aspect-ratio: 1; overflow: hidden; border-radius: 4px;">
+      <img src="{{ photo.contentUrl }}" alt="{{ photo.caption }}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </button>
+  {% endfor %}
+</div>
+
+<div class="photo-grid__pagination" id="pagination-{{ gridId }}" hidden style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+  <button type="button" class="photo-grid__prev-page" style="padding: 0.4rem 0.9rem;">‹ Prev</button>
+  <span class="photo-grid__page-status" style="font-size: 0.9em; color: #666;"></span>
+  <button type="button" class="photo-grid__next-page" style="padding: 0.4rem 0.9rem;">Next ›</button>
+</div>
+
+<div class="photo-lightbox" id="lightbox-{{ gridId }}" hidden style="position: fixed; inset: 0; background: rgba(0,0,0,0.9); display: flex; align-items: center; justify-content: center; z-index: 1000;">
+  <button type="button" class="photo-lightbox__close" aria-label="Close" style="position: absolute; top: 1.5rem; right: 1.5rem; background: none; border: none; color: #fff; font-size: 2rem; cursor: pointer; line-height: 1;">✕</button>
+  <button type="button" class="photo-lightbox__prev" aria-label="Previous photo" style="position: absolute; left: 1rem; background: none; border: none; color: #fff; font-size: 2.5rem; cursor: pointer; padding: 1rem;">‹</button>
+  <img class="photo-lightbox__image" src="" alt="" style="max-width: 85vw; max-height: 85vh; object-fit: contain;">
+  <button type="button" class="photo-lightbox__next" aria-label="Next photo" style="position: absolute; right: 1rem; background: none; border: none; color: #fff; font-size: 2.5rem; cursor: pointer; padding: 1rem;">›</button>
+</div>
+
+<script>
+(function() {
+  var gridId = {{ gridId | dump | safe }};
+  var perPage = {{ perPage }};
+  var grid = document.getElementById('grid-' + gridId);
+  if (!grid) return;
+  var items = Array.prototype.slice.call(grid.querySelectorAll('.photo-grid__item'));
+  var total = items.length;
+  var totalPages = Math.max(1, Math.ceil(total / perPage));
+  var currentPage = 0;
+
+  var paginationEl = document.getElementById('pagination-' + gridId);
+  var prevPageBtn = paginationEl ? paginationEl.querySelector('.photo-grid__prev-page') : null;
+  var nextPageBtn = paginationEl ? paginationEl.querySelector('.photo-grid__next-page') : null;
+  var statusEl = paginationEl ? paginationEl.querySelector('.photo-grid__page-status') : null;
+
+  function renderPage() {
+    items.forEach(function(item, i) {
+      var page = Math.floor(i / perPage);
+      item.style.display = (page === currentPage) ? '' : 'none';
+    });
+    if (totalPages > 1 && paginationEl) {
+      paginationEl.hidden = false;
+      statusEl.textContent = 'Page ' + (currentPage + 1) + ' of ' + totalPages;
+      prevPageBtn.disabled = currentPage === 0;
+      nextPageBtn.disabled = currentPage === totalPages - 1;
+    }
+  }
+  renderPage();
+
+  if (prevPageBtn) {
+    prevPageBtn.addEventListener('click', function() {
+      if (currentPage > 0) { currentPage--; renderPage(); }
+    });
+  }
+  if (nextPageBtn) {
+    nextPageBtn.addEventListener('click', function() {
+      if (currentPage < totalPages - 1) { currentPage++; renderPage(); }
+    });
+  }
+
+  var lightbox = document.getElementById('lightbox-' + gridId);
+  var lightboxImg = lightbox.querySelector('.photo-lightbox__image');
+  var closeBtn = lightbox.querySelector('.photo-lightbox__close');
+  var prevBtn = lightbox.querySelector('.photo-lightbox__prev');
+  var nextBtn = lightbox.querySelector('.photo-lightbox__next');
+  var currentIndex = 0;
+
+  function showIndex(index) {
+    currentIndex = index;
+    var img = items[currentIndex].querySelector('img');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+  }
+  function openLightbox(index) {
+    showIndex(index);
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    lightbox.hidden = true;
+    document.body.style.overflow = '';
+  }
+  function showRelative(delta) {
+    showIndex((currentIndex + delta + total) % total);
+  }
+
+  items.forEach(function(item, i) {
+    item.addEventListener('click', function() { openLightbox(i); });
+  });
+  closeBtn.addEventListener('click', closeLightbox);
+  prevBtn.addEventListener('click', function() { showRelative(-1); });
+  nextBtn.addEventListener('click', function() { showRelative(1); });
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (lightbox.hidden) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showRelative(-1);
+    if (e.key === 'ArrowRight') showRelative(1);
+  });
+})();
+</script>
+{% endmacro %}

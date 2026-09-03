@@ -1,0 +1,116 @@
+{
+  "albums": [
+    {
+      "id": "album-001",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "The Boy Who Played the Harp",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "Dave"
+      },
+      "datePublished": "2025",
+      "image": "/assets/img/listen-covers/album-001.jpg",
+      "musicBrainzId": "294a95df-6261-4f19-bbd1-0057baf0bd4d",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-002",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "Compro",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "Skee Mask"
+      },
+      "datePublished": "2018",
+      "image": "/assets/img/listen-covers/album-002.jpg",
+      "musicBrainzId": "557fddc8-dc5e-4d06-a284-1b3bdab41374",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-003",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "Loud Ambient",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "The Black Dog"
+      },
+      "datePublished": "2025",
+      "image": "/assets/img/listen-covers/album-003.jpg",
+      "musicBrainzId": "afe69e63-a0bb-4828-ba95-06fbbebb13b1",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-004",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "Tranquilizer",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "Oneohtrix Point Never"
+      },
+      "datePublished": "2025",
+      "image": "/assets/img/listen-covers/album-004.jpg",
+      "musicBrainzId": "2018306c-88af-479a-9876-57a0a210ee18",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-005",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "Jam Out the Kicks",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "Radioactive Man"
+      },
+      "datePublished": "2024",
+      "image": "/assets/img/listen-covers/album-005.jpg",
+      "musicBrainzId": "b302b14b-9d25-43cc-a6af-4430d6a7b0d0",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-006",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "Cabin in the Sky",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "De La Soul"
+      },
+      "datePublished": "2025",
+      "image": "/assets/img/listen-covers/album-006.jpg",
+      "musicBrainzId": "05e414ac-82dd-4fbd-bd85-a6d294c8a1df",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "album-007",
+      "type": "album",
+      "@type": "MusicAlbum",
+      "name": "sorry i thought you were someone else",
+      "byArtist": {
+        "@type": "MusicGroup",
+        "name": "K Lone"
+      },
+      "datePublished": "2025",
+      "image": "/assets/img/listen-covers/album-007.jpg",
+      "musicBrainzId": "a78786a0-8fd9-4e14-b8fe-b8252ff58e64",
+      "review": null,
+      "source": "manual",
+      "addedAt": "2025-01-01T00:00:00.000Z"
+    }
+  ]
+}

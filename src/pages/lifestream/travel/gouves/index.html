@@ -1,0 +1,17 @@
+---
+layout: base
+title: Gouves
+permalink: /lifestream/travel/gouves/
+---
+{% from "partials/photo-grid.html" import photoGrid %}
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/lifestream/travel/">Back to Travel</a>
+  </nav>
+
+  <h1>Gouves</h1>
+
+  <p>{{ travelCollections.gouves.description }}</p>
+
+  {{ photoGrid(travelCollections.gouves.photos, "gouves", 12) }}
+</div>

@@ -1,0 +1,140 @@
+---
+layout: base
+title: Lifestream
+pagination:
+  data: journalStream
+  size: 20
+  alias: items
+permalink: "/lifestream/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyComputed:
+  title: "Lifestream{% if pagination.pageNumber > 0 %} — page {{ pagination.pageNumber + 1 }}{% endif %}"
+---
+<div class="wrapper flow">
+  {% if pagination.pageNumber == 0 %}
+    <h1>Lifestream</h1>
+    <p><em>Work-in-progress URL scaffold — will replace Journal once the structure settles.</em></p>
+
+    <ul>
+      <li><a href="/lifestream/work/">Work</a></li>
+      <li><a href="/lifestream/projects/">Projects</a></li>
+      <li><a href="/lifestream/travel/">Travel</a></li>
+      <li><a href="/lifestream/thoughts/">Thoughts</a></li>
+      <li><a href="/lifestream/coffee/">Coffee</a></li>
+      <li><a href="/lifestream/beer/">Beer</a></li>
+      <li><a href="/lifestream/music-collection/">Music Collection</a></li>
+      <li><a href="/lifestream/reading/">Reading</a></li>
+      <li><a href="/lifestream/photography/">Photography</a></li>
+      <li><a href="/lifestream/web-dev/">Web Dev</a></li>
+    </ul>
+
+    <h2 style="margin-top: 3rem;">Currently working on</h2>
+    <p><em>Anything with an update or a fresh publish in the last 30 days — published or not.</em></p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem;">
+      {% for project in currentlyWorkingOn %}
+        <div style="padding: 1rem; border-left: 4px solid #ccc; background: #fafafa;">
+          <strong><a href="{{ project.url }}" style="color: inherit;">{{ project.name }}</a></strong>
+          <small style="color: #999; display: block;">{{ "client" if project.type == "client" else "personal" }} project</small>
+          <small style="color: #999; display: block; margin-top: 0.25rem;">{{ "Updated" if project.reason == "updated" else "Published" }} {{ project.date }}</small>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+      <div>
+        <h2>Currently Streaming</h2>
+        <p><em>{{ listenCollection.albums.length }} albums in rotation. <a href="/lifestream/listening/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% set album = listenCollection.albums[0] %}
+          {% if album.image %}
+            <img src="{{ album.image }}" alt="{{ album.byArtist.name }} - {{ album.name }}" style="width: 90px; aspect-ratio: 1; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ album.name }}</strong>
+            <small style="color: #666;">{{ album.byArtist.name }}</small>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2>Currently Watching</h2>
+        <p><em>Last watched — {{ watchCollection.watchlist.length }} on the watchlist. <a href="/lifestream/watching/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% for item in watchCollection.watched | head(-1) | reverse %}
+            {% if item.image %}
+              <img src="{{ item.image }}" alt="{{ item.name }}" style="width: 60px; aspect-ratio: 2/3; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+            {% endif %}
+            <div>
+              <strong style="display: block;">{{ item.name }}</strong>
+              <small style="color: #666;">{{ item.datePublished }} · {{ item.type }}</small>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Currently Drinking</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem;">
+      <div>
+        <p><em>Latest coffee. <a href="/lifestream/coffee/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% if latestDrinks.coffee.logo %}
+            <img src="{{ latestDrinks.coffee.logo }}" alt="{{ latestDrinks.coffee.roaster.name }}" style="width: 60px; aspect-ratio: 1; object-fit: contain; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ latestDrinks.coffee.coffee }}</strong>
+            <small style="color: #666;">{{ latestDrinks.coffee.roaster.name }}</small>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p><em>Latest beer. <a href="/lifestream/beer/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% if latestDrinks.beer.imageUrl %}
+            <img src="{{ latestDrinks.beer.imageUrl }}" alt="{{ latestDrinks.beer.name }}" style="width: 60px; aspect-ratio: 1; object-fit: contain; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ latestDrinks.beer.name }}</strong>
+            <small style="color: #666;">{{ latestDrinks.beer.brewery.name }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Journal stream</h2>
+    <p>A running, chronological log of everything: Today I Learned facts, Random Thoughts, and projects once they're published — newest first.</p>
+  {% endif %}
+
+  <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem;">
+    {% for item in items %}
+      <div style="padding: 1.25rem; border-left: 4px solid #ccc; background: #fafafa;">
+        <small style="color: #999; text-transform: uppercase; letter-spacing: 0.05em;">
+          {{ item.date }} · {% if item.type == "til" %}TIL{% elif item.type == "thought" %}Thought{% else %}{{ "Work" if item.projectType == "client" else "Project" }}{% if item.caseStudy %} · Case Study{% endif %}{% endif %}
+        </small>
+        {% if item.headline %}
+          <h3 style="font-size: 1.1em; margin: 0.5rem 0;">
+            {% if item.url %}<a href="{{ item.url }}" style="color: inherit;">{{ item.headline }}</a>{% else %}{{ item.headline }}{% endif %}
+          </h3>
+        {% endif %}
+        <p style="color: #333; margin: 0.75rem 0;">{{ item.body }}</p>
+        {% if item.citation %}
+          <a href="{{ item.citation }}" target="_blank" rel="noopener" style="font-size: 0.9em; color: #0066cc;">source ↗</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div style="display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #ddd;">
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">‹ Older</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    <span style="color: #999; font-size: 0.9em;">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">Newer ›</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,59 @@
+---
+layout: base
+title: Music Collection
+permalink: /lifestream/music-collection/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/lifestream/">Back to Lifestream</a>
+  </nav>
+
+  <h1>Music Collection</h1>
+  <p><em>{{ musicCollection.total }} records verified — CDs and vinyl.</em></p>
+
+  <div style="margin-bottom: 2rem;">
+    <label style="display: inline-block; margin-right: 2rem;">
+      <input type="checkbox" id="filterCD"> CDs
+    </label>
+    <label style="display: inline-block;">
+      <input type="checkbox" id="filterVinyl"> Vinyl
+    </label>
+  </div>
+
+  <div id="collection-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    {% for record in musicCollection.records %}
+      <div class="collection-record" data-media="{{ record.media_type }}" style="text-align: center;">
+        {% if record.coverUrl %}
+          <img src="{{ record.coverUrl }}" alt="{{ record.byArtist.name }} - {{ record.album }}" style="width: 100%; aspect-ratio: 1; object-fit: cover; margin-bottom: 0.5rem; border-radius: 4px;">
+        {% else %}
+          <div style="width: 100%; aspect-ratio: 1; background: #e8e8e8; margin-bottom: 0.5rem; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #999;">No cover</div>
+        {% endif %}
+        <div style="font-size: 0.875rem;">
+          <strong style="display: block; line-height: 1.2;">{{ record.byArtist.name }}</strong>
+          <em style="display: block; line-height: 1.2; color: #666;">{{ record.album }}</em>
+          {% if record.date %}
+            <small style="color: #999;">{{ record.date | slice(-4) }}</small>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    document.getElementById('filterCD').addEventListener('change', updateFilter);
+    document.getElementById('filterVinyl').addEventListener('change', updateFilter);
+    function updateFilter() {
+      const showCD = document.getElementById('filterCD').checked;
+      const showVinyl = document.getElementById('filterVinyl').checked;
+      const records = document.querySelectorAll('.collection-record');
+      records.forEach(record => {
+        const media = record.dataset.media;
+        if (!showCD && !showVinyl) {
+          record.style.display = 'block';
+        } else {
+          record.style.display = (media === 'CD' && showCD) || (media === 'Vinyl' && showVinyl) ? 'block' : 'none';
+        }
+      });
+    }
+  </script>
+</div>
