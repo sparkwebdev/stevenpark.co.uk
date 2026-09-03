@@ -1,0 +1,40 @@
+---
+layout: base
+title: Web Dev
+permalink: /journal/web-dev/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/">Back to Journal</a>
+  </nav>
+
+  <h1>Web Dev</h1>
+
+  <h2>Keep — Solid Gold</h2>
+  <p><em>Technically durable, historically significant, or both.</em></p>
+  <div style="display: grid; gap: 1.5rem;">
+    {% for article in webDevArticles.keep %}
+      {{ article.url | linkPreview | safe }}
+    {% endfor %}
+  </div>
+
+  <h2>Maybe — Worth a Second Look</h2>
+  <p><em>Dated, niche, or not quite essential — but not worthless. Review before promoting to Keep.</em></p>
+  <div style="display: grid; gap: 1.5rem; margin-bottom: 2rem;">
+    {% for article in webDevArticles.maybe %}
+      {% if article.url %}
+        {{ article.url | linkPreview | safe }}
+      {% else %}
+        <div style="padding: 1rem; border: 1px solid #ddd; background: #f9f9f9;">
+          <strong style="text-decoration: line-through;">{{ article.title }}</strong> <small style="color: #c00;">[URL pending]</small>
+          <br />
+          <small style="color: #666;">{{ article.author.name }}</small>
+          {% if article.notes %}
+            <br />
+            <small style="color: #888; font-style: italic;">{{ article.notes }}</small>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

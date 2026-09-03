@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-// Latest beer/coffee for the Lifestream landing page's "Currently Drinking"
+// Latest beer/coffee for the Journal landing page's "Currently Drinking"
 // section. Beer's `recentCheckin` is real Untappd data, present on every
 // entry. Coffee only has a date when it's been rated (`review.datePublished`)
 // — unrated entries are skipped for "latest" purposes, there's no date to

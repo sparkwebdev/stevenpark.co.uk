@@ -1,0 +1,254 @@
+---
+layout: base
+title: Journal
+pagination:
+  data: journalStream
+  size: 20
+  alias: items
+permalink: "/journal/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyComputed:
+  title: "Journal{% if pagination.pageNumber > 0 %} — page {{ pagination.pageNumber + 1 }}{% endif %}"
+---
+<div class="wrapper flow">
+  {% if pagination.pageNumber == 0 %}
+    <h1>Journal</h1>
+    <p><em>Collections, logs, and a running stream of what I'm reading, watching, listening to, drinking, and working on.</em></p>
+
+    <ul>
+      <li><a href="/journal/work/">Work</a></li>
+      <li><a href="/journal/projects/">Projects</a></li>
+      <li><a href="/journal/travel/">Travel</a></li>
+      <li><a href="/journal/thoughts/">Thoughts</a></li>
+      <li><a href="/journal/coffee/">Coffee</a></li>
+      <li><a href="/journal/beer/">Beer</a></li>
+      <li><a href="/journal/music-collection/">Music Collection</a></li>
+      <li><a href="/journal/reading/">Reading</a></li>
+      <li><a href="/journal/photography/">Photography</a></li>
+      <li><a href="/journal/web-dev/">Web Dev</a></li>
+    </ul>
+
+    <h2 style="margin-top: 3rem;">Currently working on</h2>
+    <p><em>Anything with an update or a fresh publish in the last 30 days — published or not.</em></p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem;">
+      {% for project in currentlyWorkingOn %}
+        <div style="padding: 1rem; border-left: 4px solid #ccc; background: #fafafa;">
+          <strong><a href="{{ project.url }}" style="color: inherit;">{{ project.name }}</a></strong>
+          <small style="color: #999; display: block;">{{ "client" if project.type == "client" else "personal" }} project</small>
+          <small style="color: #999; display: block; margin-top: 0.25rem;">{{ "Updated" if project.reason == "updated" else "Published" }} {{ project.date }}</small>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 3rem;">
+      <div>
+        <h2>Currently Streaming</h2>
+        <p><em>{{ listenCollection.albums.length }} albums in rotation. <a href="/journal/listening/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% set album = listenCollection.albums[0] %}
+          {% if album.image %}
+            <img src="{{ album.image }}" alt="{{ album.byArtist.name }} - {{ album.name }}" style="width: 90px; aspect-ratio: 1; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ album.name }}</strong>
+            <small style="color: #666;">{{ album.byArtist.name }}</small>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2>Currently Watching</h2>
+        <p><em>Last watched — {{ watchCollection.watchlist.length }} on the watchlist. <a href="/journal/watching/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% for item in watchCollection.watched | head(-1) | reverse %}
+            {% if item.image %}
+              <img src="{{ item.image }}" alt="{{ item.name }}" style="width: 60px; aspect-ratio: 2/3; object-fit: cover; border-radius: 4px; flex-shrink: 0;">
+            {% endif %}
+            <div>
+              <strong style="display: block;">{{ item.name }}</strong>
+              <small style="color: #666;">{{ item.datePublished }} · {{ item.type }}</small>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Currently Drinking</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem;">
+      <div>
+        <p><em>Latest coffee. <a href="/journal/coffee/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% if latestDrinks.coffee.logo %}
+            <img src="{{ latestDrinks.coffee.logo }}" alt="{{ latestDrinks.coffee.roaster.name }}" style="width: 60px; aspect-ratio: 1; object-fit: contain; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ latestDrinks.coffee.coffee }}</strong>
+            <small style="color: #666;">{{ latestDrinks.coffee.roaster.name }}</small>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p><em>Latest beer. <a href="/journal/beer/">See all →</a></em></p>
+        <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+          {% if latestDrinks.beer.imageUrl %}
+            <img src="{{ latestDrinks.beer.imageUrl }}" alt="{{ latestDrinks.beer.name }}" style="width: 60px; aspect-ratio: 1; object-fit: contain; flex-shrink: 0;">
+          {% endif %}
+          <div>
+            <strong style="display: block;">{{ latestDrinks.beer.name }}</strong>
+            <small style="color: #666;">{{ latestDrinks.beer.brewery.name }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 3rem;">Journal stream</h2>
+    <p>A running, chronological log of everything: Today I Learned facts, Random Thoughts, and projects once they're published — newest first.</p>
+  {% endif %}
+
+  <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem;">
+    {% for item in items %}
+      <div style="padding: 1.25rem; border-left: 4px solid #ccc; background: #fafafa;">
+        <small style="color: #999; text-transform: uppercase; letter-spacing: 0.05em;">
+          {{ item.date }} · {% if item.type == "til" %}TIL{% elif item.type == "thought" %}Thought{% else %}{{ "Work" if item.projectType == "client" else "Project" }}{% if item.caseStudy %} · Case Study{% endif %}{% endif %}
+        </small>
+        {% if item.headline %}
+          <h3 style="font-size: 1.1em; margin: 0.5rem 0;">
+            {% if item.url %}<a href="{{ item.url }}" style="color: inherit;">{{ item.headline }}</a>{% else %}{{ item.headline }}{% endif %}
+          </h3>
+        {% endif %}
+        <p style="color: #333; margin: 0.75rem 0;">{{ item.body }}</p>
+        {% if item.citation %}
+          <a href="{{ item.citation }}" target="_blank" rel="noopener" style="font-size: 0.9em; color: #0066cc;">source ↗</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div style="display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #ddd;">
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">‹ Older</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    <span style="color: #999; font-size: 0.9em;">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">Newer ›</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </div>
+
+  {% if pagination.pageNumber == 0 %}
+    <h2 style="margin-top: 3rem;">Journal item planning</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Journal item</th>
+          <th>Source</th>
+          <th>Expose on this page?</th>
+          <th>Expose as a page?</th>
+          <th>Problem solved</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Music</td>
+          <td>_data/musicCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Catalogues an otherwise hidden-from-view collection for reference, and nudges towards actually listening to owned music instead of defaulting to streaming</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Beer</td>
+          <td>_data/beerCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Ongoing tasting log — may share Coffee's pre/post-Covid comparability question, not confirmed</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>_data/coffeeCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Tracks the pre/post-Covid tasting-comparability issue across time</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Bookshelf</td>
+          <td>_data/bookCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Encourages reading, and tracks notes/ratings on books read</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Today I Learned</td>
+          <td>_data/tilCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Memory aid, and a non-social-media outlet to publish notes while still owning the data</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Random Thoughts</td>
+          <td>_data/randomThoughts.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Same as Today I Learned — memory aid + owned-data outlet, no social media</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Web Dev Articles</td>
+          <td>_data/webDevArticles.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Not yet certain — might stay articles-only, might extend to tools. Open question</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>_data/photographyCatalogue.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Sorting an unsorted photo collection, in a journaling style</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Watching</td>
+          <td>_data/watchCollection.json</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>TBD — not covered in this round of thinking</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Streaming</td>
+          <td>_data/listenCollection.json</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Primary/first source: active/chosen picks pulled from the Music Collection catalogue project. A daily "go-to" listening-session starter, pulling loved/liked/playlisted items (future: last.fm/YouTube — liked concerts, liked DJ sets/Tidal); longer-term ideas floated: shuffle, an "artist of the week" media wall, per-entry journal notes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Reading</td>
+          <td>_data/bookCollection.json (latest book + latest audiobook) + Instapaper (2-3 latest articles, not yet built)</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>A "what's in front of me right now" view — latest book, latest audiobook, and 2-3 latest Instapaper articles, one place to pick up a read</td>
+          <td>Instapaper part blocked on API access, same as Loved Articles below</td>
+        </tr>
+        <tr>
+          <td>Loved Articles</td>
+          <td>Instapaper (not yet built)</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Avoid the night-time mobile doomscroll — seed liked articles from Instapaper to a Kobo e-reader for night reading, alongside blocking sites like Twitter/X</td>
+          <td>Blocked — needs Instapaper API access (no self-serve key); data will be a periodic sync into our own dataset, not a live API reference — sync pattern TBD separately</td>
+        </tr>
+      </tbody>
+    </table>
+  {% endif %}
+</div>

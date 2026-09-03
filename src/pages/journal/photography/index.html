@@ -1,0 +1,31 @@
+---
+layout: base
+title: Photography
+permalink: /journal/photography/
+---
+{% from "partials/photo-grid.html" import photoGrid %}
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/">Back to Journal</a>
+  </nav>
+
+  <h1>Photography</h1>
+
+  <p><em>{{ photographyCatalogue.photographyCatalogue.description }}</em></p>
+
+  {{ photoGrid(photographyCatalogue.favourites, "favourites", 12) }}
+
+  <h2 style="margin-top: 3rem;">Travel</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+    {% for slug, place in travelCollections %}
+      <a href="/journal/travel/{{ slug }}/" style="text-decoration: none; color: inherit;">
+        <div style="aspect-ratio: 1; overflow: hidden; border-radius: 4px;">
+          <img src="{{ place.photos[0].contentUrl }}" alt="{{ place.name }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+        <strong style="display: block; margin-top: 0.5rem; text-align: center;">{{ place.name }}</strong>
+      </a>
+    {% endfor %}
+  </div>
+</div>

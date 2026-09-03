@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-// "Currently working on" for the Lifestream landing page — a project
+// "Currently working on" for the Journal landing page — a project
 // (client or personal, published or in-flight, doesn't matter) counts as
 // currently being worked on if EITHER:
 //   (a) it has an update within the last 30 days, or
@@ -46,7 +46,7 @@ const workingOn = projects
       id: p.id,
       name: p.name,
       type: p.type,
-      url: `/lifestream/${p.type === "client" ? "work" : "projects"}/${p.id}/`,
+      url: `/journal/${p.type === "client" ? "work" : "projects"}/${p.id}/`,
       reason,
       date,
     };

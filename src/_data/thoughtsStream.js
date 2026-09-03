@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 // Merges tilCollection.json + randomThoughts.json into one normalized,
-// newest-first chronological stream for /lifestream/thoughts/. Keeps
+// newest-first chronological stream for /journal/thoughts/. Keeps
 // keywords out of the normalized shape entirely — tag output is
 // suppressed for now, see docs/decision-log.md.
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

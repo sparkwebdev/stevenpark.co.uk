@@ -35,128 +35,122 @@
       "online": true
     },
     {
-      "label": "Lifestream",
-      "url": "/lifestream/",
-      "description": "work-in-progress URL scaffold, will replace Journal",
-      "online": false,
+      "label": "Journal",
+      "url": "/journal/",
+      "description": "collections, logs, and observations",
+      "online": true,
       "sub": [
         {
           "label": "Work",
-          "url": "/lifestream/work/",
+          "url": "/journal/work/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Projects",
-          "url": "/lifestream/projects/",
+          "url": "/journal/projects/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Travel",
-          "url": "/lifestream/travel/",
+          "url": "/journal/travel/",
           "description": "",
-          "online": false,
+          "online": true,
           "sub": [
             {
               "label": "Barcelona",
-              "url": "/lifestream/travel/barcelona/",
+              "url": "/journal/travel/barcelona/",
               "description": "",
-              "online": false
+              "online": true
             },
             {
               "label": "Gouves",
-              "url": "/lifestream/travel/gouves/",
+              "url": "/journal/travel/gouves/",
               "description": "",
-              "online": false
+              "online": true
             },
             {
               "label": "London",
-              "url": "/lifestream/travel/london/",
+              "url": "/journal/travel/london/",
               "description": "",
-              "online": false
+              "online": true
             },
             {
               "label": "Porto",
-              "url": "/lifestream/travel/porto/",
+              "url": "/journal/travel/porto/",
               "description": "",
-              "online": false
+              "online": true
             },
             {
               "label": "Prague",
-              "url": "/lifestream/travel/prague/",
+              "url": "/journal/travel/prague/",
               "description": "",
-              "online": false
+              "online": true
             },
             {
               "label": "Split, Croatia",
-              "url": "/lifestream/travel/split-croatia/",
+              "url": "/journal/travel/split-croatia/",
               "description": "",
-              "online": false
+              "online": true
             }
           ]
         },
         {
           "label": "Thoughts",
-          "url": "/lifestream/thoughts/",
+          "url": "/journal/thoughts/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Coffee",
-          "url": "/lifestream/coffee/",
+          "url": "/journal/coffee/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Beer",
-          "url": "/lifestream/beer/",
+          "url": "/journal/beer/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Music Collection",
-          "url": "/lifestream/music-collection/",
+          "url": "/journal/music-collection/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Reading",
-          "url": "/lifestream/reading/",
+          "url": "/journal/reading/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Photography",
-          "url": "/lifestream/photography/",
+          "url": "/journal/photography/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Web Dev",
-          "url": "/lifestream/web-dev/",
+          "url": "/journal/web-dev/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Currently Streaming",
-          "url": "/lifestream/listening/",
+          "url": "/journal/listening/",
           "description": "",
-          "online": false
+          "online": true
         },
         {
           "label": "Currently Watching",
-          "url": "/lifestream/watching/",
+          "url": "/journal/watching/",
           "description": "",
-          "online": false
+          "online": true
         }
       ]
-    },
-    {
-      "label": "Journal",
-      "url": "/journal/",
-      "description": "collections, logs, and observations",
-      "online": true
     },
     {
       "label": "Contact",

@@ -4,8 +4,8 @@ import path from "node:path";
 
 // Merges tilCollection.json + randomThoughts.json + published projects
 // (from projectsCollection.json) into one normalized, newest-first
-// chronological stream for the Lifestream landing page. Broader than
-// thoughtsStream.js (TIL + Thoughts only, feeds /lifestream/thoughts/) —
+// chronological stream for the Journal landing page. Broader than
+// thoughtsStream.js (TIL + Thoughts only, feeds /journal/thoughts/) —
 // this one also surfaces published work/personal projects, per the
 // "work items when published will be exposed in the journal stream" model.
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -43,7 +43,7 @@ const projects = projectsCollection
     headline: p.name,
     body: p.description,
     citation: null,
-    url: `/lifestream/${p.type === "client" ? "work" : "projects"}/${p.id}/`,
+    url: `/journal/${p.type === "client" ? "work" : "projects"}/${p.id}/`,
     projectType: p.type,
     caseStudy: p.caseStudy,
   }));

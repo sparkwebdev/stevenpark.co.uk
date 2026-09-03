@@ -1,0 +1,38 @@
+---
+layout: base
+title: Currently Streaming
+permalink: /journal/listening/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/">Back to Journal</a>
+  </nav>
+
+  <h1>Currently Streaming</h1>
+  <p><em>Albums in rotation, imported from a personal listening log. {{ listenCollection.albums.length }} entries.</em></p>
+
+  <div id="collection-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+    {% for album in listenCollection.albums %}
+      <div style="padding: 1rem; border: 1px solid #ddd; border-radius: 4px; background: #fafafa; display: flex; flex-direction: column;">
+        {% if album.image %}
+          <img src="{{ album.image }}" alt="{{ album.byArtist.name }} - {{ album.name }}" style="width: 100%; aspect-ratio: 1; object-fit: cover; margin-bottom: 0.75rem; border-radius: 4px;">
+        {% else %}
+          <div style="width: 100%; aspect-ratio: 1; background: #e8e8e8; margin-bottom: 0.75rem; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #999;">No cover</div>
+        {% endif %}
+
+        <div style="flex-grow: 1;">
+          <strong style="display: block; font-size: 0.9em;">{{ album.name }}</strong>
+          <small style="color: #666; display: block;">{{ album.byArtist.name }}{% if album.datePublished %} · {{ album.datePublished }}{% endif %}</small>
+        </div>
+
+        <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px solid #ddd;">
+          {% if album.review and album.review.reviewRating %}
+            <strong style="font-size: 1.1em;">{{ album.review.reviewRating.ratingValue }}/{{ album.review.reviewRating.bestRating }}</strong>
+          {% else %}
+            <small style="color: #999;">unrated</small>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

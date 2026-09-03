@@ -1,0 +1,26 @@
+---
+layout: base
+title: TiL — 2024
+permalink: /journal/thoughts/til-2024/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/thoughts/">Back to Thoughts</a>
+  </nav>
+
+  <h1>Today I Learned — 2024</h1>
+
+  <ul>
+    {% for til in tilCollection %}
+      {% if "2024-" | urlmatch(til.datePublished) %}
+        <li>
+          {% if til.citation %}
+            <a href="{{ til.citation }}" target="_blank" rel="noopener">{{ til.headline }}</a>
+          {% else %}
+            {{ til.headline }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

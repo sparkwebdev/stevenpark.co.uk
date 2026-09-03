@@ -1,0 +1,21 @@
+---
+layout: base
+title: Work
+permalink: /journal/work/
+---
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/">Back to Journal</a>
+  </nav>
+
+  <h1>Work</h1>
+
+  <ul>
+    {% for project in clientProjects %}
+      {% if not project.archived %}
+        <li><a href="/journal/work/{{ project.id }}/">{{ project.name }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li><a href="/journal/work/archive/">Archive</a></li>
+  </ul>
+</div>

@@ -1,0 +1,17 @@
+---
+layout: base
+title: Porto
+permalink: /journal/travel/porto/
+---
+{% from "partials/photo-grid.html" import photoGrid %}
+<div class="wrapper flow">
+  <nav class="breadcrumb">
+    <a href="/journal/travel/">Back to Travel</a>
+  </nav>
+
+  <h1>Porto</h1>
+
+  <p>{{ travelCollections.porto.description }}</p>
+
+  {{ photoGrid(travelCollections.porto.photos, "porto", 12) }}
+</div>
