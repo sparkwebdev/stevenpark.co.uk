@@ -159,38 +159,8 @@
       "online": true,
       "sub": [
         {
-          "label": "Project Overview Form",
-          "url": "/contact/project-overview/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Site Redesign Form",
-          "url": "/contact/site-redesign/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Branding Form",
-          "url": "/contact/branding/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Feedback Form",
-          "url": "/contact/feedback/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Website Content Form",
-          "url": "/contact/website-content/",
-          "description": "",
-          "online": true
-        },
-        {
-          "label": "Discount Application Form",
-          "url": "/contact/discount-application/",
+          "label": "Forms to sort",
+          "url": "/contact/forms-to-sort/",
           "description": "",
           "online": true
         }
