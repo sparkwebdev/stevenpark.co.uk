@@ -156,21 +156,7 @@
       "label": "Journal",
       "url": "/journal/",
       "description": "collections, logs, and observations",
-      "online": true,
-      "sub": [
-        {
-          "label": "Currently / Now",
-          "url": "/journal/currently/",
-          "description": "happening now — current items from catalogues",
-          "online": true
-        },
-        {
-          "label": "Web Dev Articles",
-          "url": "/journal/web-dev-articles/",
-          "description": "curated reads",
-          "online": true
-        }
-      ]
+      "online": true
     },
     {
       "label": "Contact",

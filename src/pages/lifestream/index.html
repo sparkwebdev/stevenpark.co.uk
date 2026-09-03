@@ -137,4 +137,118 @@ eleventyComputed:
       <span></span>
     {% endif %}
   </div>
+
+  {% if pagination.pageNumber == 0 %}
+    <h2 style="margin-top: 3rem;">Lifestream item planning</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Lifestream item</th>
+          <th>Source</th>
+          <th>Expose on this page?</th>
+          <th>Expose as a page?</th>
+          <th>Problem solved</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Music</td>
+          <td>_data/musicCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Catalogues an otherwise hidden-from-view collection for reference, and nudges towards actually listening to owned music instead of defaulting to streaming</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Beer</td>
+          <td>_data/beerCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Ongoing tasting log — may share Coffee's pre/post-Covid comparability question, not confirmed</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>_data/coffeeCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Tracks the pre/post-Covid tasting-comparability issue across time</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Bookshelf</td>
+          <td>_data/bookCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Encourages reading, and tracks notes/ratings on books read</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Today I Learned</td>
+          <td>_data/tilCollection.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Memory aid, and a non-social-media outlet to publish notes while still owning the data</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Random Thoughts</td>
+          <td>_data/randomThoughts.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Same as Today I Learned — memory aid + owned-data outlet, no social media</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Web Dev Articles</td>
+          <td>_data/webDevArticles.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Not yet certain — might stay articles-only, might extend to tools. Open question</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>_data/photographyCatalogue.json</td>
+          <td>TBD</td>
+          <td>Yes</td>
+          <td>Sorting an unsorted photo collection, in a journaling style</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Watching</td>
+          <td>_data/watchCollection.json</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>TBD — not covered in this round of thinking</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Streaming</td>
+          <td>_data/listenCollection.json</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Primary/first source: active/chosen picks pulled from the Music Collection catalogue project. A daily "go-to" listening-session starter, pulling loved/liked/playlisted items (future: last.fm/YouTube — liked concerts, liked DJ sets/Tidal); longer-term ideas floated: shuffle, an "artist of the week" media wall, per-entry journal notes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Currently Reading</td>
+          <td>_data/bookCollection.json (latest book + latest audiobook) + Instapaper (2-3 latest articles, not yet built)</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>A "what's in front of me right now" view — latest book, latest audiobook, and 2-3 latest Instapaper articles, one place to pick up a read</td>
+          <td>Instapaper part blocked on API access, same as Loved Articles below</td>
+        </tr>
+        <tr>
+          <td>Loved Articles</td>
+          <td>Instapaper (not yet built)</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Avoid the night-time mobile doomscroll — seed liked articles from Instapaper to a Kobo e-reader for night reading, alongside blocking sites like Twitter/X</td>
+          <td>Blocked — needs Instapaper API access (no self-serve key); data will be a periodic sync into our own dataset, not a live API reference — sync pattern TBD separately</td>
+        </tr>
+      </tbody>
+    </table>
+  {% endif %}
 </div>
